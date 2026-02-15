@@ -1,0 +1,137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "masonry_filter_gallery_hq3W3H": {
+      "type": "masonry-filter-gallery",
+      "blocks": {
+        "image_ybbM4r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGATHOS_60x60_grey.jpg",
+            "room": "living",
+            "colour": "gray",
+            "style": "japandi",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ggVeKh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/agadir-niebla-7x28-1000-2.jpg",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Coastal Style",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_x4THw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AMB-AGATHOS-WHITE-60X60-TH2.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Modern",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_xBAycF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/agadir-AMARANTO-7x28-1000-1_c1f3497f-b495-4eb4-ac60-70d5e5e88587.jpg",
+            "room": "Laundry",
+            "colour": "Red",
+            "style": "Mid-Century",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ayHhxL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/agadir-niebla-7x28-1000-1_82f91d8d-0718-4f96-a06b-4831c5be8e37.jpg",
+            "room": "Proch",
+            "colour": "Green",
+            "style": "Industrial Style",
+            "product_1": "01213-piemme-30x60-bits-peat-brown-quad-nat-ret-made-in-italy",
+            "hotspot_x_1": 71,
+            "hotspot_y_1": 38,
+            "product_2": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "01164-piemme-60x60-bits-pearl-gray-quad-nat-ret-made-in-italy",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_ybbM4r",
+        "image_ggVeKh",
+        "image_x4THw3",
+        "image_xBAycF",
+        "image_ayHhxL"
+      ],
+      "name": "Masonry Filter Gallery",
+      "settings": {
+        "heading": "Gallery",
+        "heading_size": "h1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "masonry_filter_gallery_hq3W3H"
+  ]
+}
