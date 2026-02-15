@@ -1,0 +1,128 @@
+div#\36 7f619b8f9ce90cd0b0213cc {
+    visibility: hidden;
+}
+button#ProductSubmitButton-template--17928915222665__main {
+  display: none !important;
+}
+.wt-product__add-to-cart_form--wrapper {
+  display: none !important;
+}
+.shopify-product-form {
+  display: flex;
+  gap: 10px;
+}
+button.product-form__submit.button.button--primary {
+    width: auto;
+    flex-grow: 2;
+    height: 50px;
+}
+.product-form__input.product-form__quantity
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 10px;
+}
+.quantity__input {
+    border: 1px solid #000;
+}
+.product-caprice-per-m2
+ {
+    color: #d24646 !important;
+    font-weight: 500;
+}
+
+.card__price
+ {
+    display: flex;
+   color: #d24646 !important;
+}
+
+
+.wt-cart__item__price.predictive_price_per_m2 {
+    color: #d24646 !important;
+}
+
+span.product-price--old {
+    color: #000;
+    text-decoration: line-through;
+}
+span.product-discount {
+    margin-left: 10px;
+    color: #fff;
+    background-color: #d24646;
+    padding: 3px;
+    font-size: 12px;
+}
+.product-caprice-per-box {
+    color: #d24646 !important;
+    font-weight: 500;
+}
+
+span.product-price--old-single-product {
+    color: #00000038;
+    font-size: 20px;
+    text-decoration: line-through;
+      margin-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .shopify-product-form {
+    flex-direction: column;
+  }
+
+  .quantity__input {
+    border: 1px solid #000;
+    width: 78%;
+  }
+  span.product-price--old-single-product {
+    font-size: 18px;
+  }
+  span.product-price {
+    font-size: 18px !important;
+  }
+  span.product-unit {
+    font-size: 18px !important;
+  }
+  a#open-tile-calculator {
+    font-size: 9px;
+  }
+  p#conversion-text {
+    font-size: 13px;
+  }
+  span.product-price-per-m2 {
+    font-size: 26px !important;
+}
+}
+
+
+.menu-drawer-overlay {
+  display: none !important;
+}
+
+
+.tfv1-metafield-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 5px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+table-flow .tfv1-table .tfv1-tr .tfv1-td.tfv1-label{
+  background: unset !important;
+}
+
+.pdf-download {
+  font-size:14px;
+  padding: 5px;
+}
+
+.pdf-download.top-boder {
+  border-top: 1px solid #eee;
+}
+
+.lv-option-item {
+  text-decoration: none !important;
+}

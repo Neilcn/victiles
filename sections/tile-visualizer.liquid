@@ -1,0 +1,163 @@
+<section class="tile-visualizer-section">
+  <div class="visualizer">
+
+    <!-- ROOM -->
+    <div class="scene">
+      {% if section.settings.room_image != blank %}
+        <img src="{{ section.settings.room_image | img_url: 'master' }}" alt="Room">
+      {% endif %}
+
+      <div id="wallLayer-{{ section.id }}" class="layer wall-layer"></div>
+      <div id="floorLayer-{{ section.id }}" class="layer floor-layer"></div>
+    </div>
+
+    <!-- PANEL -->
+    <div class="panel">
+      <h2>{{ section.settings.heading }}</h2>
+
+      {% if section.settings.floor_collection != blank %}
+        <h3>Floor Tiles</h3>
+        {% for product in section.settings.floor_collection.products %}
+          <a href="{{ product.url }}"
+             class="tile"
+             onclick="setFloor{{ section.id }}('{{ product.featured_image | img_url: 'master' }}'); return false;">
+            <img src="{{ product.featured_image | img_url: '100x100' }}">
+            <span>{{ product.title }}</span>
+          </a>
+        {% endfor %}
+      {% endif %}
+
+      {% if section.settings.wall_collection != blank %}
+        <h3>Wall Tiles</h3>
+        {% for product in section.settings.wall_collection.products %}
+          <a href="{{ product.url }}"
+             class="tile"
+             onclick="setWall{{ section.id }}('{{ product.featured_image | img_url: 'master' }}'); return false;">
+            <img src="{{ product.featured_image | img_url: '100x100' }}">
+            <span>{{ product.title }}</span>
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+  </div>
+</section>
+
+<style>
+.tile-visualizer-section {
+  height: 100vh;
+}
+
+.visualizer {
+  display: flex;
+  height: 100%;
+}
+
+/* ROOM */
+.scene {
+  position: relative;
+  flex: 1;
+  background: #eee;
+}
+
+.scene img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TILE LAYERS */
+.layer {
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  mix-blend-mode: multiply;
+}
+
+.wall-layer {
+  mask: url({{ 'wall-mask.png' | asset_url }}) center / cover no-repeat;
+  -webkit-mask: url({{ 'wall-mask.png' | asset_url }}) center / cover no-repeat;
+}
+
+.floor-layer {
+  mask: url({{ 'floor-mask.png' | asset_url }}) center / cover no-repeat;
+  -webkit-mask: url({{ 'floor-mask.png' | asset_url }}) center / cover no-repeat;
+}
+
+/* PANEL */
+.panel {
+  width: 340px;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.panel h3 {
+  margin-top: 20px;
+}
+
+/* TILE ITEM */
+.tile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.tile img {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+</style>
+
+<script>
+function setFloor{{ section.id }}(url) {
+  document.getElementById('floorLayer-{{ section.id }}').style.backgroundImage =
+    'url(' + url + ')';
+}
+
+function setWall{{ section.id }}(url) {
+  document.getElementById('wallLayer-{{ section.id }}').style.backgroundImage =
+    'url(' + url + ')';
+}
+</script>
+
+{% schema %}
+{
+  "name": "Tile Visualizer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Tile Visualizer"
+    },
+    {
+      "type": "image_picker",
+      "id": "room_image",
+      "label": "Room base image"
+    },
+    {
+      "type": "collection",
+      "id": "floor_collection",
+      "label": "Floor tiles collection"
+    },
+    {
+      "type": "collection",
+      "id": "wall_collection",
+      "label": "Wall tiles collection"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tile Visualizer"
+    }
+  ]
+}
+{% endschema %}

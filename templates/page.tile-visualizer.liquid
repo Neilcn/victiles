@@ -1,0 +1,313 @@
+{% layout none %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tile Visualizer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.visualizer {
+  display: flex;
+  height: 100vh;
+}
+
+.room-switch {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.room-switch button {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.room-switch button.active {
+  background: #000;
+  color: #fff;
+}
+
+
+/* ROOM AREA */
+.scene {
+  position: relative;
+  flex: 1;
+  background: #eee;
+}
+
+.scene img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.scene-switch {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.scene-switch img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.scene-switch img.active {
+  border-color: #000;
+}
+
+/* TILE LAYERS */
+.layer {
+  position: absolute;
+  inset: 0;
+
+  /* TILE IMAGE */
+  background-repeat: repeat;
+  background-size: 300px 300px; /* tile size */
+  background-position: center;
+
+  /* TILE BORDER (WHITE GROUT) */
+  background-image:
+    linear-gradient(#fff 2px, transparent 2px),
+    linear-gradient(90deg, #fff 2px, transparent 2px),
+    var(--tile-image);
+
+  background-size:
+    300px 300px,
+    300px 300px,
+    300px 300px;
+
+  mix-blend-mode: multiply;
+}
+
+
+/* CONTROL PANEL */
+.panel {
+  width: 340px;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.panel h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.tile img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.tile span {
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="visualizer">
+
+  <!-- ROOM -->
+  <div class="scene">
+    <img id="roomImage"
+     src="{{ 'bathroom-room.jpg' | asset_url }}"
+     alt="Room">
+
+
+   <div id="wallLayer" class="layer"></div>
+<div id="floorLayer" class="layer"></div>
+
+  </div>
+
+  <!-- PANEL -->
+  <div class="panel">
+    <h2>Tile Visualizer</h2>
+    <h3>Room</h3>
+<div class="room-switch">
+  <button onclick="switchRoom('bathroom')">Bath Room</button>
+  <button onclick="switchRoom('living')">Living Room</button>
+  <button onclick="switchRoom('kitchen')">Kitchen Room</button>
+  <button onclick="switchRoom('bed')">Bed Room</button>
+</div>
+<h3>View</h3>
+<div id="sceneSwitcher" class="scene-switch"></div>
+    <!-- FLOOR TILES -->
+    <h3>Floor Tiles</h3>
+    {% for product in collections['floor-tiles'].products %}
+      <div class="tile"
+        onclick="setFloor('{{ product.featured_image | img_url: 'master' }}')">
+        <img src="{{ product.featured_image | img_url: '100x100' }}">
+        <span>{{ product.title }}</span>
+      </div>
+    {% endfor %}
+
+    <!-- WALL TILES -->
+    <h3>Wall Tiles</h3>
+    {% for product in collections['wall-tiles'].products %}
+      <div class="tile"
+        onclick="setWall('{{ product.featured_image | img_url: 'master' }}')">
+        <img src="{{ product.featured_image | img_url: '100x100' }}">
+        <span>{{ product.title }}</span>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
+
+<script>
+function setFloor(url) {
+  document.getElementById('floorLayer')
+    .style.setProperty('--tile-image', 'url(' + url + ')');
+}
+
+
+function setWall(url) {
+  document.getElementById('wallLayer')
+    .style.setProperty('--tile-image', 'url(' + url + ')');
+}
+
+const rooms = {
+  bathroom: [
+    {
+      room: "{{ 'bathroom-1.jpg' | asset_url }}",
+      floorMask: "{{ 'bathroom-1-floor-mask.png' | asset_url }}",
+      wallMask: "{{ 'bathroom-1-wall-mask.png' | asset_url }}"
+    },
+    {
+      room: "{{ 'bathroom-2.jpg' | asset_url }}",
+      floorMask: "{{ 'bathroom-2-floor-mask.png' | asset_url }}",
+      wallMask: "{{ 'bathroom-2-wall-mask.png' | asset_url }}"
+    }
+  ],
+  living: [
+    {
+      room: "{{ 'living-1.jpg' | asset_url }}",
+      floorMask: "{{ 'living-1-floor-mask.png' | asset_url }}",
+      wallMask: "{{ 'living-1-wall-mask.png' | asset_url }}"
+    },
+    {
+      room: "{{ 'living-2.jpg' | asset_url }}",
+      floorMask: "{{ 'living-2-floor-mask.png' | asset_url }}",
+      wallMask: "{{ 'living-2-wall-mask.png' | asset_url }}"
+    }
+  ],
+  kitchen: [
+    {
+      room: "{{ 'kitchen-1.jpg' | asset_url }}",
+      floorMask: "{{ 'kitchen-1-floor-mask.png' | asset_url }}",
+      wallMask: "{{ 'kitchen-1-wall-mask.png' | asset_url }}"
+    }
+  ],
+  bed: [
+    {
+      room: "{{ 'bed-1.jpg' | asset_url }}",
+      floorMask: "{{ 'bed-1-floor-mask.png' | asset_url }}",
+      wallMask: "{{ 'bed-1-wall-mask.png' | asset_url }}"
+    }
+  ]
+};
+
+let currentRoom = 'bathroom';
+let currentScene = 0;
+
+function loadScene(roomKey, sceneIndex) {
+  const scene = rooms[roomKey][sceneIndex];
+
+  document.getElementById('roomImage').src = scene.room;
+
+  const floor = document.getElementById('floorLayer');
+  floor.style.mask = `url(${scene.floorMask}) center / cover no-repeat`;
+  floor.style.webkitMask = floor.style.mask;
+
+  const wall = document.getElementById('wallLayer');
+  wall.style.mask = `url(${scene.wallMask}) center / cover no-repeat`;
+  wall.style.webkitMask = wall.style.mask;
+
+  document.querySelectorAll('#sceneSwitcher img')
+    .forEach((img, i) => img.classList.toggle('active', i === sceneIndex));
+
+  currentScene = sceneIndex;
+}
+
+function renderScenes() {
+  const container = document.getElementById('sceneSwitcher');
+  container.innerHTML = '';
+
+  rooms[currentRoom].forEach((scene, index) => {
+    const img = document.createElement('img');
+    img.src = scene.room;
+    img.onclick = () => loadScene(currentRoom, index);
+    if (index === 0) img.classList.add('active');
+    container.appendChild(img);
+  });
+}
+
+function switchRoom(roomKey) {
+  currentRoom = roomKey;
+  currentScene = 0;
+  renderScenes();
+  loadScene(roomKey, 0);
+
+  document.querySelectorAll('.room-switch button')
+    .forEach(btn => btn.classList.remove('active'));
+
+  event.target.classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  switchRoom('bathroom');
+});
+
+
+
+function switchRoom(roomKey) {
+  const room = rooms[roomKey];
+
+  document.getElementById('roomImage').src = room.room;
+
+  document.getElementById('floorLayer').style.mask =
+    `url(${room.floorMask}) center / cover no-repeat`;
+  document.getElementById('floorLayer').style.webkitMask =
+    `url(${room.floorMask}) center / cover no-repeat`;
+
+  document.getElementById('wallLayer').style.mask =
+    `url(${room.wallMask}) center / cover no-repeat`;
+  document.getElementById('wallLayer').style.webkitMask =
+    `url(${room.wallMask}) center / cover no-repeat`;
+
+  document.querySelectorAll('.room-switch button')
+    .forEach(btn => btn.classList.remove('active'));
+
+  event.target.classList.add('active');
+}
+document.addEventListener('DOMContentLoaded', function () {
+  switchRoom('bathroom');
+});
+</script>
+
+</body>
+</html>
