@@ -158,6 +158,9 @@
         "image_xBAycF",
         "image_ayHhxL"
       ],
+      "custom_css": [
+        ".filter-group {justify-content: center;}"
+      ],
       "name": "Masonry Filter Gallery",
       "settings": {
         "heading": "Filter the inspiration",
