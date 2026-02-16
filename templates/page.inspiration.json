@@ -163,7 +163,7 @@
       ],
       "name": "Masonry Filter Gallery",
       "settings": {
-        "heading": "Filter the inspiration",
+        "heading": "",
         "heading_size": "h1"
       }
     }
