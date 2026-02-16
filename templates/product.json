@@ -1,1 +1,750 @@
-{"sections":{"breadcrumbs":{"type":"main-breadcrumbs","disabled":true,"settings":{"full-width-enabled":true,"text_color":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":8,"margin-bottom":8}},"175125954834cec904":{"type":"apps","blocks":{"ph_breadcrumbs_app_block_3wWRHp":{"type":"shopify:\/\/apps\/ph-breadcrumbs\/blocks\/app-block\/457dc635-4337-4779-8f31-361dd27778c8","settings":{"show_breadcrumbs":true,"color":"#000000","horizontal_alignment":"left","fontsize":13,"breadcrumb_font":"sans_serif_n4","marginleft":0,"margintop":0,"marginright":0,"marginbottom":0,"show_home_link":true,"show_last_crumb":true,"home_page":"Home","home_url":"\/","all_uppercase":false,"use_slider":false,"article_use_tag":true,"separator":"<span> › <\/span>","css_tablet":"\/* font-family: Helvetica; *\/","css_mobile":"\/* font-family: Helvetica; *\/","custom_css":"\/* font-family: Helvetica; *\/","css_last_crumb":"\/* font-weight: medium; *\/","css_hover":"\/* text-decoration-line: underline; *\/","menus":"*"}}},"block_order":["ph_breadcrumbs_app_block_3wWRHp"],"settings":{"include_margins":true}},"17497278860a20bda0":{"type":"apps","blocks":{"glo_related_products_upsell_app_block_product_JKMPiK":{"type":"shopify:\/\/apps\/tipo-related-products\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f","settings":{"widget":"3","gashortcode":"<div class=\"globo_widget_22751\"><\/div>"}}},"block_order":["glo_related_products_upsell_app_block_product_JKMPiK"],"disabled":true,"custom_css":["h2.ga-title.section-title {text-align: center !important;}"],"settings":{"include_margins":true}},"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{"brand":"{{ product.vendor }}","size_text":140,"size_text_mobile":200}},"90ea3cd3-aa22-44f6-b6de-365eb7f85b9c":{"type":"separator","settings":{"show-separator-line":false,"color-background":"#ffffff","margin-top":8,"margin-bottom":8}},"price":{"type":"price","settings":{"show_tax_included":true,"size_text":180,"size_text_mobile":240}},"separator_RrKQ4A":{"type":"separator","settings":{"show-separator-line":false,"color-background":"#ffffff","margin-top":8,"margin-bottom":8}},"easify_options_easify_product_options_ieANrX":{"type":"shopify:\/\/apps\/easify-options\/blocks\/easify-product-options\/d2288b18-c1ba-42f5-b3b3-26c75c8820bf","disabled":true,"settings":{}},"c1ba8695-94d2-40ad-ac06-93ec3b8cf38e":{"type":"separator","settings":{"show-separator-line":false,"color-background":"#ffffff","margin-top":8,"margin-bottom":16}},"product_variations_VPy9FL":{"type":"product_variations","settings":{"option_name":"","option_value_metafield":"","products":[]}},"variant_picker_FHDfXr":{"type":"variant_picker","settings":{"picker_type":"button","color_swatch_names":"","variant_picture_swatch_names":"","dropdown_swatch_names":"","margin-top":8,"margin-bottom":8}},"inventory_JWQnXt":{"type":"inventory","settings":{"inventory_threshold":10,"show_inventory_quantity":true}},"custom_liquid_dafMPN":{"type":"custom_liquid","disabled":true,"settings":{"custom_liquid":"{% assign in_wall_tiles = false %}\n\n{% for collection in product.collections %}\n  {% if collection.title == 'Wall Tiles' %}\n    {% unless product.tags contains 'Pavers' %}\n      {% unless product.tags contains 'Porcelain Panels' %}\n        {% assign in_wall_tiles = true %}\n      {% endunless %}\n    {% endunless %}\n  {% endif %}\n{% endfor %}\n\n{% if in_wall_tiles %}\n<button\n  type=\"button\"\n  id=\"add-sample\"\n  class=\"button\"\n  style=\"margin-top:10px; background:#000; color:#fff; padding:12px 24px; width:100%;\"\n>\n  Get A Sample\n<\/button>\n\n<div class=\"my-custom-area\">\n  <p><b>Notes:<\/b> Please note that samples are not full-size tiles. Colour, shade, texture and pattern between production runs will vary from batch to batch.<\/p>\n<\/div>\n\n<!-- Mini-cart popup (fallback if no drawer cart exists) -->\n<div id=\"mini-cart\" style=\"display:none; position:fixed; right:20px; top:100px; background:#fff; border:1px solid #ddd; padding:20px; width:320px; z-index:9999; box-shadow:0 4px 12px rgba(0,0,0,0.15); border-radius:8px;\">\n  <h4 style=\"margin-bottom:10px;\">Your Cart<\/h4>\n  <div id=\"mini-cart-items\"><\/div>\n  <a href=\"\/cart\" style=\"display:block; margin-top:10px; text-align:center; background:#000; color:#fff; padding:10px; border-radius:5px;\">Go to Cart<\/a>\n<\/div>\n{% endif %}\n\n<script>\n\/\/ ===== ADD SAMPLE PRODUCT WITH LIMITS =====\ndocument.querySelector('#add-sample')?.addEventListener('click', function() {\n  const mainTitle = \"{{ product.title | escape }}\"; \/\/ current product title\n  const mainProductUrl = \"{{ product.url }}\";\n  const mainProductImage = \"{{ product.featured_image | img_url: 'small' }}\";\n\n  const MAX_SAMPLE_PER_PRODUCT = 1;  \/\/ ⬅️ Limit 1 per main product\n  const MAX_SAMPLE_TOTAL = 5;        \/\/ ⬅️ Limit 5 total samples in cart\n\n  \/\/ Step 1: Check cart contents\n  fetch('\/cart.js')\n    .then(response => response.json())\n    .then(cart => {\n      let existingSampleQtyForProduct = 0;\n      let totalSampleQty = 0;\n\n      cart.items.forEach(item => {\n        if (item.properties && item.properties[\"Sample of \"]) {\n          totalSampleQty += item.quantity;\n\n          if (item.properties[\"Sample of \"] === mainTitle) {\n            existingSampleQtyForProduct += item.quantity;\n          }\n        }\n      });\n\n      \/\/ Check 1 per product rule\n      if (existingSampleQtyForProduct >= MAX_SAMPLE_PER_PRODUCT) {\n        alert(\"You already have a sample for this product in your cart.\");\n        throw new Error(\"Per-product sample limit reached\");\n      }\n\n      \/\/ Check total 5 samples rule\n      if (totalSampleQty >= MAX_SAMPLE_TOTAL) {\n        alert(\"You already have the maximum of \" + MAX_SAMPLE_TOTAL + \" samples in your cart.\");\n        throw new Error(\"Total sample limit reached\");\n      }\n\n      \/\/ Step 2: Fetch the 'Sample' product\n      return fetch('\/products\/Sample.js');\n    })\n    .then(response => response.json())\n    .then(product => {\n      const sampleVariantId = product.variants[0].id;\n\n      \/\/ Step 3: Add the sample to the cart\n      return fetch('\/cart\/add.js', {\n        method: 'POST',\n        headers: { 'Content-Type': 'application\/json' },\n        body: JSON.stringify({\n          items: [\n            {\n              id: sampleVariantId,\n              quantity: 1,\n              properties: {\n                \"Sample of \": mainTitle,\n                \"Main Product URL\": mainProductUrl,\n                \"Main Product Image\": mainProductImage\n              }\n            }\n          ]\n        })\n      });\n    })\n    .then(() => {\n      \/\/ Step 4: Show cart drawer or fallback popup\n      if (window.Shopify && Shopify.theme && Shopify.theme.sections) {\n        const drawerToggle = document.querySelector(\n          '[data-drawer-trigger], button[data-action=\"open-drawer\"], button[aria-controls=\"CartDrawer\"]'\n        );\n        if (drawerToggle) {\n          drawerToggle.click(); \/\/ open drawer\n        } else {\n          showMiniCart();\n        }\n      } else {\n        showMiniCart();\n      }\n    })\n    .catch(error => {\n      if (!error.message.includes(\"limit\")) console.error(error);\n    });\n});\n\n\/\/ ====== Mini-cart popup (fallback if theme has no drawer) ======\nfunction showMiniCart() {\n  fetch('\/cart.js')\n    .then(response => response.json())\n    .then(cart => {\n      const miniCart = document.getElementById('mini-cart');\n      const itemsContainer = document.getElementById('mini-cart-items');\n      itemsContainer.innerHTML = '';\n\n      cart.items.forEach(item => {\n        const imageSrc = item.properties && item.properties[\"Main Product Image\"]\n          ? item.properties[\"Main Product Image\"]\n          : item.image;\n\n        itemsContainer.innerHTML += `\n          <div style=\"margin-bottom:10px; display:flex; align-items:center; gap:10px;\">\n            <img src=\"${imageSrc}\" style=\"width:50px; height:50px; object-fit:cover; border-radius:4px;\">\n            <div>\n              <div style=\"font-size:12px; font-weight:bold; color:blue;\">${item.properties[\"Sample of \"] || ''}<\/div>\n              <div>Qty: ${item.quantity}<\/div>\n            <\/div>\n          <\/div>\n        `;\n      });\n\n      miniCart.style.display = 'block';\n      setTimeout(() => { miniCart.style.display = 'none'; }, 4000);\n    });\n}\n\n\/\/ ===== DISABLE SAMPLE QUANTITY FIELD (cart drawer + cart page) =====\nfunction disableSampleQuantityFields() {\n  const qtyInputs = document.querySelectorAll('input[name=\"updates[]\"], input[data-quantity-input]');\n  qtyInputs.forEach(function(input) {\n    const lineItem = input.closest('[data-cart-item], .cart-item, .cart-drawer__item');\n    const properties = lineItem?.textContent || '';\n    if (properties.includes('Sample of')) {\n      input.value = 1;\n      input.setAttribute('readonly', true);\n      input.style.pointerEvents = 'none';\n      input.style.opacity = '0.5';\n    }\n  });\n}\ndocument.addEventListener(\"DOMContentLoaded\", disableSampleQuantityFields);\n<\/script>"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true,"show_qty_selector":false,"text_color":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)"}},"custom_liquid_JpFy7H":{"type":"custom_liquid","settings":{"custom_liquid":"{% if product.metafields.custom.brochure_link %}\n  <a href=\"{{ product.metafields.custom.brochure_link | escape }}\" \n     class=\"btn brochure-button\" \n     target=\"_blank\" \n     rel=\"noopener noreferrer\">\n    Download Brochure\n  <\/a>\n{% endif %}"}},"complementary_VKKgGD":{"type":"complementary","settings":{"block_heading":"Goes well with","product_list_limit":5,"image-ratio":"square"}},"separator_HcYGiH":{"type":"separator","disabled":true,"settings":{"show-separator-line":true,"color-background":"#dedede","margin-top":0,"margin-bottom":0}},"description":{"type":"description","disabled":true,"settings":{"is_open":true,"icon":"none"}},"a05fcf3e-8e1a-4f1f-8d97-2055eb17138d":{"type":"separator","disabled":true,"settings":{"show-separator-line":true,"color-background":"#dedede","margin-top":0,"margin-bottom":0}},"collapsible_tab_yBm3rC":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Specifications","content":"<p>111<\/p>","page":"","custom-liquid":"<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n  document.querySelectorAll('.tfv1-tr').forEach(function (row) {\n    const label = row.querySelector('.tfv1-label .tfv1-data');\n    const value = row.querySelector('.tfv1-value .tfv1-data');\n\n    if (!label || !value) return;\n\n    const labelText = label.textContent.trim();\n    const valueText = value.textContent.trim();\n\n    if (valueText === '-' || valueText === '') {\n      row.style.display = 'none';\n    }\n  });\n});\n<\/script>","icon":"none"}},"separator_X73bDR":{"type":"separator","disabled":true,"settings":{"show-separator-line":true,"color-background":"#dedede","margin-top":0,"margin-bottom":0}},"collapsible_tab_Yk7e3G":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Installation Guide","content":"","page":"installation-guide","custom-liquid":"<div class=\"pdf-download\">Product Catalogue <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0680\/5137\/0121\/files\/WARRANTY.pdf?v=1752970977\"><svg id=\"move-layer-down\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\"> <path id=\"Path_356\" data-name=\"Path 356\" d=\"M10,5.5l-4,4-4-4\" fill=\"none\" stroke=\"#212121\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path> <line id=\"Line_20\" data-name=\"Line 20\" y1=\"9\" transform=\"translate(6 0.5)\" fill=\"none\" stroke=\"#212121\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/line> <line id=\"Line_21\" data-name=\"Line 21\" x1=\"11\" transform=\"translate(0.5 11.5)\" fill=\"none\" stroke=\"#212121\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/line> <\/svg><\/a>\n<\/div>","icon":"none"}},"separator_gDwzxi":{"type":"separator","disabled":true,"settings":{"show-separator-line":true,"color-background":"#dedede","margin-top":0,"margin-bottom":0}},"collapsible_tab_Q7UFgL":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Shipping and Delivery","content":"<ul><li>At VICTILES, we offer delivery and shop collection for online orders, with a $90 delivery fee for standard Metro orders in Victoria, and in-stock items available for collection or dispatch within 1-3 business days.<\/li><li>Tiles may vary in colour, texture, or appearance due to their design, and shade variations are common in clay products; no responsibility is accepted for crazing, shade variations, or accidents due to slippery tiles, improper maintenance, or inappropriate tile selection.<\/li><li>Tiles must be inspected upon receipt and laid according to industry standards, as laying them signifies acceptance of their quality and appearance, with no claims accepted afterwards.<\/li><li>Returns are accepted within 15 days of receipt, subject to a 35% handling charge on the return value.<\/li><\/ul>","page":"","custom-liquid":"","icon":"none"}},"separator_dXEhhE":{"type":"separator","settings":{"show-separator-line":true,"color-background":"#000000","margin-top":8,"margin-bottom":8}},"collapsible_tab_dawn_YE9id3":{"type":"collapsible_tab_dawn","settings":{"heading":"Description","icon":"none","content":"","page":""}},"separator_D9UrPr":{"type":"separator","settings":{"show-separator-line":true,"color-background":"#000000","margin-top":8,"margin-bottom":8}},"collapsible_tab_dawn_KgfFYK":{"type":"collapsible_tab_dawn","settings":{"heading":"Specifications","icon":"none","content":"","page":"specification"}},"separator_HVXhc7":{"type":"separator","settings":{"show-separator-line":true,"color-background":"#000000","margin-top":8,"margin-bottom":8}},"collapsible_tab_dawn_99Dp8g":{"type":"collapsible_tab_dawn","settings":{"heading":"Installation Guide","icon":"none","content":"","page":"installation-guide"}},"separator_iFpRqG":{"type":"separator","settings":{"show-separator-line":true,"color-background":"#000000","margin-top":8,"margin-bottom":8}},"collapsible_tab_dawn_UApMah":{"type":"collapsible_tab_dawn","settings":{"heading":"Shipping and Delivery","icon":"none","content":"<ul><li>At VICTILES, we offer delivery and shop collection for online orders, with a $90 delivery fee for standard Metro orders in Victoria, and in-stock items available for collection or dispatch within 1-3 business days.<\/li><li>Tiles may vary in colour, texture, or appearance due to their design, and shade variations are common in clay products; no responsibility is accepted for crazing, shade variations, or accidents due to slippery tiles, improper maintenance, or inappropriate tile selection.<\/li><li>Tiles must be inspected upon receipt and laid according to industry standards, as laying them signifies acceptance of their quality and appearance, with no claims accepted afterwards.<\/li><li>Returns are accepted within 15 days of receipt, subject to a 35% handling charge on the return value.<\/li><\/ul>","page":""}},"separator_Wnmnyf":{"type":"separator","settings":{"show-separator-line":true,"color-background":"#000000","margin-top":8,"margin-bottom":8}},"share_buttons_Ct9CXx":{"type":"share_buttons","disabled":true,"settings":{"heading":"Share","social_facebook_link":true,"social_twitter_link":true,"social_pinterest_link":true,"social_whatsapp_link":true,"mail_link":true}}},"block_order":["title","90ea3cd3-aa22-44f6-b6de-365eb7f85b9c","price","separator_RrKQ4A","easify_options_easify_product_options_ieANrX","c1ba8695-94d2-40ad-ac06-93ec3b8cf38e","product_variations_VPy9FL","variant_picker_FHDfXr","inventory_JWQnXt","custom_liquid_dafMPN","buy_buttons","custom_liquid_JpFy7H","complementary_VKKgGD","separator_HcYGiH","description","a05fcf3e-8e1a-4f1f-8d97-2055eb17138d","collapsible_tab_yBm3rC","separator_X73bDR","collapsible_tab_Yk7e3G","separator_gDwzxi","collapsible_tab_Q7UFgL","separator_dXEhhE","collapsible_tab_dawn_YE9id3","separator_D9UrPr","collapsible_tab_dawn_KgfFYK","separator_HVXhc7","collapsible_tab_dawn_99Dp8g","separator_iFpRqG","collapsible_tab_dawn_UApMah","separator_Wnmnyf","share_buttons_Ct9CXx"],"custom_css":[".button-layout {display: flex; gap: 10px; flex-direction: row;}",".button-layout .button {margin-top: 0; border: 1px solid #000;}",".button-layout #custom-add-to-cart {border: 1px solid #000;}","@media (max-width: 790px) {.button-layout {flex-direction: column; } .button- .button h1.wt-product__name {font-size: 18px !important; } .wt-product__option .swiper-slide {max-width: 80% !important; }}","span.product-price {font-size: 30px !important;}","span.product-price {font-weight: 600 !important;}"],"settings":{"full-width-enabled":false,"desktop-media-size":"normal","desktop-layout":"collage","desktop-image-ratio":"original","enable_video_looping":true,"enable-preselected-variant":true,"enable-image-zoom":true,"mobile-image":"small","text_color":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":40,"margin-bottom":60}},"featured_collection_UUywA6":{"type":"featured-collection","disabled":true,"name":"t:sections.featured-collection.presets.name","settings":{"title":"You may also like","disable_on_mobile":false,"collection":"tiles","product_list":[],"products_to_show":5,"enable_stack_products":false,"show_view_all":false,"button_select":"primary","number_of_column_desktop":5,"spacing_desktop":"16","make_products_full_width":true,"number_of_column_mobile":2.1,"spacing_mobile":"16","text_alignment":"left","image_ratio":"square","show_video":false,"show_secondary_image":false,"show_vendor":true,"show_product_rating":true,"enable_quick_add_button":false,"color-body-text":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":20,"margin-bottom":20}},"product_recommendations_pNX3q4":{"type":"product-recommendations","name":"t:sections.product-recommendations.presets.name","settings":{"heading":"You may also like","disable_on_mobile":false,"products_to_show":10,"number_of_column_desktop":5,"make_products_full_width":true,"show_secondary_image_on_hover":true,"number_of_column_mobile":2.1,"text_alignment":"left","image_ratio":"square","show_vendor":true,"show_product_rating":true,"color-body-text":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":20,"margin-bottom":20}},"image_with_text_6eHa6t":{"type":"image-with-text","blocks":{"heading_D3AMnB":{"type":"heading","settings":{"heading":"Upgrade Your Space","disable_on_mobile":false,"size_heading":200,"size_heading_mobile":100}},"text_m4Jtpa":{"type":"text","settings":{"text":"<p>Discover premium-quality tiles, flooring, bathware, and more — all in one place.<br\/>Explore our extensive collection and enjoy a seamless one-stop shopping experience, with expert advice from our sales team to help you choose products that work beautifully together for your home or commercial space.<\/p>","text_style":"body","disable_on_mobile":false}},"button_Mcp9Rh":{"type":"button","settings":{"button_select":"primary","button_label":"View More","button_link":"shopify:\/\/pages\/inspiration","disable_on_mobile":false}}},"block_order":["heading_D3AMnB","text_m4Jtpa","button_Mcp9Rh"],"settings":{"title":"","layout":"text_first","desktop-percentage-image-width":50,"full-width-enabled":false,"slide_height":"adapt_to_first_image","desktop_fixed_height":320,"mobile_fixed_height":460,"section-color-body-text":"rgba(0,0,0,0)","section-color-overlay":"#dedede","section-color-overlay-opacity":100,"color-body-text":"rgba(0,0,0,0)","color-overlay":"rgba(0,0,0,0)","color-overlay-opacity":100,"desktop_image":"shopify:\/\/shop_images\/ecfb56101e2f4e1e907629d378a2a580.jpg","desktop_text_vertical_position":"center","desktop_text_horizontal_position":"left","mobile_text_horizontal_position":"center","margin-top":60,"margin-bottom":60}},"176767554562fee611":{"type":"_blocks","settings":{}},"ec5a6457-3cb6-4605-94df-ac6400f950f1":{"type":"featured-collection","disabled":true,"settings":{"title":"You May Also Like","disable_on_mobile":false,"collection":"","product_list":["12timblg-61231-timeworn-blue-gloss-100x200mm","12timblx-61230-timeworn-blue-external-100x200mm","12timgyg-61229-timeworn-grey-gloss-100x200mm","12timgyx-61228-timeworn-grey-external-100x200mm","12timwhg-61227-timeworn-white-gloss-100x200mm"],"products_to_show":10,"enable_stack_products":false,"show_view_all":false,"button_select":"primary","number_of_column_desktop":5,"spacing_desktop":"8","make_products_full_width":false,"number_of_column_mobile":2,"spacing_mobile":"16","text_alignment":"left","image_ratio":"square","show_video":false,"show_secondary_image":true,"show_vendor":true,"show_product_rating":false,"enable_quick_add_button":false,"color-body-text":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":60,"margin-bottom":60}},"benefits_video_wybLKE":{"type":"benefits-video","blocks":{"video_Mf6bbL":{"type":"video","settings":{"text":"<p>Your text here<\/p>"}},"video_DzEYDn":{"type":"video","settings":{"text":"<p>Your text here<\/p>"}},"video_LA4tdJ":{"type":"video","settings":{"text":"<p>Your text here<\/p>"}},"video_kFaM7T":{"type":"video","settings":{"text":"<p>Your text here<\/p>"}},"video_4YwRcz":{"type":"video","settings":{"text":"<p>Your text here<\/p>"}},"video_cpxigk":{"type":"video","settings":{"text":"<p>Your text here<\/p>"}}},"block_order":["video_Mf6bbL","video_DzEYDn","video_LA4tdJ","video_kFaM7T","video_4YwRcz","video_cpxigk"],"disabled":true,"settings":{"heading":"Benefits video reels","video_button":false,"text_alignment":"center","text_style":"body","color-body-text":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":20,"margin-bottom":20}},"features_banner_wiKkaQ":{"type":"features-banner","blocks":{"image_P4yL64":{"type":"image","settings":{"select_icon":"bag","heading":"Banner title","text":"<p>Items you love at prices that fit your budget.<\/p>","link":""}},"image_m7jjzm":{"type":"image","settings":{"select_icon":"user","heading":"Banner title","text":"<p>Items you love at prices that fit your budget.<\/p>","link":""}},"image_AkKWrq":{"type":"image","settings":{"select_icon":"search","heading":"Banner title","text":"<p>Items you love at prices that fit your budget.<\/p>","link":""}},"image_XPgaAR":{"type":"image","settings":{"select_icon":"star","heading":"Banner title","text":"<p>Items you love at prices that fit your budget.<\/p>","link":""}}},"block_order":["image_P4yL64","image_m7jjzm","image_AkKWrq","image_XPgaAR"],"disabled":true,"settings":{"heading":"","size_heading_mobile":80,"size_heading":80,"icon_width_mobile":36,"icon_width_desktop":48,"icon_layout":"center","columns_desktop":"4","icon_layout_mobile":"grid","color_body_icon":"rgba(0,0,0,0)","color_background_icon":"rgba(0,0,0,0)","color_body_text":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":40,"margin-bottom":40}},"newsletter_pEcrBa":{"type":"newsletter","blocks":{"heading_mLFMeW":{"type":"heading","settings":{"heading":"Subscribe to our emails","heading_disable_on_mobile":false,"size_heading":100,"size_heading_mobile":100}},"paragraph_d8VNPK":{"type":"paragraph","settings":{"paragraph":"<p>Be the first to know about new collections and exclusive offers.<\/p>","text_disable_on_mobile":false}},"email_form_gTPAyG":{"type":"email_form","settings":{"button_select":"primary"}}},"block_order":["heading_mLFMeW","paragraph_d8VNPK","email_form_gTPAyG"],"disabled":true,"settings":{"color-body-text":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)","margin-top":60,"margin-bottom":60}}},"order":["breadcrumbs","175125954834cec904","17497278860a20bda0","main","featured_collection_UUywA6","product_recommendations_pNX3q4","image_with_text_6eHa6t","176767554562fee611","ec5a6457-3cb6-4605-94df-ac6400f950f1","benefits_video_wybLKE","features_banner_wiKkaQ","newsletter_pEcrBa"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "full-width-enabled": true,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 8,
+        "margin-bottom": 8
+      }
+    },
+    "175125954834cec904": {
+      "type": "apps",
+      "blocks": {
+        "ph_breadcrumbs_app_block_3wWRHp": {
+          "type": "shopify://apps/ph-breadcrumbs/blocks/app-block/457dc635-4337-4779-8f31-361dd27778c8",
+          "settings": {
+            "show_breadcrumbs": true,
+            "color": "#000000",
+            "horizontal_alignment": "left",
+            "fontsize": 13,
+            "breadcrumb_font": "sans_serif_n4",
+            "marginleft": 0,
+            "margintop": 0,
+            "marginright": 0,
+            "marginbottom": 0,
+            "show_home_link": true,
+            "show_last_crumb": true,
+            "home_page": "Home",
+            "home_url": "/",
+            "all_uppercase": false,
+            "use_slider": false,
+            "article_use_tag": true,
+            "separator": "<span> › </span>",
+            "css_tablet": "/* font-family: Helvetica; */",
+            "css_mobile": "/* font-family: Helvetica; */",
+            "custom_css": "/* font-family: Helvetica; */",
+            "css_last_crumb": "/* font-weight: medium; */",
+            "css_hover": "/* text-decoration-line: underline; */",
+            "menus": "*"
+          }
+        }
+      },
+      "block_order": [
+        "ph_breadcrumbs_app_block_3wWRHp"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17497278860a20bda0": {
+      "type": "apps",
+      "blocks": {
+        "glo_related_products_upsell_app_block_product_JKMPiK": {
+          "type": "shopify://apps/tipo-related-products/blocks/app-block-product/75cf2d86-3988-45e7-8f28-ada23c99704f",
+          "settings": {
+            "widget": "3",
+            "gashortcode": "<div class=\"globo_widget_22751\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "glo_related_products_upsell_app_block_product_JKMPiK"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2.ga-title.section-title {text-align: center !important;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "brand": "{{ product.vendor }}",
+            "size_text": 140,
+            "size_text_mobile": 200
+          }
+        },
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included": true,
+            "size_text": 180,
+            "size_text_mobile": 240
+          }
+        },
+        "separator_RrKQ4A": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "easify_options_easify_product_options_ieANrX": {
+          "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+          "disabled": true,
+          "settings": {}
+        },
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 16
+          }
+        },
+        "product_variations_VPy9FL": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "",
+            "option_value_metafield": "",
+            "products": []
+          }
+        },
+        "variant_picker_FHDfXr": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_swatch_names": "",
+            "variant_picture_swatch_names": "",
+            "dropdown_swatch_names": "",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "inventory_JWQnXt": {
+          "type": "inventory",
+          "settings": {
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "custom_liquid_dafMPN": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% assign in_wall_tiles = false %}\n\n{% for collection in product.collections %}\n  {% if collection.title == 'Wall Tiles' %}\n    {% unless product.tags contains 'Pavers' %}\n      {% unless product.tags contains 'Porcelain Panels' %}\n        {% assign in_wall_tiles = true %}\n      {% endunless %}\n    {% endunless %}\n  {% endif %}\n{% endfor %}\n\n{% if in_wall_tiles %}\n<button\n  type=\"button\"\n  id=\"add-sample\"\n  class=\"button\"\n  style=\"margin-top:10px; background:#000; color:#fff; padding:12px 24px; width:100%;\"\n>\n  Get A Sample\n</button>\n\n<div class=\"my-custom-area\">\n  <p><b>Notes:</b> Please note that samples are not full-size tiles. Colour, shade, texture and pattern between production runs will vary from batch to batch.</p>\n</div>\n\n<!-- Mini-cart popup (fallback if no drawer cart exists) -->\n<div id=\"mini-cart\" style=\"display:none; position:fixed; right:20px; top:100px; background:#fff; border:1px solid #ddd; padding:20px; width:320px; z-index:9999; box-shadow:0 4px 12px rgba(0,0,0,0.15); border-radius:8px;\">\n  <h4 style=\"margin-bottom:10px;\">Your Cart</h4>\n  <div id=\"mini-cart-items\"></div>\n  <a href=\"/cart\" style=\"display:block; margin-top:10px; text-align:center; background:#000; color:#fff; padding:10px; border-radius:5px;\">Go to Cart</a>\n</div>\n{% endif %}\n\n<script>\n// ===== ADD SAMPLE PRODUCT WITH LIMITS =====\ndocument.querySelector('#add-sample')?.addEventListener('click', function() {\n  const mainTitle = \"{{ product.title | escape }}\"; // current product title\n  const mainProductUrl = \"{{ product.url }}\";\n  const mainProductImage = \"{{ product.featured_image | img_url: 'small' }}\";\n\n  const MAX_SAMPLE_PER_PRODUCT = 1;  // ⬅️ Limit 1 per main product\n  const MAX_SAMPLE_TOTAL = 5;        // ⬅️ Limit 5 total samples in cart\n\n  // Step 1: Check cart contents\n  fetch('/cart.js')\n    .then(response => response.json())\n    .then(cart => {\n      let existingSampleQtyForProduct = 0;\n      let totalSampleQty = 0;\n\n      cart.items.forEach(item => {\n        if (item.properties && item.properties[\"Sample of \"]) {\n          totalSampleQty += item.quantity;\n\n          if (item.properties[\"Sample of \"] === mainTitle) {\n            existingSampleQtyForProduct += item.quantity;\n          }\n        }\n      });\n\n      // Check 1 per product rule\n      if (existingSampleQtyForProduct >= MAX_SAMPLE_PER_PRODUCT) {\n        alert(\"You already have a sample for this product in your cart.\");\n        throw new Error(\"Per-product sample limit reached\");\n      }\n\n      // Check total 5 samples rule\n      if (totalSampleQty >= MAX_SAMPLE_TOTAL) {\n        alert(\"You already have the maximum of \" + MAX_SAMPLE_TOTAL + \" samples in your cart.\");\n        throw new Error(\"Total sample limit reached\");\n      }\n\n      // Step 2: Fetch the 'Sample' product\n      return fetch('/products/Sample.js');\n    })\n    .then(response => response.json())\n    .then(product => {\n      const sampleVariantId = product.variants[0].id;\n\n      // Step 3: Add the sample to the cart\n      return fetch('/cart/add.js', {\n        method: 'POST',\n        headers: { 'Content-Type': 'application/json' },\n        body: JSON.stringify({\n          items: [\n            {\n              id: sampleVariantId,\n              quantity: 1,\n              properties: {\n                \"Sample of \": mainTitle,\n                \"Main Product URL\": mainProductUrl,\n                \"Main Product Image\": mainProductImage\n              }\n            }\n          ]\n        })\n      });\n    })\n    .then(() => {\n      // Step 4: Show cart drawer or fallback popup\n      if (window.Shopify && Shopify.theme && Shopify.theme.sections) {\n        const drawerToggle = document.querySelector(\n          '[data-drawer-trigger], button[data-action=\"open-drawer\"], button[aria-controls=\"CartDrawer\"]'\n        );\n        if (drawerToggle) {\n          drawerToggle.click(); // open drawer\n        } else {\n          showMiniCart();\n        }\n      } else {\n        showMiniCart();\n      }\n    })\n    .catch(error => {\n      if (!error.message.includes(\"limit\")) console.error(error);\n    });\n});\n\n// ====== Mini-cart popup (fallback if theme has no drawer) ======\nfunction showMiniCart() {\n  fetch('/cart.js')\n    .then(response => response.json())\n    .then(cart => {\n      const miniCart = document.getElementById('mini-cart');\n      const itemsContainer = document.getElementById('mini-cart-items');\n      itemsContainer.innerHTML = '';\n\n      cart.items.forEach(item => {\n        const imageSrc = item.properties && item.properties[\"Main Product Image\"]\n          ? item.properties[\"Main Product Image\"]\n          : item.image;\n\n        itemsContainer.innerHTML += `\n          <div style=\"margin-bottom:10px; display:flex; align-items:center; gap:10px;\">\n            <img src=\"${imageSrc}\" style=\"width:50px; height:50px; object-fit:cover; border-radius:4px;\">\n            <div>\n              <div style=\"font-size:12px; font-weight:bold; color:blue;\">${item.properties[\"Sample of \"] || ''}</div>\n              <div>Qty: ${item.quantity}</div>\n            </div>\n          </div>\n        `;\n      });\n\n      miniCart.style.display = 'block';\n      setTimeout(() => { miniCart.style.display = 'none'; }, 4000);\n    });\n}\n\n// ===== DISABLE SAMPLE QUANTITY FIELD (cart drawer + cart page) =====\nfunction disableSampleQuantityFields() {\n  const qtyInputs = document.querySelectorAll('input[name=\"updates[]\"], input[data-quantity-input]');\n  qtyInputs.forEach(function(input) {\n    const lineItem = input.closest('[data-cart-item], .cart-item, .cart-drawer__item');\n    const properties = lineItem?.textContent || '';\n    if (properties.includes('Sample of')) {\n      input.value = 1;\n      input.setAttribute('readonly', true);\n      input.style.pointerEvents = 'none';\n      input.style.opacity = '0.5';\n    }\n  });\n}\ndocument.addEventListener(\"DOMContentLoaded\", disableSampleQuantityFields);\n</script>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "show_qty_selector": false,
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "custom_liquid_JpFy7H": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.brochure_link %}\n  <a href=\"{{ product.metafields.custom.brochure_link | escape }}\" \n     class=\"btn brochure-button\" \n     target=\"_blank\" \n     rel=\"noopener noreferrer\">\n    Download Brochure\n  </a>\n{% endif %}"
+          }
+        },
+        "complementary_VKKgGD": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Goes well with",
+            "product_list_limit": 5,
+            "image-ratio": "square"
+          }
+        },
+        "separator_HcYGiH": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#dedede",
+            "margin-top": 0,
+            "margin-bottom": 0
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_open": true,
+            "icon": "none"
+          }
+        },
+        "a05fcf3e-8e1a-4f1f-8d97-2055eb17138d": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#dedede",
+            "margin-top": 0,
+            "margin-bottom": 0
+          }
+        },
+        "collapsible_tab_yBm3rC": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Specifications",
+            "content": "<p>111</p>",
+            "page": "",
+            "custom-liquid": "<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n  document.querySelectorAll('.tfv1-tr').forEach(function (row) {\n    const label = row.querySelector('.tfv1-label .tfv1-data');\n    const value = row.querySelector('.tfv1-value .tfv1-data');\n\n    if (!label || !value) return;\n\n    const labelText = label.textContent.trim();\n    const valueText = value.textContent.trim();\n\n    if (valueText === '-' || valueText === '') {\n      row.style.display = 'none';\n    }\n  });\n});\n</script>",
+            "icon": "none"
+          }
+        },
+        "separator_X73bDR": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#dedede",
+            "margin-top": 0,
+            "margin-bottom": 0
+          }
+        },
+        "collapsible_tab_Yk7e3G": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Installation Guide",
+            "content": "",
+            "page": "installation-guide",
+            "custom-liquid": "<div class=\"pdf-download\">Product Catalogue <a href=\"https://cdn.shopify.com/s/files/1/0680/5137/0121/files/WARRANTY.pdf?v=1752970977\"><svg id=\"move-layer-down\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\"> <path id=\"Path_356\" data-name=\"Path 356\" d=\"M10,5.5l-4,4-4-4\" fill=\"none\" stroke=\"#212121\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"></path> <line id=\"Line_20\" data-name=\"Line 20\" y1=\"9\" transform=\"translate(6 0.5)\" fill=\"none\" stroke=\"#212121\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"></line> <line id=\"Line_21\" data-name=\"Line 21\" x1=\"11\" transform=\"translate(0.5 11.5)\" fill=\"none\" stroke=\"#212121\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"></line> </svg></a>\n</div>",
+            "icon": "none"
+          }
+        },
+        "separator_gDwzxi": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#dedede",
+            "margin-top": 0,
+            "margin-bottom": 0
+          }
+        },
+        "collapsible_tab_Q7UFgL": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping and Delivery",
+            "content": "<ul><li>At VICTILES, we offer delivery and shop collection for online orders, with a $90 delivery fee for standard Metro orders in Victoria, and in-stock items available for collection or dispatch within 1-3 business days.</li><li>Tiles may vary in colour, texture, or appearance due to their design, and shade variations are common in clay products; no responsibility is accepted for crazing, shade variations, or accidents due to slippery tiles, improper maintenance, or inappropriate tile selection.</li><li>Tiles must be inspected upon receipt and laid according to industry standards, as laying them signifies acceptance of their quality and appearance, with no claims accepted afterwards.</li><li>Returns are accepted within 15 days of receipt, subject to a 35% handling charge on the return value.</li></ul>",
+            "page": "",
+            "custom-liquid": "",
+            "icon": "none"
+          }
+        },
+        "separator_dXEhhE": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "collapsible_tab_dawn_YE9id3": {
+          "type": "collapsible_tab_dawn",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "separator_D9UrPr": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "collapsible_tab_dawn_KgfFYK": {
+          "type": "collapsible_tab_dawn",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "",
+            "page": "specification"
+          }
+        },
+        "separator_HVXhc7": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "collapsible_tab_dawn_99Dp8g": {
+          "type": "collapsible_tab_dawn",
+          "settings": {
+            "heading": "Installation Guide",
+            "icon": "none",
+            "content": "",
+            "page": "installation-guide"
+          }
+        },
+        "separator_iFpRqG": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "collapsible_tab_dawn_UApMah": {
+          "type": "collapsible_tab_dawn",
+          "settings": {
+            "heading": "Shipping and Delivery",
+            "icon": "none",
+            "content": "<ul><li>At VICTILES, we offer delivery and shop collection for online orders, with a $90 delivery fee for standard Metro orders in Victoria, and in-stock items available for collection or dispatch within 1-3 business days.</li><li>Tiles may vary in colour, texture, or appearance due to their design, and shade variations are common in clay products; no responsibility is accepted for crazing, shade variations, or accidents due to slippery tiles, improper maintenance, or inappropriate tile selection.</li><li>Tiles must be inspected upon receipt and laid according to industry standards, as laying them signifies acceptance of their quality and appearance, with no claims accepted afterwards.</li><li>Returns are accepted within 15 days of receipt, subject to a 35% handling charge on the return value.</li></ul>",
+            "page": ""
+          }
+        },
+        "separator_Wnmnyf": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": true,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 8
+          }
+        },
+        "share_buttons_Ct9CXx": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "heading": "Share",
+            "social_facebook_link": true,
+            "social_twitter_link": true,
+            "social_pinterest_link": true,
+            "social_whatsapp_link": true,
+            "mail_link": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
+        "price",
+        "separator_RrKQ4A",
+        "easify_options_easify_product_options_ieANrX",
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
+        "product_variations_VPy9FL",
+        "variant_picker_FHDfXr",
+        "inventory_JWQnXt",
+        "custom_liquid_dafMPN",
+        "buy_buttons",
+        "custom_liquid_JpFy7H",
+        "complementary_VKKgGD",
+        "separator_HcYGiH",
+        "description",
+        "a05fcf3e-8e1a-4f1f-8d97-2055eb17138d",
+        "collapsible_tab_yBm3rC",
+        "separator_X73bDR",
+        "collapsible_tab_Yk7e3G",
+        "separator_gDwzxi",
+        "collapsible_tab_Q7UFgL",
+        "separator_dXEhhE",
+        "collapsible_tab_dawn_YE9id3",
+        "separator_D9UrPr",
+        "collapsible_tab_dawn_KgfFYK",
+        "separator_HVXhc7",
+        "collapsible_tab_dawn_99Dp8g",
+        "separator_iFpRqG",
+        "collapsible_tab_dawn_UApMah",
+        "separator_Wnmnyf",
+        "share_buttons_Ct9CXx"
+      ],
+      "custom_css": [
+        ".button-layout {display: flex; gap: 10px; flex-direction: row;}",
+        ".button-layout .button {margin-top: 0; border: 1px solid #000;}",
+        ".button-layout #custom-add-to-cart {border: 1px solid #000;}",
+        "@media (max-width: 790px) {.button-layout {flex-direction: column; } .button- .button h1.wt-product__name {font-size: 18px !important; } .wt-product__option .swiper-slide {max-width: 80% !important; }}",
+        "span.product-price {font-size: 30px !important;}",
+        "span.product-price {font-weight: 600 !important;}"
+      ],
+      "settings": {
+        "full-width-enabled": false,
+        "desktop-media-size": "normal",
+        "desktop-layout": "collage",
+        "desktop-image-ratio": "original",
+        "enable_video_looping": true,
+        "enable-preselected-variant": true,
+        "enable-image-zoom": true,
+        "mobile-image": "small",
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 60
+      }
+    },
+    "featured_collection_UUywA6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "You may also like",
+        "disable_on_mobile": false,
+        "collection": "tiles",
+        "product_list": [],
+        "products_to_show": 5,
+        "enable_stack_products": false,
+        "show_view_all": false,
+        "button_select": "primary",
+        "number_of_column_desktop": 5,
+        "spacing_desktop": "16",
+        "make_products_full_width": true,
+        "number_of_column_mobile": 2.1,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_product_rating": true,
+        "enable_quick_add_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "product_recommendations_pNX3q4": {
+      "type": "product-recommendations",
+      "name": "t:sections.product-recommendations.presets.name",
+      "settings": {
+        "heading": "You may also like",
+        "disable_on_mobile": false,
+        "products_to_show": 10,
+        "number_of_column_desktop": 5,
+        "make_products_full_width": true,
+        "show_secondary_image_on_hover": true,
+        "number_of_column_mobile": 2.1,
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_vendor": true,
+        "show_product_rating": true,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_6eHa6t": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_D3AMnB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upgrade Your Space",
+            "disable_on_mobile": false,
+            "size_heading": 200,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_m4Jtpa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover premium-quality tiles, flooring, bathware, and more — all in one place.<br/>Explore our extensive collection and enjoy a seamless one-stop shopping experience, with expert advice from our sales team to help you choose products that work beautifully together for your home or commercial space.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_Mcp9Rh": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "View More",
+            "button_link": "shopify://pages/get-inspired",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D3AMnB",
+        "text_m4Jtpa",
+        "button_Mcp9Rh"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#dedede",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/ecfb56101e2f4e1e907629d378a2a580.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    },
+    "176767554562fee611": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "ec5a6457-3cb6-4605-94df-ac6400f950f1": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "You May Also Like",
+        "disable_on_mobile": false,
+        "collection": "",
+        "product_list": [
+          "12timblg-61231-timeworn-blue-gloss-100x200mm",
+          "12timblx-61230-timeworn-blue-external-100x200mm",
+          "12timgyg-61229-timeworn-grey-gloss-100x200mm",
+          "12timgyx-61228-timeworn-grey-external-100x200mm",
+          "12timwhg-61227-timeworn-white-gloss-100x200mm"
+        ],
+        "products_to_show": 10,
+        "enable_stack_products": false,
+        "show_view_all": false,
+        "button_select": "primary",
+        "number_of_column_desktop": 5,
+        "spacing_desktop": "8",
+        "make_products_full_width": false,
+        "number_of_column_mobile": 2,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_product_rating": false,
+        "enable_quick_add_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    },
+    "benefits_video_wybLKE": {
+      "type": "benefits-video",
+      "blocks": {
+        "video_Mf6bbL": {
+          "type": "video",
+          "settings": {
+            "text": "<p>Your text here</p>"
+          }
+        },
+        "video_DzEYDn": {
+          "type": "video",
+          "settings": {
+            "text": "<p>Your text here</p>"
+          }
+        },
+        "video_LA4tdJ": {
+          "type": "video",
+          "settings": {
+            "text": "<p>Your text here</p>"
+          }
+        },
+        "video_kFaM7T": {
+          "type": "video",
+          "settings": {
+            "text": "<p>Your text here</p>"
+          }
+        },
+        "video_4YwRcz": {
+          "type": "video",
+          "settings": {
+            "text": "<p>Your text here</p>"
+          }
+        },
+        "video_cpxigk": {
+          "type": "video",
+          "settings": {
+            "text": "<p>Your text here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_Mf6bbL",
+        "video_DzEYDn",
+        "video_LA4tdJ",
+        "video_kFaM7T",
+        "video_4YwRcz",
+        "video_cpxigk"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Benefits video reels",
+        "video_button": false,
+        "text_alignment": "center",
+        "text_style": "body",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "features_banner_wiKkaQ": {
+      "type": "features-banner",
+      "blocks": {
+        "image_P4yL64": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        },
+        "image_m7jjzm": {
+          "type": "image",
+          "settings": {
+            "select_icon": "user",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        },
+        "image_AkKWrq": {
+          "type": "image",
+          "settings": {
+            "select_icon": "search",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        },
+        "image_XPgaAR": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_P4yL64",
+        "image_m7jjzm",
+        "image_AkKWrq",
+        "image_XPgaAR"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "size_heading_mobile": 80,
+        "size_heading": 80,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
+        "icon_layout": "center",
+        "columns_desktop": "4",
+        "icon_layout_mobile": "grid",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_background_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "newsletter_pEcrBa": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_mLFMeW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_d8VNPK": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_gTPAyG": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mLFMeW",
+        "paragraph_d8VNPK",
+        "email_form_gTPAyG"
+      ],
+      "disabled": true,
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "175125954834cec904",
+    "17497278860a20bda0",
+    "main",
+    "featured_collection_UUywA6",
+    "product_recommendations_pNX3q4",
+    "image_with_text_6eHa6t",
+    "176767554562fee611",
+    "ec5a6457-3cb6-4605-94df-ac6400f950f1",
+    "benefits_video_wybLKE",
+    "features_banner_wiKkaQ",
+    "newsletter_pEcrBa"
+  ]
+}
