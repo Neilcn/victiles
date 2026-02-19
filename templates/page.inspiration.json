@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_qPAyRa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern",
+            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 86,
+            "product_2": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_2": 62,
+            "hotspot_y_2": 17,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_nXMnR9": {
           "type": "image",
           "settings": {
@@ -242,6 +260,7 @@
         }
       },
       "block_order": [
+        "image_qPAyRa",
         "image_nXMnR9",
         "image_bQtNJf",
         "image_YJLazj",
