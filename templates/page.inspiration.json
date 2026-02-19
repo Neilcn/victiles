@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_6wfDbe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-11_11.36.36.png",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern",
+            "product_1": "sti-stla6002-lapis-noce-matt-600x600",
+            "hotspot_x_1": 27,
+            "hotspot_y_1": 37,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_cNDYUg": {
           "type": "image",
           "settings": {
@@ -278,6 +296,7 @@
         }
       },
       "block_order": [
+        "image_6wfDbe",
         "image_cNDYUg",
         "image_qPAyRa",
         "image_nXMnR9",
