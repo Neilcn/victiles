@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_nXMnR9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MW-ins.jpg",
+            "room": "Bathroom",
+            "colour": "White/Gold",
+            "style": "Modern",
+            "product_1": "caloro60120m-calacutta-oro-matt-600x1200mm",
+            "hotspot_x_1": 42,
+            "hotspot_y_1": 28,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_bQtNJf": {
           "type": "image",
           "settings": {
@@ -224,6 +242,7 @@
         }
       },
       "block_order": [
+        "image_nXMnR9",
         "image_bQtNJf",
         "image_YJLazj",
         "image_YCyFPw",
