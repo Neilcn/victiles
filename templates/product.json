@@ -497,7 +497,7 @@
           "settings": {
             "button_select": "primary",
             "button_label": "View More",
-            "button_link": "shopify://pages/get-inspired",
+            "button_link": "shopify://pages/get-inspired-2",
             "disable_on_mobile": false
           }
         }
