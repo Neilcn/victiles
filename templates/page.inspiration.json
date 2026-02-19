@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_jcwajq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/berwick.jpg",
+            "room": "Bathroom",
+            "colour": "Grey/White",
+            "style": "Modern",
+            "product_1": "prd-gra60m-paradigm-graphite-600x600mm-p3-matt",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 81,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_9JaGQw": {
           "type": "image",
           "settings": {
@@ -113,69 +131,13 @@
             "hotspot_x_3": 70,
             "hotspot_y_3": 70
           }
-        },
-        "image_x4THw3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/AMB-AGATHOS-WHITE-60X60-TH2.jpg",
-            "room": "Bathroom",
-            "colour": "Beige",
-            "style": "Modern",
-            "product_1": "",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "05950-fango-resin-nat-ret-600x600mm-made-in-italy",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_xBAycF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/agadir-AMARANTO-7x28-1000-1_c1f3497f-b495-4eb4-ac60-70d5e5e88587.jpg",
-            "room": "Laundry",
-            "colour": "Red",
-            "style": "Mid-Century",
-            "product_1": "",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
-            "product_2": "01161-piemme-60x60-bits-pitch-black-nat-ret-made-in-italy",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_ayHhxL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/agadir-niebla-7x28-1000-1_82f91d8d-0718-4f96-a06b-4831c5be8e37.jpg",
-            "room": "Proch",
-            "colour": "Green",
-            "style": "Industrial Style",
-            "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
-            "hotspot_x_1": 71,
-            "hotspot_y_1": 38,
-            "product_2": "01164-piemme-60x60-bits-pearl-gray-quad-nat-ret-made-in-italy",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "03537a-piemme-600x600mm-evoluta-global-nat-ret-made-in-italy",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
         }
       },
       "block_order": [
+        "image_jcwajq",
         "image_9JaGQw",
         "image_ybbM4r",
-        "image_ggVeKh",
-        "image_x4THw3",
-        "image_xBAycF",
-        "image_ayHhxL"
+        "image_ggVeKh"
       ],
       "custom_css": [
         ".filter-group {justify-content: center;}"
