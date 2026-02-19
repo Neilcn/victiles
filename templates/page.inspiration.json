@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_9JaGQw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001_3ec63573-f0a9-402f-8856-bf2ef7a5cd99.jpg",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Modern",
+            "product_1": "hf-terrazzo-cream-matt-finish-600x600mm",
+            "hotspot_x_1": 79,
+            "hotspot_y_1": 48,
+            "product_2": "sk76-1200wgm-quinn-collection-vanity-1200mm-matt-grey-single-bowl-double-bowls",
+            "hotspot_x_2": 48,
+            "hotspot_y_2": 74,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_ybbM4r": {
           "type": "image",
           "settings": {
@@ -152,6 +170,7 @@
         }
       },
       "block_order": [
+        "image_9JaGQw",
         "image_ybbM4r",
         "image_ggVeKh",
         "image_x4THw3",
@@ -163,8 +182,8 @@
       ],
       "name": "Masonry Filter Gallery",
       "settings": {
-        "heading": "",
-        "heading_size": "h1"
+        "heading": "Filter the inspiration",
+        "heading_size": "h2"
       }
     }
   },
