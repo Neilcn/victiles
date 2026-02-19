@@ -60,6 +60,23 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_YJLazj": {
+          "type": "image",
+          "settings": {
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_YCyFPw": {
           "type": "image",
           "settings": {
@@ -73,9 +90,9 @@
             "product_2": "hf-everest-grey-stonetouch-tech-finish-600x1200mm",
             "hotspot_x_2": 16,
             "hotspot_y_2": 42,
-            "product_3": "",
-            "hotspot_x_3": 25,
-            "hotspot_y_3": 70
+            "product_3": "evie-ebt1660mw-free-standing-bathtub-matte-white-non-overflow-1660-780-690mm",
+            "hotspot_x_3": 48,
+            "hotspot_y_3": 77
           }
         },
         "image_BzpEyQ": {
@@ -188,6 +205,7 @@
         }
       },
       "block_order": [
+        "image_YJLazj",
         "image_YCyFPw",
         "image_BzpEyQ",
         "image_TUMqM7",
