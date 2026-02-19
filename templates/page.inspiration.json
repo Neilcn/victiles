@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_YCyFPw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coco_ins.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern",
+            "product_1": "men0005-arctic-tundra-grey-polish-750x1500mm-s75806",
+            "hotspot_x_1": 62,
+            "hotspot_y_1": 30,
+            "product_2": "hf-everest-grey-stonetouch-tech-finish-600x1200mm",
+            "hotspot_x_2": 16,
+            "hotspot_y_2": 42,
+            "product_3": "",
+            "hotspot_x_3": 25,
+            "hotspot_y_3": 70
+          }
+        },
         "image_BzpEyQ": {
           "type": "image",
           "settings": {
@@ -170,6 +188,7 @@
         }
       },
       "block_order": [
+        "image_YCyFPw",
         "image_BzpEyQ",
         "image_TUMqM7",
         "image_jcwajq",
