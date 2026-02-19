@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_4hbXY9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ins-187831.jpg",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Modern",
+            "product_1": "187831-crackle-nieve-gloss-65x330mm-spain-made",
+            "hotspot_x_1": 47,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_6wfDbe": {
           "type": "image",
           "settings": {
@@ -296,6 +314,7 @@
         }
       },
       "block_order": [
+        "image_4hbXY9",
         "image_6wfDbe",
         "image_cNDYUg",
         "image_qPAyRa",
