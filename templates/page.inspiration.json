@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_cNDYUg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1398.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Modern",
+            "product_1": "equ0028-la-riviera-wheat-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1": 67,
+            "hotspot_y_1": 47,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_qPAyRa": {
           "type": "image",
           "settings": {
@@ -260,6 +278,7 @@
         }
       },
       "block_order": [
+        "image_cNDYUg",
         "image_qPAyRa",
         "image_nXMnR9",
         "image_bQtNJf",
