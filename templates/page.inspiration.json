@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_bQtNJf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lisa-BATH01.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern",
+            "product_1": "hf-origin-white-matt-finish-600x600mm",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_YJLazj": {
           "type": "image",
           "settings": {
@@ -206,6 +224,7 @@
         }
       },
       "block_order": [
+        "image_bQtNJf",
         "image_YJLazj",
         "image_YCyFPw",
         "image_BzpEyQ",
