@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_4f3r4B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1406.jpg",
+            "room": "commercial",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 52,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_jaXHcz": {
           "type": "image",
           "settings": {
@@ -493,6 +511,7 @@
         }
       },
       "block_order": [
+        "image_4f3r4B",
         "image_jaXHcz",
         "image_R6V3E7",
         "image_U6wwVg",
