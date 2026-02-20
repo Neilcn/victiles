@@ -402,8 +402,7 @@
         ".button-layout .button {margin-top: 0; border: 1px solid #000;}",
         ".button-layout #custom-add-to-cart {border: 1px solid #000;}",
         "@media (max-width: 790px) {.button-layout {flex-direction: column; } .button- .button h1.wt-product__name {font-size: 18px !important; } .wt-product__option .swiper-slide {max-width: 80% !important; }}",
-        "span.product-price {font-size: 30px !important;}",
-        "span.product-price {font-weight: 600 !important;}"
+        ".product-price-per-m2 {font-size: 30px !important; font-weight: 600 !important;}"
       ],
       "settings": {
         "full-width-enabled": false,
