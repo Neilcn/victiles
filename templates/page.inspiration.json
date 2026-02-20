@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_y4d9Uj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_AGUA.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_4hbXY9": {
           "type": "image",
           "settings": {
@@ -264,7 +282,7 @@
             "image": "shopify://shop_images/001_3ec63573-f0a9-402f-8856-bf2ef7a5cd99.jpg",
             "room": "Bathroom",
             "colour": "White",
-            "style": "Modern",
+            "style": "Coastal Living",
             "product_1": "hf-terrazzo-cream-matt-finish-600x600mm",
             "hotspot_x_1": 79,
             "hotspot_y_1": 48,
@@ -314,6 +332,7 @@
         }
       },
       "block_order": [
+        "image_y4d9Uj",
         "image_4hbXY9",
         "image_6wfDbe",
         "image_cNDYUg",
