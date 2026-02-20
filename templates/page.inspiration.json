@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_qXwMkK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_SELVA_14.7.png",
+            "room": "commercial",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "188575-dune-agadir-selva-147x147",
+            "hotspot_x_1": 68,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_xmiUUw": {
           "type": "image",
           "settings": {
@@ -421,6 +439,7 @@
         }
       },
       "block_order": [
+        "image_qXwMkK",
         "image_xmiUUw",
         "image_LJfeek",
         "image_dtVCNf",
