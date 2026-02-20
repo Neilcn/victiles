@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_U6wwVg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGNES_GREY_200X200_a6b101af-869d-4bf1-9c29-a5ac806272e0.png",
+            "room": "Living Room",
+            "colour": "Grey",
+            "style": "Industrial",
+            "product_1": "187664-agnes-grey-matt-200x200mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 49,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_qXwMkK": {
           "type": "image",
           "settings": {
@@ -439,6 +457,7 @@
         }
       },
       "block_order": [
+        "image_U6wwVg",
         "image_qXwMkK",
         "image_xmiUUw",
         "image_LJfeek",
