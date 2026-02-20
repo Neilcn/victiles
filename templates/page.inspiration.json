@@ -84,7 +84,7 @@
             "image": "shopify://shop_images/AGADIR_AGUA.png",
             "room": "Bathroom",
             "colour": "Blue",
-            "style": "Rustic & Farmhouse",
+            "style": "Coastal Living",
             "product_1": "",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -163,6 +163,23 @@
             "product_2": "tus0023-universal-mirabell-feature-610x1222mm",
             "hotspot_x_2": 62,
             "hotspot_y_2": 17,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Wzx378": {
+          "type": "image",
+          "settings": {
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
             "product_3": "",
             "hotspot_x_3": 70,
             "hotspot_y_3": 70
@@ -356,6 +373,7 @@
         "image_6wfDbe",
         "image_cNDYUg",
         "image_qPAyRa",
+        "image_Wzx378",
         "image_nXMnR9",
         "image_bQtNJf",
         "image_YJLazj",
