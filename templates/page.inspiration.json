@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_R6V3E7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGNES_NATURAL_200X200_ad9c0a22-7a0d-4ec4-86e0-4df6a6496a06.png",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "187686-agnes-natural-matt-200x200mm-spain-made",
+            "hotspot_x_1": 33,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_U6wwVg": {
           "type": "image",
           "settings": {
@@ -457,6 +475,7 @@
         }
       },
       "block_order": [
+        "image_R6V3E7",
         "image_U6wwVg",
         "image_qXwMkK",
         "image_xmiUUw",
