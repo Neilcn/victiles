@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_jaXHcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_AMANDE_69X240_2f920ceb-b498-4c57-ba76-5633364053a8.png",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "product_1": "189181-atlantique-amande-69x240",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 18,
+            "product_2": "189068-greenland-clay-matt-64x223",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 92,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_R6V3E7": {
           "type": "image",
           "settings": {
@@ -475,6 +493,7 @@
         }
       },
       "block_order": [
+        "image_jaXHcz",
         "image_R6V3E7",
         "image_U6wwVg",
         "image_qXwMkK",
