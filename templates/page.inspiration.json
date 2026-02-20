@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_dtVCNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_LAGO.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Modern Minimal",
+            "product_1": "188548-dune-agadir-lago-70x280",
+            "hotspot_x_1": 62,
+            "hotspot_y_1": 69,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_dhVCRz": {
           "type": "image",
           "settings": {
@@ -367,6 +385,7 @@
         }
       },
       "block_order": [
+        "image_dtVCNf",
         "image_dhVCRz",
         "image_y4d9Uj",
         "image_4hbXY9",
