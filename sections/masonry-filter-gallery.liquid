@@ -126,8 +126,10 @@
 /* Hotspots */
 .hotspot-container {
   position: absolute;
-  z-index: 10;
+  z-index: 20; /* Increased to be above overlays/zoom buttons */
   transform: translate(-50%, -50%);
+  /* Ensure hits are registered on mobile */
+  touch-action: manipulation; 
 }
 
 .hotspot-dot {
@@ -142,6 +144,8 @@
   display: block;
   padding: 0;
   animation: pulse 2s infinite;
+  z-index: 21; /* Ensure dot itself is clickable */
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
 }
 
 .hotspot-dot::after {
@@ -180,6 +184,7 @@
 }
 
 .hotspot-dot:hover + .hotspot-card,
+.hotspot-dot:focus + .hotspot-card, /* Add focus support for accessibility and mobile */
 .hotspot-card:hover {
   opacity: 1;
   visibility: visible;
