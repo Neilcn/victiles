@@ -59,21 +59,22 @@
 
 .masonry-grid {
   display: flex;
-  flex-wrap: wrap;
   gap: 1.5rem;
+  align-items: flex-start; /* Important for columns to not stretch */
+}
+
+.masonry-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
 }
 
 .masonry-item {
-  margin-bottom: 1.5rem;
+  width: 100%;
   position: relative;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  width: calc(50% - 0.75rem); /* 2 columns accounting for gap */
-}
-
-@media screen and (min-width: 990px) {
-  .masonry-item {
-     width: calc(25% - 1.125rem); /* 4 columns accounting for gap */
-  }
+  margin-bottom: 0; /* Handled by gap in column */
 }
 
 .masonry-item-content {
@@ -604,10 +605,75 @@
 
 <script >
 document.addEventListener('DOMContentLoaded', () => {
-  const grid = document.getElementById('masonry-grid');
-  const items = Array.from(grid.querySelectorAll('.masonry-item'));
+  // Store original items to easily re-distribute
+  // Note: items are live elements in the DOM initially
+  const originalItems = Array.from(grid.querySelectorAll('.masonry-item'));
   const clearBtn = document.getElementById('clear-filters');
   
+  // Create columns based on screen width
+  let columnsCount = window.innerWidth >= 990 ? 4 : 2;
+  let columns = [];
+
+  function initMasonry() {
+    // Clear grid
+    grid.innerHTML = '';
+    columns = [];
+    
+    // Create column elements
+    for(let i=0; i<columnsCount; i++) {
+        const col = document.createElement('div');
+        col.classList.add('masonry-col');
+        grid.appendChild(col);
+        columns.push(col);
+    }
+    
+    // Distribute items
+    distributeItems(originalItems);
+  }
+
+  function distributeItems(itemsToDistribute) {
+      // Clear columns content first? No, we might be appending.
+      // But for filtering we usually hide/show.
+      // With this JS masonry approach, "hidden" items shouldn't take up space.
+      // We should actually re-append visible items to columns to maintain balance.
+      
+      // Reset columns
+      columns.forEach(col => col.innerHTML = '');
+      
+      let visibleItems = itemsToDistribute.filter(item => !item.classList.contains('hidden'));
+      
+      visibleItems.forEach((item, index) => {
+          // Simple distribution: append to the shortest column? 
+          // Or just round-robin for simplicity (index % count). 
+          // Shortest column is better for true masonry look.
+          
+          // Find shortest column
+          let minHeight = Infinity;
+          let targetCol = columns[0];
+          
+          columns.forEach(col => {
+              if(col.offsetHeight < minHeight) {
+                  minHeight = col.offsetHeight;
+                  targetCol = col;
+              }
+          });
+          
+          targetCol.appendChild(item);
+      });
+  }
+
+  // Initial load
+  initMasonry();
+
+  // Resize handler
+  window.addEventListener('resize', () => {
+      const newCount = window.innerWidth >= 990 ? 4 : 2;
+      if (newCount !== columnsCount) {
+          columnsCount = newCount;
+          initMasonry();
+      }
+  });
+
   const activeFilters = {
     room: [],
     colour: [],
@@ -616,6 +682,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function getUniqueValues(attributeName) {
     const values = new Set();
+    originalIonst values = new Set();
     items.forEach(item => {
       const rawVal = item.getAttribute(`data-${attributeName}`);
       if (rawVal) {
@@ -739,7 +806,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Test: if we select this specific value, does it behave with other groups?
         // We look for ONE item that has this value AND matches other active groups.
         
-        const hasMatchingItem = items.some(item => {
+        const hasMatchingItem = originalItems.some(item => {
           // 1. Does item have this specific value?
           const rawVals = item.getAttribute(`data-${targetGroup}`);
           const itemVals = rawVals ? rawVals.split(',').map(s => s.trim()) : [];
