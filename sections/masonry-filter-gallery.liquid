@@ -60,7 +60,9 @@
 .masonry-grid {
   display: flex;
   gap: 1.5rem;
-  align-items: flex-start; /* Important for columns to not stretch */
+  align-items: flex-start;
+  width: 100%; /* Ensure full width */
+  flex-wrap: nowrap; /* Prevent wrapping of columns */
 }
 
 .masonry-col {
@@ -68,13 +70,22 @@
   flex-direction: column;
   gap: 1.5rem;
   flex: 1;
+  min-width: 0; /* Fix for flex items not shrinking properly */
 }
 
 .masonry-item {
   width: 100%;
   position: relative;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  margin-bottom: 0; /* Handled by gap in column */
+  margin-bottom: 0;
+  display: block !important; /* Ensure it is block, override any inline-block leftovers */
+}
+
+/* Ensure images don't overflow */
+.masonry-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .masonry-item-content {
