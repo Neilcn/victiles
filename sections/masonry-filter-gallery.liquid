@@ -58,30 +58,22 @@
 }
 
 .masonry-grid {
-  column-count: 2;
-  column-gap: 1.5rem;
-  /* Fix for WebKit relative positioning bug inside columns */
-  perspective: 1px; 
-}
-
-@media screen and (min-width: 990px) {
-  .masonry-grid {
-    column-count: 4;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .masonry-item {
-  break-inside: avoid;
   margin-bottom: 1.5rem;
   position: relative;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  
-  /* Fix for Chrome/Safari stacking context issues with CSS columns */
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  /* Often helps: */
-  display: inline-block; 
-  width: 100%;
+  width: calc(50% - 0.75rem); /* 2 columns accounting for gap */
+}
+
+@media screen and (min-width: 990px) {
+  .masonry-item {
+     width: calc(25% - 1.125rem); /* 4 columns accounting for gap */
+  }
 }
 
 .masonry-item-content {
