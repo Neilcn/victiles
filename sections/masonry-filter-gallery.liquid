@@ -137,7 +137,10 @@
 .hotspot-container {
   position: absolute;
   z-index: 10;
-  transform: translate(-50%, -50%);
+  /* Remove transform - will be handled by JS for iOS compatibility */
+  /* transform: translate(-50%, -50%); */
+  margin-left: -12px; /* Half of dot width */
+  margin-top: -12px; /* Half of dot height */
 }
 
 .hotspot-dot {
@@ -399,7 +402,7 @@
               {% assign product = block.settings[product_setting] %}
               
               {% if product != blank %}
-                <div class="hotspot-container" style="left: {{ block.settings[x_setting] }}%; top: {{ block.settings[y_setting] }}%;">
+                <div class="hotspot-container" data-hotspot-x="{{ block.settings[x_setting] }}" data-hotspot-y="{{ block.settings[y_setting] }}">
                   <button class="hotspot-dot" aria-label="View product: {{ product.title }}"></button>
                   <div class="hotspot-card">
                     <a href="{{ product.url }}" class="hotspot-card-link">
@@ -827,6 +830,25 @@ document.addEventListener('DOMContentLoaded', () => {
       // Display lightbox
       lightbox.classList.add('active');
       document.body.style.overflow = 'hidden'; // Prevent scrolling background
+      
+      // Reposition hotspots in lightbox after image loads
+      const lightboxImg = clone.querySelector('.masonry-image');
+      if (lightboxImg) {
+        const repositionLightboxHotspots = () => {
+          const hotspots = clone.querySelectorAll('.hotspot-container');
+          hotspots.forEach(hotspot => {
+            const xPercent = parseFloat(hotspot.dataset.hotspotX);
+            const yPercent = parseFloat(hotspot.dataset.hotspotY);
+            if (!isNaN(xPercent) && !isNaN(yPercent)) {
+              hotspot.style.left = (xPercent / 100) * lightboxImg.offsetWidth + 'px';
+              hotspot.style.top = (yPercent / 100) * lightboxImg.offsetHeight + 'px';
+            }
+          });
+        };
+        
+        // Small delay to ensure image has rendered in lightbox
+        setTimeout(repositionLightboxHotspots, 50);
+      }
     });
   });
   
@@ -859,6 +881,69 @@ document.addEventListener('DOMContentLoaded', () => {
     const values = getUniqueValues(group);
     createButtons(group, values);
   });
+
+  // ===== Hotspot Positioning Fix for iOS =====
+  // This uses JavaScript to position hotspots based on the actual rendered image position,
+  // bypassing the CSS column absolute positioning bug in WebKit.
+  
+  function positionHotspots() {
+    document.querySelectorAll('.masonry-item-content').forEach(content => {
+      const img = content.querySelector('.masonry-image');
+      if (!img) return;
+      
+      const hotspots = content.querySelectorAll('.hotspot-container');
+      
+      hotspots.forEach(hotspot => {
+        const xPercent = parseFloat(hotspot.dataset.hotspotX);
+        const yPercent = parseFloat(hotspot.dataset.hotspotY);
+        
+        if (isNaN(xPercent) || isNaN(yPercent)) return;
+        
+        // Calculate pixel position based on image dimensions
+        const imgWidth = img.offsetWidth;
+        const imgHeight = img.offsetHeight;
+        
+        const xPos = (xPercent / 100) * imgWidth;
+        const yPos = (yPercent / 100) * imgHeight;
+        
+        hotspot.style.left = xPos + 'px';
+        hotspot.style.top = yPos + 'px';
+      });
+    });
+  }
+  
+  // Position hotspots after images load
+  function initHotspots() {
+    const images = document.querySelectorAll('.masonry-image');
+    let loadedCount = 0;
+    const totalImages = images.length;
+    
+    if (totalImages === 0) return;
+    
+    images.forEach(img => {
+      if (img.complete) {
+        loadedCount++;
+        if (loadedCount === totalImages) {
+          positionHotspots();
+        }
+      } else {
+        img.addEventListener('load', () => {
+          loadedCount++;
+          if (loadedCount === totalImages) {
+            positionHotspots();
+          }
+        });
+      }
+    });
+    
+    // Fallback: position after a short delay regardless
+    setTimeout(positionHotspots, 500);
+  }
+  
+  initHotspots();
+  
+  // Reposition on resize
+  window.addEventListener('resize', positionHotspots);
 });
 
 </script>
