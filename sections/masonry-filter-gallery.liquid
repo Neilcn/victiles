@@ -70,14 +70,22 @@
 
 .masonry-item {
   break-inside: avoid;
+  /* Specific WebKit fix for column layouts */
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
   margin-bottom: 1.5rem;
   position: relative;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* Removing transform transition as it can cause paint glitches in columns on iOS */
+  transition: opacity 0.3s ease;
+  /* Hardware acceleration to fix positioning */
+  transform: translateZ(0);
 }
 
 .masonry-item-content {
   position: relative;
   display: block;
+  /* Ensure this container catches absolute children */
+  width: 100%;
 }
 
 .masonry-item.hidden {
@@ -120,7 +128,8 @@
 }
 
 .masonry-item:hover {
-  transform: translateY(-5px);
+  /* Removed layout-shifting transform that often breaks iOS multi-column rendering */
+  opacity: 0.95;
   z-index: 2;
 }
 /* Hotspots */
