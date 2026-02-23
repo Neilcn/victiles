@@ -70,22 +70,23 @@
 
 .masonry-item {
   break-inside: avoid;
-  /* Specific WebKit fix for column layouts */
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   margin-bottom: 1.5rem;
   position: relative;
-  /* Removing transform transition as it can cause paint glitches in columns on iOS */
   transition: opacity 0.3s ease;
-  /* Hardware acceleration to fix positioning */
-  transform: translateZ(0);
+  /* Do NOT use transform here - it breaks column positioning on iOS */
 }
 
 .masonry-item-content {
   position: relative;
   display: block;
-  /* Ensure this container catches absolute children */
   width: 100%;
+  /* Forces this element to be a containing block for absolute children */
+  isolation: isolate;
+  contain: layout;
+  /* Backup: forces new stacking context */
+  z-index: 0;
 }
 
 .masonry-item.hidden {
