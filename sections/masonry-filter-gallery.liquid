@@ -60,6 +60,8 @@
 .masonry-grid {
   column-count: 2;
   column-gap: 1.5rem;
+  /* Fix for WebKit relative positioning bug inside columns */
+  perspective: 1px; 
 }
 
 @media screen and (min-width: 990px) {
@@ -78,8 +80,6 @@
 .masonry-item-content {
   position: relative;
   display: block;
-  /* Transform hack to reset stacking context without altering layout */
-  transform: translateZ(0); 
 }
 
 .masonry-item.hidden {
