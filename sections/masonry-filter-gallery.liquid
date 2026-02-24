@@ -58,19 +58,19 @@
 }
 
 .masonry-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-  align-items: start; /* Prevents stretching */
+  column-count: 2;
+  column-gap: 1.5rem;
 }
 
 @media screen and (min-width: 990px) {
   .masonry-grid {
-    grid-template-columns: repeat(4, 1fr);
+    column-count: 4;
   }
 }
 
 .masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
   position: relative;
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
