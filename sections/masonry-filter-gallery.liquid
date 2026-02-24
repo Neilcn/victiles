@@ -58,21 +58,24 @@
 }
 
 .masonry-grid {
-  column-count: 2;
-  column-gap: 1.5rem;
-}
-
-@media screen and (min-width: 990px) {
-  .masonry-grid {
-    column-count: 4;
-  }
+  /* Masonry.js handles the layout */
 }
 
 .masonry-item {
-  break-inside: avoid;
+  width: calc(50% - 12px); /* 2 columns: (100% - 1 gutter) / 2 = 50% - 12px */
   margin-bottom: 1.5rem;
   position: relative;
   transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@media screen and (min-width: 990px) {
+  .masonry-item {
+    width: calc(25% - 18px); /* 4 columns: (100% - 3 gutters) / 4 = 25% - 18px */
+  }
+}
+
+.masonry-gutter-sizer {
+  width: 24px; /* 1.5rem = 24px */
 }
 
 .masonry-item-content {
@@ -345,6 +348,7 @@
   </div>
 
   <div class="masonry-grid" id="masonry-grid">
+    <div class="masonry-gutter-sizer"></div>
     {% for block in section.blocks %}
       {% if block.settings.image != blank %}
         {% assign rooms = block.settings.room | split: ',' %}
@@ -596,11 +600,31 @@
 }
 {% endschema %}
 
-<script >
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script>
 document.addEventListener('DOMContentLoaded', () => {
   const grid = document.getElementById('masonry-grid');
   const items = Array.from(grid.querySelectorAll('.masonry-item'));
   const clearBtn = document.getElementById('clear-filters');
+  
+  // Initialize Masonry.js
+  let msnry = null;
+  
+  function initMasonry() {
+    // Wait for images to load before initializing Masonry
+    imagesLoaded(grid, function() {
+      msnry = new Masonry(grid, {
+        itemSelector: '.masonry-item:not(.hidden)',
+        columnWidth: '.masonry-item:not(.hidden)',
+        gutter: '.masonry-gutter-sizer',
+        percentPosition: true,
+        transitionDuration: '0.3s'
+      });
+    });
+  }
+  
+  initMasonry();
   
   const activeFilters = {
     room: [],
@@ -704,6 +728,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     updateButtonAvailability();
+    
+    // Re-layout Masonry after filtering
+    if (msnry) {
+      msnry.reloadItems();
+      msnry.layout();
+    }
   }
 
   function updateButtonAvailability() {
@@ -848,6 +878,17 @@ document.addEventListener('DOMContentLoaded', () => {
   ['room', 'colour', 'style'].forEach(group => {
     const values = getUniqueValues(group);
     createButtons(group, values);
+  });
+
+  // Re-layout Masonry on window resize
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (msnry) {
+        msnry.layout();
+      }
+    }, 200);
   });
 });
 
