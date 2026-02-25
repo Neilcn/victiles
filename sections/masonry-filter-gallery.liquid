@@ -1,12 +1,23 @@
 {% style %}
+/* Ensure all elements use border-box */
+.masonry-gallery-section *,
+.masonry-gallery-section *::before,
+.masonry-gallery-section *::after {
+  box-sizing: border-box;
+}
+
 .masonry-gallery-section {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  max-width: 100%;
 }
 
 .masonry-filters-container {
   margin-bottom: 2rem;
+  overflow-x: hidden;
 }
+
 
 .filter-group {
   margin-bottom: 1rem;
@@ -57,26 +68,35 @@
 }
 
 .masonry-grid {
-  column-count: 2;
-  column-gap: 1.5rem;
-}
-
-@media screen and (min-width: 990px) {
-  .masonry-grid {
-    column-count: 4;
-  }
+  /* Masonry.js handles the layout */
+  position: relative; /* Required for Masonry.js absolute positioning */
+  overflow: hidden; /* Contain positioned items */
+  width: 100%;
+  max-width: 100%;
 }
 
 .masonry-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
+  width: calc(50% - 8px); /* 2 columns */
+  margin-bottom: 1.6rem;
   position: relative;
   transition: opacity 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 990px) {
+  .masonry-item {
+    width: calc(25% - 18px); /* 4 columns: (100% - 3 gutters) / 4 = 25% - 18px */
+  }
+}
+
+.masonry-gutter-sizer {
+  width: 16px; /* 1.5rem = 24px */
 }
 
 .masonry-item-content {
   position: relative;
   display: block;
+  overflow: visible; /* Allow hotspots to be visible */
 }
 
 .masonry-item.hidden {
@@ -171,6 +191,7 @@
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   width: 200px;
+  max-width: 90vw; /* Prevent overflow on mobile */
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
@@ -231,6 +252,94 @@
   color: #555;
 }
 
+/* Zoom Button */
+.masonry-zoom-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  padding:0;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.masonry-item:hover .masonry-zoom-btn {
+  opacity: 1;
+}
+
+/* Lightbox */
+.masonry-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.masonry-lightbox.active {
+  display: flex;
+}
+
+.masonry-lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: inline-block; /* Helps wrap image size */
+}
+
+/* Ensure image respects max constraints */
+.masonry-lightbox-content img.masonry-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+.masonry-lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 10000;
+  line-height: 1;
+}
+
+/* Ensure hotspots/overlays inside lightbox behave relatively to the image content wrapper */
+.masonry-lightbox-content .masonry-overlay {
+  opacity: 1; /* Always show overlay in lightbox or maybe just hotspots? Assuming user wants both */
+  pointer-events: auto;
+}
+
+/* Adjust hotspot card position for lightbox if needed based on scale, but relative % should hold up */
+.masonry-lightbox-content .hotspot-card {
+    /* Ensure it appears above other elements */
+    z-index: 30;
+}
+
 {% endstyle %}
 
 
@@ -256,12 +365,17 @@
   </div>
 
   <div class="masonry-grid" id="masonry-grid">
+    <div class="masonry-gutter-sizer"></div>
     {% for block in section.blocks %}
       {% if block.settings.image != blank %}
+        {% assign rooms = block.settings.room | split: ',' %}
+        {% assign colours = block.settings.colour | split: ',' %}
+        {% assign styles = block.settings.style | split: ',' %}
+        
         <div class="masonry-item" 
-             data-room="{{ block.settings.room | strip | escape }}" 
-             data-colour="{{ block.settings.colour | strip | escape }}" 
-             data-style="{{ block.settings.style | strip | escape }}">
+             data-room="{% for r in rooms %}{{ r | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}" 
+             data-colour="{% for c in colours %}{{ c | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}" 
+             data-style="{% for s in styles %}{{ s | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}">
           <div class="masonry-item-content">
             <img
               src="{{ block.settings.image | image_url: width: 600 }}"
@@ -272,10 +386,21 @@
               class="masonry-image"
             >
             <div class="masonry-overlay">
-              {% if block.settings.room != blank %}<span class="badge">{{ block.settings.room }}</span>{% endif %}
-              {% if block.settings.colour != blank %}<span class="badge">{{ block.settings.colour }}</span>{% endif %}
-              {% if block.settings.style != blank %}<span class="badge">{{ block.settings.style }}</span>{% endif %}
+              {% for r in rooms %}
+                {% assign cleaned_r = r | strip %}
+                {% if cleaned_r != blank %}<span class="badge">{{ cleaned_r }}</span>{% endif %}
+              {% endfor %}
+              {% for c in colours %}
+                {% assign cleaned_c = c | strip %}
+                {% if cleaned_c != blank %}<span class="badge">{{ cleaned_c }}</span>{% endif %}
+              {% endfor %}
+              {% for s in styles %}
+                {% assign cleaned_s = s | strip %}
+                {% if cleaned_s != blank %}<span class="badge">{{ cleaned_s }}</span>{% endif %}
+              {% endfor %}
             </div>
+
+            <button class="masonry-zoom-btn" type="button" aria-label="Expand image">+</button>
             
             {% comment %} Hotspots loop {% endcomment %}
             {% for i in (1..3) %}
@@ -313,6 +438,13 @@
       {% endif %}
     {% endfor %}
   </div>
+<div id="masonry-lightbox" class="masonry-lightbox">
+  <button class="masonry-lightbox-close" aria-label="Close">&times;</button>
+  <div class="masonry-lightbox-content" id="masonry-lightbox-content">
+    <!-- Image and hotspots will be injected here -->
+  </div>
+</div>
+
 </div>
 
 {% schema %}
@@ -485,29 +617,48 @@
 }
 {% endschema %}
 
-<script >
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script>
 document.addEventListener('DOMContentLoaded', () => {
   const grid = document.getElementById('masonry-grid');
   const items = Array.from(grid.querySelectorAll('.masonry-item'));
   const clearBtn = document.getElementById('clear-filters');
   
+  // Initialize Masonry.js
+  let msnry = null;
+  
+  function initMasonry() {
+    // Wait for images to load before initializing Masonry
+    imagesLoaded(grid, function() {
+      msnry = new Masonry(grid, {
+        itemSelector: '.masonry-item:not(.hidden)',
+        columnWidth: '.masonry-item:not(.hidden)',
+        gutter: '.masonry-gutter-sizer',
+        percentPosition: true,
+        transitionDuration: '0.3s'
+      });
+    });
+  }
+  
+  initMasonry();
+  
   const activeFilters = {
-    room: null,
-    colour: null,
-    style: null
+    room: [],
+    colour: [],
+    style: []
   };
 
-  // Helper to normalize strings directly from data attributes
-  // We use the exact string from input to allow case-insensitive matching if needed, 
-  // but usually users want exact matches visually. We'll trim.
-  // Data attributes are already populated.
-  
   function getUniqueValues(attributeName) {
     const values = new Set();
     items.forEach(item => {
-      const val = item.getAttribute(`data-${attributeName}`);
-      if (val) {
-        values.add(val.trim());
+      const rawVal = item.getAttribute(`data-${attributeName}`);
+      if (rawVal) {
+        // Split by comma and add each trimmed value
+        rawVal.split(',').forEach(v => {
+          const cleanV = v.trim();
+          if(cleanV) values.add(cleanV);
+        });
       }
     });
     return Array.from(values).sort();
@@ -516,6 +667,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function createButtons(groupName, values) {
     const container = document.querySelector(`#filter-group-${groupName} .filter-buttons`);
     if(!container) return;
+
+    // Clear existing buttons to prevent duplicates if function runs multiple times
+    container.innerHTML = '';
 
     values.forEach(val => {
       if(!val) return;
@@ -527,8 +681,8 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.dataset.value = val;
       btn.dataset.group = groupName;
       
-      btn.addEventListener('click', () => {
-        toggleFilter(groupName, val, btn);
+      btn.addEventListener('click', (e) => {
+        toggleFilter(groupName, val, e.target);
       });
       
       container.appendChild(btn);
@@ -536,17 +690,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function toggleFilter(group, value, btnElement) {
-    // If clicking active button, deselect it
-    if (activeFilters[group] === value) {
-      activeFilters[group] = null;
+    // Check if this value is currently selected
+    const index = activeFilters[group].indexOf(value);
+
+    if (index > -1) {
+      // It is selected, remove it
+      activeFilters[group].splice(index, 1);
       btnElement.classList.remove('active');
     } else {
-      // Deselect other buttons in same group
-      const buttons = document.querySelectorAll(`#filter-group-${group} .filter-btn`);
-      buttons.forEach(b => b.classList.remove('active'));
-      
-      // Select new
-      activeFilters[group] = value;
+      // It is not selected, add it
+      activeFilters[group].push(value);
       btnElement.classList.add('active');
     }
     
@@ -554,53 +707,205 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function applyFilters() {
-    let hasActiveFilters = false;
+    // Check if we have any active filters at all
+    const hasActiveFilters = Object.values(activeFilters).some(arr => arr.length > 0);
     
     items.forEach(item => {
+      // Assume visible, then check against each group
       let isVisible = true;
       
-      for (const [key, filterValue] of Object.entries(activeFilters)) {
-        if (filterValue) {
-          hasActiveFilters = true;
-          const itemValue = item.getAttribute(`data-${key}`);
-          // Simple string match. Could be case-insensitive if desired: 
-          // if (itemValue.toLowerCase() !== filterValue.toLowerCase())
-          if (itemValue !== filterValue) {
+      for (const [group, selectedValues] of Object.entries(activeFilters)) {
+        if (selectedValues.length > 0) {
+          // Get item's values for this group
+          const rawItemValues = item.getAttribute(`data-${group}`);
+          const itemValues = rawItemValues ? rawItemValues.split(',').map(s => s.trim()) : [];
+
+          // Logic: Does the item have at least one of the selected values for this group? (OR logic within group)
+          // If you wanted AND logic (item must have ALL selected values), we'd use .every
+          const hasMatch = selectedValues.some(val => itemValues.includes(val));
+          
+          if (!hasMatch) {
             isVisible = false;
-            break;
+            break; // No need to check other groups if one block fails
           }
         }
       }
       
       if (isVisible) {
         item.classList.remove('hidden');
-        // Trigger a re-layout or animation if using a JS masonry library
       } else {
         item.classList.add('hidden');
       }
     });
 
     if (hasActiveFilters) {
-      clearBtn.classList.add('visible');
+      if (clearBtn) clearBtn.classList.add('visible');
     } else {
-      clearBtn.classList.remove('visible');
+      if (clearBtn) clearBtn.classList.remove('visible');
+    }
+    
+    updateButtonAvailability();
+    
+    // Re-layout Masonry after filtering
+    if (msnry) {
+      msnry.reloadItems();
+      msnry.layout();
     }
   }
 
-  clearBtn.addEventListener('click', () => {
-    // Reset state
-    for (const key in activeFilters) {
-      activeFilters[key] = null;
+  function updateButtonAvailability() {
+    // For each group, we want to see which values remain valid options
+    // A value is valid if selecting it would result in at least one item being shown.
+    // However, the standard behavior for multiple-select within a group (OR logic) 
+    // vs between groups (AND logic) makes this tricky.
+    
+    // Simplified User Request: "if I clicked on Kitchen, only colours and styles on the image block with room Kitchen is clickable"
+    // This implies we check valid options based on the currently filtered items.
+    
+    // Strategy:
+    // 1. Determine the "current universe" of items that match active filters.
+    //    BUT, if we are evaluating options for Group A, we shouldn't constrain by Group A's current selection 
+    //    if we want to allow the user to expand the selection (e.g. Kitchen OR Living Room).
+    //    Usually, in multi-select (OR), options are always visible, or they are filtered by *other* groups.
+    
+    // Let's implement: Options for Group X are available if there is at least one item that:
+    // a) Has that option value for Group X.
+    // b) Matches the active filters of ALL OTHER groups (Y, Z).
+    
+    ['room', 'colour', 'style'].forEach(targetGroup => {
+      const buttons = document.querySelectorAll(`#filter-group-${targetGroup} .filter-btn`);
+      
+      buttons.forEach(btn => {
+        const value = btn.dataset.value;
+        // Test: if we select this specific value, does it behave with other groups?
+        // We look for ONE item that has this value AND matches other active groups.
+        
+        const hasMatchingItem = items.some(item => {
+          // 1. Does item have this specific value?
+          const rawVals = item.getAttribute(`data-${targetGroup}`);
+          const itemVals = rawVals ? rawVals.split(',').map(s => s.trim()) : [];
+          if (!itemVals.includes(value)) return false;
+
+          // 2. Does it match all OTHER active groups?
+          for (const [otherGroup, selectedValues] of Object.entries(activeFilters)) {
+            if (otherGroup === targetGroup) continue; // Skip the group we are evaluating
+            
+            if (selectedValues.length > 0) {
+              const otherRawVals = item.getAttribute(`data-${otherGroup}`);
+              const otherItemVals = otherRawVals ? otherRawVals.split(',').map(s => s.trim()) : [];
+              // OR logic for the other group
+              const matchesOther = selectedValues.some(v => otherItemVals.includes(v));
+              if (!matchesOther) return false;
+            }
+          }
+          
+          return true;
+        });
+
+        if (hasMatchingItem) {
+            btn.disabled = false;
+            btn.style.opacity = '1';
+            btn.style.pointerEvents = 'auto'; // Re-enable clicks
+        } else {
+           // We can hide it or disable it. User said "clickable", so disable is good.
+            btn.disabled = true;
+            btn.style.opacity = '0.3'; 
+            btn.style.pointerEvents = 'none'; // Prevent clicks
+        }
+      });
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      // Reset state
+      for (const key in activeFilters) {
+        activeFilters[key] = [];
+      }
+      // Remove active classes
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+        // Re-enable everything
+        btn.disabled = false;
+        btn.style.opacity = '1';
+        btn.style.pointerEvents = 'auto';
+      });
+      applyFilters();
+    });
+  }
+  
+  // Lightbox Logic
+  const lightbox = document.getElementById('masonry-lightbox');
+  const lightboxContent = document.getElementById('masonry-lightbox-content');
+  const closeBtn = document.querySelector('.masonry-lightbox-close');
+  
+  // Use delegation because items might be re-rendered or simpler to manage
+  // Wait, items are static here but let's stick to direct binding as before, but correct the nesting.
+  // The previous nesting was inside the clearBtn listener which was WRONG.
+  
+  document.querySelectorAll('.masonry-zoom-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevents bubbling if needed
+      const itemContent = btn.closest('.masonry-item-content');
+      
+      // Clone the content
+      // We want the image, overlay, and hotspots. The button itself isn't needed in the lightbox.
+      // But simply cloning masonry-item-content deeply is easiest.
+      const clone = itemContent.cloneNode(true);
+      
+      // Remove the zoom button from the clone
+      const zoomBtn = clone.querySelector('.masonry-zoom-btn');
+      if (zoomBtn) zoomBtn.remove();
+      
+      // Clear previous content and append new
+      lightboxContent.innerHTML = '';
+      lightboxContent.appendChild(clone);
+      
+      // Display lightbox
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden'; // Prevent scrolling background
+    });
+  });
+  
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+    lightboxContent.innerHTML = ''; // Cleanup
+  }
+  
+  if(closeBtn) {
+    closeBtn.addEventListener('click', closeLightbox);
+  }
+  
+  // Close on outside click
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      closeLightbox();
     }
-    // Remove active classes
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    applyFilters();
+  });
+  
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      closeLightbox();
+    }
   });
 
   // Initialize
   ['room', 'colour', 'style'].forEach(group => {
     const values = getUniqueValues(group);
     createButtons(group, values);
+  });
+
+  // Re-layout Masonry on window resize
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (msnry) {
+        msnry.layout();
+      }
+    }, 200);
   });
 });
 
