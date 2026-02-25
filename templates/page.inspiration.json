@@ -478,8 +478,8 @@
           "settings": {
             "image": "shopify://shop_images/ins.jpg",
             "room": "Kitchen",
-            "colour": "Green",
-            "style": "Warm Natural",
+            "colour": "Green,Grey",
+            "style": "Warm Natural,Farmhouse",
             "product_1": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain",
             "hotspot_x_1": 78,
             "hotspot_y_1": 48,
