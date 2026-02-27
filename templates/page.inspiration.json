@@ -137,7 +137,7 @@
           "settings": {
             "image": "shopify://shop_images/AGADIR_SELVA_14.7.png",
             "room": "commercial",
-            "colour": "Green",
+            "colour": "Green,Beige",
             "style": "Rustic & Farmhouse",
             "product_1": "188575-dune-agadir-selva-147x147",
             "hotspot_x_1": 68,
