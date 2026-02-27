@@ -173,7 +173,7 @@
           "settings": {
             "image": "shopify://shop_images/AGADIR_MUSGO7_x_28.png",
             "room": "Bathroom",
-            "colour": "Green",
+            "colour": "Green,Grey",
             "style": "Rustic & Farmhouse",
             "product_1": "188573-dune-agadir-cotto-oscuro-mate-70x280",
             "hotspot_x_1": 21,
