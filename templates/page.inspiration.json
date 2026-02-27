@@ -460,8 +460,8 @@
           "settings": {
             "image": "shopify://shop_images/001_3ec63573-f0a9-402f-8856-bf2ef7a5cd99.jpg",
             "room": "Bathroom",
-            "colour": "White",
-            "style": "Coastal Living",
+            "colour": "White,Beige",
+            "style": "Coastal Living,Warm Natural",
             "product_1": "hf-terrazzo-cream-matt-finish-600x600mm",
             "hotspot_x_1": 79,
             "hotspot_y_1": 48,
