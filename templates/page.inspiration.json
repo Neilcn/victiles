@@ -406,7 +406,7 @@
           "settings": {
             "image": "shopify://shop_images/ins-cau.jpg",
             "room": "Bathroom",
-            "colour": "Green",
+            "colour": "Green,White",
             "style": "Rustic & Farmhouse",
             "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
             "hotspot_x_1": 87,
