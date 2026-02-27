@@ -281,8 +281,8 @@
           "settings": {
             "image": "shopify://shop_images/WechatIMG1398.jpg",
             "room": "Bathroom",
-            "colour": "Beige",
-            "style": "Rustic & Farmhouse",
+            "colour": "Beige,White",
+            "style": "Rustic & Farmhouse,Warm Natural",
             "product_1": "equ0028-la-riviera-wheat-gloss-subway-65x200mm-made-in-spain",
             "hotspot_x_1": 67,
             "hotspot_y_1": 47,
