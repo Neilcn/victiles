@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_p4yCcd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Clay_-_Sand_Naturale_Rettificato.png",
+            "room": "Kitchen",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "05991-handmade-vibes-malta-nat-ret-600x1200mm-made-in-italy",
+            "hotspot_x_1": 92,
+            "hotspot_y_1": 38,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_a8jFAH": {
           "type": "image",
           "settings": {
@@ -548,6 +566,7 @@
         }
       },
       "block_order": [
+        "image_p4yCcd",
         "image_a8jFAH",
         "image_YyztJL",
         "image_pDnQ3H",
