@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_YyztJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Green_Glossy.png",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-05233-piemme-300x600mm-homey-stripes-green-glossy-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_pDnQ3H": {
           "type": "image",
           "settings": {
@@ -512,6 +530,7 @@
         }
       },
       "block_order": [
+        "image_YyztJL",
         "image_pDnQ3H",
         "image_4f3r4B",
         "image_jaXHcz",
