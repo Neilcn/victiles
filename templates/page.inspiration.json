@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_Q9eRYt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.38.25.png",
+            "room": "Living Room",
+            "colour": "Red",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "13amutem-rc8r-amuri-cotto-terracotta-matt-53x300",
+            "hotspot_x_1": 35,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_p4yCcd": {
           "type": "image",
           "settings": {
@@ -566,6 +584,7 @@
         }
       },
       "block_order": [
+        "image_Q9eRYt",
         "image_p4yCcd",
         "image_a8jFAH",
         "image_YyztJL",
