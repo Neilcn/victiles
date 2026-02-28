@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_a8jFAH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Mustard_Glossy.png",
+            "room": "Bathroom",
+            "colour": "Yellow",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-05235-piemme-300x600mm-homey-stripes-mustard-glossy-made-in-italy",
+            "hotspot_x_1": 67,
+            "hotspot_y_1": 33,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_YyztJL": {
           "type": "image",
           "settings": {
@@ -530,6 +548,7 @@
         }
       },
       "block_order": [
+        "image_a8jFAH",
         "image_YyztJL",
         "image_pDnQ3H",
         "image_4f3r4B",
