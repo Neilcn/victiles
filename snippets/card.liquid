@@ -20,6 +20,14 @@
 -%}
 
 {%- assign title_tag = title_tag | default: 'h3' -%}
+{%- assign unit_label = card_product.metafields.custom.unit_labels.value -%}
+{%- assign clean_unit = unit_label | remove: '/' -%}
+{%- assign coefficient = card_product.metafields.custom.coefficient | times: 1.0 -%}
+{%- assign price_raw = card_product.price | money_without_currency | replace: ',', '' | times: 1.0 -%}
+{%- assign compare_price_raw = card_product.compare_at_price | money_without_currency | replace: ',', '' | times: 1.0 -%}
+  {%- assign price_per_m2 = price_raw | divided_by: coefficient | round: 2 -%}
+  {%- assign compare_price_per_m2 = compare_price_raw | divided_by: coefficient | round: 2 -%}
+        {%- assign discount = compare_price_raw | minus: price_raw | times: 100.0 | divided_by: compare_price_raw | round -%}
 
 {% if media_aspect_ratio %}
   <style>
@@ -273,15 +281,9 @@
         {% endif %}
       </p>
         
-{%- assign unit_label = card_product.metafields.custom.unit_labels.value -%}
-{%- assign clean_unit = unit_label | remove: '/' -%}
-{%- assign coefficient = card_product.metafields.custom.coefficient | times: 1.0 -%}
-{%- assign price_raw = card_product.price | money_without_currency | replace: ',', '' | times: 1.0 -%}
-{%- assign compare_price_raw = card_product.compare_at_price | money_without_currency | replace: ',', '' | times: 1.0 -%}
 
 {%- if coefficient > 0 -%}
-  {%- assign price_per_m2 = price_raw | divided_by: coefficient | round: 2 -%}
-  {%- assign compare_price_per_m2 = compare_price_raw | divided_by: coefficient | round: 2 -%}
+
   <div class="product-caprice-per-m2">
     {%- if compare_price_raw > price_raw -%}
        <span class="product-price--sale">${{ price_per_m2 }}</span>
@@ -311,7 +313,7 @@
     {%- if compare_price_raw > price_raw -%}
       <span class="product-price--old">{{ card_product.compare_at_price | money }}</span>
       <span class="product-price--sale">{{ card_product.price | money }}</span>
-      {%- assign discount = compare_price_raw | minus: price_raw | times: 100.0 | divided_by: compare_price_raw | round -%}
+
       <span class="product-discount">-{{ discount }}%</span>
     {%- else -%}
       <span class="product-price">{{ card_product.price | money }}</span>
