@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_d7ErTm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_COTTO_69X240_37b673ab-5f28-4fab-a910-577e3d4e2ab4.png",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse,Warm Natural",
+            "product_1": "189185-atlantique-cotto-69x240",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_tC9mk9": {
           "type": "image",
           "settings": {
@@ -68,7 +86,7 @@
             "colour": "Black",
             "style": "Rustic & Farmhouse",
             "product_1": "189186-atlantique-charbon-69x240",
-            "hotspot_x_1": 30,
+            "hotspot_x_1": 55,
             "hotspot_y_1": 30,
             "product_2": "",
             "hotspot_x_2": 50,
@@ -710,6 +728,7 @@
         }
       },
       "block_order": [
+        "image_d7ErTm",
         "image_tC9mk9",
         "image_mqHy7T",
         "image_AwhPha",
