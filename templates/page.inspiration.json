@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_awrCBK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Blue_Glossy_Cloudy_Naturale.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Modern Minimal",
+            "product_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_hqzEw4": {
           "type": "image",
           "settings": {
@@ -998,6 +1016,7 @@
         }
       },
       "block_order": [
+        "image_awrCBK",
         "image_hqzEw4",
         "image_4JmYNf",
         "image_N7yB8D",
