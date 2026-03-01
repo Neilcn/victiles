@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_m3H7KN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EVOLUTA.png",
+            "room": "Living Room",
+            "colour": "Grey,Black",
+            "style": "Rustic & Farmhouse",
+            "product_1": "03538-piemme-600x600mm-evoluta-cosmopolitan-nat-ret-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 70,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_Chxdcq": {
           "type": "image",
           "settings": {
@@ -890,6 +908,7 @@
         }
       },
       "block_order": [
+        "image_m3H7KN",
         "image_Chxdcq",
         "image_cXDqFt",
         "image_ztTzrb",
