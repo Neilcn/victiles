@@ -60,6 +60,41 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_tC9mk9": {
+          "type": "image",
+          "settings": {
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_mqHy7T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_BLEU_69X240_a05d5aa4-a501-4042-9d19-9352da73a11f.png",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189183-atlantique-bleu-69x240",
+            "hotspot_x_1": 35,
+            "hotspot_y_1": 25,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_AwhPha": {
           "type": "image",
           "settings": {
@@ -674,6 +709,8 @@
         }
       },
       "block_order": [
+        "image_tC9mk9",
+        "image_mqHy7T",
         "image_AwhPha",
         "image_4tNiU6",
         "image_TAP39c",
