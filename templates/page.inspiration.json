@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_V39af7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_OLIVE_69X240_72032f86-ba08-4c97-a7a4-b7df2033f737.png",
+            "room": "Kitchen",
+            "colour": "Green,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189184-atlantique-olive-69x240",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 25,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_d7ErTm": {
           "type": "image",
           "settings": {
@@ -68,7 +86,7 @@
             "colour": "Beige",
             "style": "Rustic & Farmhouse,Warm Natural",
             "product_1": "189185-atlantique-cotto-69x240",
-            "hotspot_x_1": 30,
+            "hotspot_x_1": 40,
             "hotspot_y_1": 30,
             "product_2": "",
             "hotspot_x_2": 50,
@@ -728,6 +746,7 @@
         }
       },
       "block_order": [
+        "image_V39af7",
         "image_d7ErTm",
         "image_tC9mk9",
         "image_mqHy7T",
