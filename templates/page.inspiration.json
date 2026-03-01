@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_Yt3k7D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_White_Naturale_Chalk_Cotto_Naturali.png",
+            "room": "Bathroom",
+            "colour": "Beige,Red",
+            "style": "Rustic & Farmhouse",
+            "product_1": "est-05276-piemme-600x1200mm-homey-bloom-white-nat-ret-made-in-italy",
+            "hotspot_x_1": 60,
+            "hotspot_y_1": 40,
+            "product_2": "est-06069-piemme-600x1200mm-homey-paper-clay-cipria-made-in-italy",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_iKVQcT": {
           "type": "image",
           "settings": {
@@ -764,6 +782,7 @@
         }
       },
       "block_order": [
+        "image_Yt3k7D",
         "image_iKVQcT",
         "image_V39af7",
         "image_d7ErTm",
