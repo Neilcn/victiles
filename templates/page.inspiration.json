@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_4ikgc9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GREENLAND_PEACH_ANTI_SLIP_147X147_GREENLAND_CLAY_ANTI_SLIP_147X147_884936e6-82a2-473c-a6b2-818b41da52a4.png",
+            "room": "Living Room,Kitchen,commercial",
+            "colour": "White,Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189074-greenland-clay-anti-slip-147x147",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 35,
+            "product_2": "189075-greenland-peach-anti-slip-147x147",
+            "hotspot_x_2": 59,
+            "hotspot_y_2": 54,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_VCm9g6": {
           "type": "image",
           "settings": {
@@ -1106,6 +1124,7 @@
         }
       },
       "block_order": [
+        "image_4ikgc9",
         "image_VCm9g6",
         "image_8bWRaR",
         "image_4kziMh",
