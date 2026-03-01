@@ -203,7 +203,12 @@
                     {% if settings['badges-uppercase'] == 'uppercase' %}
                       {{ settings['custom-badge-3-input'] | upcase }}
                     {% else %}
-                      {{ settings['custom-badge-3-input'] }}
+                      {% if settings.custom-badge-3-input == 'Save' %}
+                        {{ settings['custom-badge-3-input'] }} xx%
+                      {% else %}
+                        {{ settings['custom-badge-3-input'] }}
+                      {% endif %}
+                      
                     {% endif %}
                   </div>
                 {% endif %}
