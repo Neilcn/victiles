@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_VCm9g6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JORDANA.png",
+            "room": "Living Room,commercial",
+            "colour": "White,Beige",
+            "style": "Warm Natural,Rustic & Farmhouse",
+            "product_1": "188476-dune-valencia-jordana-200x200",
+            "hotspot_x_1": 61,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_8bWRaR": {
           "type": "image",
           "settings": {
@@ -1088,6 +1106,7 @@
         }
       },
       "block_order": [
+        "image_VCm9g6",
         "image_8bWRaR",
         "image_4kziMh",
         "image_anPFdA",
