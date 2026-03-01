@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_DkGFKe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GRANADELLA_SAL_64X223_715e3265-38d9-4346-9ac6-d33e7e856d32.png",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "189067-greenland-frost-matt-64x223",
+            "hotspot_x_1": 75,
+            "hotspot_y_1": 57,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_4ikgc9": {
           "type": "image",
           "settings": {
@@ -1124,6 +1142,7 @@
         }
       },
       "block_order": [
+        "image_DkGFKe",
         "image_4ikgc9",
         "image_VCm9g6",
         "image_8bWRaR",
