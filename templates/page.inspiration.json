@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_Jfaa9N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Global_Naturale.png",
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "01436-via-della-spiga-lev-ret-600x600mm-made-in-italy",
+            "hotspot_x_1": 62,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_DkGFKe": {
           "type": "image",
           "settings": {
@@ -1142,6 +1160,7 @@
         }
       },
       "block_order": [
+        "image_Jfaa9N",
         "image_DkGFKe",
         "image_4ikgc9",
         "image_VCm9g6",
