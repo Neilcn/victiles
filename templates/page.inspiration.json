@@ -60,6 +60,42 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_anPFdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MILANO_BOSCO_69X240_0c28e133-6b60-4fc1-b10e-7f7c4b0ecab1.png",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189174-milano-bosco-69x240",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_UeVJXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ORNAMENTAL.png",
+            "room": "Bathroom",
+            "colour": "",
+            "style": "",
+            "product_1": "187820-ornamental-black-white-matt-200x200mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_awrCBK": {
           "type": "image",
           "settings": {
@@ -1016,6 +1052,8 @@
         }
       },
       "block_order": [
+        "image_anPFdA",
+        "image_UeVJXU",
         "image_awrCBK",
         "image_hqzEw4",
         "image_4JmYNf",
