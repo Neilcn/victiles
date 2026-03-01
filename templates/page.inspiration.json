@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_Chxdcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DOTS_FLAMINGO_282X285_77ac6292-de9a-4725-bc82-6630da09d24d.png",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Rustic & Farmhouse",
+            "product_1": "182003-dots-flamingo-282x285mm-spain-made",
+            "hotspot_x_1": 75,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_cXDqFt": {
           "type": "image",
           "settings": {
@@ -872,6 +890,7 @@
         }
       },
       "block_order": [
+        "image_Chxdcq",
         "image_cXDqFt",
         "image_ztTzrb",
         "image_7ENAfg",
