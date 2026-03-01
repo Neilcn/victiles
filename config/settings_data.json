@@ -95,6 +95,7 @@
     "swatches_config": "Black:#000000\nBeige:#ffe8d6\nBlue:#6091b8",
     "color_swatch_names": "Black\nBeige\nBlue",
     "variant_picture_swatch_names": "",
+    "badges-uppercase": "uppercase",
     "custom-badge-1-text": "#ffffff",
     "custom-badge-1-background": "#ff9900",
     "custom-badge-1-input": "Hot Sale",
