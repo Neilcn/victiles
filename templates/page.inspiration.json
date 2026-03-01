@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_w3Jcar": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Calce_Solid_Handmade_Calce.png",
+            "room": "Bathroom",
+            "colour": "White,Beige",
+            "style": "Modern Minimal,Rustic & Farmhouse",
+            "product_1": "06152-calce-solid-antislip-ret-600x600mm-made-in-italy",
+            "hotspot_x_1": 15,
+            "hotspot_y_1": 20,
+            "product_2": "05990-handmade-vibes-calce-nat-ret-600x1200mm-made-in-italy",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 33,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_Yt3k7D": {
           "type": "image",
           "settings": {
@@ -782,6 +800,7 @@
         }
       },
       "block_order": [
+        "image_w3Jcar",
         "image_Yt3k7D",
         "image_iKVQcT",
         "image_V39af7",
