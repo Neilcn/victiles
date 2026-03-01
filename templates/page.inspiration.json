@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_ztTzrb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cluster_Multicolor_Naturale.png",
+            "room": "Living Room,commercial",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "product_1": "03613-piemme-600x1200mm-evoluta-cluster-dark-made-in-italy",
+            "hotspot_x_1": 40,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_7ENAfg": {
           "type": "image",
           "settings": {
@@ -836,6 +854,7 @@
         }
       },
       "block_order": [
+        "image_ztTzrb",
         "image_7ENAfg",
         "image_XVRbYc",
         "image_w3Jcar",
