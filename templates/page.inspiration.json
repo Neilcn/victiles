@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_JzyyrU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fango_Solid_Handmade_Fango.png",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Modern Minimal,Rustic & Farmhouse",
+            "product_1": "05993-handmade-vibes-fango-nat-ret-600x1200mm-made-in-italy",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_fyDXKN": {
           "type": "image",
           "settings": {
@@ -926,6 +944,7 @@
         }
       },
       "block_order": [
+        "image_JzyyrU",
         "image_fyDXKN",
         "image_m3H7KN",
         "image_Chxdcq",
