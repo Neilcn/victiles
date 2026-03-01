@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_4kziMh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARDEN_NATURAL.png",
+            "room": "Living Room,Proch",
+            "colour": "White,Beige",
+            "style": "Rustic & Farmhouse,Warm Natural",
+            "product_1": "187670-marden-natural-matt-200x200mm-spain-made",
+            "hotspot_x_1": 49,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_anPFdA": {
           "type": "image",
           "settings": {
@@ -1052,6 +1070,7 @@
         }
       },
       "block_order": [
+        "image_4kziMh",
         "image_anPFdA",
         "image_UeVJXU",
         "image_awrCBK",
