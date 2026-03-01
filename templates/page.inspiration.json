@@ -63,10 +63,11 @@
         "image_tC9mk9": {
           "type": "image",
           "settings": {
-            "room": "",
-            "colour": "",
-            "style": "",
-            "product_1": "",
+            "image": "shopify://shop_images/ATLANTIQUE_CHARBON_69X240_94d4e13c-4852-4b94-b87f-0c22fae4ca2c.png",
+            "room": "Bathroom",
+            "colour": "Black",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189186-atlantique-charbon-69x240",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
             "product_2": "",
