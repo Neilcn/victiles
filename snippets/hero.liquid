@@ -170,7 +170,7 @@
 
         {% if heading != blank %}
           <h2 class="hero__title {% if heading_disable_on_mobile %}hero__title--mobile{% endif %}">
-            {{ heading | newline_to_br }}
+            {{ heading | newline_to_br }} {% render 'icon-arrow' %}
           </h2>
         {% endif %}
 

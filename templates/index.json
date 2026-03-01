@@ -341,48 +341,72 @@
         "featured_collection_ygE48Y": {
           "type": "featured_collection",
           "settings": {
-            "collection": "subway-tiles",
-            "image_collection": "shopify://shop_images/subway.jpg",
+            "collection": "showers",
+            "image_collection": "shopify://shop_images/Showers.png",
             "text_collection": ""
           }
         },
         "featured_collection_raLJm3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mosaic-tiles",
-            "image_collection": "shopify://shop_images/mosaic.jpg",
+            "collection": "bathwares-accessories-bathwares-bathwares-accessories-dda-care-accessories-bathwares-toilets-toilet-suites-bathwares-toilets",
+            "image_collection": "shopify://shop_images/Toilets.png",
             "text_collection": ""
           }
         },
         "featured_collection_8qJPdU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "stone-look-tiles",
-            "image_collection": "shopify://shop_images/stone.jpg",
+            "collection": "bathroom-tiles",
+            "image_collection": "shopify://shop_images/Bathroom_Tiles_05178131-ed0b-4b45-a9df-84a48f003791.jpg",
             "text_collection": ""
           }
         },
         "featured_collection_67g3zM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "herringbone-flooring",
-            "image_collection": "shopify://shop_images/herringbone.jpg",
+            "collection": "feature-wall-tiles",
+            "image_collection": "shopify://shop_images/Feature_Tiles.jpg",
             "text_collection": ""
           }
         },
         "featured_collection_Vt8y4Y": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vanity",
-            "image_collection": "shopify://shop_images/vanity.jpg",
+            "collection": "floor-tiles",
+            "image_collection": "shopify://shop_images/Floor_Tiles.jpg",
             "text_collection": ""
           }
         },
         "featured_collection_7iTnF4": {
           "type": "featured_collection",
           "settings": {
+            "collection": "mirrors",
+            "image_collection": "shopify://shop_images/Mirrors_1ad56aca-2c1b-47c7-9e65-0ce374709973.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_TN9L8d": {
+          "type": "featured_collection",
+          "settings": {
             "collection": "commercial-tapwares",
-            "image_collection": "shopify://shop_images/tapware.jpg",
+            "image_collection": "shopify://shop_images/Tapwares.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_FpFnQE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wall-hung-vanities",
+            "image_collection": "shopify://shop_images/Vanities.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_iiedL7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wall-tiles",
+            "image_collection": "shopify://shop_images/Wall_Tiles_bea4aa2c-0256-4295-927b-bb1a8c5fddb4.jpg",
             "text_collection": ""
           }
         }
@@ -393,7 +417,10 @@
         "featured_collection_8qJPdU",
         "featured_collection_67g3zM",
         "featured_collection_Vt8y4Y",
-        "featured_collection_7iTnF4"
+        "featured_collection_7iTnF4",
+        "featured_collection_TN9L8d",
+        "featured_collection_FpFnQE",
+        "featured_collection_iiedL7"
       ],
       "settings": {
         "heading": "Top Categories",
@@ -410,43 +437,20 @@
     "collage_fTynMR": {
       "type": "collage",
       "blocks": {
-        "image_8hAdHg": {
-          "type": "image",
-          "settings": {
-            "heading": "Transform Your Bathroom with Elegant Tile Designs",
-            "heading_disable_on_mobile": false,
-            "size_heading": 130,
-            "size_heading_mobile": 100,
-            "text": "",
-            "text_disable_on_mobile": false,
-            "button_select": "link",
-            "button_label": "Shop Tiles",
-            "button_disable_on_mobile": false,
-            "button_link": "https://victiles.com.au/search?type=product&q=AGADIR",
-            "desktop_image": "shopify://shop_images/bathroom.jpg",
-            "desktop_text_vertical_position": "top",
-            "desktop_text_horizontal_position": "left",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center",
-            "color-body-text": "#ffffff",
-            "color-overlay": "#222321",
-            "color-overlay-opacity": 35
-          }
-        },
         "image_p4Dcwz": {
           "type": "image",
           "settings": {
-            "heading": "Clearance",
+            "heading": "Tiles",
             "heading_disable_on_mobile": false,
             "size_heading": 130,
             "size_heading_mobile": 100,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "link",
-            "button_label": "Shop Tiles",
+            "button_label": "From $25/㎡",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/clearance",
-            "desktop_image": "shopify://shop_images/clearance.jpg",
+            "desktop_image": "shopify://shop_images/tiles.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -459,17 +463,17 @@
         "image_bmwQVt": {
           "type": "image",
           "settings": {
-            "heading": "Wall & Floor",
+            "heading": "Timber Flooring",
             "heading_disable_on_mobile": false,
             "size_heading": 130,
             "size_heading_mobile": 100,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "link",
-            "button_label": "Shop Tiles",
+            "button_label": "From $24/㎡",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/wall-tiles",
-            "desktop_image": "shopify://shop_images/wall-floor.jpg",
+            "button_link": "shopify://collections/timber-flooring",
+            "desktop_image": "shopify://shop_images/timber.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -478,12 +482,35 @@
             "color-overlay": "#222321",
             "color-overlay-opacity": 30
           }
+        },
+        "image_8hAdHg": {
+          "type": "image",
+          "settings": {
+            "heading": "Bathware",
+            "heading_disable_on_mobile": false,
+            "size_heading": 130,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "link",
+            "button_label": "Save up to 35%",
+            "button_disable_on_mobile": false,
+            "button_link": "shopify://collections/bathwares",
+            "desktop_image": "shopify://shop_images/bathware.jpg",
+            "desktop_text_vertical_position": "top",
+            "desktop_text_horizontal_position": "left",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "color-body-text": "#ffffff",
+            "color-overlay": "#222321",
+            "color-overlay-opacity": 35
+          }
         }
       },
       "block_order": [
-        "image_8hAdHg",
         "image_p4Dcwz",
-        "image_bmwQVt"
+        "image_bmwQVt",
+        "image_8hAdHg"
       ],
       "custom_css": [
         "@media (max-width: 790px) {.hero__title {color: #ffffff !important; } .hero__button--link {color: #ffffff !important; }}"
@@ -508,19 +535,28 @@
         "disable_on_mobile": false,
         "collection": "tiles-back-up",
         "product_list": [
-          "sti-ls601200sh-lusso-bianco-soft-honed-600x1200",
-          "sti-ata601203sh-antalya-tundra-grey-honed-600x1200",
-          "vstone-entiva-nova-ash-lappato-600-1200mm-rec",
-          "t-enmtcl3060-entiva-enzo-cinder-lappato-300-600mm-rec",
-          "ks601202m-600x1200mm-kavala-blanco-matt",
-          "6chigy2cx-ch6003-20-chiswick-grey-external-600x600x20",
-          "normandy-grigio-300x600-matt-smooth-grip",
-          "victiles-wins-600x600mm-matt-porcelian-tile-grigio"
+          "victiles-wins-600x600mm-matt-porcelian-tile-moon",
+          "victiles-wins-600x600mm-matt-porcelian-tile-coal",
+          "victiles-wins-600x600mm-matt-porcelian-tile-grigio",
+          "normandy-navona-600x600-matt-smooth-grip",
+          "normandy-grigio-600x600-matt-smooth-grip",
+          "normandy-classico-600x600-matt-smooth-grip",
+          "sti-ls6000sh-lusso-bianco-soft-honed-600x600",
+          "sti-ls6002sh-lusso-grigio-soft-honed-600x600",
+          "sti-ls6001p4-lusso-naturale-matt-p4-600x600",
+          "sti-ls6004sh-lusso-nero-soft-honed-600x600",
+          "sti-ls6003sh-lusso-terra-soft-honed-600x600",
+          "sti-ls6005sh-lusso-doppio-nero-soft-honed-600x600",
+          "vt-66teslawhite66m-tesla-grey-matt-600x600mm",
+          "vt-66teslagrey66p-tesla-grey-polished-600x600mm",
+          "vt-66teslawhite66p-tesla-grey-polished-600x600mm",
+          "vt-66teslagrey66m-tesla-grey-matt-600x600mm"
         ],
         "products_to_show": 16,
         "enable_stack_products": false,
         "show_view_all": true,
         "button_select": "primary",
+        "show_see_all": true,
         "number_of_column_desktop": 5,
         "spacing_desktop": "16",
         "make_products_full_width": false,
@@ -541,6 +577,7 @@
     },
     "button_YXBYRX": {
       "type": "button",
+      "disabled": true,
       "name": "t:sections.button.presets.name",
       "settings": {
         "button_select": "primary",
@@ -561,11 +598,30 @@
         "title": "Classic Timber Flooring Collection",
         "disable_on_mobile": false,
         "collection": "timber-flooring",
-        "product_list": [],
+        "product_list": [
+          "preference-oakleaf-laminate-8mm-aged-blackbutt",
+          "mtf-water-resistant-laminate-flooring-1216x190x12mm-spotted-gum",
+          "mtf-water-resistant-laminate-flooring-1216x190x12mm-desert-natural-oak",
+          "mtf-water-resistant-laminate-flooring-1216x190x12mm-washed-oak",
+          "mtf-water-resistant-laminate-flooring-1216x190x12mm-towny-oak",
+          "mtf-water-resistant-laminate-flooring-1216x190x12mm-driftwood",
+          "preference-easi-plank-spc-herringbone-hybrid-floor-625-x-125-x-7-5mm-oak-natural",
+          "preference-easi-plank-spc-herringbone-hybrid-floor-625-x-125-x-7-5mm-natural-blackbutt",
+          "preference-easi-plank-spc-herringbone-hybrid-floor-625-x-125-x-7-5mm-grey-stone",
+          "preference-easi-plank-spc-herringbone-hybrid-floor-625-x-125-x-7-5mm-classic-spotted-gum",
+          "preference-easi-plank-spc-herringbone-hybrid-floor-625-x-125-x-7-5mm-barnside",
+          "crosswood-european-oak-engineered-herringbone-600x127x14-3mm-american-walnut",
+          "crosswood-european-oak-engineered-herringbone-600x127x14-3mm-cuban",
+          "crosswood-european-oak-engineered-herringbone-600x127x14-3mm-raw-timber",
+          "crosswood-european-oak-engineered-herringbone-600x127x14-3mm-natural-oak",
+          "crosswood-european-oak-engineered-herringbone-600x127x14-3mm-lime-wash",
+          "crosswood-european-oak-engineered-herringbone-600x127x14-3mm-latte"
+        ],
         "products_to_show": 16,
         "enable_stack_products": false,
         "show_view_all": true,
         "button_select": "primary",
+        "show_see_all": true,
         "number_of_column_desktop": 5,
         "spacing_desktop": "16",
         "make_products_full_width": false,
@@ -594,24 +650,31 @@
         "disable_on_mobile": false,
         "collection": "bathwares-backup",
         "product_list": [
-          "bvs-490-rio-slimline-freestanding-vanity-490mm",
-          "bianca-sensor-tap-chrome-nr403ch",
-          "milan-900-cabinet-only",
-          "commercial-sensor-mixer-pvd-black-nr406pb",
-          "bella-1200-cabinet-only",
-          "erica-750mm-natural-oak-floor-standing-vanity-e-fs750",
-          "elwood-1500mm-matte-white-wall-hung-vanity-el-wh1500-mw-single-double-bowls",
-          "mecca-sensor-tap-brushed-gold-nr402bg",
-          "commercial-sensor-mixer-brushed-nickel-nr406bn",
-          "glen-900mm-natural-oak-floor-standing-vanity-glen-fs900",
-          "claudia-sensor-mixer-with-black-top-display-brushed-gold-nr222101bg",
-          "mecca-sensor-tap-brushed-bronze-nr402bz",
-          "claudia-sensor-mixer-with-white-top-display-chrome-nr222102ch"
+          "carysil-750mm-fluted-wall-hung-vanity-750-x-469-x-412mm-matt-white-brushed-nickel",
+          "hudson-1500mm-floor-standing-rosewood-vanity-double-bowl-sk68-1500da6",
+          "hudson-1200mm-floor-standing-matt-white-vanity-sk68-1200wm",
+          "milan-1200-cabinet-only",
+          "erica-900mm-natural-oak-floor-standing-vanity-e-fs900",
+          "cwh66-900a8-plateau-collection-900mm-natural-timber-single-bowl",
+          "wt-7501gm-tiara-basin-mixer-in-gun-metal",
+          "wt-6501cc-kenzo-basin-mixer-in-champagne-copper-1",
+          "wt-6651bk-jess-basin-mixer-in-matte-black-1",
+          "wt-3501bn-bravo-ii-basin-mixer-in-brushed-nickel",
+          "zen-ss316l-basin-mixer-handless-brushed-nickel-nr162201bbn",
+          "opal-basin-mixer-graphite-nr251901gr",
+          "led-mi-800-vanta-led-mirror-800-524mm",
+          "led-mi-1100-lustra-led-mirror-1100-663mm",
+          "led-mr-800-boston-led-mirror-800-800mm",
+          "led-mosh-4590-montego-led-mirror-450-900mm-1",
+          "led-mosh-4590-montego-led-mirror-450-900mm",
+          "led-mash-6161-tasman-led-mirror-610-900mm-no-frame",
+          "led-msh-12070-opal-led-mirror-1200-700mm"
         ],
         "products_to_show": 16,
         "enable_stack_products": false,
         "show_view_all": true,
         "button_select": "primary",
+        "show_see_all": true,
         "number_of_column_desktop": 5,
         "spacing_desktop": "16",
         "make_products_full_width": false,
@@ -666,12 +729,12 @@
       ],
       "custom_css": [
         "a.hero__button--primary.hero__button.hero {border-radius: 0px !important;}",
-        ".wt-parallax {min-height: 150vh !important;}"
+        ".wt-parallax {min-height: 100vh !important;}"
       ],
       "settings": {
         "desktop_text_horizontal_position": "center",
         "rotation": 10,
-        "image_1": "shopify://shop_images/Luxe-1920-Sky-Blue-ls-1536x864.jpg",
+        "image_1": "shopify://shop_images/Get_Inspired.jpg",
         "button_link1": "",
         "image_2": "shopify://shop_images/1_1.jpg",
         "button_link2": "",
@@ -1264,43 +1327,6 @@
         "margin-bottom": 60
       }
     },
-    "rich_text_AEdhNY": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_FwxGPp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Frequently Asked Questions",
-            "disable_on_mobile": false,
-            "size_heading": 170,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_BD738P": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Find answers to your questions about our products, ordering process, payment options, delivery, etc.</p>",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_FwxGPp",
-        "text_BD738P"
-      ],
-      "custom_css": [
-        ".hero__overlay.hero__overlay--center.hero__overlay--center.hero__overlay--mobile--.hero__overlay--mobile-- {padding-bottom: 10px;}",
-        "h2.hero__title.hero {font-size: 24px;}"
-      ],
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 0
-      }
-    },
     "collapsible_menu_nEQKAL": {
       "type": "collapsible_menu",
       "blocks": {
@@ -1310,7 +1336,7 @@
             "heading": "Can you help with tile design and layout suggestions?",
             "content": "<p>Absolutely! Our team is well-versed in tile design and layout. We can provide expert suggestions based on your space and desired look, ensuring a cohesive and appealing result. Let us assist you in bringing your vision to life. </p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
           }
         },
         "collapsible_tab_LUfQ3c": {
@@ -1319,7 +1345,7 @@
             "heading": "Where is your tiles store located in Melbourne?",
             "content": "<p>Our tiles store is located at 2/120 Canterbury Rd, Kilsyth South VIC and second tiles shop is located at 64-66 Amberley Cres, Dandenong South VIC. We are open Monday through Friday from 9am to 5pm and Saturday from 9am to 4pm.We invite you to visit our showroom to see our wide selection of tiles in person. Our experienced staff is happy to help you choose the perfect tile for your next project.</p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
           }
         },
         "collapsible_tab_jCFjE7": {
@@ -1328,7 +1354,7 @@
             "heading": "Can I view and order samples online before making a larger purchase?",
             "content": "<p>Absolutely! We believe in the significance of experiencing the tiles firsthand. While we offer an online viewing option, we warmly invite you to visit our tiles store to see and feel the samples in person. This will give you a better understanding of their quality and appearance. Drop by, and our staff will be happy to assist you in selecting and understanding your options before making a larger purchase for tiles Melbourne.</p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
           }
         },
         "collapsible_tab_FieqdK": {
@@ -1337,7 +1363,7 @@
             "heading": "Shipping and Delivery",
             "content": "<ul><li>At VICTILES, we offer delivery and shop collection for online orders, with a $90 delivery fee for standard Metro orders in Victoria, and in-stock items available for collection or dispatch within 1-3 business days. </li><li>Tiles may vary in colour, texture, or appearance due to their design, and shade variations are common in clay products; no responsibility is accepted for crazing, shade variations, or accidents due to slippery tiles, improper maintenance, or inappropriate tile selection.</li><li>Tiles must be inspected upon receipt and laid according to industry standards, as laying them signifies acceptance of their quality and appearance, with no claims accepted afterwards.</li><li>Returns are accepted within 15 days of receipt, subject to a 35% handling charge on the return value.<br/></li></ul>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
           }
         }
       },
@@ -1348,14 +1374,19 @@
         "collapsible_tab_FieqdK"
       ],
       "custom_css": [
-        ".wt-collapse-menu .wt-collapse__trigger__title {font-size: 16px !important;}",
+        ".wt-collapse-menu .wt-collapse__trigger__title {font-size: 16px !important; font-weight: 100 !important;}",
+        "h2.headline__title {font-weight: 100 !important; padding: 12px 0 !important;}",
         "@media (max-width: 790px) {.wt-collapse__trigger.wt-collapsible__trigger {padding-bottom: 0px !important; } .wt-collapse__wrapper .wt-collapse__trigger--active + .wt-collapse__target {margin-top: 8px; }}"
       ],
       "settings": {
+        "title": "FAQs",
+        "subtitle": "Get to know us",
+        "description": "<p>Every homeowner wants what’s best for their space. Investing in the right products and accessories is very crucial to ensure your home lasts a lifetime. If you want your home to look modern, stylish and trendy, you need to shop for the best tiles online. Keeping this in mind, we at <strong>VICTILES</strong> offer tiles online in Melbourne at the best prices.</p>",
         "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "compact-size-enabled": true,
-        "margin-top": 0,
+        "background_color": "#f2f2f2",
+        "compact-size-enabled": false,
+        "two-columns-enabled": true,
+        "margin-top": 32,
         "margin-bottom": 32
       }
     },
@@ -1539,7 +1570,6 @@
     "multicolumn_hyPJ6j",
     "image_with_text_XEykNM",
     "testimonials_mB6iUg",
-    "rich_text_AEdhNY",
     "collapsible_menu_nEQKAL",
     "newsletter_i8q83Y",
     "features_banner_rnAYGJ",
