@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_4JmYNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_White_Glossy.png",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Rustic & Farmhouse,Coastal Living",
+            "product_1": "est-05234-piemme-300x600mm-homey-stripes-white-glossy-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 38,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_N7yB8D": {
           "type": "image",
           "settings": {
@@ -962,6 +980,7 @@
         }
       },
       "block_order": [
+        "image_4JmYNf",
         "image_N7yB8D",
         "image_JzyyrU",
         "image_fyDXKN",
