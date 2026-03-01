@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_XVRbYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chalk_Naturale_Rettificato_Bloom_Blue_Naturale_Rettificato.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Rustic & Farmhouse",
+            "product_1": "est-05275-piemme-600x1200mm-homey-bloom-blue-nat-ret-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 13,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_w3Jcar": {
           "type": "image",
           "settings": {
@@ -800,6 +818,7 @@
         }
       },
       "block_order": [
+        "image_XVRbYc",
         "image_w3Jcar",
         "image_Yt3k7D",
         "image_iKVQcT",
