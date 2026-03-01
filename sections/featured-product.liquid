@@ -109,6 +109,9 @@
           }
         {%- endcase -%}
       {%- endfor -%}
+    .card__badges--item {
+      min-width:90px;
+    }
 </style>
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -204,7 +207,7 @@
                       {{ settings['custom-badge-3-input'] | upcase }}
                     {% else %}
                       {% if settings.custom-badge-3-input == 'Save' %}
-                        {{ settings['custom-badge-3-input'] }} xx%
+                        {{ settings['custom-badge-3-input'] }} {{ discount }}%
                       {% else %}
                         {{ settings['custom-badge-3-input'] }}
                       {% endif %}
