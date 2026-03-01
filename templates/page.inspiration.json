@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_7ENAfg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CIRCULAR_SKY.png",
+            "room": "Bathroom",
+            "colour": "Blue,White,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "187822-circular-sky-matt-200x200mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 85,
+            "product_2": "188254-tabarca-blanco-75x230",
+            "hotspot_x_2": 27,
+            "hotspot_y_2": 45,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_XVRbYc": {
           "type": "image",
           "settings": {
@@ -818,6 +836,7 @@
         }
       },
       "block_order": [
+        "image_7ENAfg",
         "image_XVRbYc",
         "image_w3Jcar",
         "image_Yt3k7D",
