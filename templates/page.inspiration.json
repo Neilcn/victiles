@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_84RBfG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GRANADELLA_CIELO_64X223_96dd0c8d-dc5c-419b-a1f1-f1cf24c05c6c.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189200-granadella-cielo-64x223",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 20,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_Jfaa9N": {
           "type": "image",
           "settings": {
@@ -1160,6 +1178,7 @@
         }
       },
       "block_order": [
+        "image_84RBfG",
         "image_Jfaa9N",
         "image_DkGFKe",
         "image_4ikgc9",
