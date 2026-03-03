@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_jrQgt3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-4.png",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-cloud-50x150mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_Jt98D8": {
           "type": "image",
           "settings": {
@@ -1250,6 +1268,7 @@
         }
       },
       "block_order": [
+        "image_jrQgt3",
         "image_Jt98D8",
         "image_YdFFBL",
         "image_AfkTfN",
