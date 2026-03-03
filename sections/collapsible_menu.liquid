@@ -24,50 +24,86 @@
       --custom-section-color-border: {{ section.settings.color-body-text }};
     {% endif %}
   }
+
+  [data-section-id="{{ section.id }}"] .wt-collapse-menu--two-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 50px;
+    align-items: start;
+  }
+
+  [data-section-id="{{ section.id }}"] .wt-collapse-menu--two-columns .headline,
+  [data-section-id="{{ section.id }}"] .wt-collapse-menu--two-columns .wt-collapse-menu__items {
+    width: 100%;
+    margin: 0;
+  }
+
+  [data-section-id="{{ section.id }}"] .headline__subheading {
+    color: #aaa;
+  }
 </style>
 <section
   class="wt-collapse__section__inner"
   data-section-id="{{ section.id }}"
 >
   <div
-    class="wt-collapse__wrapper wt-collapse-menu{% if section.settings.compact-size-enabled == true %}  wt-collapse__wrapper--compact{% endif %} rte"
+    class="wt-collapse__wrapper wt-collapse-menu{% if section.settings.compact-size-enabled == true %}  wt-collapse__wrapper--compact{% endif %}{% if section.settings.two-columns-enabled %} wt-collapse-menu--two-columns{% endif %} rte"
   >
-    {% for block in section.blocks %}
-      <collapsible-section
-        {% if settings.animations %}
-          data-cascade
-          style="--animation-order: {{ forloop.index }};"
+    {% if section.settings.title != blank
+      or section.settings.subtitle != blank
+      or section.settings.description != blank
+    %}
+      <div class="headline {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}">
+        {% if section.settings.subtitle != blank %}
+          <p class="headline__subheading">{{ section.settings.subtitle | escape }}</p>
         {% endif %}
-        class="wt-collapse wt-collapse--always  {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
-      >
-        <div
-          class="wt-collapse__trigger wt-collapsible__trigger"
-          role="button"
-          tabindex="0"
-          data-open="false"
-          aria-expanded="false"
-          aria-controls="CollapsibleTab-{{ block.id }}"
+        {% if section.settings.title != blank %}
+          <h2 class="headline__title">{{ section.settings.title | newline_to_br }}</h2>
+        {% endif %}
+        {% if section.settings.description != blank %}
+          <div class="headline__text">{{ section.settings.description }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="wt-collapse-menu__items">
+      {% for block in section.blocks %}
+        <collapsible-section
+          {% if settings.animations %}
+            data-cascade
+            style="--animation-order: {{ forloop.index }};"
+          {% endif %}
+          class="wt-collapse wt-collapse--always  {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
         >
-          <div class="wt-collapse__trigger__text">
-            {% if block.settings.icon != 'none' %}
-              <div class="wt-collapse__trigger__icon">
-                {% render 'icon-accordion', icon: block.settings.icon %}
-              </div>
-            {% endif %}
-            <span class="wt-collapse__trigger__title">
-              {{- block.settings.heading | default: block.settings.page.title -}}
-            </span>
+          <div
+            class="wt-collapse__trigger wt-collapsible__trigger"
+            role="button"
+            tabindex="0"
+            data-open="false"
+            aria-expanded="false"
+            aria-controls="CollapsibleTab-{{ block.id }}"
+          >
+            <div class="wt-collapse__trigger__text">
+              {% if block.settings.icon != 'none' %}
+                <div class="wt-collapse__trigger__icon">
+                  {% render 'icon-accordion', icon: block.settings.icon %}
+                </div>
+              {% endif %}
+              <span class="wt-collapse__trigger__title">
+                {{- block.settings.heading | default: block.settings.page.title -}}
+              </span>
+            </div>
+            <div class="wt-icon" aria-hidden="true">
+              {% render 'icons', id: 'plus' %}
+            </div>
           </div>
-          <div class="wt-icon" aria-hidden="true">
-            {% render 'icons', id: 'plus' %}
+          <div class="wt-collapse__target wt-collapsible__target" id="CollapsibleTab-{{ block.id }}">
+            {{ block.settings.content }}
+            {{ block.settings.page.content }}
           </div>
-        </div>
-        <div class="wt-collapse__target wt-collapsible__target" id="CollapsibleTab-{{ block.id }}">
-          {{ block.settings.content }}
-          {{ block.settings.page.content }}
-        </div>
-      </collapsible-section>
-    {% endfor %}
+        </collapsible-section>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
@@ -77,6 +113,21 @@
   "tag": "section",
   "class": "wt-collapse__section",
   "settings": [
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
     {
       "type": "header",
       "content": "t:sections.global.colors",
@@ -103,6 +154,12 @@
       "id": "compact-size-enabled",
       "label": "t:sections.main-product.blocks.collapsible_tab.settings.compact-size-enabled.label",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "two-columns-enabled",
+      "label": "Two columns layout",
+      "default": false
     },
     {
       "type": "range",

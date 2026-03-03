@@ -35,6 +35,15 @@
     {% endif %}
     --grid-gap-mobile: {{ section.settings.spacing_mobile }}px;
   }
+  .see-all a {
+    display: block;
+    text-align: right;
+  }
+  .see-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 </style>
 {% if section.settings.enable_quick_add_button %}
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
@@ -52,10 +61,15 @@
   class="wt-featured-collection wt-slider {% if section.settings.disable_on_mobile %}wt-featured-collection--disable-on-mobile{% endif %}"
 >
   {% if section.settings.title != blank %}
-    <div class="headline {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %} {% if section.settings.heading_disable_on_mobile == true %} hero__title--mobile{% endif %}  {% if section.settings.disable_on_mobile %}disable-on-mobile{% endif %}">
-      {% render 'simple-block', prefix: 'headline', title: section.settings.title %}
+    <div class="headline {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %} {% if section.settings.heading_disable_on_mobile == true %} hero__title--mobile{% endif %}  {% if section.settings.disable_on_mobile %}disable-on-mobile{% endif %} {% if section.settings.show_see_all %}see-all{% endif %}">
+      {% comment %} {% render 'simple-block', prefix: 'headline', title: section.settings.title %} {% endcomment %}
+       <h2 class="headline__title">{{ section.settings.title }}</h2>
+       {% if section.settings.show_see_all %}
+       <a href="{{ routes.collections_url }}/{{ section.settings.collection.handle }}">See All ></a>
+       {% endif %}
     </div>
   {% endif %}
+
 
   <!-- Slider main container -->
   <slideshow-section
@@ -278,6 +292,16 @@
       ],
       "default": "primary",
       "label": "t:sections.featured-collection.settings.button_select.label"
+    },
+    {
+      "type": "header",
+      "content": "See All button on title"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_see_all",
+      "default": false,
+      "label": "Show see all"
     },
     {
       "type": "header",
