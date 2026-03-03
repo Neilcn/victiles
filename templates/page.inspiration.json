@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_ixdpJV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3bb58a_449cb4f535804e3a859cb11258d92777_mv2.jpg",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Modern Minimal",
+            "product_1": "alhambra-negro-250x250mm-spanish-decor-tiles",
+            "hotspot_x_1": 28,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_UiAJUr": {
           "type": "image",
           "settings": {
@@ -1322,6 +1340,7 @@
         }
       },
       "block_order": [
+        "image_ixdpJV",
         "image_UiAJUr",
         "image_WEkUwA",
         "image_pGdcNL",
