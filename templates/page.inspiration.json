@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_WEkUwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-6.png",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-cloud-50x150mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_pGdcNL": {
           "type": "image",
           "settings": {
@@ -1286,6 +1304,7 @@
         }
       },
       "block_order": [
+        "image_WEkUwA",
         "image_pGdcNL",
         "image_jrQgt3",
         "image_Jt98D8",
