@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_AfkTfN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-1.png",
+            "room": "Kitchen",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-sand-50x150mm",
+            "hotspot_x_1": 47,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_8rqkY8": {
           "type": "image",
           "settings": {
@@ -1196,6 +1214,7 @@
         }
       },
       "block_order": [
+        "image_AfkTfN",
         "image_8rqkY8",
         "image_84RBfG",
         "image_Jfaa9N",
