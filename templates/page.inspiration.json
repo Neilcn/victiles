@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_pGdcNL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-5.png",
+            "room": "commercial",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-zellige-bottle-100x100mm",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_jrQgt3": {
           "type": "image",
           "settings": {
@@ -1268,6 +1286,7 @@
         }
       },
       "block_order": [
+        "image_pGdcNL",
         "image_jrQgt3",
         "image_Jt98D8",
         "image_YdFFBL",
