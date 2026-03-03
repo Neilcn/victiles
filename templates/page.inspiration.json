@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_8rqkY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3bb58a_4ab64d2684b7428d96a8066ce00edc27_mv2.jpg",
+            "room": "Bathroom,Kitchen",
+            "colour": "Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-zellige-mist-100x100mm",
+            "hotspot_x_1": 15,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_84RBfG": {
           "type": "image",
           "settings": {
@@ -1178,6 +1196,7 @@
         }
       },
       "block_order": [
+        "image_8rqkY8",
         "image_84RBfG",
         "image_Jfaa9N",
         "image_DkGFKe",
