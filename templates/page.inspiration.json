@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_zTaWHB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-black-100x100mm-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Black",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "altea-black-100x100mm-spanish-wall-tiles",
+            "hotspot_x_1": 68,
+            "hotspot_y_1": 70,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_qcHVjt": {
           "type": "image",
           "settings": {
@@ -1376,6 +1394,7 @@
         }
       },
       "block_order": [
+        "image_zTaWHB",
         "image_qcHVjt",
         "image_Ren76e",
         "image_ixdpJV",
