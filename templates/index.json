@@ -370,11 +370,11 @@
             "text_collection": ""
           }
         },
-        "featured_collection_TN9L8d": {
+        "featured_collection_ygE48Y": {
           "type": "featured_collection",
           "settings": {
-            "collection": "commercial-tapwares",
-            "image_collection": "shopify://shop_images/Tapwares.jpg",
+            "collection": "timber-flooring",
+            "image_collection": "shopify://shop_images/Timber_Flooring.jpg",
             "text_collection": ""
           }
         },
@@ -383,6 +383,14 @@
           "settings": {
             "collection": "vanity",
             "image_collection": "shopify://shop_images/Vanities.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_TN9L8d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "commercial-tapwares",
+            "image_collection": "shopify://shop_images/Tapwares.jpg",
             "text_collection": ""
           }
         },
@@ -401,14 +409,6 @@
             "image_collection": "shopify://shop_images/Toilets.png",
             "text_collection": ""
           }
-        },
-        "featured_collection_ygE48Y": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "showers",
-            "image_collection": "shopify://shop_images/Showers.png",
-            "text_collection": ""
-          }
         }
       },
       "block_order": [
@@ -416,11 +416,11 @@
         "featured_collection_8qJPdU",
         "featured_collection_Vt8y4Y",
         "featured_collection_iiedL7",
-        "featured_collection_TN9L8d",
+        "featured_collection_ygE48Y",
         "featured_collection_FpFnQE",
+        "featured_collection_TN9L8d",
         "featured_collection_7iTnF4",
-        "featured_collection_raLJm3",
-        "featured_collection_ygE48Y"
+        "featured_collection_raLJm3"
       ],
       "settings": {
         "heading": "Top Categories",
