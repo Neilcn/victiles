@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_pC7HD3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-dusty-pink-subway-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-dusty-pink-75x150mm-spanish-wall-tiles",
+            "hotspot_x_1": 65,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_JNzX3J": {
           "type": "image",
           "settings": {
@@ -1412,6 +1430,7 @@
         }
       },
       "block_order": [
+        "image_pC7HD3",
         "image_JNzX3J",
         "image_zTaWHB",
         "image_qcHVjt",
