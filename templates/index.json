@@ -513,7 +513,7 @@
         "image_8hAdHg"
       ],
       "custom_css": [
-        "@media (max-width: 790px) {.hero__title {color: #ffffff !important; } .hero__button--link {color: #ffffff !important; } .wt-mosaic__aside {gap:10px; }}"
+        "@media (max-width: 790px) {.hero__title {color: #ffffff !important; } .hero__button--link {color: #ffffff !important; } .wt-mosaic__aside {gap: 10px; }}"
       ],
       "settings": {
         "heading": "Value Range",
@@ -636,8 +636,8 @@
         "enable_quick_add_button": false,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20
+        "margin-top": 60,
+        "margin-bottom": 0
       }
     },
     "featured_collection_VyP6LT": {
