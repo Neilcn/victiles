@@ -17,7 +17,7 @@
   display: block;
   border-radius: var(--border-radius);
   transition: transform 0.1s ease;
-  width: 60vw;
+  width: 70vw;
   max-width: 460px;
   height: auto;
 }
