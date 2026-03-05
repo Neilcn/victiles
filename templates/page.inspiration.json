@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_fDVjFa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-pine-green-100x100mm-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-pine-green-100x100mm-spanish-wall-tiles",
+            "hotspot_x_1": 45,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_rWj4wh": {
           "type": "image",
           "settings": {
@@ -1466,6 +1484,7 @@
         }
       },
       "block_order": [
+        "image_fDVjFa",
         "image_rWj4wh",
         "image_fawccz",
         "image_pC7HD3",
