@@ -381,7 +381,7 @@
         "featured_collection_FpFnQE": {
           "type": "featured_collection",
           "settings": {
-            "collection": "wall-hung-vanities",
+            "collection": "vanity",
             "image_collection": "shopify://shop_images/Vanities.jpg",
             "text_collection": ""
           }
