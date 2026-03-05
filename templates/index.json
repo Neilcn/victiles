@@ -338,19 +338,11 @@
     "collection_list_3q9paF": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_ygE48Y": {
+        "featured_collection_67g3zM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "showers",
-            "image_collection": "shopify://shop_images/Showers.png",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_raLJm3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "all-toilets",
-            "image_collection": "shopify://shop_images/Toilets.png",
+            "collection": "feature-wall-tiles",
+            "image_collection": "shopify://shop_images/Feature_Tiles.jpg",
             "text_collection": ""
           }
         },
@@ -362,14 +354,6 @@
             "text_collection": ""
           }
         },
-        "featured_collection_67g3zM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "feature-wall-tiles",
-            "image_collection": "shopify://shop_images/Feature_Tiles.jpg",
-            "text_collection": ""
-          }
-        },
         "featured_collection_Vt8y4Y": {
           "type": "featured_collection",
           "settings": {
@@ -378,11 +362,11 @@
             "text_collection": ""
           }
         },
-        "featured_collection_7iTnF4": {
+        "featured_collection_iiedL7": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mirrors",
-            "image_collection": "shopify://shop_images/Mirrors_1ad56aca-2c1b-47c7-9e65-0ce374709973.jpg",
+            "collection": "wall-tiles",
+            "image_collection": "shopify://shop_images/Wall_Tiles_bea4aa2c-0256-4295-927b-bb1a8c5fddb4.jpg",
             "text_collection": ""
           }
         },
@@ -402,25 +386,41 @@
             "text_collection": ""
           }
         },
-        "featured_collection_iiedL7": {
+        "featured_collection_7iTnF4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "wall-tiles",
-            "image_collection": "shopify://shop_images/Wall_Tiles_bea4aa2c-0256-4295-927b-bb1a8c5fddb4.jpg",
+            "collection": "mirrors",
+            "image_collection": "shopify://shop_images/Mirrors_1ad56aca-2c1b-47c7-9e65-0ce374709973.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_raLJm3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-toilets",
+            "image_collection": "shopify://shop_images/Toilets.png",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_ygE48Y": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "showers",
+            "image_collection": "shopify://shop_images/Showers.png",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_ygE48Y",
-        "featured_collection_raLJm3",
-        "featured_collection_8qJPdU",
         "featured_collection_67g3zM",
+        "featured_collection_8qJPdU",
         "featured_collection_Vt8y4Y",
-        "featured_collection_7iTnF4",
+        "featured_collection_iiedL7",
         "featured_collection_TN9L8d",
         "featured_collection_FpFnQE",
-        "featured_collection_iiedL7"
+        "featured_collection_7iTnF4",
+        "featured_collection_raLJm3",
+        "featured_collection_ygE48Y"
       ],
       "settings": {
         "heading": "Top Categories",
@@ -513,10 +513,10 @@
         "image_8hAdHg"
       ],
       "custom_css": [
-        "@media (max-width: 790px) {.hero__title {color: #ffffff !important; } .hero__button--link {color: #ffffff !important; }}"
+        "@media (max-width: 790px) {.hero__title {color: #ffffff !important; } .hero__button--link {color: #ffffff !important; } .wt-mosaic__aside {gap: 10px; }}"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Value Range",
         "full-width-enabled": true,
         "desktop_layout": "row",
         "color-body-text": "rgba(0,0,0,0)",
@@ -636,8 +636,8 @@
         "enable_quick_add_button": false,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20
+        "margin-top": 60,
+        "margin-bottom": 0
       }
     },
     "featured_collection_VyP6LT": {
