@@ -60,6 +60,24 @@
     "masonry_filter_gallery_hq3W3H": {
       "type": "masonry-filter-gallery",
       "blocks": {
+        "image_rWj4wh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-matcha-subway-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-matcha-75x150mm-spanish-wall-tiles",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 33,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_fawccz": {
           "type": "image",
           "settings": {
@@ -1448,6 +1466,7 @@
         }
       },
       "block_order": [
+        "image_rWj4wh",
         "image_fawccz",
         "image_pC7HD3",
         "image_JNzX3J",
