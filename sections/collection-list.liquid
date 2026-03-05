@@ -93,19 +93,20 @@
         "slidesPerView": "auto",
         "spaceBetween": 8,
         "freeMode": false,
-        "speed": 150,
+        "speed": 350,
         "grabCursor": false,
         "enableOnMedia": "{% if section.settings.enable_swipe %}(min-width: 0px){% else %}0{% endif %}",
         "paginationType": "bullets",
         "breakpoints": {
           "320": {
             "slidesPerView": {{ section.settings.number_of_column_mobile }},
-            "slidesPerGroup": {{ section.settings.number_of_column_mobile | floor }},
+            {% comment %} "slidesPerGroup": {{ section.settings.number_of_column_mobile | floor }}, {% endcomment %}
+             "slidesPerGroup": 1,
             "spaceBetween": 8
           },
           "900": {
             "slidesPerView": {{ section.settings.number_of_column_desktop }},
-            "slidesPerGroup": {{ section.settings.number_of_column_desktop | floor }},
+            "slidesPerGroup": 1,
             "spaceBetween": 16
           }
         },
