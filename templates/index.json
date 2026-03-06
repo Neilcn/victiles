@@ -472,7 +472,7 @@
             "button_select": "link",
             "button_label": "From $24/㎡",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/timber-flooring",
+            "button_link": "shopify://collections/clearance-timber-flooring",
             "desktop_image": "shopify://shop_images/timber.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
