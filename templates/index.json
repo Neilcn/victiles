@@ -405,7 +405,7 @@
         "featured_collection_raLJm3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all-toilets",
+            "collection": "toilets",
             "image_collection": "shopify://shop_images/Toilets.png",
             "text_collection": ""
           }
