@@ -389,7 +389,7 @@
         "featured_collection_TN9L8d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "commercial-tapwares",
+            "collection": "mixer-taps",
             "image_collection": "shopify://shop_images/Tapwares.jpg",
             "text_collection": ""
           }
