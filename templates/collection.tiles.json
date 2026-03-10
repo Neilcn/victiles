@@ -48,7 +48,7 @@
         ".hero__title svg {display: none;}"
       ],
       "settings": {
-        "full-width-enabled": true,
+        "full-width-enabled": false,
         "show_collection_description": false,
         "desktop_text_horizontal_position": "left",
         "size_heading": 120,
