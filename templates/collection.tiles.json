@@ -154,7 +154,7 @@
         "heading": "Explore Popular Collections >",
         "enable_swipe": true,
         "disable_images": false,
-        "number_of_column_desktop": 6,
+        "number_of_column_desktop": 8,
         "number_of_column_mobile": 2.1,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
