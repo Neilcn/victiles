@@ -583,7 +583,7 @@
         "button_select": "primary",
         "button_horizontal_position": "center",
         "button_label": "View More",
-        "button_link": "shopify://collections/top-selling-tiles",
+        "button_link": "shopify://collections/top-selling-tiles255",
         "margin-top": 20,
         "margin-bottom": 20,
         "background_color": "rgba(0,0,0,0)"
