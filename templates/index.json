@@ -533,7 +533,7 @@
       "settings": {
         "title": "Top Selling Tiles",
         "disable_on_mobile": false,
-        "collection": "tiles-back-up",
+        "collection": "top-selling-tiles-1",
         "product_list": [
           "victiles-wins-600x600mm-matt-porcelian-tile-moon",
           "victiles-wins-600x600mm-matt-porcelian-tile-coal",
