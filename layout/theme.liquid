@@ -157,13 +157,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {% endif %}
 
   <body class="template-{{ template_name }} nav-drawer-big mobile-nav">
-    <a href="#root" class="skip-to-content-link">{{ 'accessibility.skip_to_text' | t }}</a>
-    {% if settings.sticky_header %}<div class="sticky-header__threshold"></div>{% endif %}
-    {% sections 'header-group' %}
-<!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KK5LZ75"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+    <a href="#root" class="skip-to-content-link">{{ 'accessibility.skip_to_text' | t }}</a>
+    {% if settings.sticky_header %}<div class="sticky-header__threshold"></div>{% endif %}
+    {% sections 'header-group' %}
+
     <main id="root" class="" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
