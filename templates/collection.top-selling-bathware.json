@@ -89,28 +89,30 @@
         "featured_collection_wKr6pf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "artemis",
+            "collection": "vanity",
+            "image_collection": "shopify://shop_images/Vanity_7a471c30-b7c5-44f9-a442-a16b118ed4ef.jpg",
             "text_collection": ""
           }
         },
         "featured_collection_3MQM4e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "homey",
+            "collection": "mirrors",
             "text_collection": ""
           }
         },
         "featured_collection_mq4yP6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "universal",
+            "collection": "basins",
             "text_collection": ""
           }
         },
         "featured_collection_ayGcUe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "altea",
+            "collection": "bathtubs",
+            "image_collection": "shopify://shop_images/Bathtub.jpg",
             "text_collection": ""
           }
         },
