@@ -9,78 +9,6 @@
  */
 {
   "sections": {
-    "collection_list_z9EhdW": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_Ky49kJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "herringbone-flooring",
-            "image_collection": "shopify://shop_images/herringbone.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_m73YRJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mosaic-tiles",
-            "image_collection": "shopify://shop_images/4_b2e32d57-79d7-46dc-88ca-f50afd18c3f0.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_ygWrLF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stone-look-tiles",
-            "image_collection": "shopify://shop_images/Paver_1.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_7AfLRf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "subway-tiles",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_rmknba": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "commercial-tapwares",
-            "image_collection": "shopify://shop_images/Tapware_d2025bdb-a017-4614-988f-6915156ae582.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_EU7RKQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanity",
-            "image_collection": "shopify://shop_images/Vanity_7a471c30-b7c5-44f9-a442-a16b118ed4ef.jpg",
-            "text_collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_Ky49kJ",
-        "featured_collection_m73YRJ",
-        "featured_collection_ygWrLF",
-        "featured_collection_7AfLRf",
-        "featured_collection_rmknba",
-        "featured_collection_EU7RKQ"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "heading": "",
-        "enable_swipe": true,
-        "disable_images": false,
-        "number_of_column_desktop": 6,
-        "number_of_column_mobile": 2.1,
-        "color-body-text": "transparent",
-        "background_color": "transparent",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
     "main": {
       "type": "main-search",
       "settings": {
@@ -103,7 +31,6 @@
     }
   },
   "order": [
-    "collection_list_z9EhdW",
     "main"
   ]
 }
