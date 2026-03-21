@@ -32,6 +32,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "stone-look-tiles",
+            "image_collection": "shopify://shop_images/Paver_1.jpg",
             "text_collection": ""
           }
         },
