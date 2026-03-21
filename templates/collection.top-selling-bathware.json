@@ -119,22 +119,16 @@
         "featured_collection_qJ8D9n": {
           "type": "featured_collection",
           "settings": {
-            "collection": "manufatti",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_Qyb9qY": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "brucyd13",
+            "collection": "shower-screens",
+            "image_collection": "shopify://shop_images/Shower_Screen.jpg",
             "text_collection": ""
           }
         },
         "featured_collection_HDzBiR": {
           "type": "featured_collection",
           "settings": {
-            "collection": "petra",
+            "collection": "toilets",
+            "image_collection": "shopify://shop_images/Toilet.jpg",
             "text_collection": "Pietra"
           }
         }
@@ -148,7 +142,6 @@
         "featured_collection_mq4yP6",
         "featured_collection_ayGcUe",
         "featured_collection_qJ8D9n",
-        "featured_collection_Qyb9qY",
         "featured_collection_HDzBiR"
       ],
       "custom_css": [
