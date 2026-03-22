@@ -98,6 +98,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "mirrors",
+            "image_collection": "shopify://shop_images/Mirror.jpg",
             "text_collection": ""
           }
         },
@@ -105,6 +106,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "basins",
+            "image_collection": "shopify://shop_images/Basin.jpg",
             "text_collection": ""
           }
         },
@@ -129,7 +131,7 @@
           "settings": {
             "collection": "toilets",
             "image_collection": "shopify://shop_images/Toilet.jpg",
-            "text_collection": "Pietra"
+            "text_collection": ""
           }
         }
       },
