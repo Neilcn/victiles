@@ -28,9 +28,77 @@
         "margin-top": 32,
         "margin-bottom": 32
       }
+    },
+    "collection_list_x3a4B7": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_EyARXc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_ij7Fyf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_7Hm9zK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_G7qy3J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_6qkNfq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_bHtzxF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "text_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_EyARXc",
+        "featured_collection_ij7Fyf",
+        "featured_collection_7Hm9zK",
+        "featured_collection_G7qy3J",
+        "featured_collection_6qkNfq",
+        "featured_collection_bHtzxF"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "heading": "Collection list",
+        "enable_swipe": false,
+        "disable_images": false,
+        "number_of_column_desktop": 4,
+        "number_of_column_mobile": 2.1,
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
+    "collection_list_x3a4B7",
     "main"
   ]
 }
