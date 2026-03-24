@@ -79,9 +79,8 @@
         "featured_collection_ACdaKq": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bathroom-mixers",
-            "image_collection": "shopify://shop_images/Shower_Set.jpg",
-            "text_collection": "Shower Set"
+            "collection": "orbat",
+            "text_collection": "Orbat"
           }
         },
         "featured_collection_wKr6pf": {
