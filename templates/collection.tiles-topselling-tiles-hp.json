@@ -62,17 +62,10 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_PYfT6z": {
+        "featured_collection_Hz8hdT": {
           "type": "featured_collection",
           "settings": {
-            "collection": "kit-kat",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_ncp34f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "homey",
+            "collection": "lusso",
             "text_collection": ""
           }
         },
@@ -80,13 +73,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "enzo",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_Hz8hdT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lusso",
             "text_collection": ""
           }
         },
@@ -138,20 +124,34 @@
             "collection": "artemis",
             "text_collection": ""
           }
+        },
+        "featured_collection_PYfT6z": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kit-kat",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_ncp34f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "homey",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_PYfT6z",
-        "featured_collection_ncp34f",
-        "featured_collection_z9NAyU",
         "featured_collection_Hz8hdT",
+        "featured_collection_z9NAyU",
         "featured_collection_ACdaKq",
         "featured_collection_wKr6pf",
         "featured_collection_3MQM4e",
         "featured_collection_mq4yP6",
         "featured_collection_ayGcUe",
         "featured_collection_qJ8D9n",
-        "featured_collection_HDzBiR"
+        "featured_collection_HDzBiR",
+        "featured_collection_PYfT6z",
+        "featured_collection_ncp34f"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
