@@ -107,8 +107,7 @@
         "featured_collection_ayGcUe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bathtubs",
-            "image_collection": "shopify://shop_images/Bathtub.jpg",
+            "collection": "byron",
             "text_collection": ""
           }
         },
