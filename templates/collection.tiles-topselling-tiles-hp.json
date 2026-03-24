@@ -86,8 +86,7 @@
         "featured_collection_wKr6pf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vanity",
-            "image_collection": "shopify://shop_images/Vanity_7a471c30-b7c5-44f9-a442-a16b118ed4ef.jpg",
+            "collection": "normandy",
             "text_collection": ""
           }
         },
