@@ -93,8 +93,7 @@
         "featured_collection_3MQM4e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mirrors",
-            "image_collection": "shopify://shop_images/Mirror.jpg",
+            "collection": "pietra",
             "text_collection": ""
           }
         },
