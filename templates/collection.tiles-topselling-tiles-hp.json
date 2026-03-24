@@ -114,8 +114,7 @@
         "featured_collection_qJ8D9n": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shower-screens",
-            "image_collection": "shopify://shop_images/Shower_Screen.jpg",
+            "collection": "otway",
             "text_collection": ""
           }
         },
