@@ -121,8 +121,7 @@
         "featured_collection_HDzBiR": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toilets",
-            "image_collection": "shopify://shop_images/Toilet.jpg",
+            "collection": "artemis",
             "text_collection": ""
           }
         }
