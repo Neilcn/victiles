@@ -62,6 +62,13 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_PYfT6z": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kit-kat",
+            "text_collection": ""
+          }
+        },
         "featured_collection_ncp34f": {
           "type": "featured_collection",
           "settings": {
@@ -134,6 +141,7 @@
         }
       },
       "block_order": [
+        "featured_collection_PYfT6z",
         "featured_collection_ncp34f",
         "featured_collection_z9NAyU",
         "featured_collection_Hz8hdT",
