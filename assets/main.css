@@ -1456,8 +1456,8 @@ body.no-focus-visible .card__container:has(a:focus-visible), body.no-focus-visib
 
 .card__badges {
   position: absolute;
-  top: calc(var(--gap, 8px) * 1);
-  left: calc(var(--gap, 8px) * 1);
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1491,14 +1491,14 @@ body.no-focus-visible .card__container:has(a:focus-visible), body.no-focus-visib
   justify-content: center;
   align-items: center;
   font-family: var(--font-base);
-  font-size: calc(var(--font-base-size) - 2px);
+  font-size: calc(var(--font-base-size) - 6px);
   border-radius: var(--border-radius-button);
   background-color: var(--color-sold-out-background);
   color: var(--color-sold-out-text);
 }
 @media (max-width: 599px) {
   .card__badges--item {
-    font-size: calc(var(--font-base-size) - 4px);
+    font-size: calc(var(--font-base-size) - 10px);
   }
 }
 
