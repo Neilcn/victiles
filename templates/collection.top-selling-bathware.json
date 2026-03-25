@@ -113,9 +113,9 @@
         "featured_collection_ayGcUe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bathtubs",
+            "collection": "bathware-top-selling-bathtub",
             "image_collection": "shopify://shop_images/Bathtub.jpg",
-            "text_collection": ""
+            "text_collection": "Bathtub"
           }
         },
         "featured_collection_qJ8D9n": {
