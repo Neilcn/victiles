@@ -105,9 +105,9 @@
         "featured_collection_mq4yP6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "basins",
+            "collection": "bathware-top-selling-basin",
             "image_collection": "shopify://shop_images/Basin.jpg",
-            "text_collection": ""
+            "text_collection": "Basin"
           }
         },
         "featured_collection_ayGcUe": {
