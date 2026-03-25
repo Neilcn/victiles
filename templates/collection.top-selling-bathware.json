@@ -97,9 +97,9 @@
         "featured_collection_3MQM4e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mirrors",
+            "collection": "bathware-top-selling-mirror",
             "image_collection": "shopify://shop_images/Mirror.jpg",
-            "text_collection": ""
+            "text_collection": "Mirror"
           }
         },
         "featured_collection_mq4yP6": {
