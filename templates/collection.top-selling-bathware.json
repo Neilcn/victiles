@@ -129,9 +129,9 @@
         "featured_collection_HDzBiR": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toilets",
+            "collection": "bathware-top-selling-toilet",
             "image_collection": "shopify://shop_images/Toilet.jpg",
-            "text_collection": ""
+            "text_collection": "Toilet"
           }
         }
       },
