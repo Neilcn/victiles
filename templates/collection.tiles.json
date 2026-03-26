@@ -208,6 +208,75 @@
         "margin-bottom": 28
       }
     },
+    "collapsible_menu_cf3WJq": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_KnEntU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_1.value }}",
+            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_ttVqPM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_2.value }}",
+            "content": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_qgqbcq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_3.value }}",
+            "content": "{{ collection.metafields.custom.answer_3 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_Tkp7jf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_4.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_qLCxEi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_5.value }}",
+            "content": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_KnEntU",
+        "collapsible_tab_ttVqPM",
+        "collapsible_tab_qgqbcq",
+        "collapsible_tab_Tkp7jf",
+        "collapsible_tab_qLCxEi"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>{{ collection.metafields.custom.faq_title.value }}</h2>",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "compact-size-enabled": true,
+        "two-columns-enabled": false,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "features_banner_hADmFT": {
       "type": "features-banner",
       "blocks": {
@@ -278,6 +347,7 @@
     "title",
     "collection_list_kNirjw",
     "product-grid",
+    "collapsible_menu_cf3WJq",
     "features_banner_hADmFT"
   ]
 }
