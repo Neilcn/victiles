@@ -264,6 +264,7 @@
         "collapsible_tab_Tkp7jf",
         "collapsible_tab_qLCxEi"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
         "title": "",
@@ -279,6 +280,7 @@
     },
     "custom_liquid_39TQVp": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\ndetails#[data-section-id=\"template--20621882523785__collapsible_menu_cf3WJq\"]{\n  display: none;\n}\n</style>\n{% endif %}"
