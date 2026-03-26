@@ -159,6 +159,13 @@
         "margin-bottom": 20
       }
     },
+    "custom_liquid_DhFgND": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\nsection#shopify-section-template--20428132974729__collapsible_menu_n8awyi{\n  display: none;\n}\n</style>\n{% endif %}"
+      }
+    },
     "features_banner_hADmFT": {
       "type": "features-banner",
       "blocks": {
@@ -220,13 +227,6 @@
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 40,
         "margin-bottom": 40
-      }
-    },
-    "custom_liquid_DhFgND": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\ndetails#[data-section-id=\"template--20428132974729__collapsible_menu_n8awyi\"]{\n  display: none;\n}\n</style>\n{% endif %}"
       }
     }
   },
