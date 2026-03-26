@@ -146,6 +146,7 @@
         "collapsible_tab_Q7YxqW",
         "collapsible_tab_aCUam8"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
         "title": "",
@@ -161,6 +162,7 @@
     },
     "custom_liquid_DhFgND": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\nsection#shopify-section-template--20428132974729__collapsible_menu_n8awyi{\n  display: none;\n}\n</style>\n{% endif %}"
