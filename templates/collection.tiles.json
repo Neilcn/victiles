@@ -269,8 +269,8 @@
         "title": "",
         "subtitle": "",
         "description": "<h2>{{ collection.metafields.custom.faq_title.value }}</h2>",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "compact-size-enabled": true,
         "two-columns-enabled": false,
         "margin-top": 20,
@@ -339,6 +339,13 @@
         "margin-top": 40,
         "margin-bottom": 40
       }
+    },
+    "custom_liquid_39TQVp": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\ndetails#[data-section-id=\"template--20621882523785__collapsible_menu_cf3WJq\"]{\n  display: none;\n}\n</style>\n{% endif %}"
+      }
     }
   },
   "order": [
@@ -348,6 +355,7 @@
     "collection_list_kNirjw",
     "product-grid",
     "collapsible_menu_cf3WJq",
-    "features_banner_hADmFT"
+    "features_banner_hADmFT",
+    "custom_liquid_39TQVp"
   ]
 }
