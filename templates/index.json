@@ -335,33 +335,6 @@
         "margin-bottom": 0
       }
     },
-    "rich_text_FDECUV": {
-      "type": "rich-text",
-      "blocks": {
-        "text_weiDhx": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>Tiles Melbourne – Affordable Quality Tiles & Flooring</h1><p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "text_weiDhx"
-      ],
-      "custom_css": [
-        "h1 {font-size: 2em;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
     "collection_list_3q9paF": {
       "type": "collection-list",
       "blocks": {
@@ -495,11 +468,11 @@
         "slide_height": "fixed_height",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "section-color-body-text": "transparent",
-        "section-color-overlay": "transparent",
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "color-overlay": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
         "desktop_text_vertical_position": "center",
@@ -847,8 +820,8 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
       }
@@ -1658,13 +1631,38 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "rich_text_FDECUV": {
+      "type": "rich-text",
+      "blocks": {
+        "text_weiDhx": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Tiles Melbourne – Affordable Quality Tiles & Flooring</h1><p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_weiDhx"
+      ],
+      "custom_css": [
+        "h1 {font-size: 2em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
     "slideshow_NB3UMP",
-    "rich_text_FDECUV",
     "collection_list_3q9paF",
-    "image_with_text_RJcJMd",
     "collage_fTynMR",
     "featured_collection_98txhK",
     "button_YXBYRX",
@@ -1685,6 +1683,8 @@
     "collapsible_menu_nEQKAL",
     "newsletter_i8q83Y",
     "features_banner_rnAYGJ",
-    "image_with_text_Ef4PPw"
+    "image_with_text_Ef4PPw",
+    "rich_text_FDECUV",
+    "image_with_text_RJcJMd"
   ]
 }
