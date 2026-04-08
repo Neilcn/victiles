@@ -309,6 +309,20 @@
           "table_odd_row_background": "linear-gradient(180deg, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0) 100%)",
           "table_even_row_background": "linear-gradient(180deg, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0) 100%)"
         }
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
       }
     }
   },
@@ -700,9 +714,7 @@
       "button.wt-header__search__button {border-radius: 0px !important;}",
       ".wt-header__body .wt-drawer-search {border-radius: 0px !important;}",
       ".tfv1-data {display: flex !important; flex-direction: row; align-items: flex-start;}",
-      " /*.tfv1-metafield-list {margin-right: 10px;}",
-      ".tfv1-metafield-list {width: 70px !important;}",
-      "*/input:checked + .slider {background-color: #101010 !important;}",
+      " /*.tfv1-metafield-list {margin-right: 10px;}.tfv1-metafield-list {width: 70px !important;}*/input:checked + .slider {background-color: #101010 !important;}",
       ".product-form .quantity__input {width: 100px;}",
       "form#product_form_8134968443017 {margin-top: 20px;}",
       ".ContactBubble__Bubble--text-us-cta {border-radius: 0px !important;}",
