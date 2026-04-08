@@ -17,6 +17,16 @@
   else
     assign loading = 'eager'
   endif
+
+  if collection_list
+    assign card_image_sizes = '(min-width: 900px) 328px, 50vw'
+    assign card_image_widths = '165, 250, 328, 500, 656'
+    assign card_image_fallback_width = 656
+  else
+    assign card_image_sizes = '(min-width: 1000px) 620px, 100vw'
+    assign card_image_widths = '375, 750, 1000, 1440'
+    assign card_image_fallback_width = 1000
+  endif
 -%}
 
 {%- assign title_tag = title_tag | default: 'h3' -%}
@@ -67,12 +77,12 @@
 
             {{
               img
-              | image_url: width: 1000
+              | image_url: width: card_image_fallback_width
               | image_tag:
                 loading: loading,
-                sizes: '(min-width: 1000px) 620px, 100vw',
+                sizes: card_image_sizes,
                 width: null,
-                widths: '375, 750, 1000, 1440',
+                widths: card_image_widths,
                 alt: card_alt,
                 class: card_classes
             }}
@@ -93,14 +103,22 @@
               <img
                 class="card__img"
                 srcset="
-                  {% if img.width >= 375 %}{{ img | image_url: width: 375 }} 375w, {% endif %}
-                  {% if img.width >= 750 %}{{ img | image_url: width: 750 }} 750w, {% endif %}
-                  {% if img.width >= 1000 %}{{ img | image_url: width: 1000 }} 1000w, {% endif %}
-                  {% if img.width >= 1440 %}{{ img | image_url: width: 1440 }} 1440w, {% endif %}
-                  {{ img | image_url: width: 1000 }} 1000w
+                  {% if collection_list %}
+                    {% if img.width >= 165 %}{{ img | image_url: width: 165 }} 165w, {% endif %}
+                    {% if img.width >= 250 %}{{ img | image_url: width: 250 }} 250w, {% endif %}
+                    {% if img.width >= 328 %}{{ img | image_url: width: 328 }} 328w, {% endif %}
+                    {% if img.width >= 500 %}{{ img | image_url: width: 500 }} 500w, {% endif %}
+                    {% if img.width >= 656 %}{{ img | image_url: width: 656 }} 656w, {% endif %}
+                  {% else %}
+                    {% if img.width >= 375 %}{{ img | image_url: width: 375 }} 375w, {% endif %}
+                    {% if img.width >= 750 %}{{ img | image_url: width: 750 }} 750w, {% endif %}
+                    {% if img.width >= 1000 %}{{ img | image_url: width: 1000 }} 1000w, {% endif %}
+                    {% if img.width >= 1440 %}{{ img | image_url: width: 1440 }} 1440w, {% endif %}
+                  {% endif %}
+                  {{ img | image_url: width: card_image_fallback_width }} {{ card_image_fallback_width }}w
                 "
-                sizes="(min-width: 1000px) 620px, 100vw"
-                src="{{ img | image_url: width: 1000 }}"
+                sizes="{{ card_image_sizes }}"
+                src="{{ img | image_url: width: card_image_fallback_width }}"
                 alt="{{ alt }}"
                 loading="{{ loading }}"
                 width="{{ img.width }}"
@@ -110,14 +128,22 @@
               <img
                 class="card__img hidden"
                 srcset="
-                  {% if img.width >= 375 %}{{ img | image_url: width: 375 }} 375w, {% endif %}
-                  {% if img.width >= 750 %}{{ img | image_url: width: 750 }} 750w, {% endif %}
-                  {% if img.width >= 1000 %}{{ img | image_url: width: 1000 }} 1000w, {% endif %}
-                  {% if img.width >= 1440 %}{{ img | image_url: width: 1440 }} 1440w, {% endif %}
-                  {{ img | image_url: width: 1000 }} 1000w
+                  {% if collection_list %}
+                    {% if img.width >= 165 %}{{ img | image_url: width: 165 }} 165w, {% endif %}
+                    {% if img.width >= 250 %}{{ img | image_url: width: 250 }} 250w, {% endif %}
+                    {% if img.width >= 328 %}{{ img | image_url: width: 328 }} 328w, {% endif %}
+                    {% if img.width >= 500 %}{{ img | image_url: width: 500 }} 500w, {% endif %}
+                    {% if img.width >= 656 %}{{ img | image_url: width: 656 }} 656w, {% endif %}
+                  {% else %}
+                    {% if img.width >= 375 %}{{ img | image_url: width: 375 }} 375w, {% endif %}
+                    {% if img.width >= 750 %}{{ img | image_url: width: 750 }} 750w, {% endif %}
+                    {% if img.width >= 1000 %}{{ img | image_url: width: 1000 }} 1000w, {% endif %}
+                    {% if img.width >= 1440 %}{{ img | image_url: width: 1440 }} 1440w, {% endif %}
+                  {% endif %}
+                  {{ img | image_url: width: card_image_fallback_width }} {{ card_image_fallback_width }}w
                 "
-                sizes="(min-width: 1000px) 620px, 100vw"
-                src="{{ img | image_url: width: 1000 }}"
+                sizes="{{ card_image_sizes }}"
+                src="{{ img | image_url: width: card_image_fallback_width }}"
                 alt="{{ alt }}"
                 loading="{{ loading }}"
                 width="{{ img.width }}"
@@ -149,14 +175,22 @@
             <img
               class="card__img card__img--hover"
               srcset="
-                {% if second_image.width >= 375 %}{{ second_image | image_url: width: 375 }} 375w, {% endif %}
-                {% if second_image.width >= 750 %}{{ second_image | image_url: width: 750 }} 750w, {% endif %}
-                {% if second_image.width >= 1000 %}{{ second_image | image_url: width: 1000 }} 1000w, {% endif %}
-                {% if second_image.width >= 1440 %}{{ second_image | image_url: width: 1440 }} 1440w, {% endif %}
-                {{ second_image | image_url: width: 1000 }} 1000w
+                {% if collection_list %}
+                  {% if second_image.width >= 165 %}{{ second_image | image_url: width: 165 }} 165w, {% endif %}
+                  {% if second_image.width >= 250 %}{{ second_image | image_url: width: 250 }} 250w, {% endif %}
+                  {% if second_image.width >= 328 %}{{ second_image | image_url: width: 328 }} 328w, {% endif %}
+                  {% if second_image.width >= 500 %}{{ second_image | image_url: width: 500 }} 500w, {% endif %}
+                  {% if second_image.width >= 656 %}{{ second_image | image_url: width: 656 }} 656w, {% endif %}
+                {% else %}
+                  {% if second_image.width >= 375 %}{{ second_image | image_url: width: 375 }} 375w, {% endif %}
+                  {% if second_image.width >= 750 %}{{ second_image | image_url: width: 750 }} 750w, {% endif %}
+                  {% if second_image.width >= 1000 %}{{ second_image | image_url: width: 1000 }} 1000w, {% endif %}
+                  {% if second_image.width >= 1440 %}{{ second_image | image_url: width: 1440 }} 1440w, {% endif %}
+                {% endif %}
+                {{ second_image | image_url: width: card_image_fallback_width }} {{ card_image_fallback_width }}w
               "
-              sizes="(min-width: 1000px) 620px, 100vw"
-              src="{{ second_image | image_url: width: 1000 }}"
+              sizes="{{ card_image_sizes }}"
+              src="{{ second_image | image_url: width: card_image_fallback_width }}"
               alt="{{ card_product.title | escape }}"
               loading="{{ loading }}"
               width="{{ second_image.width }}"
