@@ -156,6 +156,14 @@
             {% assign customclass = '' %}
           {% endif %}
 
+          {% if forloop.first %}
+            {% assign hero_loading_option = 'eager' %}
+            {% assign hero_fetchpriority_option = 'high' %}
+          {% else %}
+            {% assign hero_loading_option = 'lazy' %}
+            {% assign hero_fetchpriority_option = 'auto' %}
+          {% endif %}
+
           <div
             class="swiper-lazy wt-slideshow__swiper-lazy"
             data-swiper-slide
@@ -187,7 +195,9 @@
               subheading: block.settings.subheading,
               subheading_disable_on_mobile: block.settings.subheading_disable_on_mobile,
               placeholder: 'hero-apparel-3',
-              section_link: block.settings.button_link
+              section_link: block.settings.button_link,
+              loading_option: hero_loading_option,
+              fetchpriority_option: hero_fetchpriority_option
             %}
           </div>
         {%- endfor -%}

@@ -19,6 +19,7 @@
 
   {%- if desktop_image != blank and mobile_image != blank -%}
     {% assign loading_option = loading_option | default: 'lazy' %}
+    {% assign fetchpriority_option = fetchpriority_option | default: 'auto' %}
 
     <picture class="hero__pic hero__pic--mobile">
       {{
@@ -26,6 +27,7 @@
         | image_url: width: 3840
         | image_tag:
           loading: loading_option,
+          fetchpriority: fetchpriority_option,
           sizes: '100vw',
           widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840',
           class: 'hero__img hero__img--mobile'
@@ -38,6 +40,7 @@
         | image_url: width: 3840
         | image_tag:
           loading: loading_option,
+          fetchpriority: fetchpriority_option,
           sizes: '100vw',
           widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840',
           class: 'hero__img hero__img--desktop'
