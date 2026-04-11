@@ -1367,7 +1367,8 @@
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Author name"
+            "author": "Author name",
+            "date": "Feb 2026"
           }
         },
         "image_dNXyHf": {
@@ -1377,7 +1378,8 @@
             "text": "<p>Fantastic customer service and support from Terry, He went above and beyond to help us rectify an issue as well as finding the right tiles and vanity to suit our bathroom.</p>",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Mitchelle Yuang"
+            "author": "Mitchelle Yuang",
+            "date": "Feb 2026"
           }
         },
         "image_ebm39F": {
@@ -1387,7 +1389,8 @@
             "text": "<p>Very good quality! Reasonable price, very lucky to choose VICTILES</p>",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Jack Long"
+            "author": "Jack Long",
+            "date": "Feb 2026"
           }
         }
       },
@@ -1399,12 +1402,11 @@
         "image_dNXyHf",
         "image_ebm39F"
       ],
-      "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
         ".wt-test__text {text-align: left;}",
-        ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px; flex: 1;}"
+        ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px; flex: 1; position: relative;}"
       ],
       "settings": {
         "heading": "",
