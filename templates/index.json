@@ -1360,7 +1360,7 @@
             "mobile_screen_logo_width": 100,
             "author": "Rupali Parab Bangera",
             "date": "a year ago",
-            "link": ""
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURYdktiNG1BRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CIHM0ogKEICAgIDXvKb4mAE%7CCgwIkMLsuAYQoOuwpAM%7C"
           }
         },
         "image_UkjCAq": {
@@ -1408,7 +1408,6 @@
         "image_dNXyHf",
         "image_ebm39F"
       ],
-      "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
