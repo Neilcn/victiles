@@ -1324,6 +1324,17 @@
     "testimonials_mB6iUg": {
       "type": "testimonials",
       "blocks": {
+        "image_ArCqVm": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Author name",
+            "date": "Feb 2026"
+          }
+        },
         "image_PWabbR": {
           "type": "image",
           "settings": {
@@ -1376,6 +1387,7 @@
         }
       },
       "block_order": [
+        "image_ArCqVm",
         "image_PWabbR",
         "image_pfy4MF",
         "image_UkjCAq",
