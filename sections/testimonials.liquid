@@ -69,6 +69,16 @@
                   {% assign image_class = image_class | append: ' wt-test__image--square' %}
                 {% endif %}
 
+                {% if block.settings.icon_select == '80' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '90' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '100' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                <div class="wt-test__text">{{ block.settings.text }}</div>
                 {%- if block.settings.desktop_image != blank -%}
                   {% assign alt_text = block.settings.desktop_image.alt | escape %}
 
@@ -85,17 +95,6 @@
                 {%- else -%}
                   {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
                 {%- endif -%}
-
-                {% if block.settings.icon_select == '80' %}
-                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-                {% endif %}
-                {% if block.settings.icon_select == '90' %}
-                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-                {% endif %}
-                {% if block.settings.icon_select == '100' %}
-                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-                {% endif %}
-                <div class="wt-test__text">{{ block.settings.text }}</div>
                 <div class="wt-test__author">{{ block.settings.author }}</div>
                 {% if block.settings.icon_select == 'quote' %}
                   {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
