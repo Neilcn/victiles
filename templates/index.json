@@ -1334,7 +1334,7 @@
             "mobile_screen_logo_width": 100,
             "author": "Rajwinder Singh",
             "date": "a year ago",
-            "link": ""
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURMdmJEa3VRRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CIHM0ogKEICAgIDLvbDkuQE%7CCgwI1aGCtAYQyKf7xwI%7C"
           }
         },
         "image_ArCqVm": {
@@ -1347,7 +1347,7 @@
             "mobile_screen_logo_width": 100,
             "author": "Natalie Szafranski",
             "date": "a year ago",
-            "link": ""
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM3MlA2UFRnEAE!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CIHM0ogKEICAgIC72P6PTg%7CCgwI-ZLntQYQ2P2cxwM%7C"
           }
         },
         "image_6xRWWd": {
@@ -1408,6 +1408,7 @@
         "image_dNXyHf",
         "image_ebm39F"
       ],
+      "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
