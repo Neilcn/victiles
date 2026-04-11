@@ -1329,8 +1329,8 @@
           "settings": {
             "icon_select": "100",
             "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
-            "large_screen_logo_width": 100,
-            "mobile_screen_logo_width": 100,
+            "large_screen_logo_width": 50,
+            "mobile_screen_logo_width": 50,
             "author": "Author name"
           }
         },
