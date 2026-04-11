@@ -1402,10 +1402,9 @@
       "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
-        ".wt-test__item.child {flex: 1;}",
         ".author-name {display: flex; flex-direction: column;}",
         ".wt-test__text {text-align: left;}",
-        ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px;}"
+        ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px; flex: 1;}"
       ],
       "settings": {
         "heading": "",
