@@ -110,7 +110,37 @@
           </div>
         {% endfor %}
       </div>
-            <div data-swiper-container class="wt-test__list rte">
+      <div class="swiper-button-next wt-slider__nav-btn wt-slider__nav-next wt-slider__nav-next--featured">
+        {% render 'icons', id: 'arrow-right' %}
+      </div>
+      <div class="swiper-button-prev wt-slider__nav-btn wt-slider__nav-prev wt-slider__nav-prev--featured">
+        {% render 'icons', id: 'arrow-left' %}
+      </div>
+      <div class="swiper-pagination wt-slider__pagination"></div>
+    </div>
+    <script data-swiper-configuration type="text/json">
+      {
+        "enableOnMedia": "(min-width: 0px)",
+        "slidesPerView": 1,
+        "slidesPerGroup": 1,
+        "freeMode": false,
+        "speed": 150,
+        "grabCursor": false,
+        "paginationType": "bullets",
+        "navigation": {
+          "nextEl": ".wt-slider__nav-next--featured",
+          "prevEl": ".wt-slider__nav-prev--featured"
+        }
+      }
+    </script>
+  </slideshow-section>
+    <slideshow-section class="wt-test__container">
+    {% render 'headline', title: section.settings.heading %}
+    <div
+      data-swiper
+      class="{% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
+    >
+      <div data-swiper-container class="wt-test__list rte">
         {%- assign number_of_slides = section.blocks.size | plus: 0.0 | divided_by: 1 | ceil -%}
         {%- for i in (1..number_of_slides) -%}
           {%- assign slide_offset = forloop.index0 | times: 1 -%}
