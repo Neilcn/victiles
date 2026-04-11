@@ -42,10 +42,27 @@
   .wt-test__item {
     display:flex;
   }
+  @media screen and (max-width: 749px) {
+  .small-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .medium-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .large-up-hide {
+    display: none !important;
+  }
+}
 </style>
 
 <div data-section-id="{{ section.id }}" class="wt-test">
-  <slideshow-section class="wt-test__container">
+  <slideshow-section class="wt-test__container small-hide medium-hide">
     {% render 'headline', title: section.settings.heading %}
     <div
       data-swiper
@@ -134,7 +151,7 @@
       }
     </script>
   </slideshow-section>
-    <slideshow-section class="wt-test__container">
+    <slideshow-section class="wt-test__container large-up-hide">
     {% render 'headline', title: section.settings.heading %}
     <div
       data-swiper
