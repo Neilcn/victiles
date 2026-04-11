@@ -79,23 +79,29 @@
                   {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
                 {% endif %}
                 <div class="wt-test__text">{{ block.settings.text }}</div>
-                {%- if block.settings.desktop_image != blank -%}
-                  {% assign alt_text = block.settings.desktop_image.alt | escape %}
+                <div class="author-wrapper">
+                  {%- if block.settings.desktop_image != blank -%}
+                    {% assign alt_text = block.settings.desktop_image.alt | escape %}
 
-                  {{
-                    block.settings.desktop_image
-                    | image_url: width: 600
-                    | image_tag:
-                      loading: 'lazy',
-                      sizes: '(min-width: 750px) 750px, 100vw',
-                      widths: '375, 750, 1100, 1440',
-                      alt: alt_text,
-                      class: image_class
-                  }}
-                {%- else -%}
-                  {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
-                {%- endif -%}
-                <div class="wt-test__author">{{ block.settings.author }}</div>
+                    {{
+                      block.settings.desktop_image
+                      | image_url: width: 600
+                      | image_tag:
+                        loading: 'lazy',
+                        sizes: '(min-width: 750px) 750px, 100vw',
+                        widths: '375, 750, 1100, 1440',
+                        alt: alt_text,
+                        class: image_class
+                    }}
+                  {%- else -%}
+                    {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
+                  {%- endif -%}
+
+                  <div class="author-name">
+                    <div class="wt-test__author">{{ block.settings.author }}</div>
+                    <div class="testimonial-date">{{ block.settings.date }}</div>
+                  </div>
+                </div>
                 {% if block.settings.icon_select == 'quote' %}
                   {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
                 {% endif %}
@@ -307,6 +313,12 @@
           "id": "author",
           "default": "Author name",
           "label": "t:sections.testimonials.settings.image.author.label"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "default": "Feb 2026",
+          "label": "Date"
         }
       ]
     }
