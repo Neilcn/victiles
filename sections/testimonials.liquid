@@ -2,63 +2,73 @@
 {% assign text_rgb = section.settings.text_color | color_to_rgb %}
 
 <style>
-  [data-section-id="{{ section.id }}"]
-  {
+    [data-section-id="{{ section.id }}"]
+    {
 
-    {% if background_rgb != 'rgba(0, 0, 0, 0.0)' %}
-      --color-custom-background: {{ section.settings.background_color }};
-    {% endif %}
-
-    {% if section.settings.margin-top %}
-    --section-gap-top: {{ section.settings.margin-top }}px;
-    {% endif %}
-
-    {% if section.settings.margin-bottom %}
-    --section-gap-bottom: {{ section.settings.margin-bottom }}px;
-    {% endif %}
-
-    --font-text-scale-desk: {{ section.settings.testimonial_text_size_desktop | divided_by: 100.0 }};
-
-    --font-text-scale: {{ section.settings.testimonial_text_size | divided_by: 100.0 }};
-
-  }
-
-  [data-section-id="{{ section.id }}"] .headline__title,
-  [data-section-id="{{ section.id }}"] .wt-test__list
-  {
-      {% if text_rgb != 'rgba(0, 0, 0, 0.0)' %}
-        --color-custom-text: {{ section.settings.text_color }};
+      {% if background_rgb != 'rgba(0, 0, 0, 0.0)' %}
+        --color-custom-background: {{ section.settings.background_color }};
       {% endif %}
+
+      {% if section.settings.margin-top %}
+      --section-gap-top: {{ section.settings.margin-top }}px;
+      {% endif %}
+
+      {% if section.settings.margin-bottom %}
+      --section-gap-bottom: {{ section.settings.margin-bottom }}px;
+      {% endif %}
+
+      --font-text-scale-desk: {{ section.settings.testimonial_text_size_desktop | divided_by: 100.0 }};
+
+      --font-text-scale: {{ section.settings.testimonial_text_size | divided_by: 100.0 }};
+
+    }
+
+    [data-section-id="{{ section.id }}"] .headline__title,
+    [data-section-id="{{ section.id }}"] .wt-test__list
+    {
+        {% if text_rgb != 'rgba(0, 0, 0, 0.0)' %}
+          --color-custom-text: {{ section.settings.text_color }};
+        {% endif %}
+    }
+
+    {% if section.settings.image_shape != 'natural' %}
+      {% for block in section.blocks %}
+        [data-block-id="{{ block.id }}"]{
+          --mobile-width: {{ block.settings.mobile_screen_logo_width }}px;
+          --desktop-width: {{ block.settings.large_screen_logo_width }}px;
+        }
+      {% endfor %}
+    {% endif %}
+    .wt-test__item {
+      display:flex;
+    }
+    @media screen and (max-width: 749px) {
+    .small-hide {
+      display: none !important;
+    }
   }
 
-  {% if section.settings.image_shape != 'natural' %}
-    {% for block in section.blocks %}
-      [data-block-id="{{ block.id }}"]{
-        --mobile-width: {{ block.settings.mobile_screen_logo_width }}px;
-        --desktop-width: {{ block.settings.large_screen_logo_width }}px;
-      }
-    {% endfor %}
-  {% endif %}
-  .wt-test__item {
-    display:flex;
+  @media screen and (min-width: 750px) and (max-width: 989px) {
+    .medium-hide {
+      display: none !important;
+    }
   }
-  @media screen and (max-width: 749px) {
-  .small-hide {
-    display: none !important;
-  }
-}
 
-@media screen and (min-width: 750px) and (max-width: 989px) {
-  .medium-hide {
-    display: none !important;
+  @media screen and (min-width: 990px) {
+    .large-up-hide {
+      display: none !important;
+    }
   }
-}
 
-@media screen and (min-width: 990px) {
-  .large-up-hide {
-    display: none !important;
-  }
-}
+    .link-overlay {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
 </style>
 
 <div data-section-id="{{ section.id }}" class="wt-test">
@@ -75,6 +85,15 @@
           <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
             {% for block in section.blocks limit: 3 offset: slide_offset %}
               <div class="testimonial-card">
+                <a
+                  class="link-overlay"
+                  {% if block.settings.link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.link }}"
+                  {% endif %}
+                >
+                </a>
                 {% assign image_class = 'wt-test__image' %}
                 {% if section.settings.image_shape == 'natural' %}
                   {% assign image_class = image_class | append: ' wt-test__image--natural' %}
@@ -151,7 +170,7 @@
       }
     </script>
   </slideshow-section>
-    <slideshow-section class="wt-test__container large-up-hide">
+  <slideshow-section class="wt-test__container large-up-hide">
     {% render 'headline', title: section.settings.heading %}
     <div
       data-swiper
@@ -425,6 +444,11 @@
           "id": "date",
           "default": "Feb 2026",
           "label": "Date"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
