@@ -1333,7 +1333,8 @@
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
             "author": "Rajwinder Singh",
-            "date": "a year ago"
+            "date": "a year ago",
+            "link": ""
           }
         },
         "image_ArCqVm": {
@@ -1345,7 +1346,8 @@
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
             "author": "Natalie Szafranski",
-            "date": "a year ago"
+            "date": "a year ago",
+            "link": ""
           }
         },
         "image_6xRWWd": {
@@ -1357,7 +1359,8 @@
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
             "author": "Rupali Parab Bangera",
-            "date": "a year ago"
+            "date": "a year ago",
+            "link": ""
           }
         },
         "image_UkjCAq": {
@@ -1368,7 +1371,8 @@
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
             "author": "Author name",
-            "date": "Feb 2026"
+            "date": "Feb 2026",
+            "link": ""
           }
         },
         "image_dNXyHf": {
@@ -1379,7 +1383,8 @@
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
             "author": "Mitchelle Yuang",
-            "date": "Feb 2026"
+            "date": "Feb 2026",
+            "link": ""
           }
         },
         "image_ebm39F": {
@@ -1390,7 +1395,8 @@
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
             "author": "Jack Long",
-            "date": "Feb 2026"
+            "date": "Feb 2026",
+            "link": ""
           }
         }
       },
@@ -1402,6 +1408,7 @@
         "image_dNXyHf",
         "image_ebm39F"
       ],
+      "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
