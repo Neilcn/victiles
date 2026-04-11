@@ -434,54 +434,6 @@
         "margin-bottom": 60
       }
     },
-    "image_with_text_RJcJMd": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JypLzQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Melbourne’s Trusted Tile Store",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_6EBK3b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JypLzQ",
-        "text_6EBK3b"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "title": "",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
     "collage_fTynMR": {
       "type": "collage",
       "blocks": {
@@ -1372,6 +1324,36 @@
     "testimonials_mB6iUg": {
       "type": "testimonials",
       "blocks": {
+        "image_PWabbR": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Author name"
+          }
+        },
+        "image_pfy4MF": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Author name"
+          }
+        },
+        "image_UkjCAq": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Author name"
+          }
+        },
         "image_dNXyHf": {
           "type": "image",
           "settings": {
@@ -1394,10 +1376,16 @@
         }
       },
       "block_order": [
+        "image_PWabbR",
+        "image_pfy4MF",
+        "image_UkjCAq",
         "image_dNXyHf",
         "image_ebm39F"
       ],
       "disabled": true,
+      "custom_css": [
+        ".wt-test__item {display: flex; flex-direction: row;}"
+      ],
       "settings": {
         "heading": "",
         "image_shape": "natural",
@@ -1655,6 +1643,54 @@
         "desktop_text_horizontal_position": "center",
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_RJcJMd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JypLzQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Melbourne’s Trusted Tile Store",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6EBK3b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JypLzQ",
+        "text_6EBK3b"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
         "margin-top": 20,
         "margin-bottom": 20
       }
