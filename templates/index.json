@@ -1328,7 +1328,7 @@
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Add customer reviews and testimonials to showcaseaMehak have a great customer service, she has been so kind and helpful, she has been so supportive towards the colour selection! Really appreciate the service it was nice experience with victiles! your store's happy customers. </p>",
+            "text": "<p>Mehak have a great customer service, she has been so kind and helpful, she has been so supportive towards the colour selection! Really appreciate the service it was nice experience with victiles! your store's happy customers. </p>",
             "desktop_image": "shopify://shop_images/user2.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
@@ -1348,14 +1348,16 @@
             "date": "a year ago"
           }
         },
-        "image_pfy4MF": {
+        "image_6xRWWd": {
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "text": "<p>The store has good varieties of tiles n flooring collection and rates are reasonable affordable. Sales person Mehek give us best services. Highly impressed by their commitment of products and delivery services.</p>",
+            "desktop_image": "shopify://shop_images/user3.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Author name"
+            "author": "Rupali Parab Bangera",
+            "date": "a year ago"
           }
         },
         "image_UkjCAq": {
@@ -1392,13 +1394,15 @@
       "block_order": [
         "image_KJynVq",
         "image_ArCqVm",
-        "image_pfy4MF",
+        "image_6xRWWd",
         "image_UkjCAq",
         "image_dNXyHf",
         "image_ebm39F"
       ],
+      "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
+        ".wt-test__item.child {flex: 1;}",
         ".author-name {display: flex; flex-direction: column;}",
         ".wt-test__text {text-align: left;}",
         ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px;}"
