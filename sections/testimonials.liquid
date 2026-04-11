@@ -49,8 +49,15 @@
       class="{% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
     >
       <div data-swiper-container class="wt-test__list rte">
-        {% for block in section.blocks %}
+              {%- assign number_of_slides = section.blocks.size
+        | plus: 0.0
+        | divided_by: 3
+        | ceil
+      -%}
+       {%- for i in (1..number_of_slides) -%} 
+        {%- assign slide_offset = forloop.index0 | times: 3 -%}
           <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
+            {% for block in section.blocks limit: 3 offset: slide_offset %}
             {% assign image_class = 'wt-test__image' %}
             {% if section.settings.image_shape == 'natural' %}
               {% assign image_class = image_class | append: ' wt-test__image--natural' %}
@@ -93,6 +100,7 @@
             {% if block.settings.icon_select == 'quote' %}
               {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
             {% endif %}
+            {% endfor %}
           </div>
         {% endfor %}
       </div>
