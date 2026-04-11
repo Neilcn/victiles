@@ -61,7 +61,8 @@
         {%- assign slide_offset = forloop.index0 | times: 3 -%}
           <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
             {% for block in section.blocks limit: 3 offset: slide_offset %}
-            {% assign image_class = 'wt-test__image' %}
+            <div class="testimonial-card">
+{% assign image_class = 'wt-test__image' %}
             {% if section.settings.image_shape == 'natural' %}
               {% assign image_class = image_class | append: ' wt-test__image--natural' %}
             {% elsif section.settings.image_shape == 'circle' %}
@@ -104,6 +105,8 @@
               {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
             {% endif %}
             {% endfor %}
+            </div>
+            
           </div>
         {% endfor %}
       </div>
