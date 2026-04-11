@@ -1385,7 +1385,8 @@
       "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row;}",
-        ".author-name {display: flex; flex-direction: column;}"
+        ".author-name {display: flex; flex-direction: column;}",
+        ".wt-test__text {text-align: left;}"
       ],
       "settings": {
         "heading": "",
