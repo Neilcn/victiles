@@ -110,6 +110,65 @@
           </div>
         {% endfor %}
       </div>
+            <div data-swiper-container class="wt-test__list rte">
+        {%- assign number_of_slides = section.blocks.size | plus: 0.0 | divided_by: 1 | ceil -%}
+        {%- for i in (1..number_of_slides) -%}
+          {%- assign slide_offset = forloop.index0 | times: 1 -%}
+          <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
+            {% for block in section.blocks limit: 1 offset: slide_offset %}
+              <div class="testimonial-card">
+                {% assign image_class = 'wt-test__image' %}
+                {% if section.settings.image_shape == 'natural' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--natural' %}
+                {% elsif section.settings.image_shape == 'circle' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--circle' %}
+                {% elsif section.settings.image_shape == 'no_image' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--no_image' %}
+                {% elsif section.settings.image_shape == 'square' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--square' %}
+                {% endif %}
+
+                {% if block.settings.icon_select == '80' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '90' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '100' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                <div class="wt-test__text">{{ block.settings.text }}</div>
+                <div class="author-wrapper">
+                  {%- if block.settings.desktop_image != blank -%}
+                    {% assign alt_text = block.settings.desktop_image.alt | escape %}
+
+                    {{
+                      block.settings.desktop_image
+                      | image_url: width: 600
+                      | image_tag:
+                        loading: 'lazy',
+                        sizes: '(min-width: 750px) 750px, 100vw',
+                        widths: '375, 750, 1100, 1440',
+                        alt: alt_text,
+                        class: image_class
+                    }}
+                  {%- else -%}
+                    {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
+                  {%- endif -%}
+
+                  <div class="author-name">
+                    <div class="wt-test__author">{{ block.settings.author }}</div>
+                    <div class="testimonial-date">{{ block.settings.date }}</div>
+                  </div>
+                </div>
+                {% if block.settings.icon_select == 'quote' %}
+                  {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
       <div class="swiper-button-next wt-slider__nav-btn wt-slider__nav-next wt-slider__nav-next--featured">
         {% render 'icons', id: 'arrow-right' %}
       </div>
