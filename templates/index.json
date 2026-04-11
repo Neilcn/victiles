@@ -1388,7 +1388,7 @@
       ],
       "settings": {
         "heading": "",
-        "image_shape": "natural",
+        "image_shape": "circle",
         "testimonial_text_size_desktop": 100,
         "testimonial_text_size": 100,
         "text_color": "rgba(0,0,0,0)",
