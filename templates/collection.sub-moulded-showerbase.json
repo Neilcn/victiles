@@ -81,17 +81,17 @@
         "featured_collection_3MQM4e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bathware-top-selling-mirror",
-            "image_collection": "shopify://shop_images/Mirror.jpg",
-            "text_collection": "Mirror"
+            "collection": "stonelite-louve",
+            "image_collection": "shopify://shop_images/STONELITEVUE900900BASE.webp",
+            "text_collection": "Louve"
           }
         },
         "featured_collection_mq4yP6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bathware-top-selling-basin",
-            "image_collection": "shopify://shop_images/Basin.jpg",
-            "text_collection": "Basin"
+            "collection": "stonelite-metro",
+            "image_collection": "shopify://shop_images/STONELITEMETRO10001000BASE.webp",
+            "text_collection": "Metro"
           }
         },
         "featured_collection_ACdaKq": {
