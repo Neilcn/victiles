@@ -1367,36 +1367,39 @@
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "text": "<p>Great tile store with very friendly and helpful staff. The team was patient, professional, and made the whole process easy and pleasant. The tile quality is excellent, with a good range of options to choose from. Overall, very happy with both the service and the products. Highly recommended!</p>",
+            "desktop_image": "shopify://shop_images/user4.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Author name",
-            "date": "Feb 2026",
-            "link": ""
+            "author": "Zetao Yan",
+            "date": "2 months ago",
+            "link": "https://www.google.com/maps/reviews/@-38.0026142,145.2166936,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xsV2FIUkdZbG81TkZOSE1GWXhVMnBvZDBwWGRXYxAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
           }
         },
         "image_dNXyHf": {
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Fantastic customer service and support from Terry, He went above and beyond to help us rectify an issue as well as finding the right tiles and vanity to suit our bathroom.</p>",
+            "text": "<p>Vic Tiles has the greatest designs and quality tiles in last couple of years are built many houses and I always buy material like Tiles sanitary productsfrom them with always great prices. They always look after me. Great customer service service.</p>",
+            "desktop_image": "shopify://shop_images/user5.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Mitchelle Yuang",
-            "date": "Feb 2026",
-            "link": ""
+            "author": "SHAAN GARV Besties",
+            "date": "3 weeks ago",
+            "link": "https://www.google.com/maps/reviews/@-38.0026142,145.2166936,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xWME5tZEJRV1ZZVlcxdFaFXbHRSMEY2YWpsS2FsRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
           }
         },
         "image_ebm39F": {
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Very good quality! Reasonable price, very lucky to choose VICTILES</p>",
+            "text": "<p>Met the owner Terry when we are shopping for tiles and bathroom accessories.<br/>Terry was very patient as we were there a few times and changed our minds about which tile we want.<br/>He also showed us a few things on display for bathroom.</p>",
+            "desktop_image": "shopify://shop_images/user6.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Jack Long",
-            "date": "Feb 2026",
-            "link": ""
+            "author": "樱木花",
+            "date": "2 years ago",
+            "link": "https://www.google.com/maps/reviews/@-38.0026142,145.2166936,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURka3V2S2d3RRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
           }
         }
       },
@@ -1408,7 +1411,6 @@
         "image_dNXyHf",
         "image_ebm39F"
       ],
-      "disabled": true,
       "custom_css": [
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
