@@ -895,6 +895,7 @@
     },
     "custom_liquid_X3BYgR": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"elfsight-sapp-cb87604d-3738-4d9d-8114-9818930ceb0d\"></div>"
@@ -1412,6 +1413,7 @@
         "image_ebm39F"
       ],
       "custom_css": [
+        ".headline__title {font-size:22px; text-align: center;}",
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
         ".wt-test__text {text-align: left;}",
