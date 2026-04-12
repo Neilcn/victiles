@@ -1394,7 +1394,7 @@
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Met the owner Terry when we are shopping for tiles and bathroom accessories.<br/>Terry was very patient as we were there a few times and changed our minds about which tile we want.<br/>He also showed us a few things on display for bathroom.</p>",
+            "text": "<p>Met the owner Terry when we are shopping for tiles and bathroom accessories.Terry was very patient as we were there a few times and changed our minds about which tile we want.</p>",
             "desktop_image": "shopify://shop_images/user6.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
@@ -1413,7 +1413,7 @@
         "image_ebm39F"
       ],
       "custom_css": [
-        ".headline__title {font-size:22px; text-align: center;}",
+        ".headline__title {font-size: 22px; text-align: center;}",
         ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
         ".author-name {display: flex; flex-direction: column;}",
         ".wt-test__text {text-align: left;}",
