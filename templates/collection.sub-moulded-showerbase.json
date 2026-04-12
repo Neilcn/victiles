@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/STONELITEURBAN900900BASE.webp",
             "text_collection": "Urban MKII"
           }
+        },
+        "featured_collection_DtLYgF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stonelite-profile-shower-base",
+            "image_collection": "shopify://shop_images/image_desktop_3.png",
+            "text_collection": "Profile"
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_wKr6pf",
         "featured_collection_3MQM4e",
         "featured_collection_mq4yP6",
-        "featured_collection_ACdaKq"
+        "featured_collection_ACdaKq",
+        "featured_collection_DtLYgF"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
