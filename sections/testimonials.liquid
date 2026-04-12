@@ -114,7 +114,7 @@
                 {% if block.settings.icon_select == '100' %}
                   {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
                 {% endif %}
-                <div class="wt-test__text">{{ block.settings.text | truncate: 100 }}</div>
+                <div class="wt-test__text">{{ block.settings.text | truncate: 90 }}</div>
                 <div class="author-wrapper">
                   {%- if block.settings.desktop_image != blank -%}
                     {% assign alt_text = block.settings.desktop_image.alt | escape %}
@@ -203,7 +203,7 @@
                 {% if block.settings.icon_select == '100' %}
                   {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
                 {% endif %}
-                <div class="wt-test__text">{{ block.settings.text | truncate: 100 }}</div>
+                <div class="wt-test__text">{{ block.settings.text | truncate: 80 }}</div>
                 <div class="author-wrapper">
                   {%- if block.settings.desktop_image != blank -%}
                     {% assign alt_text = block.settings.desktop_image.alt | escape %}
