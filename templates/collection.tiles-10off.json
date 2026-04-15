@@ -92,7 +92,7 @@
         "text_QJk9zW"
       ],
       "custom_css": [
-        "strong {font-weight: 500; font-size: 22px; line-height: 2;}"
+        "strong {font-weight: 500; font-size: 22px;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
