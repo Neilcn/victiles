@@ -82,7 +82,7 @@
         "text_QJk9zW": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Upgrade your space with premium tiles at a better price.</strong></p><p>T&Cs: Valid on tiles only (excludes clearance and all other products). Code must be applied at checkout. Not valid with other offers. No cash alternative. VicTiles reserves the right to modify or end the promotion at any time.</p>",
+            "text": "<p><strong>Upgrade your space with premium tiles at a better price.<br/></strong>T&Cs: Valid on tiles only (excludes clearance and all other products). Code must be applied at checkout. Not valid with other offers. No cash alternative. VicTiles reserves the right to modify or end the promotion at any time.</p>",
             "disable_on_mobile": false
           }
         }
