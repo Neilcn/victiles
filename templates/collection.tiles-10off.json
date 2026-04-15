@@ -57,11 +57,11 @@
         "mobile_image": "shopify://shop_images/10off-mobslider-2.jpg",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
-        "color-heading": "transparent",
-        "section-color-overlay": "transparent",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "text-container-color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 20,
         "margin-bottom": 0
@@ -82,7 +82,7 @@
         "text_QJk9zW": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Upgrade your space with premium tiles at a better price.<br/></strong>T&Cs: Valid on tiles only (excludes clearance and all other products). Code must be applied at checkout. Not valid with other offers. No cash alternative. VicTiles reserves the right to modify or end the promotion at any time.</p>",
+            "text": "<p><strong>14 April - 20 May<br/></strong>T&Cs: Valid on tiles only (excludes clearance).Code must be applied at checkout. Not valid with other offers. No cash alternative. VicTiles reserves the right to modify or end the promotion at any time.</p>",
             "disable_on_mobile": false
           }
         }
@@ -99,8 +99,8 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 0,
         "margin-bottom": 0
       }
