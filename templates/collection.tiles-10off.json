@@ -92,7 +92,8 @@
         "text_QJk9zW"
       ],
       "custom_css": [
-        "strong {font-weight: 500; font-size: 22px;}"
+        "strong {font-weight: 500; font-size: 22px;}",
+        "@media screen and (max-width: 749px) {strong {font-size: 18px; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
