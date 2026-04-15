@@ -42,6 +42,61 @@
         "margin-bottom": 12
       }
     },
+    "slideshow_NTaaJb": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tXfL4A": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false,
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "second_button_select": "primary",
+            "second_button_label": "",
+            "button_disable_on_mobile_second": false,
+            "second_button_link": "",
+            "color-body-text": "transparent",
+            "color-overlay": "transparent",
+            "color-overlay-opacity": 0,
+            "desktop_image": "shopify://shop_images/slider_10off-2.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/10off-mobslider-2.jpg",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "out-background-color": "transparent",
+            "out-text-color": "transparent"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tXfL4A"
+      ],
+      "name": "t:sections.slideshow.settings.presets.name",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": true,
+        "auto-rotate": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "heading_color": "transparent",
+        "text_color": "transparent",
+        "background_color": "transparent",
+        "out_hero_mobile": false,
+        "margin-top": 20,
+        "margin-bottom": 0
+      }
+    },
     "title": {
       "type": "main-collection-title",
       "custom_css": [
@@ -353,6 +408,7 @@
   "order": [
     "breadcrumbs",
     "banner",
+    "slideshow_NTaaJb",
     "title",
     "collection_list_kNirjw",
     "product-grid",
