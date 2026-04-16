@@ -126,3 +126,13 @@ table-flow .tfv1-table .tfv1-tr .tfv1-td.tfv1-label{
 .lv-option-item {
   text-decoration: none !important;
 }
+
+.tiles-sale-banner {
+  background-color: #f5f0e8;
+  color: #7a5e3a;
+  border: 1px solid #e0c88a;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
