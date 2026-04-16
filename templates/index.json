@@ -12,6 +12,38 @@
     "slideshow_NB3UMP": {
       "type": "slideshow",
       "blocks": {
+        "slide_mViwTU": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false,
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "shopify://collections/tiles",
+            "second_button_select": "primary",
+            "second_button_label": "",
+            "button_disable_on_mobile_second": false,
+            "second_button_link": "",
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_image": "shopify://shop_images/slider_10off-2.jpg",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/10off-mobslider-2.jpg",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "out-background-color": "rgba(0,0,0,0)",
+            "out-text-color": "rgba(0,0,0,0)"
+          }
+        },
         "slide_gLcrH6": {
           "type": "slide",
           "settings": {
@@ -305,6 +337,7 @@
         }
       },
       "block_order": [
+        "slide_mViwTU",
         "slide_gLcrH6",
         "slide_TDxLQr",
         "slide_LUm4tB",
@@ -432,54 +465,6 @@
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 60,
         "margin-bottom": 60
-      }
-    },
-    "image_with_text_RJcJMd": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JypLzQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Melbourne’s Trusted Tile Store",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_6EBK3b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JypLzQ",
-        "text_6EBK3b"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "title": "",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
       }
     },
     "collage_fTynMR": {
@@ -943,6 +928,7 @@
     },
     "custom_liquid_X3BYgR": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"elfsight-sapp-cb87604d-3738-4d9d-8114-9818930ceb0d\"></div>"
@@ -1372,35 +1358,103 @@
     "testimonials_mB6iUg": {
       "type": "testimonials",
       "blocks": {
+        "image_KJynVq": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Mehak have a great customer service, she has been so kind and helpful, she has been so supportive towards the colour selection! Really appreciate the service it was nice experience with victiles! your store's happy customers. </p>",
+            "desktop_image": "shopify://shop_images/user2.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Rajwinder Singh",
+            "date": "a year ago",
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURMdmJEa3VRRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CIHM0ogKEICAgIDLvbDkuQE%7CCgwI1aGCtAYQyKf7xwI%7C"
+          }
+        },
+        "image_ArCqVm": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Good variety of tiles.  Good prices.  They gave us a discount on our purchase.  Helpful and friendly staff.</p>",
+            "desktop_image": "shopify://shop_images/user1.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Natalie Szafranski",
+            "date": "a year ago",
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM3MlA2UFRnEAE!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CIHM0ogKEICAgIC72P6PTg%7CCgwI-ZLntQYQ2P2cxwM%7C"
+          }
+        },
+        "image_6xRWWd": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>The store has good varieties of tiles n flooring collection and rates are reasonable affordable. Sales person Mehek give us best services. Highly impressed by their commitment of products and delivery services.</p>",
+            "desktop_image": "shopify://shop_images/user3.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Rupali Parab Bangera",
+            "date": "a year ago",
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURYdktiNG1BRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CIHM0ogKEICAgIDXvKb4mAE%7CCgwIkMLsuAYQoOuwpAM%7C"
+          }
+        },
+        "image_UkjCAq": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Great tile store with very friendly and helpful staff. The team was patient, professional, and made the whole process easy and pleasant. The tile quality is excellent, with a good range of options to choose from. Overall, very happy with both the service and the products. Highly recommended!</p>",
+            "desktop_image": "shopify://shop_images/user4.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Zetao Yan",
+            "date": "2 months ago",
+            "link": "https://www.google.com/maps/reviews/@-38.0026142,145.2166936,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xsV2FIUkdZbG81TkZOSE1GWXhVMnBvZDBwWGRXYxAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
+          }
+        },
         "image_dNXyHf": {
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Fantastic customer service and support from Terry, He went above and beyond to help us rectify an issue as well as finding the right tiles and vanity to suit our bathroom.</p>",
+            "text": "<p>Vic Tiles has the greatest designs and quality tiles in last couple of years are built many houses and I always buy material like Tiles sanitary productsfrom them with always great prices. They always look after me. Great customer service service.</p>",
+            "desktop_image": "shopify://shop_images/user5.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Mitchelle Yuang"
+            "author": "SHAAN GARV Besties",
+            "date": "3 weeks ago",
+            "link": "https://www.google.com/maps/reviews/@-38.0026142,145.2166936,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xWME5tZEJRV1ZZVlcxdFaFXbHRSMEY2YWpsS2FsRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
           }
         },
         "image_ebm39F": {
           "type": "image",
           "settings": {
             "icon_select": "100",
-            "text": "<p>Very good quality! Reasonable price, very lucky to choose VICTILES</p>",
+            "text": "<p>Met the owner Terry when we are shopping for tiles and bathroom accessories.Terry was very patient as we were there a few times and changed our minds about which tile we want.</p>",
+            "desktop_image": "shopify://shop_images/user6.png",
             "large_screen_logo_width": 100,
             "mobile_screen_logo_width": 100,
-            "author": "Jack Long"
+            "author": "樱木花",
+            "date": "2 years ago",
+            "link": "https://www.google.com/maps/reviews/@-38.0026142,145.2166936,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURka3V2S2d3RRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
           }
         }
       },
       "block_order": [
+        "image_KJynVq",
+        "image_ArCqVm",
+        "image_6xRWWd",
+        "image_UkjCAq",
         "image_dNXyHf",
         "image_ebm39F"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".headline__title {font-size: 22px; text-align: center;}",
+        ".wt-test__item,.author-wrapper {display: flex; flex-direction: row; gap: 20px;}",
+        ".author-name {display: flex; flex-direction: column;}",
+        ".wt-test__text {text-align: left;}",
+        ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px; flex: 1; position: relative;}"
+      ],
       "settings": {
-        "heading": "",
-        "image_shape": "natural",
+        "heading": "What out customers say",
+        "image_shape": "circle",
         "testimonial_text_size_desktop": 100,
         "testimonial_text_size": 100,
         "text_color": "rgba(0,0,0,0)",
@@ -1655,6 +1709,54 @@
         "desktop_text_horizontal_position": "center",
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_RJcJMd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JypLzQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Melbourne’s Trusted Tile Store",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6EBK3b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JypLzQ",
+        "text_6EBK3b"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
         "margin-top": 20,
         "margin-bottom": 20
       }

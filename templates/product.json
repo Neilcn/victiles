@@ -101,6 +101,12 @@
             "margin-bottom": 8
           }
         },
+        "custom_liquid_VGD46y": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign is_in_tiles = false -%}\n                            {%- for c in product.collections -%}\n                              {%- if c.title == 'Tiles' -%}\n                                {%- assign is_in_tiles = true -%}\n                                {%- break -%}\n                              {%- endif -%}\n                            {%- endfor -%}\n                            {%- assign is_regular_price = true -%}\n                            {%- if product.compare_at_price > product.price -%}\n                              {%- assign is_regular_price = false -%}\n                            {%- endif -%}\n                            {%- if is_in_tiles and is_regular_price -%}\n                              <div class=\"tiles-sale-banner\">\n                                10% off Tiles Sale | use code <strong>VICTILED10</strong>\n                              </div>\n                            {%- endif -%}"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -367,6 +373,7 @@
       "block_order": [
         "title",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
+        "custom_liquid_VGD46y",
         "price",
         "separator_RrKQ4A",
         "easify_options_easify_product_options_ieANrX",
@@ -432,6 +439,7 @@
         "enable_stack_products": false,
         "show_view_all": false,
         "button_select": "primary",
+        "show_see_all": false,
         "number_of_column_desktop": 5,
         "spacing_desktop": "16",
         "make_products_full_width": true,
@@ -550,6 +558,7 @@
         "enable_stack_products": false,
         "show_view_all": false,
         "button_select": "primary",
+        "show_see_all": false,
         "number_of_column_desktop": 5,
         "spacing_desktop": "8",
         "make_products_full_width": false,

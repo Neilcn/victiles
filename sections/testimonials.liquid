@@ -2,97 +2,238 @@
 {% assign text_rgb = section.settings.text_color | color_to_rgb %}
 
 <style>
-  [data-section-id="{{ section.id }}"]
-  {
+    [data-section-id="{{ section.id }}"]
+    {
 
-    {% if background_rgb != 'rgba(0, 0, 0, 0.0)' %}
-      --color-custom-background: {{ section.settings.background_color }};
-    {% endif %}
-
-    {% if section.settings.margin-top %}
-    --section-gap-top: {{ section.settings.margin-top }}px;
-    {% endif %}
-
-    {% if section.settings.margin-bottom %}
-    --section-gap-bottom: {{ section.settings.margin-bottom }}px;
-    {% endif %}
-
-    --font-text-scale-desk: {{ section.settings.testimonial_text_size_desktop | divided_by: 100.0 }};
-
-    --font-text-scale: {{ section.settings.testimonial_text_size | divided_by: 100.0 }};
-
-  }
-
-  [data-section-id="{{ section.id }}"] .headline__title,
-  [data-section-id="{{ section.id }}"] .wt-test__list
-  {
-      {% if text_rgb != 'rgba(0, 0, 0, 0.0)' %}
-        --color-custom-text: {{ section.settings.text_color }};
+      {% if background_rgb != 'rgba(0, 0, 0, 0.0)' %}
+        --color-custom-background: {{ section.settings.background_color }};
       {% endif %}
+
+      {% if section.settings.margin-top %}
+      --section-gap-top: {{ section.settings.margin-top }}px;
+      {% endif %}
+
+      {% if section.settings.margin-bottom %}
+      --section-gap-bottom: {{ section.settings.margin-bottom }}px;
+      {% endif %}
+
+      --font-text-scale-desk: {{ section.settings.testimonial_text_size_desktop | divided_by: 100.0 }};
+
+      --font-text-scale: {{ section.settings.testimonial_text_size | divided_by: 100.0 }};
+
+    }
+
+    [data-section-id="{{ section.id }}"] .headline__title,
+    [data-section-id="{{ section.id }}"] .wt-test__list
+    {
+        {% if text_rgb != 'rgba(0, 0, 0, 0.0)' %}
+          --color-custom-text: {{ section.settings.text_color }};
+        {% endif %}
+    }
+
+    {% if section.settings.image_shape != 'natural' %}
+      {% for block in section.blocks %}
+        [data-block-id="{{ block.id }}"]{
+          --mobile-width: {{ block.settings.mobile_screen_logo_width }}px;
+          --desktop-width: {{ block.settings.large_screen_logo_width }}px;
+        }
+      {% endfor %}
+    {% endif %}
+    .wt-test__item {
+      display:flex;
+    }
+    @media screen and (max-width: 749px) {
+    .small-hide {
+      display: none !important;
+    }
   }
 
-  {% if section.settings.image_shape != 'natural' %}
-    {% for block in section.blocks %}
-      [data-block-id="{{ block.id }}"]{
-        --mobile-width: {{ block.settings.mobile_screen_logo_width }}px;
-        --desktop-width: {{ block.settings.large_screen_logo_width }}px;
-      }
-    {% endfor %}
-  {% endif %}
+  @media screen and (min-width: 750px) and (max-width: 989px) {
+    .medium-hide {
+      display: none !important;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .large-up-hide {
+      display: none !important;
+    }
+  }
+
+    .link-overlay {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .large-up-hide .testimonial-card {
+    margin:0 10px;}
 </style>
 
 <div data-section-id="{{ section.id }}" class="wt-test">
-  <slideshow-section class="wt-test__container">
+  <slideshow-section class="wt-test__container small-hide medium-hide">
     {% render 'headline', title: section.settings.heading %}
     <div
       data-swiper
       class="{% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
     >
       <div data-swiper-container class="wt-test__list rte">
-        {% for block in section.blocks %}
+        {%- assign number_of_slides = section.blocks.size | plus: 0.0 | divided_by: 3 | ceil -%}
+        {%- for i in (1..number_of_slides) -%}
+          {%- assign slide_offset = forloop.index0 | times: 3 -%}
           <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
-            {% assign image_class = 'wt-test__image' %}
-            {% if section.settings.image_shape == 'natural' %}
-              {% assign image_class = image_class | append: ' wt-test__image--natural' %}
-            {% elsif section.settings.image_shape == 'circle' %}
-              {% assign image_class = image_class | append: ' wt-test__image--circle' %}
-            {% elsif section.settings.image_shape == 'no_image' %}
-              {% assign image_class = image_class | append: ' wt-test__image--no_image' %}
-            {% elsif section.settings.image_shape == 'square' %}
-              {% assign image_class = image_class | append: ' wt-test__image--square' %}
-            {% endif %}
+            {% for block in section.blocks limit: 3 offset: slide_offset %}
+              <div class="testimonial-card">
+                <a
+                  class="link-overlay"
+                  {% if block.settings.link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.link }}"
+                  {% endif %}
+                >
+                </a>
+                {% assign image_class = 'wt-test__image' %}
+                {% if section.settings.image_shape == 'natural' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--natural' %}
+                {% elsif section.settings.image_shape == 'circle' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--circle' %}
+                {% elsif section.settings.image_shape == 'no_image' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--no_image' %}
+                {% elsif section.settings.image_shape == 'square' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--square' %}
+                {% endif %}
 
-            {%- if block.settings.desktop_image != blank -%}
-              {% assign alt_text = block.settings.desktop_image.alt | escape %}
+                {% if block.settings.icon_select == '80' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '90' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '100' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                <div class="wt-test__text">{{ block.settings.text | truncate: 90 }}</div>
+                <div class="author-wrapper">
+                  {%- if block.settings.desktop_image != blank -%}
+                    {% assign alt_text = block.settings.desktop_image.alt | escape %}
 
-              {{
-                block.settings.desktop_image
-                | image_url: width: 600
-                | image_tag:
-                  loading: 'lazy',
-                  sizes: '(min-width: 750px) 750px, 100vw',
-                  widths: '375, 750, 1100, 1440',
-                  alt: alt_text,
-                  class: image_class
-              }}
-            {%- else -%}
-              {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
-            {%- endif -%}
+                    {{
+                      block.settings.desktop_image
+                      | image_url: width: 600
+                      | image_tag:
+                        loading: 'lazy',
+                        sizes: '(min-width: 750px) 750px, 100vw',
+                        widths: '375, 750, 1100, 1440',
+                        alt: alt_text,
+                        class: image_class
+                    }}
+                  {%- else -%}
+                    {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
+                  {%- endif -%}
 
-            {% if block.settings.icon_select == '80' %}
-              {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-            {% endif %}
-            {% if block.settings.icon_select == '90' %}
-              {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-            {% endif %}
-            {% if block.settings.icon_select == '100' %}
-              {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-            {% endif %}
-            <div class="wt-test__text">{{ block.settings.text }}</div>
-            <div class="wt-test__author">{{ block.settings.author }}</div>
-            {% if block.settings.icon_select == 'quote' %}
-              {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
-            {% endif %}
+                  <div class="author-name">
+                    <div class="wt-test__author">{{ block.settings.author }}</div>
+                    <div class="testimonial-date">{{ block.settings.date }}</div>
+                  </div>
+                </div>
+                {% if block.settings.icon_select == 'quote' %}
+                  {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-next wt-slider__nav-btn wt-slider__nav-next wt-slider__nav-next--featured">
+        {% render 'icons', id: 'arrow-right' %}
+      </div>
+      <div class="swiper-button-prev wt-slider__nav-btn wt-slider__nav-prev wt-slider__nav-prev--featured">
+        {% render 'icons', id: 'arrow-left' %}
+      </div>
+      <div class="swiper-pagination wt-slider__pagination"></div>
+    </div>
+    <script data-swiper-configuration type="text/json">
+      {
+        "enableOnMedia": "(min-width: 0px)",
+        "slidesPerView": 1,
+        "slidesPerGroup": 1,
+        "freeMode": false,
+        "speed": 150,
+        "grabCursor": false,
+        "paginationType": "bullets",
+        "navigation": {
+          "nextEl": ".wt-slider__nav-next--featured",
+          "prevEl": ".wt-slider__nav-prev--featured"
+        }
+      }
+    </script>
+  </slideshow-section>
+  <slideshow-section class="wt-test__container large-up-hide">
+    {% render 'headline', title: section.settings.heading %}
+    <div
+      data-swiper
+      class="{% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
+    >
+      <div data-swiper-container class="wt-test__list rte">
+        {%- assign number_of_slides = section.blocks.size | plus: 0.0 | divided_by: 1 | ceil -%}
+        {%- for i in (1..number_of_slides) -%}
+          {%- assign slide_offset = forloop.index0 | times: 1 -%}
+          <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
+            {% for block in section.blocks limit: 1 offset: slide_offset %}
+              <div class="testimonial-card">
+                {% assign image_class = 'wt-test__image' %}
+                {% if section.settings.image_shape == 'natural' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--natural' %}
+                {% elsif section.settings.image_shape == 'circle' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--circle' %}
+                {% elsif section.settings.image_shape == 'no_image' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--no_image' %}
+                {% elsif section.settings.image_shape == 'square' %}
+                  {% assign image_class = image_class | append: ' wt-test__image--square' %}
+                {% endif %}
+
+                {% if block.settings.icon_select == '80' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '90' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                {% if block.settings.icon_select == '100' %}
+                  {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+                <div class="wt-test__text">{{ block.settings.text | truncate: 80 }}</div>
+                <div class="author-wrapper">
+                  {%- if block.settings.desktop_image != blank -%}
+                    {% assign alt_text = block.settings.desktop_image.alt | escape %}
+
+                    {{
+                      block.settings.desktop_image
+                      | image_url: width: 600
+                      | image_tag:
+                        loading: 'lazy',
+                        sizes: '(min-width: 750px) 750px, 100vw',
+                        widths: '375, 750, 1100, 1440',
+                        alt: alt_text,
+                        class: image_class
+                    }}
+                  {%- else -%}
+                    {{ 'product-apparel-' | append: forloop.index | placeholder_svg_tag: image_class }}
+                  {%- endif -%}
+
+                  <div class="author-name">
+                    <div class="wt-test__author">{{ block.settings.author }}</div>
+                    <div class="testimonial-date">{{ block.settings.date }}</div>
+                  </div>
+                </div>
+                {% if block.settings.icon_select == 'quote' %}
+                  {% render 'icons', id: block.settings.icon_select, icon_class: 'wt-test__icon' %}
+                {% endif %}
+              </div>
+            {% endfor %}
           </div>
         {% endfor %}
       </div>
@@ -228,7 +369,7 @@
     {
       "type": "image",
       "name": "t:sections.testimonials.settings.image.name",
-      "limit": 3,
+      "limit": 12,
       "settings": [
         {
           "type": "select",
@@ -299,6 +440,17 @@
           "id": "author",
           "default": "Author name",
           "label": "t:sections.testimonials.settings.image.author.label"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "default": "Feb 2026",
+          "label": "Date"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
