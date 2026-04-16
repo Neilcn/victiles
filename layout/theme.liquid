@@ -180,6 +180,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script>
 document.addEventListener('DOMContentLoaded', function () {
   const calculator = document.getElementById('flooring-calculator');
+    if (!calculator) return;
+
   const pricePerSqm = parseFloat(calculator.dataset.price);
   const coefficient = parseFloat(calculator.dataset.coefficient);
 
@@ -192,7 +194,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const unitSuffix = document.getElementById('unit-suffix');
   const addToCartBtn = document.getElementById('custom-add-to-cart');
   const addsampleBtn = document.getElementById('add-sample');
-  const variantId = document.querySelector('input[name="id"]').value;
+  const variantInput = document.querySelector('input[name="id"]');
+
+  if (!input || !toggle || !conversionText || !totalPrice || !wastageToggle || !unitLabel || !unitSuffix || !addToCartBtn || !variantInput) {
+    return;
+  }
+
+  const variantId = variantInput.value;
 
   let convertedBoxes = 0;
   let enteredSqm = 0;
@@ -743,49 +751,4 @@ document.getElementById('use-quantity').addEventListener('click', function () {
 
   </body>
 </html>
-
-    <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const addToCartBtn = document.getElementById("custom-add-to-cart");
-   
-    if (!addToCartBtn) return;
-
-    addToCartBtn.addEventListener("click", function () {
-      const qtyInput = document.getElementById("quantity-input");
-      const quantity = parseFloat(qtyInput.value) || 1;
-
-      const productId = {{ product.selected_or_first_available_variant.id | json }};
-
-      fetch('/cart/add.js', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-          id: productId,
-          quantity: quantity
-        })
-      })
-      .then(response => response.json())
-      .then(data => {
-        console.log('Added to cart:', data);
-
-        // Optional: Open the cart drawer (if theme supports it)
-        const cartDrawer = document.querySelector('cart-drawer');
-        if (cartDrawer && typeof cartDrawer.open === 'function') {
-          cartDrawer.open();
-        } else {
-          // Fallback: Redirect to cart
-          window.location.href = '/cart';
-        }
-      })
-      .catch(error => {
-        console.error('Error adding to cart:', error);
-        alert('Something went wrong. Please try again.');
-      });
-    });
-    
-  });
-</script>
 
