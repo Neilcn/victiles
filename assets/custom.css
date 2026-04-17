@@ -128,11 +128,13 @@ table-flow .tfv1-table .tfv1-tr .tfv1-td.tfv1-label{
 }
 
 .tiles-sale-banner {
-  background-color: #f5f0e8;
-  color: #7a5e3a;
-  border: 1px solid #e0c88a;
+  background-color: #f44336;
+  color: #ffffff;
   border-radius: 4px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
   margin-bottom: 10px;
 }
