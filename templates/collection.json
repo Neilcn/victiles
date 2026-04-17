@@ -230,6 +230,30 @@
         "margin-top": 40,
         "margin-bottom": 40
       }
+    },
+    "rich_text_WKnKrd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_t4icix": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.col_desc | metafield_tag }}",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_t4icix"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -239,6 +263,7 @@
     "product-grid",
     "collapsible_menu_n8awyi",
     "custom_liquid_DhFgND",
-    "features_banner_hADmFT"
+    "features_banner_hADmFT",
+    "rich_text_WKnKrd"
   ]
 }
