@@ -261,8 +261,8 @@
         "collapsible_tab_Qj7cGg": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ collection.metafields.custom.question_1.value }}",
-            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "heading": "{{ collection.metafields.custom.question_1.value }}fege",
+            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}<p>gege</p>",
             "page": "",
             "icon": "none"
           }
@@ -282,17 +282,28 @@
         "collapsible_tab_wirfV7"
       ],
       "disabled": true,
+      "custom_css": [
+        ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em auto;}",
+        ".wt-collapse__trigger__title {font-size: 16px; font-weight: 100;}"
+      ],
       "name": "t:sections.collapsible_menu.presets.name",
       "settings": {
         "title": "",
-        "subtitle": "{{ collection.metafields.custom.faq_title.value }}",
+        "subtitle": "{{ collection.metafields.custom.faq_title.value }}ege",
         "description": "",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "compact-size-enabled": true,
-        "two-columns-enabled": false,
+        "two-columns-enabled": true,
         "margin-top": 20,
         "margin-bottom": 20
+      }
+    },
+    "custom_liquid_PwhXAh": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.question_1 == blank %}\n<style>\ndetails#shopify-section-template--20428132974729__collapsible_menu_NW9VpE .wt-collapse__trigger__title{\n  display: none;\n}\n</style>\n{% endif %}"
       }
     }
   },
@@ -305,6 +316,7 @@
     "custom_liquid_DhFgND",
     "features_banner_hADmFT",
     "rich_text_WKnKrd",
-    "collapsible_menu_NW9VpE"
+    "collapsible_menu_NW9VpE",
+    "custom_liquid_PwhXAh"
   ]
 }
