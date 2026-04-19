@@ -109,6 +109,14 @@
             "image_collection": "shopify://shop_images/03-2048x2048.png",
             "text_collection": "Gem C"
           }
+        },
+        "featured_collection_fmfhwb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "violet-10-sliding-shower-screen",
+            "image_collection": "shopify://shop_images/V10-SR-1.png",
+            "text_collection": "V10 Sliding"
+          }
         }
       },
       "block_order": [
@@ -117,7 +125,8 @@
         "featured_collection_3MQM4e",
         "featured_collection_mq4yP6",
         "featured_collection_ACdaKq",
-        "featured_collection_DtLYgF"
+        "featured_collection_DtLYgF",
+        "featured_collection_fmfhwb"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
