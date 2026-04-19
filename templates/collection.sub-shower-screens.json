@@ -117,6 +117,14 @@
             "image_collection": "shopify://shop_images/V10-SR-1.png",
             "text_collection": "V10 Sliding"
           }
+        },
+        "featured_collection_CyphLe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "violet-10-pivot-shower-screen",
+            "image_collection": "shopify://shop_images/77459b3438c19c3ec8cba9fcaa17f9c.jpg",
+            "text_collection": "V10 Pivot"
+          }
         }
       },
       "block_order": [
@@ -126,7 +134,8 @@
         "featured_collection_mq4yP6",
         "featured_collection_ACdaKq",
         "featured_collection_DtLYgF",
-        "featured_collection_fmfhwb"
+        "featured_collection_fmfhwb",
+        "featured_collection_CyphLe"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
