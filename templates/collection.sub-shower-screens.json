@@ -105,9 +105,9 @@
         "featured_collection_DtLYgF": {
           "type": "featured_collection",
           "settings": {
-            "collection": "stonelite-profile-shower-base",
-            "image_collection": "shopify://shop_images/image_desktop_3.png",
-            "text_collection": "Profile"
+            "collection": "gem-c-shower-screens",
+            "image_collection": "shopify://shop_images/03-2048x2048.png",
+            "text_collection": "Gem C"
           }
         }
       },
