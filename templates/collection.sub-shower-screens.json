@@ -133,6 +133,14 @@
             "image_collection": "shopify://shop_images/V6-SD-BLKR_d442f401-b717-4f12-97b3-e408e9cb9250.png",
             "text_collection": "V6 Sliding"
           }
+        },
+        "featured_collection_DXEKnH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "violet-6-pivot-shower-screen",
+            "image_collection": "shopify://shop_images/V6-PD-BLKR_cd4e9be3-c7ea-4d5e-9642-32883ee9076b.png",
+            "text_collection": "V6 Pivot"
+          }
         }
       },
       "block_order": [
@@ -144,7 +152,8 @@
         "featured_collection_DtLYgF",
         "featured_collection_fmfhwb",
         "featured_collection_CyphLe",
-        "featured_collection_6eFxpr"
+        "featured_collection_6eFxpr",
+        "featured_collection_DXEKnH"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
