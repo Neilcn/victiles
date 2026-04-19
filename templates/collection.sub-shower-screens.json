@@ -89,9 +89,9 @@
         "featured_collection_mq4yP6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "stonelite-metro",
-            "image_collection": "shopify://shop_images/STONELITEMETRO10001000BASE.webp",
-            "text_collection": "Metro"
+            "collection": "gem-a-shower-screens",
+            "image_collection": "shopify://shop_images/02-2048x2048.png",
+            "text_collection": "Gem A"
           }
         },
         "featured_collection_ACdaKq": {
