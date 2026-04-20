@@ -311,6 +311,24 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "collapsible_tab_FzWPmq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_BLEAqf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
@@ -319,7 +337,9 @@
         "collapsible_tab_YHckKh",
         "collapsible_tab_kEQdTM",
         "collapsible_tab_RDGEWD",
-        "collapsible_tab_wzYPhd"
+        "collapsible_tab_wzYPhd",
+        "collapsible_tab_FzWPmq",
+        "collapsible_tab_BLEAqf"
       ],
       "custom_css": [
         ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em auto;}",
