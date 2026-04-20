@@ -352,7 +352,7 @@
         "description": "",
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "compact-size-enabled": true,
+        "compact-size-enabled": false,
         "two-columns-enabled": true,
         "margin-top": 20,
         "margin-bottom": 40
