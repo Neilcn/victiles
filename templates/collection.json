@@ -275,11 +275,21 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "collapsible_tab_YHckKh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_3.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
         "collapsible_tab_Qj7cGg",
-        "collapsible_tab_wirfV7"
+        "collapsible_tab_wirfV7",
+        "collapsible_tab_YHckKh"
       ],
       "custom_css": [
         ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em auto;}",
