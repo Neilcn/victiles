@@ -360,9 +360,17 @@
     },
     "custom_liquid_PwhXAh": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\nsection.faq-section[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]{\n  display: none;\n}\n</style>\n{% if collection.metafields.custom.question_1 == blank %}\n<style>\ncollapsible-section:nth-of-type(1){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_2 == blank %}\n<style>\ncollapsible-section:nth-of-type(2){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_3 == blank %}\n<style>\ncollapsible-section:nth-of-type(3){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_4 == blank %}\n<style>\ncollapsible-section:nth-of-type(4){\n  display: none;\n}\n</style>\n{% endif %}\n{% endif %}\n{% if collection.metafields.custom.question_5 == blank %}\n<style>\ncollapsible-section:nth-of-type(5){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_6 == blank %}\n<style>\ncollapsible-section:nth-of-type(6){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_7 == blank %}\n<style>\ncollapsible-section:nth-of-type(7){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_8 == blank %}\n<style>\ncollapsible-section:nth-of-type(8){\n  display: none;\n}\n</style>\n{% endif %}\n<style>.wt-footer__block collapsible-section,\n.collection__filter collapsible-section  {display:block;\n}</style>"
+      }
+    },
+    "custom_liquid_knweny": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<script>\n(function(){\n  function hideFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (faq) {\n      faq.style.display = \"none\";\n      return true;\n    }\n    return false;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (hideFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>\n{% endif %}\n\n\n<script>\n(function(){\n  function controlFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (!faq) return false;\n\n    var items = faq.querySelectorAll('collapsible-section');\n\n    {% if collection.metafields.custom.question_1 == blank %}\n    if(items[0]) items[0].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_2 == blank %}\n    if(items[1]) items[1].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_3 == blank %}\n    if(items[2]) items[2].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_4 == blank %}\n    if(items[3]) items[3].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_5 == blank %}\n    if(items[4]) items[4].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_6 == blank %}\n    if(items[5]) items[5].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_7 == blank %}\n    if(items[6]) items[6].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_8 == blank %}\n    if(items[7]) items[7].style.display = \"none\";\n    {% endif %}\n\n    return true;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (controlFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>"
       }
     }
   },
@@ -376,6 +384,7 @@
     "features_banner_hADmFT",
     "rich_text_WKnKrd",
     "collapsible_menu_NW9VpE",
-    "custom_liquid_PwhXAh"
+    "custom_liquid_PwhXAh",
+    "custom_liquid_knweny"
   ]
 }
