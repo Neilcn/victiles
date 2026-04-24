@@ -1414,7 +1414,7 @@ document.querySelector('#add-sample')?.addEventListener('click', function() {
 
       // Check total 5 samples rule
       if (totalSampleQty >= MAX_SAMPLE_TOTAL) {
-        alert("You already have the maximum of " + MAX_SAMPLE_TOTAL + " samples in your cart.");
+        alert("Limit is " + MAX_SAMPLE_TOTAL + " samples per order (you can place another order if needed).");
         throw new Error("Total sample limit reached");
       }
 
