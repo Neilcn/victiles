@@ -46,6 +46,7 @@
         },
         "slide_gLcrH6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
