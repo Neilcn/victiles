@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/AquaGlow-WF07-ParisOak-render-img_08377a8e-b49a-413b-b3b3-1e56177db4ac.jpg",
             "text_collection": "AquaGlow"
           }
+        },
+        "featured_collection_xdgx6Q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mtf-laminate-floor",
+            "image_collection": "shopify://shop_images/MTF-A101-render-img_a1f44b0d-b021-4d5f-bc53-82f008a6dec4.jpg",
+            "text_collection": "MTF"
+          }
         }
       },
       "block_order": [
         "featured_collection_DtLYgF",
         "featured_collection_RBr8D3",
         "featured_collection_a8mejC",
-        "featured_collection_zRbPNG"
+        "featured_collection_zRbPNG",
+        "featured_collection_xdgx6Q"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
