@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/Finesse.png",
             "text_collection": "Aspect"
           }
+        },
+        "featured_collection_zRbPNG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aquaglow-laminate-floor",
+            "image_collection": "shopify://shop_images/AquaGlow-WF07-ParisOak-render-img_08377a8e-b49a-413b-b3b3-1e56177db4ac.jpg",
+            "text_collection": "AquaGlow"
+          }
         }
       },
       "block_order": [
         "featured_collection_DtLYgF",
         "featured_collection_RBr8D3",
-        "featured_collection_a8mejC"
+        "featured_collection_a8mejC",
+        "featured_collection_zRbPNG"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
