@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/MTF-A101-render-img_a1f44b0d-b021-4d5f-bc53-82f008a6dec4.jpg",
             "text_collection": "MTF"
           }
+        },
+        "featured_collection_3RxGV7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nucore-laminate-floor",
+            "image_collection": "shopify://shop_images/NuCore-Extreme_1.png",
+            "text_collection": "Nucore"
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_RBr8D3",
         "featured_collection_a8mejC",
         "featured_collection_zRbPNG",
-        "featured_collection_xdgx6Q"
+        "featured_collection_xdgx6Q",
+        "featured_collection_3RxGV7"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
