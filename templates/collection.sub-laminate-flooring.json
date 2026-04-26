@@ -77,11 +77,20 @@
             "image_collection": "shopify://shop_images/Oakleaf-HD-PLUS-Laminate-Alpine-Mist-2.jpg",
             "text_collection": "Oakleaf HD"
           }
+        },
+        "featured_collection_a8mejC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aspire-laminate-floor",
+            "image_collection": "shopify://shop_images/Finesse.png",
+            "text_collection": "Aspect"
+          }
         }
       },
       "block_order": [
         "featured_collection_DtLYgF",
-        "featured_collection_RBr8D3"
+        "featured_collection_RBr8D3",
+        "featured_collection_a8mejC"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
