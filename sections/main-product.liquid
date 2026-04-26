@@ -946,7 +946,7 @@
                                 <div class="wt-collapse__target" id="CollapsibleTab-{{ block.id }}">
                                     <div class="wt-collapse__target--text rte">
                                       
-                                      {% if  block.settings.heading == "Installation Guide" %}
+                                      {% if  block.settings.heading == "Download" %}
                                         {% if product.metafields.custom.installation_guide != blank%}
                                           {% for installation_guide in product.metafields.custom.installation_guide.value %}
                                             <div class="pdf-download {% unless forloop.first %}top-boder{% endunless %}">{{ installation_guide.file_name }} <a href="{{ installation_guide.pdf_file | file_url }}" target="_blank"><svg id="move-layer-down" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"> <path id="Path_356" data-name="Path 356" d="M10,5.5l-4,4-4-4" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path> <line id="Line_20" data-name="Line 20" y1="9" transform="translate(6 0.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line> <line id="Line_21" data-name="Line 21" x1="11" transform="translate(0.5 11.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line> </svg></a></div>
@@ -982,10 +982,10 @@
                       {% if  block.settings.heading == "Description" %}
                         {{ product.description }}
                       
-                      {% elsif  block.settings.heading == "Installation Guide" %}
+                      {% elsif  block.settings.heading == "Download" %}
                                         {% if product.metafields.custom.installation_guide != blank%}
                                           {% for installation_guide in product.metafields.custom.installation_guide.value %}
-                                            <div class="pdf-download {% unless forloop.first %}top-boder{% endunless %}"><a href="{{ installation_guide.pdf_file | file_url }}" target="_blank"><svg id="move-layer-down" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"> <path id="Path_356" data-name="Path 356" d="M10,5.5l-4,4-4-4" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path> <line id="Line_20" data-name="Line 20" y1="9" transform="translate(6 0.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line> <line id="Line_21" data-name="Line 21" x1="11" transform="translate(0.5 11.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line></svg></a> {{ installation_guide.file_name }}</div>
+                                            <div class="pdf-download {% unless forloop.first %}top-boder{% endunless %}"><a href="{{ installation_guide.pdf_file | file_url }}" target="_blank"><svg id="move-layer-down" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"> <path id="Path_356" data-name="Path 356" d="M10,5.5l-4,4-4-4" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path> <line id="Line_20" data-name="Line 20" y1="9" transform="translate(6 0.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line> <line id="Line_21" data-name="Line 21" x1="11" transform="translate(0.5 11.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line></svg> {{ installation_guide.file_name }}</a></div>
                                           {% endfor %}
                                         {% endif %} 
                       {% else %}
