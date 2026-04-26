@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/PreferenceFloors_1032_Malabar_bedroom_Beach_bd8e0ad7-28ed-47b0-bafb-e26a1273056b.jpg",
             "text_collection": "KronoSwiss"
           }
+        },
+        "featured_collection_RBr8D3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oakleaf-hd-laminate-floor",
+            "image_collection": "shopify://shop_images/Oakleaf-HD-PLUS-Laminate-Alpine-Mist-2.jpg",
+            "text_collection": "Oakleaf HD"
+          }
         }
       },
       "block_order": [
-        "featured_collection_DtLYgF"
+        "featured_collection_DtLYgF",
+        "featured_collection_RBr8D3"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
