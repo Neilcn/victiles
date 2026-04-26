@@ -62,61 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stonelite-eco",
-            "image_collection": "shopify://shop_images/STONELITEECO1000900BASE.jpg",
-            "text_collection": "StoneLite ECO"
-          }
-        },
-        "featured_collection_wKr6pf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stonelite-elite",
-            "image_collection": "shopify://shop_images/STONELITEELITE900900BASE.jpg",
-            "text_collection": "StoneLite Elite"
-          }
-        },
-        "featured_collection_3MQM4e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stonelite-louve",
-            "image_collection": "shopify://shop_images/STONELITEVUE900900BASE.webp",
-            "text_collection": "Louve"
-          }
-        },
-        "featured_collection_mq4yP6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stonelite-metro",
-            "image_collection": "shopify://shop_images/STONELITEMETRO10001000BASE.webp",
-            "text_collection": "Metro"
-          }
-        },
-        "featured_collection_ACdaKq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stonelite-urban-mkii",
-            "image_collection": "shopify://shop_images/STONELITEURBAN900900BASE.webp",
-            "text_collection": "Urban MKII"
-          }
-        },
         "featured_collection_DtLYgF": {
           "type": "featured_collection",
           "settings": {
-            "collection": "stonelite-profile-shower-base",
-            "image_collection": "shopify://shop_images/image_desktop_3.png",
-            "text_collection": "Profile"
+            "collection": "kronoswiss-laminate-floor",
+            "image_collection": "shopify://shop_images/PreferenceFloors_1032_Malabar_bedroom_Beach_bd8e0ad7-28ed-47b0-bafb-e26a1273056b.jpg",
+            "text_collection": "KronoSwiss"
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6",
-        "featured_collection_ACdaKq",
         "featured_collection_DtLYgF"
       ],
       "custom_css": [
