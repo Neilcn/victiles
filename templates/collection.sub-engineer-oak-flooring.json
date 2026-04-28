@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/29a0a0_d35b8b85b9884ace95abec591948b123_mv2.png",
             "text_collection": "Classic Oak"
           }
+        },
+        "featured_collection_kET9Cd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crosswood-engineered-oak-floor",
+            "image_collection": "shopify://shop_images/Crosswood-T9-render-img.png",
+            "text_collection": "CrossWood"
+          }
         }
       },
       "block_order": [
-        "featured_collection_nVVWTy"
+        "featured_collection_nVVWTy",
+        "featured_collection_kET9Cd"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
