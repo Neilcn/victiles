@@ -102,6 +102,14 @@
             "text_collection": "Duro 9.5mm"
           }
         },
+        "featured_collection_7hCMhJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lifestyle-hybrid-floor",
+            "image_collection": "shopify://shop_images/Lifestyle-Spotted-gum.jpg",
+            "text_collection": "Lifestyle 12mm"
+          }
+        },
         "featured_collection_yLr9Xk": {
           "type": "featured_collection",
           "settings": {
@@ -133,6 +141,7 @@
         "featured_collection_YzyRRk",
         "featured_collection_m7P4ze",
         "featured_collection_gN9FTj",
+        "featured_collection_7hCMhJ",
         "featured_collection_yLr9Xk",
         "featured_collection_m9LNET",
         "featured_collection_nVVWTy"
