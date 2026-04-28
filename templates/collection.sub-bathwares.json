@@ -93,13 +93,31 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428164513_322_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_fmDyMp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanities-mirrors",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428164825_323_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_8QN9zW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sinks-accessories",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428165133_324_35.jpg",
+            "text_collection": "Sinks"
+          }
         }
       },
       "block_order": [
         "featured_collection_CHH4tW",
         "featured_collection_UAYY7a",
         "featured_collection_3aG3dC",
-        "featured_collection_UYRgjN"
+        "featured_collection_UYRgjN",
+        "featured_collection_fmDyMp",
+        "featured_collection_8QN9zW"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
