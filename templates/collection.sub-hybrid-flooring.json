@@ -109,6 +109,14 @@
             "image_collection": "shopify://shop_images/Easi-Plank-Herringbone-Blackbutt-web-1920x2879_45aee10c-dbe2-44de-9c64-c112ee23933b.jpg",
             "text_collection": "EasiPlank"
           }
+        },
+        "featured_collection_m9LNET": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hydroplank-hybrid-floor",
+            "image_collection": "shopify://shop_images/PreferenceFloors_1096_Malabar_water_on_floor_Harlem_7560b97a-7b6a-474d-a42e-8bd966c97821.jpg",
+            "text_collection": "HydroPlank 7.6mm"
+          }
         }
       },
       "block_order": [
@@ -117,7 +125,8 @@
         "featured_collection_YzyRRk",
         "featured_collection_m7P4ze",
         "featured_collection_gN9FTj",
-        "featured_collection_yLr9Xk"
+        "featured_collection_yLr9Xk",
+        "featured_collection_m9LNET"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
