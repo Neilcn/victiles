@@ -77,11 +77,29 @@
             "image_collection": "shopify://shop_images/sabre-oak.jpg",
             "text_collection": "Hybrid"
           }
+        },
+        "featured_collection_DFH8LV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "engineer-oak-flooring",
+            "image_collection": "shopify://shop_images/timber_amaroo_herringbone_bayside_oak_ls_landscape_1_lr.webp",
+            "text_collection": "Engineer oak"
+          }
+        },
+        "featured_collection_MGntVW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "luxury-vinyl-flooring",
+            "image_collection": "shopify://shop_images/Oak-Stave-Scene-scaled_2048x_600bc0d2-aaf5-4a1e-8828-b6646d403da8.png",
+            "text_collection": "Vinyl"
+          }
         }
       },
       "block_order": [
         "featured_collection_cWh3cw",
-        "featured_collection_B9TQGj"
+        "featured_collection_B9TQGj",
+        "featured_collection_DFH8LV",
+        "featured_collection_MGntVW"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
