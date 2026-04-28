@@ -77,11 +77,20 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428203610_330_35.jpg",
             "text_collection": "Spouts"
           }
+        },
+        "featured_collection_qhqRcz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kitchen-mixers",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428203757_331_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_6zGj6R",
-        "featured_collection_EGMTXR"
+        "featured_collection_EGMTXR",
+        "featured_collection_qhqRcz"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
