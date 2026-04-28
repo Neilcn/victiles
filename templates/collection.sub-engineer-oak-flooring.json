@@ -62,88 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_NPde4R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stonecore-hybrid-floor",
-            "image_collection": "shopify://shop_images/Create-Timber-Floor-Hybrid-and-Timber-01.jpg",
-            "text_collection": "StoneCore"
-          }
-        },
-        "featured_collection_DtLYgF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "resiplank-hybrid-floor",
-            "image_collection": "shopify://shop_images/7120_Coastal_Blackbutt_Resiplank_Rigidcore_977_Livingroom_dcbb6723-8bf7-4bd7-bc97-3e83a50e09e2.jpg",
-            "text_collection": "ResiPlank"
-          }
-        },
-        "featured_collection_YzyRRk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guardian-hybrid-floor",
-            "image_collection": "shopify://shop_images/Guardian-D3017-render-img.png",
-            "text_collection": "Guardian 6.5mm"
-          }
-        },
-        "featured_collection_m7P4ze": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aspire-rcb-hybrid-floor",
-            "image_collection": "shopify://shop_images/ED_011-aspire-crystal-lake-1_092dfb64-bba2-42e4-a4e3-ecbc2ed6f48f.jpg",
-            "text_collection": "Aspire 8mm"
-          }
-        },
-        "featured_collection_gN9FTj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "duro-hybrid-floor",
-            "image_collection": "shopify://shop_images/Duro-9mm-D5005-render-img.png",
-            "text_collection": "Duro 9.5mm"
-          }
-        },
-        "featured_collection_7hCMhJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lifestyle-hybrid-floor",
-            "image_collection": "shopify://shop_images/Lifestyle-Spotted-gum.jpg",
-            "text_collection": "Lifestyle 12mm"
-          }
-        },
-        "featured_collection_yLr9Xk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "easiplank-hybrid-floor",
-            "image_collection": "shopify://shop_images/Easi-Plank-Herringbone-Blackbutt-web-1920x2879_45aee10c-dbe2-44de-9c64-c112ee23933b.jpg",
-            "text_collection": "EasiPlank"
-          }
-        },
-        "featured_collection_m9LNET": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hydroplank-hybrid-floor",
-            "image_collection": "shopify://shop_images/PreferenceFloors_1096_Malabar_water_on_floor_Harlem_7560b97a-7b6a-474d-a42e-8bd966c97821.jpg",
-            "text_collection": "HydroPlank"
-          }
-        },
         "featured_collection_nVVWTy": {
           "type": "featured_collection",
           "settings": {
-            "collection": "iconic-hybrid-floor",
-            "image_collection": "shopify://shop_images/Blissful_A.jpg",
-            "text_collection": "Iconic"
+            "collection": "classic-oak-engineered-oak-flooring",
+            "image_collection": "shopify://shop_images/29a0a0_d35b8b85b9884ace95abec591948b123_mv2.png",
+            "text_collection": "Classic Oak"
           }
         }
       },
       "block_order": [
-        "featured_collection_NPde4R",
-        "featured_collection_DtLYgF",
-        "featured_collection_YzyRRk",
-        "featured_collection_m7P4ze",
-        "featured_collection_gN9FTj",
-        "featured_collection_7hCMhJ",
-        "featured_collection_yLr9Xk",
-        "featured_collection_m9LNET",
         "featured_collection_nVVWTy"
       ],
       "custom_css": [
