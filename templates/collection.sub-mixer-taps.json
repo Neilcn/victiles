@@ -91,7 +91,15 @@
           "settings": {
             "collection": "bathwares-mixer-taps-bathroom-tap-sets",
             "image_collection": "shopify://shop_images/Weixin_Image_20260428204147_332_35.jpg",
-            "text_collection": ""
+            "text_collection": "Bathroom Tap Sets"
+          }
+        },
+        "featured_collection_3xWUEN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "commercial-tapwares",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428204654_333_35.jpg",
+            "text_collection": "Commercial Taps"
           }
         }
       },
@@ -99,7 +107,8 @@
         "featured_collection_6zGj6R",
         "featured_collection_EGMTXR",
         "featured_collection_qhqRcz",
-        "featured_collection_y9Qnfj"
+        "featured_collection_y9Qnfj",
+        "featured_collection_3xWUEN"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
