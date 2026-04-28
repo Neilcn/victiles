@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/DM1-Cannes-Demarque-571x492-1.jpg",
             "text_collection": "De Marque"
           }
+        },
+        "featured_collection_JaBJMt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "prestige-engineered-oak-floor",
+            "image_collection": "shopify://shop_images/Aged-Oak-large-1920x2841.jpg",
+            "text_collection": "Prestige"
+          }
         }
       },
       "block_order": [
         "featured_collection_nVVWTy",
         "featured_collection_kET9Cd",
-        "featured_collection_RV7LVc"
+        "featured_collection_RV7LVc",
+        "featured_collection_JaBJMt"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
