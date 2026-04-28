@@ -62,6 +62,14 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_YzyRRk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guardian-hybrid-floor",
+            "image_collection": "shopify://shop_images/Guardian-D3017-render-img.png",
+            "text_collection": "Guardian 6.5mm"
+          }
+        },
         "featured_collection_NPde4R": {
           "type": "featured_collection",
           "settings": {
@@ -104,6 +112,7 @@
         }
       },
       "block_order": [
+        "featured_collection_YzyRRk",
         "featured_collection_NPde4R",
         "featured_collection_DtLYgF",
         "featured_collection_m7P4ze",
