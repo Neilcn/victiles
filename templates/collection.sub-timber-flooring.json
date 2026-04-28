@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/coastal-spotted-gum.jpg",
             "text_collection": "Laminate"
           }
+        },
+        "featured_collection_B9TQGj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hybrid-flooring",
+            "image_collection": "shopify://shop_images/sabre-oak.jpg",
+            "text_collection": "Hybrid"
+          }
         }
       },
       "block_order": [
-        "featured_collection_cWh3cw"
+        "featured_collection_cWh3cw",
+        "featured_collection_B9TQGj"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
