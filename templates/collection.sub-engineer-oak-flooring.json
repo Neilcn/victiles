@@ -109,6 +109,14 @@
             "image_collection": "shopify://shop_images/Oak-1920-Natural-ls4-1300x731.png",
             "text_collection": "Village Oak"
           }
+        },
+        "featured_collection_cWh3cw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wildoak-engineered-oak-floor",
+            "image_collection": "shopify://shop_images/swatch_wildoak220_lunar-grey_LS-413x619-1.jpg",
+            "text_collection": "WildOak"
+          }
         }
       },
       "block_order": [
@@ -117,7 +125,8 @@
         "featured_collection_RV7LVc",
         "featured_collection_JaBJMt",
         "featured_collection_QWX7Ta",
-        "featured_collection_V4LC4U"
+        "featured_collection_V4LC4U",
+        "featured_collection_cWh3cw"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
