@@ -117,6 +117,14 @@
             "image_collection": "shopify://shop_images/PreferenceFloors_1096_Malabar_water_on_floor_Harlem_7560b97a-7b6a-474d-a42e-8bd966c97821.jpg",
             "text_collection": "HydroPlank"
           }
+        },
+        "featured_collection_nVVWTy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "iconic-hybrid-floor",
+            "image_collection": "shopify://shop_images/Blissful_A.jpg",
+            "text_collection": "Iconic"
+          }
         }
       },
       "block_order": [
@@ -126,7 +134,8 @@
         "featured_collection_m7P4ze",
         "featured_collection_gN9FTj",
         "featured_collection_yLr9Xk",
-        "featured_collection_m9LNET"
+        "featured_collection_m9LNET",
+        "featured_collection_nVVWTy"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
