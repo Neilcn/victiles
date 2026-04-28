@@ -62,70 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_nVVWTy": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "classic-oak-engineered-oak-flooring",
-            "image_collection": "shopify://shop_images/29a0a0_d35b8b85b9884ace95abec591948b123_mv2.png",
-            "text_collection": "Classic Oak"
-          }
-        },
-        "featured_collection_kET9Cd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "crosswood-engineered-oak-floor",
-            "image_collection": "shopify://shop_images/Crosswood-T9-render-img.png",
-            "text_collection": "CrossWood"
-          }
-        },
-        "featured_collection_RV7LVc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "de-marque-engineered-oak-floor",
-            "image_collection": "shopify://shop_images/DM1-Cannes-Demarque-571x492-1.jpg",
-            "text_collection": "De Marque"
-          }
-        },
-        "featured_collection_JaBJMt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "prestige-engineered-oak-floor",
-            "image_collection": "shopify://shop_images/Aged-Oak-large-1920x2841.jpg",
-            "text_collection": "Prestige"
-          }
-        },
-        "featured_collection_QWX7Ta": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "quercus-engineered-oak-floor",
-            "image_collection": "shopify://shop_images/Quercus-HE08-Buckly-render-img.png",
-            "text_collection": "Quercus"
-          }
-        },
-        "featured_collection_V4LC4U": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "village-oak-engineered-oak-floor",
-            "image_collection": "shopify://shop_images/Oak-1920-Natural-ls4-1300x731.png",
-            "text_collection": "Village Oak"
-          }
-        },
         "featured_collection_cWh3cw": {
           "type": "featured_collection",
           "settings": {
-            "collection": "wildoak-engineered-oak-floor",
-            "image_collection": "shopify://shop_images/swatch_wildoak220_lunar-grey_LS-413x619-1.jpg",
-            "text_collection": "WildOak"
+            "collection": "laminate-flooring",
+            "image_collection": "shopify://shop_images/coastal-spotted-gum.jpg",
+            "text_collection": "Laminate"
           }
         }
       },
       "block_order": [
-        "featured_collection_nVVWTy",
-        "featured_collection_kET9Cd",
-        "featured_collection_RV7LVc",
-        "featured_collection_JaBJMt",
-        "featured_collection_QWX7Ta",
-        "featured_collection_V4LC4U",
         "featured_collection_cWh3cw"
       ],
       "custom_css": [
