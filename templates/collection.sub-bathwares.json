@@ -77,11 +77,20 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428163914_320_35.jpg",
             "text_collection": "Shower Systems"
           }
+        },
+        "featured_collection_3aG3dC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "basins-wastes",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428164209_321_35.jpg",
+            "text_collection": "Basins"
+          }
         }
       },
       "block_order": [
         "featured_collection_CHH4tW",
-        "featured_collection_UAYY7a"
+        "featured_collection_UAYY7a",
+        "featured_collection_3aG3dC"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
