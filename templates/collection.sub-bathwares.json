@@ -109,6 +109,14 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428165133_324_35.jpg",
             "text_collection": "Sinks"
           }
+        },
+        "featured_collection_eethcQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-spas",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428165424_325_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
@@ -117,7 +125,8 @@
         "featured_collection_3aG3dC",
         "featured_collection_UYRgjN",
         "featured_collection_fmDyMp",
-        "featured_collection_8QN9zW"
+        "featured_collection_8QN9zW",
+        "featured_collection_eethcQ"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
