@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/Quercus-HE08-Buckly-render-img.png",
             "text_collection": "Quercus"
           }
+        },
+        "featured_collection_V4LC4U": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "village-oak-engineered-oak-floor",
+            "image_collection": "shopify://shop_images/Oak-1920-Natural-ls4-1300x731.png",
+            "text_collection": "Village Oak"
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_kET9Cd",
         "featured_collection_RV7LVc",
         "featured_collection_JaBJMt",
-        "featured_collection_QWX7Ta"
+        "featured_collection_QWX7Ta",
+        "featured_collection_V4LC4U"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
