@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": false,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 16,
+        "margin-bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 260,
+        "mobile_fixed_height": 260,
+        "full-width-enabled": true,
+        "size_heading": 120,
+        "size_heading_mobile": 160,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 12,
+        "margin-bottom": 12
+      }
+    },
+    "title": {
+      "type": "main-collection-title",
+      "custom_css": [
+        ".hero__title svg {display: none;}"
+      ],
+      "settings": {
+        "full-width-enabled": false,
+        "show_collection_description": false,
+        "desktop_text_horizontal_position": "left",
+        "size_heading": 120,
+        "size_heading_mobile": 140,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 24,
+        "margin-bottom": 24
+      }
+    },
+    "collection_list_kNirjw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NPde4R": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stonecore-hybrid-floor",
+            "image_collection": "shopify://shop_images/Create-Timber-Floor-Hybrid-and-Timber-01.jpg",
+            "text_collection": "StoneCore"
+          }
+        },
+        "featured_collection_DtLYgF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "resiplank-hybrid-floor",
+            "image_collection": "shopify://shop_images/7120_Coastal_Blackbutt_Resiplank_Rigidcore_977_Livingroom_dcbb6723-8bf7-4bd7-bc97-3e83a50e09e2.jpg",
+            "text_collection": "ResiPlank"
+          }
+        },
+        "featured_collection_YzyRRk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guardian-hybrid-floor",
+            "image_collection": "shopify://shop_images/Guardian-D3017-render-img.png",
+            "text_collection": "Guardian 6.5mm"
+          }
+        },
+        "featured_collection_m7P4ze": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aspire-rcb-hybrid-floor",
+            "image_collection": "shopify://shop_images/ED_011-aspire-crystal-lake-1_092dfb64-bba2-42e4-a4e3-ecbc2ed6f48f.jpg",
+            "text_collection": "Aspire 8mm"
+          }
+        },
+        "featured_collection_gN9FTj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "duro-hybrid-floor",
+            "image_collection": "shopify://shop_images/Duro-9mm-D5005-render-img.png",
+            "text_collection": "Duro 9.5mm"
+          }
+        },
+        "featured_collection_7hCMhJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lifestyle-hybrid-floor",
+            "image_collection": "shopify://shop_images/Lifestyle-Spotted-gum.jpg",
+            "text_collection": "Lifestyle 12mm"
+          }
+        },
+        "featured_collection_yLr9Xk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "easiplank-hybrid-floor",
+            "image_collection": "shopify://shop_images/Easi-Plank-Herringbone-Blackbutt-web-1920x2879_45aee10c-dbe2-44de-9c64-c112ee23933b.jpg",
+            "text_collection": "EasiPlank"
+          }
+        },
+        "featured_collection_m9LNET": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hydroplank-hybrid-floor",
+            "image_collection": "shopify://shop_images/PreferenceFloors_1096_Malabar_water_on_floor_Harlem_7560b97a-7b6a-474d-a42e-8bd966c97821.jpg",
+            "text_collection": "HydroPlank"
+          }
+        },
+        "featured_collection_nVVWTy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "iconic-hybrid-floor",
+            "image_collection": "shopify://shop_images/Blissful_A.jpg",
+            "text_collection": "Iconic"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NPde4R",
+        "featured_collection_DtLYgF",
+        "featured_collection_YzyRRk",
+        "featured_collection_m7P4ze",
+        "featured_collection_gN9FTj",
+        "featured_collection_7hCMhJ",
+        "featured_collection_yLr9Xk",
+        "featured_collection_m9LNET",
+        "featured_collection_nVVWTy"
+      ],
+      "custom_css": [
+        "h2.headline__title {font-size: 20px; font-weight: 100;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "heading": "Explore Popular Collections >",
+        "enable_swipe": true,
+        "disable_images": false,
+        "number_of_column_desktop": 8,
+        "number_of_column_mobile": 2.1,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "collection_description_jk8wYL": {
+          "type": "collection_description",
+          "settings": {
+            "margin_top": 36,
+            "margin_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "collection_description_jk8wYL"
+      ],
+      "custom_css": [
+        ".filter__header.wt-collapse__trigger {font-size: 15px !important;}",
+        "svg.svg-icon.svg-icon--plus {height: 15px;}",
+        "aside.collection__aside.collection__filter.wt-filter {max-width: 210px !important;}",
+        "span.price-item.price-item--regular.wt-product__price__final.wt-product__price__final {color: #ca151d !important;}",
+        ".f-price__input {font-size: 12px !important; max-width: 8rem !important;}",
+        "label {font-size: 13px;}",
+        ".f-price__slider {padding-inline: 0px !important;}",
+        ".collection--with-aside .collection__filter {padding-left: 2px;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_mobile": "2",
+        "columns_desktop": "4",
+        "spacing_desktop": "16",
+        "full-width-enabled": false,
+        "spacing_mobile": "16",
+        "image_ratio": "adapt",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "text_alignment": "left",
+        "toolbar_style": "minimal",
+        "enable_sorting": true,
+        "enable_filtering": true,
+        "filter_position": "always",
+        "margin-top": 0,
+        "margin-bottom": 28
+      }
+    },
+    "features_banner_hADmFT": {
+      "type": "features-banner",
+      "blocks": {
+        "image_bf9aR9": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Fast Shipping",
+            "text": "<p>Fast dispatch within 1-3 business days for in-stock items.</p>",
+            "link": ""
+          }
+        },
+        "image_gcNmVy": {
+          "type": "image",
+          "settings": {
+            "select_icon": "user",
+            "heading": "Expert Customer Service",
+            "text": "<p>24/7 assistance available for all your product inquiries.</p>",
+            "link": ""
+          }
+        },
+        "image_yX8NnD": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Returns & Refunds",
+            "text": "<p>Return items within 15 days for a full refund.</p>",
+            "link": ""
+          }
+        },
+        "image_qgFzka": {
+          "type": "image",
+          "settings": {
+            "select_icon": "check",
+            "heading": "Affordable Prices",
+            "text": "<p>Get high-quality products at competitive, budget-friendly prices.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bf9aR9",
+        "image_gcNmVy",
+        "image_yX8NnD",
+        "image_qgFzka"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading_mobile": 70,
+        "size_heading": 70,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
+        "icon_layout": "center",
+        "columns_desktop": "4",
+        "icon_layout_mobile": "grid",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_background_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "banner",
+    "title",
+    "collection_list_kNirjw",
+    "product-grid",
+    "features_banner_hADmFT"
+  ]
+}
