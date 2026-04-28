@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428203757_331_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_y9Qnfj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathwares-mixer-taps-bathroom-tap-sets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428204147_332_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_6zGj6R",
         "featured_collection_EGMTXR",
-        "featured_collection_qhqRcz"
+        "featured_collection_qhqRcz",
+        "featured_collection_y9Qnfj"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
