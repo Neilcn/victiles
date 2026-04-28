@@ -77,11 +77,20 @@
             "image_collection": "shopify://shop_images/7120_Coastal_Blackbutt_Resiplank_Rigidcore_977_Livingroom_dcbb6723-8bf7-4bd7-bc97-3e83a50e09e2.jpg",
             "text_collection": "ResiPlank"
           }
+        },
+        "featured_collection_m7P4ze": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aspire-rcb-hybrid-floor",
+            "image_collection": "shopify://shop_images/ED_011-aspire-crystal-lake-1_092dfb64-bba2-42e4-a4e3-ecbc2ed6f48f.jpg",
+            "text_collection": "Aspire 8mm"
+          }
         }
       },
       "block_order": [
         "featured_collection_NPde4R",
-        "featured_collection_DtLYgF"
+        "featured_collection_DtLYgF",
+        "featured_collection_m7P4ze"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
