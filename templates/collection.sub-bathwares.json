@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428164209_321_35.jpg",
             "text_collection": "Basins"
           }
+        },
+        "featured_collection_UYRgjN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toilets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428164513_322_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_CHH4tW",
         "featured_collection_UAYY7a",
-        "featured_collection_3aG3dC"
+        "featured_collection_3aG3dC",
+        "featured_collection_UYRgjN"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
