@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/ED_011-aspire-crystal-lake-1_092dfb64-bba2-42e4-a4e3-ecbc2ed6f48f.jpg",
             "text_collection": "Aspire 8mm"
           }
+        },
+        "featured_collection_gN9FTj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "duro-hybrid-floor",
+            "image_collection": "shopify://shop_images/Duro-9mm-D5005-render-img.png",
+            "text_collection": "Duro 9.5mm"
+          }
         }
       },
       "block_order": [
         "featured_collection_NPde4R",
         "featured_collection_DtLYgF",
-        "featured_collection_m7P4ze"
+        "featured_collection_m7P4ze",
+        "featured_collection_gN9FTj"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
