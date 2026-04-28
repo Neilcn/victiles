@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/Bamboo-Flooring-Coffee-Verdura-X-lifestyle.jpg",
             "text_collection": "Bamboo"
           }
+        },
+        "featured_collection_CHH4tW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "australian-timber",
+            "image_collection": "shopify://shop_images/Jarrah1.jpg",
+            "text_collection": "AU Timber"
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_B9TQGj",
         "featured_collection_DFH8LV",
         "featured_collection_MGntVW",
-        "featured_collection_mLKgcT"
+        "featured_collection_mLKgcT",
+        "featured_collection_CHH4tW"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
