@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/Aged-Oak-large-1920x2841.jpg",
             "text_collection": "Prestige"
           }
+        },
+        "featured_collection_QWX7Ta": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quercus-engineered-oak-floor",
+            "image_collection": "shopify://shop_images/Quercus-HE08-Buckly-render-img.png",
+            "text_collection": "Quercus"
+          }
         }
       },
       "block_order": [
         "featured_collection_nVVWTy",
         "featured_collection_kET9Cd",
         "featured_collection_RV7LVc",
-        "featured_collection_JaBJMt"
+        "featured_collection_JaBJMt",
+        "featured_collection_QWX7Ta"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
