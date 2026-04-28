@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/Duro-9mm-D5005-render-img.png",
             "text_collection": "Duro 9.5mm"
           }
+        },
+        "featured_collection_yLr9Xk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "easiplank-hybrid-floor",
+            "image_collection": "shopify://shop_images/Easi-Plank-Herringbone-Blackbutt-web-1920x2879_45aee10c-dbe2-44de-9c64-c112ee23933b.jpg",
+            "text_collection": "EasiPlank"
+          }
         }
       },
       "block_order": [
         "featured_collection_NPde4R",
         "featured_collection_DtLYgF",
         "featured_collection_m7P4ze",
-        "featured_collection_gN9FTj"
+        "featured_collection_gN9FTj",
+        "featured_collection_yLr9Xk"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
