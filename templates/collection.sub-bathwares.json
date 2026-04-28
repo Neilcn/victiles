@@ -117,6 +117,22 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428165424_325_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_7LYdTj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "heating",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428165709_327_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_6zGj6R": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathroom-accessories",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428170046_328_35.jpg",
+            "text_collection": "Accessories"
+          }
         }
       },
       "block_order": [
@@ -126,7 +142,9 @@
         "featured_collection_UYRgjN",
         "featured_collection_fmDyMp",
         "featured_collection_8QN9zW",
-        "featured_collection_eethcQ"
+        "featured_collection_eethcQ",
+        "featured_collection_7LYdTj",
+        "featured_collection_6zGj6R"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
