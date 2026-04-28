@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260428203206_329_35.jpg",
             "text_collection": "Bathroom Mixers"
           }
+        },
+        "featured_collection_EGMTXR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spouts",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260428203610_330_35.jpg",
+            "text_collection": "Spouts"
+          }
         }
       },
       "block_order": [
-        "featured_collection_6zGj6R"
+        "featured_collection_6zGj6R",
+        "featured_collection_EGMTXR"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
