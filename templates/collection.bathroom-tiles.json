@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": false,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 16,
+        "margin-bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 260,
+        "mobile_fixed_height": 260,
+        "full-width-enabled": true,
+        "size_heading": 120,
+        "size_heading_mobile": 160,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 12,
+        "margin-bottom": 12
+      }
+    },
+    "title": {
+      "type": "main-collection-title",
+      "custom_css": [
+        ".hero__title svg {display: none;}"
+      ],
+      "settings": {
+        "full-width-enabled": false,
+        "show_collection_description": false,
+        "desktop_text_horizontal_position": "left",
+        "size_heading": 120,
+        "size_heading_mobile": 140,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 24,
+        "margin-bottom": 24
+      }
+    },
+    "collection_list_kNirjw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_z9NAyU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-tapware",
+            "image_collection": "shopify://shop_images/Tapware_d2025bdb-a017-4614-988f-6915156ae582.jpg",
+            "text_collection": "Tapware"
+          }
+        },
+        "featured_collection_wKr6pf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-vanity",
+            "image_collection": "shopify://shop_images/Vanity_7a471c30-b7c5-44f9-a442-a16b118ed4ef.jpg",
+            "text_collection": "Vanity"
+          }
+        },
+        "featured_collection_3MQM4e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-mirror",
+            "image_collection": "shopify://shop_images/Mirror.jpg",
+            "text_collection": "Mirror"
+          }
+        },
+        "featured_collection_mq4yP6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-basin",
+            "image_collection": "shopify://shop_images/Basin.jpg",
+            "text_collection": "Basin"
+          }
+        },
+        "featured_collection_ACdaKq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-shower-set",
+            "image_collection": "shopify://shop_images/Shower_Set.jpg",
+            "text_collection": "Shower Set"
+          }
+        },
+        "featured_collection_Hz8hdT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-bath-spout",
+            "image_collection": "shopify://shop_images/Bath_Spout_46a42147-74a9-40a2-9225-9a4701fe1e7f.jpg",
+            "text_collection": "Bath Spout"
+          }
+        },
+        "featured_collection_ayGcUe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-bathtub",
+            "image_collection": "shopify://shop_images/Bathtub.jpg",
+            "text_collection": "Bathtub"
+          }
+        },
+        "featured_collection_qJ8D9n": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shower-screens",
+            "image_collection": "shopify://shop_images/Shower_Screen.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_HDzBiR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathware-top-selling-toilet",
+            "image_collection": "shopify://shop_images/Toilet.jpg",
+            "text_collection": "Toilet"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_z9NAyU",
+        "featured_collection_wKr6pf",
+        "featured_collection_3MQM4e",
+        "featured_collection_mq4yP6",
+        "featured_collection_ACdaKq",
+        "featured_collection_Hz8hdT",
+        "featured_collection_ayGcUe",
+        "featured_collection_qJ8D9n",
+        "featured_collection_HDzBiR"
+      ],
+      "custom_css": [
+        "h2.headline__title {font-size: 20px; font-weight: 100;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "heading": "Explore Popular Collections >",
+        "enable_swipe": true,
+        "disable_images": false,
+        "number_of_column_desktop": 8,
+        "number_of_column_mobile": 2.1,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "collection_description_jk8wYL": {
+          "type": "collection_description",
+          "settings": {
+            "margin_top": 36,
+            "margin_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "collection_description_jk8wYL"
+      ],
+      "custom_css": [
+        ".filter__header.wt-collapse__trigger {font-size: 15px !important;}",
+        "svg.svg-icon.svg-icon--plus {height: 15px;}",
+        "aside.collection__aside.collection__filter.wt-filter {max-width: 210px !important;}",
+        "span.price-item.price-item--regular.wt-product__price__final.wt-product__price__final {color: #ca151d !important;}",
+        ".f-price__input {font-size: 12px !important; max-width: 8rem !important;}",
+        "label {font-size: 13px;}",
+        ".f-price__slider {padding-inline: 0px !important;}",
+        ".collection--with-aside .collection__filter {padding-left: 2px;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_mobile": "2",
+        "columns_desktop": "4",
+        "spacing_desktop": "16",
+        "full-width-enabled": false,
+        "spacing_mobile": "16",
+        "image_ratio": "adapt",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "text_alignment": "left",
+        "toolbar_style": "minimal",
+        "enable_sorting": true,
+        "enable_filtering": true,
+        "filter_position": "always",
+        "margin-top": 0,
+        "margin-bottom": 28
+      }
+    },
+    "features_banner_hADmFT": {
+      "type": "features-banner",
+      "blocks": {
+        "image_bf9aR9": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Fast Shipping",
+            "text": "<p>Fast dispatch within 1-3 business days for in-stock items.</p>",
+            "link": ""
+          }
+        },
+        "image_gcNmVy": {
+          "type": "image",
+          "settings": {
+            "select_icon": "user",
+            "heading": "Expert Customer Service",
+            "text": "<p>24/7 assistance available for all your product inquiries.</p>",
+            "link": ""
+          }
+        },
+        "image_yX8NnD": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Returns & Refunds",
+            "text": "<p>Return items within 15 days for a full refund.</p>",
+            "link": ""
+          }
+        },
+        "image_qgFzka": {
+          "type": "image",
+          "settings": {
+            "select_icon": "check",
+            "heading": "Affordable Prices",
+            "text": "<p>Get high-quality products at competitive, budget-friendly prices.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bf9aR9",
+        "image_gcNmVy",
+        "image_yX8NnD",
+        "image_qgFzka"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading_mobile": 70,
+        "size_heading": 70,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
+        "icon_layout": "center",
+        "columns_desktop": "4",
+        "icon_layout_mobile": "grid",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_background_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "banner",
+    "title",
+    "collection_list_kNirjw",
+    "product-grid",
+    "features_banner_hADmFT"
+  ]
+}
