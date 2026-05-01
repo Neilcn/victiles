@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260501194708_353_35.jpg",
             "text_collection": "Sink&Laundry Mixers"
           }
+        },
+        "featured_collection_jz4Xcb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sink-laundry-tap-sets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260501195740_354_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_mYTNp7"
+        "featured_collection_mYTNp7",
+        "featured_collection_jz4Xcb"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
