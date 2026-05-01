@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260501191525_346_35.jpg",
             "text_collection": "Wall Mixers"
           }
+        },
+        "featured_collection_i7KWjf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wall-mixers-with-divertors",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260501191807_347_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_6zGj6R",
         "featured_collection_NVzawW",
-        "featured_collection_gY8cAE"
+        "featured_collection_gY8cAE",
+        "featured_collection_i7KWjf"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
