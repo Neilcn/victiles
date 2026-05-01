@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260501193328_350_35.jpg",
             "text_collection": "Basin Spouts"
           }
+        },
+        "featured_collection_CjNcHE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-spout",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260501193607_351_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_mYTNp7"
+        "featured_collection_mYTNp7",
+        "featured_collection_CjNcHE"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
