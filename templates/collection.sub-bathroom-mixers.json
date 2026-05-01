@@ -106,7 +106,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Bathroom Products >",
+        "heading": "Bathroom Mixers >",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
