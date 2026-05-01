@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260501192334_348_35.jpg",
             "text_collection": "Wall Mixer Sets"
           }
+        },
+        "featured_collection_mYTNp7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bathwares-bathwares-mixer-taps-bathroom-mixers-freestanding-bath-mixers",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260501192706_349_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_NVzawW",
         "featured_collection_gY8cAE",
         "featured_collection_i7KWjf",
-        "featured_collection_TJBftH"
+        "featured_collection_TJBftH",
+        "featured_collection_mYTNp7"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
