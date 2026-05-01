@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260501191807_347_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_TJBftH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-basin-wall-mixer-sets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260501192334_348_35.jpg",
+            "text_collection": "Wall Mixer Sets"
+          }
         }
       },
       "block_order": [
         "featured_collection_6zGj6R",
         "featured_collection_NVzawW",
         "featured_collection_gY8cAE",
-        "featured_collection_i7KWjf"
+        "featured_collection_i7KWjf",
+        "featured_collection_TJBftH"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
