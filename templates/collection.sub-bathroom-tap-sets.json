@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260502173947_355_35.jpg",
             "text_collection": "Basin Sets"
           }
+        },
+        "featured_collection_VVWCXk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "three-pieces-bath-sets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502210655_356_35.jpg",
+            "text_collection": "Bath Sets"
+          }
         }
       },
       "block_order": [
-        "featured_collection_mYTNp7"
+        "featured_collection_mYTNp7",
+        "featured_collection_VVWCXk"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
