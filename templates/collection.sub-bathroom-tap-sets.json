@@ -77,11 +77,20 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260502210655_356_35.jpg",
             "text_collection": "Bath Sets"
           }
+        },
+        "featured_collection_n3DAPP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wall-top-assemblies",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502211230_357_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_mYTNp7",
-        "featured_collection_VVWCXk"
+        "featured_collection_VVWCXk",
+        "featured_collection_n3DAPP"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
