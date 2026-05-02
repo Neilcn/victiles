@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260502211608_358_35.jpg",
             "text_collection": "Showers"
           }
+        },
+        "featured_collection_PHgqAL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shower-screens-panels",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502212621_359_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_mYTNp7"
+        "featured_collection_mYTNp7",
+        "featured_collection_PHgqAL"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
