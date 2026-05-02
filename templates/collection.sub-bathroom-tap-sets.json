@@ -62,61 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_6zGj6R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "short-basin-mixers",
-            "image_collection": "shopify://shop_images/a9a0220f-011f-4f06-b953-d1472795f068.jpg",
-            "text_collection": "Short Basin Mixers"
-          }
-        },
-        "featured_collection_NVzawW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tall-basin-mixers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260501190927_345_35.jpg",
-            "text_collection": "Tall Basin Mixers"
-          }
-        },
-        "featured_collection_gY8cAE": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wall-mixers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260501191525_346_35.jpg",
-            "text_collection": "Wall Mixers"
-          }
-        },
-        "featured_collection_i7KWjf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wall-mixers-with-divertors",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260501191807_347_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_TJBftH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bath-basin-wall-mixer-sets",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260501192334_348_35.jpg",
-            "text_collection": "Wall Mixer Sets"
-          }
-        },
         "featured_collection_mYTNp7": {
           "type": "featured_collection",
           "settings": {
-            "collection": "free-standing-bath-mixers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260501192706_349_35.jpg",
-            "text_collection": "Free Standing Bath Mixers"
+            "collection": "three-pieces-basin-sets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502173947_355_35.jpg",
+            "text_collection": "Basin Sets"
           }
         }
       },
       "block_order": [
-        "featured_collection_6zGj6R",
-        "featured_collection_NVzawW",
-        "featured_collection_gY8cAE",
-        "featured_collection_i7KWjf",
-        "featured_collection_TJBftH",
         "featured_collection_mYTNp7"
       ],
       "custom_css": [
@@ -124,7 +79,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Bathroom Mixers >",
+        "heading": "Bathroom Tap Sets >",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
