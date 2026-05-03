@@ -62,52 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_mYTNp7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "showers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502211608_358_35.jpg",
-            "text_collection": "Showers"
-          }
-        },
-        "featured_collection_PHgqAL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shower-screens-panels",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502212621_359_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_6jWzRt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shower-bases",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502213037_360_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_qRqxVj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "niche-boxes",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502213508_361_35.jpg",
-            "text_collection": "Niche Boxes"
-          }
-        },
         "featured_collection_i8neN3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shower-wastes-channels",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502214017_363_35.jpg",
-            "text_collection": ""
+            "collection": "twin-showers",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502214812_364_35.jpg",
+            "text_collection": "Twin Showers"
           }
         }
       },
       "block_order": [
-        "featured_collection_mYTNp7",
-        "featured_collection_PHgqAL",
-        "featured_collection_6jWzRt",
-        "featured_collection_qRqxVj",
         "featured_collection_i8neN3"
       ],
       "custom_css": [
@@ -115,7 +79,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Shower Systems >",
+        "heading": "Showers >",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
