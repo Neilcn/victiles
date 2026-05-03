@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260502213037_360_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_qRqxVj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "niche-boxes",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502213508_361_35.jpg",
+            "text_collection": "Niche Boxes"
+          }
         }
       },
       "block_order": [
         "featured_collection_mYTNp7",
         "featured_collection_PHgqAL",
-        "featured_collection_6jWzRt"
+        "featured_collection_6jWzRt",
+        "featured_collection_qRqxVj"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
