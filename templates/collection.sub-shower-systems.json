@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260502213508_361_35.jpg",
             "text_collection": "Niche Boxes"
           }
+        },
+        "featured_collection_i8neN3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shower-wastes-channels",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260502213813_362_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_mYTNp7",
         "featured_collection_PHgqAL",
         "featured_collection_6jWzRt",
-        "featured_collection_qRqxVj"
+        "featured_collection_qRqxVj",
+        "featured_collection_i8neN3"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
