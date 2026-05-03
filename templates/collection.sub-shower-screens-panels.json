@@ -62,60 +62,33 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_i8neN3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "twin-showers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502214812_364_35.jpg",
-            "text_collection": "Twin Showers"
-          }
-        },
-        "featured_collection_d7irEz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rail-showers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502215200_365_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_9M6F4T": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hand-showers",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502215444_366_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_QHQQcK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shower-heads",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502220916_369_35.jpg",
-            "text_collection": ""
-          }
-        },
         "featured_collection_GXtnAU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "shower-arms",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260502220744_368_35.jpg",
+            "collection": "shower-screens",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260504093641_372_35.png",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_NDPmtp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath-screens",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260504094456_373_35.jpg",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_i8neN3",
-        "featured_collection_d7irEz",
-        "featured_collection_9M6F4T",
-        "featured_collection_QHQQcK",
-        "featured_collection_GXtnAU"
+        "featured_collection_GXtnAU",
+        "featured_collection_NDPmtp"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Showers >",
+        "heading": "Shower Screens & Panels >",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
