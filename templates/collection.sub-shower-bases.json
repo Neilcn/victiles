@@ -62,105 +62,33 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "louve-pivot-shower-screen",
-            "image_collection": "shopify://shop_images/image_desktop.jpg",
-            "text_collection": "Louve Pivot"
-          }
-        },
-        "featured_collection_wKr6pf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "louve-neo-pivot-shower-screen",
-            "image_collection": "shopify://shop_images/image_desktop_ebefeba0-cb9c-4406-b3dd-b5330c7be01e.png",
-            "text_collection": "Louve Neo"
-          }
-        },
-        "featured_collection_3MQM4e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "louve-curved-slider-shower-screen",
-            "image_collection": "shopify://shop_images/image_desktop_33f3f5ce-c291-47f1-be48-38edb23b41de.png",
-            "text_collection": "Louve Curved"
-          }
-        },
-        "featured_collection_mq4yP6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gem-a-shower-screens",
-            "image_collection": "shopify://shop_images/02-2048x2048.png",
-            "text_collection": "Gem A"
-          }
-        },
-        "featured_collection_ACdaKq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gem-b-shower-screen",
-            "image_collection": "shopify://shop_images/01-scaled.png",
-            "text_collection": "Gem B"
-          }
-        },
-        "featured_collection_DtLYgF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gem-c-shower-screens",
-            "image_collection": "shopify://shop_images/03-2048x2048.png",
-            "text_collection": "Gem C"
-          }
-        },
-        "featured_collection_fmfhwb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "violet-10-sliding-shower-screen",
-            "image_collection": "shopify://shop_images/V10-SR-1.png",
-            "text_collection": "V10 Sliding"
-          }
-        },
-        "featured_collection_CyphLe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "violet-10-pivot-shower-screen",
-            "image_collection": "shopify://shop_images/77459b3438c19c3ec8cba9fcaa17f9c.jpg",
-            "text_collection": "V10 Pivot"
-          }
-        },
-        "featured_collection_6eFxpr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "violet-6-sliding-shower-screen",
-            "image_collection": "shopify://shop_images/V6-SD-BLKR_d442f401-b717-4f12-97b3-e408e9cb9250.png",
-            "text_collection": "V6 Sliding"
-          }
-        },
         "featured_collection_DXEKnH": {
           "type": "featured_collection",
           "settings": {
-            "collection": "violet-6-pivot-shower-screen",
-            "image_collection": "shopify://shop_images/V6-PD-BLKR_cd4e9be3-c7ea-4d5e-9642-32883ee9076b.png",
-            "text_collection": "V6 Pivot"
+            "collection": "moulded-shower-bases",
+            "image_collection": "shopify://shop_images/SMCLOUVE900900BASE.webp",
+            "text_collection": "Moulded Shower Bases"
+          }
+        },
+        "featured_collection_YmLYxx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tiled-bases",
+            "image_collection": "shopify://shop_images/SBTT995.webp",
+            "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6",
-        "featured_collection_ACdaKq",
-        "featured_collection_DtLYgF",
-        "featured_collection_fmfhwb",
-        "featured_collection_CyphLe",
-        "featured_collection_6eFxpr",
-        "featured_collection_DXEKnH"
+        "featured_collection_DXEKnH",
+        "featured_collection_YmLYxx"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Explore Popular Collections >",
+        "heading": "Shower Bases >",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
