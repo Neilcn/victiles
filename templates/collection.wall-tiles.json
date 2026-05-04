@@ -288,6 +288,13 @@
         "margin-top": 40,
         "margin-bottom": 40
       }
+    },
+    "custom_liquid_arQXQL": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<script>\n(function(){\n  function hideFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (faq) {\n      faq.style.display = \"none\";\n      return true;\n    }\n    return false;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (hideFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>\n{% endif %}\n\n\n<script>\n(function(){\n  function controlFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (!faq) return false;\n\n    var items = faq.querySelectorAll('collapsible-section');\n\n    {% if collection.metafields.custom.question_1 == blank %}\n    if(items[0]) items[0].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_2 == blank %}\n    if(items[1]) items[1].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_3 == blank %}\n    if(items[2]) items[2].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_4 == blank %}\n    if(items[3]) items[3].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_5 == blank %}\n    if(items[4]) items[4].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_6 == blank %}\n    if(items[5]) items[5].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_7 == blank %}\n    if(items[6]) items[6].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_8 == blank %}\n    if(items[7]) items[7].style.display = \"none\";\n    {% endif %}\n\n    return true;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (controlFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>"
+      }
     }
   },
   "order": [
@@ -296,6 +303,7 @@
     "title",
     "collection_list_kNirjw",
     "product-grid",
-    "features_banner_hADmFT"
+    "features_banner_hADmFT",
+    "custom_liquid_arQXQL"
   ]
 }
