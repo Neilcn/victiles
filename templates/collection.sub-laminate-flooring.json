@@ -259,6 +259,109 @@
       "settings": {
         "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<script>\n(function(){\n  function hideFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (faq) {\n      faq.style.display = \"none\";\n      return true;\n    }\n    return false;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (hideFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>\n{% endif %}\n\n\n<script>\n(function(){\n  function controlFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (!faq) return false;\n\n    var items = faq.querySelectorAll('collapsible-section');\n\n    {% if collection.metafields.custom.question_1 == blank %}\n    if(items[0]) items[0].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_2 == blank %}\n    if(items[1]) items[1].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_3 == blank %}\n    if(items[2]) items[2].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_4 == blank %}\n    if(items[3]) items[3].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_5 == blank %}\n    if(items[4]) items[4].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_6 == blank %}\n    if(items[5]) items[5].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_7 == blank %}\n    if(items[6]) items[6].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_8 == blank %}\n    if(items[7]) items[7].style.display = \"none\";\n    {% endif %}\n\n    return true;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (controlFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>"
       }
+    },
+    "collapsible_menu_agWtWR": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_wwgwcA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_1.value }}",
+            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_9A4YfX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_2.value }}",
+            "content": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_7xmmiY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_3.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_K6eEaq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_4.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_U749dA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_5.value }}",
+            "content": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_UAwUL7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_6.value }}",
+            "content": "{{ collection.metafields.custom.answer_6 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_LgjdxT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_EA6Wyc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_wwgwcA",
+        "collapsible_tab_9A4YfX",
+        "collapsible_tab_7xmmiY",
+        "collapsible_tab_K6eEaq",
+        "collapsible_tab_U749dA",
+        "collapsible_tab_UAwUL7",
+        "collapsible_tab_LgjdxT",
+        "collapsible_tab_EA6Wyc"
+      ],
+      "custom_css": [
+        ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
+        ".wt-collapse__trigger__title,.metafield-rich_text_field {font-size: 16px; font-weight: 100;}"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "{{ collection.metafields.custom.faq_title.value }}",
+        "description": "",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": false,
+        "two-columns-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 40
+      }
     }
   },
   "order": [
@@ -268,6 +371,7 @@
     "collection_list_kNirjw",
     "product-grid",
     "features_banner_hADmFT",
+    "collapsible_menu_agWtWR",
     "custom_liquid_8hdGTw"
   ]
 }
