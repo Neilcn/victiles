@@ -288,116 +288,6 @@
         "margin-top": 40,
         "margin-bottom": 40
       }
-    },
-    "collapsible_menu_KWTF3V": {
-      "type": "collapsible_menu",
-      "blocks": {
-        "collapsible_tab_EV7NYB": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_1.value }}",
-            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_3himhJ": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_2.value }}",
-            "content": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_AQizWR": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_3.value }}",
-            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_rgcPQj": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_4.value }}",
-            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_eAheeh": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_5.value }}",
-            "content": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_MNmxXG": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_6.value }}",
-            "content": "{{ collection.metafields.custom.answer_6 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_thgC7E": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_7.value }}",
-            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_cUiNYH": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_7.value }}",
-            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_tab_EV7NYB",
-        "collapsible_tab_3himhJ",
-        "collapsible_tab_AQizWR",
-        "collapsible_tab_rgcPQj",
-        "collapsible_tab_eAheeh",
-        "collapsible_tab_MNmxXG",
-        "collapsible_tab_thgC7E",
-        "collapsible_tab_cUiNYH"
-      ],
-      "custom_css": [
-        ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
-        ".wt-collapse__trigger__title,.metafield-rich_text_field {font-size: 16px; font-weight: 100;}"
-      ],
-      "name": "t:sections.collapsible_menu.presets.name",
-      "settings": {
-        "title": "",
-        "subtitle": "{{ collection.metafields.custom.faq_title.value }}",
-        "description": "",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "compact-size-enabled": false,
-        "two-columns-enabled": true,
-        "margin-top": 20,
-        "margin-bottom": 40
-      }
-    },
-    "custom_liquid_UMLCw9": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<script>\n(function(){\n  function hideFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (faq) {\n      faq.style.display = \"none\";\n      return true;\n    }\n    return false;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (hideFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>\n{% endif %}\n\n\n<script>\n(function(){\n  function controlFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (!faq) return false;\n\n    var items = faq.querySelectorAll('collapsible-section');\n\n    {% if collection.metafields.custom.question_1 == blank %}\n    if(items[0]) items[0].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_2 == blank %}\n    if(items[1]) items[1].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_3 == blank %}\n    if(items[2]) items[2].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_4 == blank %}\n    if(items[3]) items[3].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_5 == blank %}\n    if(items[4]) items[4].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_6 == blank %}\n    if(items[5]) items[5].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_7 == blank %}\n    if(items[6]) items[6].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_8 == blank %}\n    if(items[7]) items[7].style.display = \"none\";\n    {% endif %}\n\n    return true;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (controlFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>"
-      }
     }
   },
   "order": [
@@ -406,8 +296,6 @@
     "title",
     "collection_list_kNirjw",
     "product-grid",
-    "features_banner_hADmFT",
-    "collapsible_menu_KWTF3V",
-    "custom_liquid_UMLCw9"
+    "features_banner_hADmFT"
   ]
 }
