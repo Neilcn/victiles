@@ -289,10 +289,10 @@
         "margin-bottom": 40
       }
     },
-    "collapsible_menu_Gm3CbQ": {
+    "collapsible_menu_KWTF3V": {
       "type": "collapsible_menu",
       "blocks": {
-        "collapsible_tab_jG3RyK": {
+        "collapsible_tab_EV7NYB": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_1.value }}",
@@ -301,7 +301,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_MkTwDj": {
+        "collapsible_tab_3himhJ": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_2.value }}",
@@ -310,7 +310,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_UtMpec": {
+        "collapsible_tab_AQizWR": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_3.value }}",
@@ -319,7 +319,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_rMhJMj": {
+        "collapsible_tab_rgcPQj": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_4.value }}",
@@ -328,7 +328,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_idUiE7": {
+        "collapsible_tab_eAheeh": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_5.value }}",
@@ -337,7 +337,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_iVh7x8": {
+        "collapsible_tab_MNmxXG": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_6.value }}",
@@ -346,7 +346,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_cdQgm6": {
+        "collapsible_tab_thgC7E": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_7.value }}",
@@ -355,7 +355,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_dPeqiL": {
+        "collapsible_tab_cUiNYH": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_7.value }}",
@@ -366,14 +366,14 @@
         }
       },
       "block_order": [
-        "collapsible_tab_jG3RyK",
-        "collapsible_tab_MkTwDj",
-        "collapsible_tab_UtMpec",
-        "collapsible_tab_rMhJMj",
-        "collapsible_tab_idUiE7",
-        "collapsible_tab_iVh7x8",
-        "collapsible_tab_cdQgm6",
-        "collapsible_tab_dPeqiL"
+        "collapsible_tab_EV7NYB",
+        "collapsible_tab_3himhJ",
+        "collapsible_tab_AQizWR",
+        "collapsible_tab_rgcPQj",
+        "collapsible_tab_eAheeh",
+        "collapsible_tab_MNmxXG",
+        "collapsible_tab_thgC7E",
+        "collapsible_tab_cUiNYH"
       ],
       "custom_css": [
         ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
@@ -407,7 +407,7 @@
     "collection_list_kNirjw",
     "product-grid",
     "features_banner_hADmFT",
-    "collapsible_menu_Gm3CbQ",
+    "collapsible_menu_KWTF3V",
     "custom_liquid_UMLCw9"
   ]
 }
