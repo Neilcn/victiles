@@ -65,17 +65,17 @@
         "featured_collection_DXEKnH": {
           "type": "featured_collection",
           "settings": {
-            "collection": "moulded-shower-bases",
-            "image_collection": "shopify://shop_images/SMCLOUVE900900BASE.webp",
-            "text_collection": "Moulded Shower Bases"
+            "collection": "shower-floor-wastes",
+            "image_collection": "shopify://shop_images/buyg003.fd_1800x1800_b250e8de-7e96-46eb-87cf-08c8c4d23071.webp",
+            "text_collection": "Floor Wastes"
           }
         },
         "featured_collection_YmLYxx": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tiled-bases",
-            "image_collection": "shopify://shop_images/SBTT995.webp",
-            "text_collection": ""
+            "collection": "linear-floor-grates",
+            "image_collection": "shopify://shop_images/LGFD600-1200mm.webp",
+            "text_collection": "Linear Grates"
           }
         }
       },
@@ -88,7 +88,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Shower Bases >",
+        "heading": "Shower Wastes & Channels >",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
