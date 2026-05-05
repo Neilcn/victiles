@@ -102,6 +102,14 @@
             "text_collection": ""
           }
         },
+        "featured_collection_LT9pDG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wall-mounted-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506095112_380_35.jpg",
+            "text_collection": ""
+          }
+        },
         "featured_collection_Yq67Td": {
           "type": "featured_collection",
           "settings": {
@@ -116,6 +124,7 @@
         "featured_collection_BtkTWh",
         "featured_collection_PP7Hhf",
         "featured_collection_ffgGtk",
+        "featured_collection_LT9pDG",
         "featured_collection_Yq67Td"
       ],
       "custom_css": [
