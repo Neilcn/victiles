@@ -85,12 +85,30 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260506090917_377_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_PP7Hhf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "semi-insert-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506092313_378_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_ffgGtk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "under-counter-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506094024_379_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_aN4rRe",
         "featured_collection_UByYiw",
-        "featured_collection_BtkTWh"
+        "featured_collection_BtkTWh",
+        "featured_collection_PP7Hhf",
+        "featured_collection_ffgGtk"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
