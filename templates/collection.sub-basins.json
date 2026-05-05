@@ -101,6 +101,13 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260506094024_379_35.jpg",
             "text_collection": ""
           }
+        },
+        "featured_collection_Yq67Td": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "freestanding-basins",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
@@ -108,7 +115,8 @@
         "featured_collection_UByYiw",
         "featured_collection_BtkTWh",
         "featured_collection_PP7Hhf",
-        "featured_collection_ffgGtk"
+        "featured_collection_ffgGtk",
+        "featured_collection_Yq67Td"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
