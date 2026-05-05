@@ -62,88 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_CHH4tW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mixer-taps",
-            "image_collection": "shopify://shop_images/e9f628a1-b2b6-4e8e-b76b-e4576a35665e.png",
-            "text_collection": "Mixer Taps"
-          }
-        },
-        "featured_collection_UAYY7a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shower-systems",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428163914_320_35.jpg",
-            "text_collection": "Shower Systems"
-          }
-        },
-        "featured_collection_3aG3dC": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "basins-wastes",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428164209_321_35.jpg",
-            "text_collection": "Basins"
-          }
-        },
-        "featured_collection_UYRgjN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "toilets",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428164513_322_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_fmDyMp": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanities-mirrors",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428164825_323_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_8QN9zW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sinks-accessories",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428165133_324_35.jpg",
-            "text_collection": "Sinks"
-          }
-        },
-        "featured_collection_eethcQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bath-spas",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428165424_325_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_7LYdTj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "heating",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260429083136_337_35.jpg",
-            "text_collection": ""
-          }
-        },
         "featured_collection_6zGj6R": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bathroom-accessories",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260428170046_328_35.jpg",
-            "text_collection": "Accessories"
+            "collection": "basins",
+            "image_collection": "shopify://shop_images/5fbae0f5431df93016338939_WB4737.webp",
+            "text_collection": "Basins"
           }
         }
       },
       "block_order": [
-        "featured_collection_CHH4tW",
-        "featured_collection_UAYY7a",
-        "featured_collection_3aG3dC",
-        "featured_collection_UYRgjN",
-        "featured_collection_fmDyMp",
-        "featured_collection_8QN9zW",
-        "featured_collection_eethcQ",
-        "featured_collection_7LYdTj",
         "featured_collection_6zGj6R"
       ],
       "custom_css": [
@@ -151,7 +79,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Bathroom Products >",
+        "heading": "",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
