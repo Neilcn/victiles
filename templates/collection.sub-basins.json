@@ -62,26 +62,35 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_6zGj6R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "basins",
-            "image_collection": "shopify://shop_images/5fbae0f5431df93016338939_WB4737.webp",
-            "text_collection": "Basins"
-          }
-        },
         "featured_collection_aN4rRe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "basin-wastes-traps",
-            "image_collection": "shopify://shop_images/WB_Plug_BB.webp",
+            "collection": "above-counter-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506090508_375_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_UByYiw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "semi-recessed-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506090903_376_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_BtkTWh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "insert-vanity-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506090917_377_35.jpg",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_6zGj6R",
-        "featured_collection_aN4rRe"
+        "featured_collection_aN4rRe",
+        "featured_collection_UByYiw",
+        "featured_collection_BtkTWh"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
