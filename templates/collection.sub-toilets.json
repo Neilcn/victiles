@@ -62,26 +62,35 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_aN4rRe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "basin-wastes",
-            "image_collection": "shopify://shop_images/WB_Plug_BB.webp",
-            "text_collection": ""
-          }
-        },
         "featured_collection_WbJywb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bottle-traps",
-            "image_collection": "shopify://shop_images/bt02.06_1800x1800_e4380c5c-4b9b-4c17-b8d2-006bc2539bf0.webp",
+            "collection": "toilet-suites",
+            "image_collection": "shopify://shop_images/022R1064-5.5-1-scaled-1.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_hDEpKK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "inwall-toilet-suites",
+            "image_collection": "shopify://shop_images/102S-1-scaled-1.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_QhWfm7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smart-toilet-series",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260507093303_382_35.jpg",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_aN4rRe",
-        "featured_collection_WbJywb"
+        "featured_collection_WbJywb",
+        "featured_collection_hDEpKK",
+        "featured_collection_QhWfm7"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
