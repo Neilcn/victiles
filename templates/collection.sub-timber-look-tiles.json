@@ -1,0 +1,390 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "main-breadcrumbs",
+      "settings": {
+        "full-width-enabled": false,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 16,
+        "margin-bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 260,
+        "mobile_fixed_height": 260,
+        "full-width-enabled": true,
+        "size_heading": 120,
+        "size_heading_mobile": 160,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 12,
+        "margin-bottom": 12
+      }
+    },
+    "title": {
+      "type": "main-collection-title",
+      "disabled": true,
+      "settings": {
+        "full-width-enabled": false,
+        "show_collection_description": true,
+        "desktop_text_horizontal_position": "center",
+        "size_heading": 200,
+        "size_heading_mobile": 140,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 24,
+        "margin-bottom": 24
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".filter__header.wt-collapse__trigger {font-size: 15px !important;}",
+        "svg.svg-icon.svg-icon--plus {height: 15px;}",
+        "aside.collection__aside.collection__filter.wt-filter {max-width: 210px !important;}",
+        "span.price-item.price-item--regular.wt-product__price__final.wt-product__price__final {color: #ca151d !important;}",
+        ".f-price__input {font-size: 12px !important; max-width: 8rem !important;}",
+        "label {font-size: 13px;}",
+        ".f-price__slider {padding-inline: 0px !important;}",
+        ".collection--with-aside .collection__filter {padding-left: 2px;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_mobile": "2",
+        "columns_desktop": "4",
+        "spacing_desktop": "16",
+        "full-width-enabled": false,
+        "spacing_mobile": "16",
+        "image_ratio": "adapt",
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "text_alignment": "left",
+        "toolbar_style": "minimal",
+        "enable_sorting": true,
+        "enable_filtering": true,
+        "filter_position": "always",
+        "margin-top": 0,
+        "margin-bottom": 28
+      }
+    },
+    "collapsible_menu_n8awyi": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_DBDaCx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_1.value }}",
+            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_xXDMJk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_2.value }}",
+            "content": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_tTDn3i": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_3.value }}",
+            "content": "{{ collection.metafields.custom.answer_3 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_Q7YxqW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_4.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_aCUam8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_5.value }}",
+            "content": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_DBDaCx",
+        "collapsible_tab_xXDMJk",
+        "collapsible_tab_tTDn3i",
+        "collapsible_tab_Q7YxqW",
+        "collapsible_tab_aCUam8"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>{{ collection.metafields.custom.faq_title.value }}</h2>",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": true,
+        "two-columns-enabled": false,
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "custom_liquid_DhFgND": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\nsection#shopify-section-template--20428132974729__collapsible_menu_n8awyi{\n  display: none;\n}\n</style>\n{% endif %}"
+      }
+    },
+    "features_banner_hADmFT": {
+      "type": "features-banner",
+      "blocks": {
+        "image_bf9aR9": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Fast Shipping",
+            "text": "<p>Fast dispatch within 1-3 business days for in-stock items.</p>",
+            "link": ""
+          }
+        },
+        "image_gcNmVy": {
+          "type": "image",
+          "settings": {
+            "select_icon": "user",
+            "heading": "Expert Customer Service",
+            "text": "<p>24/7 assistance available for all your product inquiries.</p>",
+            "link": ""
+          }
+        },
+        "image_yX8NnD": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Returns & Refunds",
+            "text": "<p>Return items within 15 days for a full refund.</p>",
+            "link": ""
+          }
+        },
+        "image_qgFzka": {
+          "type": "image",
+          "settings": {
+            "select_icon": "check",
+            "heading": "Affordable Prices",
+            "text": "<p>Get high-quality products at competitive, budget-friendly prices.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bf9aR9",
+        "image_gcNmVy",
+        "image_yX8NnD",
+        "image_qgFzka"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading_mobile": 70,
+        "size_heading": 70,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
+        "icon_layout": "center",
+        "columns_desktop": "4",
+        "icon_layout_mobile": "grid",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_background_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "rich_text_WKnKrd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_t4icix": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.col_desc | metafield_tag }}",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_t4icix"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 52,
+        "margin-bottom": 20
+      }
+    },
+    "collapsible_menu_NW9VpE": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_Qj7cGg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_1.value }}",
+            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_wirfV7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_2.value }}",
+            "content": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_YHckKh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_3.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_kEQdTM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_4.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_RDGEWD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_5.value }}",
+            "content": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_wzYPhd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_6.value }}",
+            "content": "{{ collection.metafields.custom.answer_6 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_FzWPmq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_BLEAqf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_Qj7cGg",
+        "collapsible_tab_wirfV7",
+        "collapsible_tab_YHckKh",
+        "collapsible_tab_kEQdTM",
+        "collapsible_tab_RDGEWD",
+        "collapsible_tab_wzYPhd",
+        "collapsible_tab_FzWPmq",
+        "collapsible_tab_BLEAqf"
+      ],
+      "custom_css": [
+        ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
+        ".wt-collapse__trigger__title,.metafield-rich_text_field {font-size: 16px; font-weight: 100;}"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "{{ collection.metafields.custom.faq_title.value }}",
+        "description": "",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": false,
+        "two-columns-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 40
+      }
+    },
+    "custom_liquid_PwhXAh": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<style>\nsection.faq-section[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]{\n  display: none;\n}\n</style>\n{% if collection.metafields.custom.question_1 == blank %}\n<style>\ncollapsible-section:nth-of-type(1){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_2 == blank %}\n<style>\ncollapsible-section:nth-of-type(2){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_3 == blank %}\n<style>\ncollapsible-section:nth-of-type(3){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_4 == blank %}\n<style>\ncollapsible-section:nth-of-type(4){\n  display: none;\n}\n</style>\n{% endif %}\n{% endif %}\n{% if collection.metafields.custom.question_5 == blank %}\n<style>\ncollapsible-section:nth-of-type(5){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_6 == blank %}\n<style>\ncollapsible-section:nth-of-type(6){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_7 == blank %}\n<style>\ncollapsible-section:nth-of-type(7){\n  display: none;\n}\n</style>\n{% endif %}\n{% if collection.metafields.custom.question_8 == blank %}\n<style>\ncollapsible-section:nth-of-type(8){\n  display: none;\n}\n</style>\n{% endif %}\n<style>.wt-footer__block collapsible-section,\n.collection__filter collapsible-section  {display:block;\n}</style>"
+      }
+    },
+    "custom_liquid_knweny": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.faq_title == blank %}\n<script>\n(function(){\n  function hideFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (faq) {\n      faq.style.display = \"none\";\n      return true;\n    }\n    return false;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (hideFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>\n{% endif %}\n\n\n<script>\n(function(){\n  function controlFAQ(){\n    var faq = document.querySelector('[data-section-id=\"template--20428132974729__collapsible_menu_NW9VpE\"]');\n    if (!faq) return false;\n\n    var items = faq.querySelectorAll('collapsible-section');\n\n    {% if collection.metafields.custom.question_1 == blank %}\n    if(items[0]) items[0].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_2 == blank %}\n    if(items[1]) items[1].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_3 == blank %}\n    if(items[2]) items[2].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_4 == blank %}\n    if(items[3]) items[3].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_5 == blank %}\n    if(items[4]) items[4].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_6 == blank %}\n    if(items[5]) items[5].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_7 == blank %}\n    if(items[6]) items[6].style.display = \"none\";\n    {% endif %}\n\n    {% if collection.metafields.custom.question_8 == blank %}\n    if(items[7]) items[7].style.display = \"none\";\n    {% endif %}\n\n    return true;\n  }\n\n  var tries = 0;\n  var interval = setInterval(function(){\n    if (controlFAQ() || tries > 20){\n      clearInterval(interval);\n    }\n    tries++;\n  }, 200);\n})();\n</script>"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "banner",
+    "title",
+    "product-grid",
+    "collapsible_menu_n8awyi",
+    "custom_liquid_DhFgND",
+    "features_banner_hADmFT",
+    "rich_text_WKnKrd",
+    "collapsible_menu_NW9VpE",
+    "custom_liquid_PwhXAh",
+    "custom_liquid_knweny"
+  ]
+}
