@@ -62,26 +62,26 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_6zGj6R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "basins",
-            "image_collection": "shopify://shop_images/5fbae0f5431df93016338939_WB4737.webp",
-            "text_collection": "Basins"
-          }
-        },
         "featured_collection_aN4rRe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "basin-wastes-traps",
+            "collection": "basin-wastes",
             "image_collection": "shopify://shop_images/WB_Plug_BB.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_WbJywb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottle-traps",
+            "image_collection": "shopify://shop_images/bt02.06_1800x1800_e4380c5c-4b9b-4c17-b8d2-006bc2539bf0.webp",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_6zGj6R",
-        "featured_collection_aN4rRe"
+        "featured_collection_aN4rRe",
+        "featured_collection_WbJywb"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
