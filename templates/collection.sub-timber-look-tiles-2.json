@@ -130,7 +130,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "artemis",
-            "image_collection": "shopify://shop_images/Toilet.jpg",
+            "image_collection": "shopify://shop_images/Artemis.jpg",
             "text_collection": "Artemis"
           }
         },
