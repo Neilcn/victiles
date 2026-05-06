@@ -145,8 +145,9 @@
         "featured_collection_pULCUN": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
-            "text_collection": ""
+            "collection": "homey",
+            "image_collection": "shopify://shop_images/Homey_05c90223-4872-4857-bc93-0ccff2341d11.jpg",
+            "text_collection": "Homey"
           }
         }
       },
