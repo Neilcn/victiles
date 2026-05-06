@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/022R1064-5.5-1-scaled-1.webp",
             "text_collection": ""
           }
+        },
+        "featured_collection_VgmBNh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "close-coupled-toilets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260507095012_383_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_QhWfm7"
+        "featured_collection_QhWfm7",
+        "featured_collection_VgmBNh"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
