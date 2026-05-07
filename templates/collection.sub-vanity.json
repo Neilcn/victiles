@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/Milan150.webp",
             "text_collection": "Milan"
           }
+        },
+        "featured_collection_Yt8rm8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-royce-collection",
+            "image_collection": "shopify://shop_images/IMG_0281-1536x1024.png",
+            "text_collection": "Royce"
+          }
         }
       },
       "block_order": [
         "featured_collection_GxcxGh",
         "featured_collection_DFrKVV",
         "featured_collection_3diYyi",
-        "featured_collection_UkFkiw"
+        "featured_collection_UkFkiw",
+        "featured_collection_Yt8rm8"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
