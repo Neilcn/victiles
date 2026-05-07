@@ -138,3 +138,56 @@ table-flow .tfv1-table .tfv1-tr .tfv1-td.tfv1-label{
   letter-spacing: 0.2px;
   margin-bottom: 10px;
 }
+
+/* ── Complementary products carousel – contain slides ── */
+.complementary-products__container .wt-slider__container--collection-list {
+  overflow: hidden !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* ── Complementary products carousel – mobile item layout ── */
+@media (max-width: 899px) {
+  /* Grid: image spans both rows on the left, info + button stack on the right */
+  .complementary-products__container .wt-product__upsell__content {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 4px;
+    align-items: start;
+  }
+
+  .complementary-products__container .wt-product__upsell__picture {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: center;
+  }
+
+  .complementary-products__container .wt-product__upsell__image {
+    max-width: 80px !important;
+    max-height: 80px !important;
+    width: 80px;
+    height: 80px;
+  }
+
+  .complementary-products__container .wt-product__upsell__product {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+
+  .complementary-products__container .wt-product__upsell__button {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: right;
+  }
+
+  .complementary-products__container .wt-product__upsell__button button {
+    padding: 3px 10px;
+    font-size: 11px;
+    min-height: unset;
+    height: auto;
+    line-height: 1.5;
+  }
+}

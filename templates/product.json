@@ -115,6 +115,10 @@
             "size_text_mobile": 240
           }
         },
+        "view_collection_3Gir4R": {
+          "type": "view_collection",
+          "settings": {}
+        },
         "separator_RrKQ4A": {
           "type": "separator",
           "settings": {
@@ -181,18 +185,19 @@
             "background_color": "rgba(0,0,0,0)"
           }
         },
-        "custom_liquid_JpFy7H": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.custom.brochure_link %}\n  <a href=\"{{ product.metafields.custom.brochure_link | escape }}\" \n     class=\"btn brochure-button\" \n     target=\"_blank\" \n     rel=\"noopener noreferrer\">\n    Download Brochure\n  </a>\n{% endif %}"
-          }
-        },
         "complementary_VKKgGD": {
           "type": "complementary",
           "settings": {
             "block_heading": "Goes well with",
-            "product_list_limit": 5,
+            "product_list_limit": 10,
+            "enable_swipe": true,
             "image-ratio": "square"
+          }
+        },
+        "custom_liquid_JpFy7H": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.brochure_link %}\n  <a href=\"{{ product.metafields.custom.brochure_link | escape }}\" \n     class=\"btn brochure-button\" \n     target=\"_blank\" \n     rel=\"noopener noreferrer\">\n    Download Brochure\n  </a>\n{% endif %}"
           }
         },
         "separator_HcYGiH": {
@@ -375,6 +380,7 @@
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
         "custom_liquid_VGD46y",
         "price",
+        "view_collection_3Gir4R",
         "separator_RrKQ4A",
         "easify_options_easify_product_options_ieANrX",
         "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
@@ -383,8 +389,8 @@
         "inventory_JWQnXt",
         "custom_liquid_dafMPN",
         "buy_buttons",
-        "custom_liquid_JpFy7H",
         "complementary_VKKgGD",
+        "custom_liquid_JpFy7H",
         "separator_HcYGiH",
         "description",
         "a05fcf3e-8e1a-4f1f-8d97-2055eb17138d",
