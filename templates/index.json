@@ -369,95 +369,79 @@
         "margin-bottom": 0
       }
     },
-    "collection_list_3q9paF": {
+"collection_list_3q9paF": {
       "type": "collection-list",
       "blocks": {
         "featured_collection_67g3zM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lusso",
-            "image_collection": "shopify://shop_images/Lusso_Honed.jpg",
-            "text_collection": "Lusso"
+            "collection": "feature-wall-tiles",
+            "image_collection": "shopify://shop_images/Feature_Tiles.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_8qJPdU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "enzo",
-            "image_collection": "shopify://shop_images/Enzo.jpg",
-            "text_collection": "Enzo"
+            "collection": "bathroom-tiles",
+            "image_collection": "shopify://shop_images/Bathroom_Tiles_05178131-ed0b-4b45-a9df-84a48f003791.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_Vt8y4Y": {
           "type": "featured_collection",
           "settings": {
-            "collection": "orbat",
-            "image_collection": "shopify://shop_images/Orbat.jpg",
-            "text_collection": "Orbat"
+            "collection": "floor-tiles",
+            "image_collection": "shopify://shop_images/Floor_Tiles.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_iiedL7": {
           "type": "featured_collection",
           "settings": {
-            "collection": "normandy",
-            "image_collection": "shopify://shop_images/Normandy_Travertine.jpg",
-            "text_collection": "Normandy"
+            "collection": "wall-tiles",
+            "image_collection": "shopify://shop_images/Wall_Tiles_bea4aa2c-0256-4295-927b-bb1a8c5fddb4.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_ygE48Y": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pietra",
-            "image_collection": "shopify://shop_images/petra.jpg",
-            "text_collection": "Pietra"
+            "collection": "timber-flooring",
+            "image_collection": "shopify://shop_images/Timber_Flooring.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_FpFnQE": {
           "type": "featured_collection",
           "settings": {
-            "collection": "la-riviera",
-            "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
-            "text_collection": "La Riviera"
+            "collection": "vanity",
+            "image_collection": "shopify://shop_images/Vanities.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_TN9L8d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "byron",
-            "image_collection": "shopify://shop_images/Byron.jpg",
-            "text_collection": "Byron"
+            "collection": "mixer-taps",
+            "image_collection": "shopify://shop_images/Tapwares.jpg",
+            "text_collection": ""
           }
         },
         "featured_collection_7iTnF4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "otway",
-            "image_collection": "shopify://shop_images/Otway.jpg",
+            "collection": "mirrors",
+            "image_collection": "shopify://shop_images/Mirrors_1ad56aca-2c1b-47c7-9e65-0ce374709973.jpg",
             "text_collection": ""
           }
         },
         "featured_collection_raLJm3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "artemis",
-            "image_collection": "shopify://shop_images/Artemis.jpg",
-            "text_collection": "Artemis"
-          }
-        },
-        "featured_collection_jyTTqq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kit-kat",
-            "image_collection": "shopify://shop_images/kit-kat.jpg",
-            "text_collection": "Kit-kat"
-          }
-        },
-        "featured_collection_RN6FCy": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "homey",
-            "image_collection": "shopify://shop_images/Homey_05c90223-4872-4857-bc93-0ccff2341d11.jpg",
-            "text_collection": "Homey"
+            "collection": "toilets",
+            "image_collection": "shopify://shop_images/Toilets.png",
+            "text_collection": ""
           }
         }
       },
@@ -470,9 +454,7 @@
         "featured_collection_FpFnQE",
         "featured_collection_TN9L8d",
         "featured_collection_7iTnF4",
-        "featured_collection_raLJm3",
-        "featured_collection_jyTTqq",
-        "featured_collection_RN6FCy"
+        "featured_collection_raLJm3"
       ],
       "settings": {
         "heading": "Top Categories",
