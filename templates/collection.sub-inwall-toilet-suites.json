@@ -69,10 +69,28 @@
             "image_collection": "shopify://shop_images/302R-1-scaled-1.webp",
             "text_collection": ""
           }
+        },
+        "featured_collection_wzPEcY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "concealed-cisterns",
+            "image_collection": "shopify://shop_images/Sigma8-BTW-basic-1-2.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_DgMCPK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "push-plate-buttons",
+            "image_collection": "shopify://shop_images/Sigma-20-Brushed-Gold.webp",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_hBDJkr"
+        "featured_collection_hBDJkr",
+        "featured_collection_wzPEcY",
+        "featured_collection_DgMCPK"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
