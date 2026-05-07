@@ -83,7 +83,7 @@
           "settings": {
             "collection": "vanity-hudson-collection",
             "image_collection": "shopify://shop_images/sk68-1500a6-mi-800_81396ef4-069f-4f48-97b1-4cb70dda35c1.webp",
-            "text_collection": ""
+            "text_collection": "Hudson"
           }
         },
         "featured_collection_UkFkiw": {
@@ -91,7 +91,7 @@
           "settings": {
             "collection": "vanity-milan-collection",
             "image_collection": "shopify://shop_images/Milan150.webp",
-            "text_collection": ""
+            "text_collection": "Milan"
           }
         }
       },
