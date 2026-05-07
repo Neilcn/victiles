@@ -62,6 +62,14 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_GxcxGh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-blair-collection",
+            "image_collection": "shopify://shop_images/WeChat-Image_20240715161433_93a3b938-a05c-4148-91f6-f3dd0a772cc5.png",
+            "text_collection": "Blair"
+          }
+        },
         "featured_collection_DFrKVV": {
           "type": "featured_collection",
           "settings": {
@@ -88,6 +96,7 @@
         }
       },
       "block_order": [
+        "featured_collection_GxcxGh",
         "featured_collection_DFrKVV",
         "featured_collection_3diYyi",
         "featured_collection_UkFkiw"
