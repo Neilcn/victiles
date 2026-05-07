@@ -62,70 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_QhWfm7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "back-to-wall-toilet-suites",
-            "image_collection": "shopify://shop_images/022R1064-5.5-1-scaled-1.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_VgmBNh": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "close-coupled-toilets",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260507095012_383_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_qem3m6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bidets",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260507095539_384_35.jpg",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_3Jp8T4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "disabled-toilet",
-            "image_collection": "shopify://shop_images/718300BSB_BK_Image_HeroImage_150604_ori_1772px_1772px_2015Dec07141843_600x600_857f42f4-0bad-4307-84ec-a7e40a50f8bd.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_BLpdzE": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "junior-toilets",
-            "image_collection": "shopify://shop_images/766630W_Web.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_4aDUGU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "toilet-seats",
-            "image_collection": "shopify://shop_images/image_2_141765.webp",
-            "text_collection": ""
-          }
-        },
         "featured_collection_hBDJkr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toilet-spare-parts",
-            "image_collection": "shopify://shop_images/AD13_web.webp",
+            "collection": "inwall-toilets",
+            "image_collection": "shopify://shop_images/302R-1-scaled-1.webp",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_QhWfm7",
-        "featured_collection_VgmBNh",
-        "featured_collection_qem3m6",
-        "featured_collection_3Jp8T4",
-        "featured_collection_BLpdzE",
-        "featured_collection_4aDUGU",
         "featured_collection_hBDJkr"
       ],
       "custom_css": [
