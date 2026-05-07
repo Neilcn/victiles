@@ -62,69 +62,78 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
+        "featured_collection_QhWfm7": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lusso",
-            "image_collection": "shopify://shop_images/Lusso_Honed.jpg",
-            "text_collection": "Lusso"
+            "collection": "back-to-wall-toilet-suites",
+            "image_collection": "shopify://shop_images/022R1064-5.5-1-scaled-1.webp",
+            "text_collection": ""
           }
         },
-        "featured_collection_Hz8hdT": {
+        "featured_collection_VgmBNh": {
           "type": "featured_collection",
           "settings": {
-            "collection": "enzo",
-            "image_collection": "shopify://shop_images/Enzo.jpg",
-            "text_collection": "Enzo"
+            "collection": "close-coupled-toilets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260507095012_383_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_ACdaKq": {
+        "featured_collection_qem3m6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "orbat",
-            "image_collection": "shopify://shop_images/Orbat.jpg",
-            "text_collection": "Orbat"
+            "collection": "bidets",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260507095539_384_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_wKr6pf": {
+        "featured_collection_3Jp8T4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "normandy",
-            "image_collection": "shopify://shop_images/Normandy_Travertine.jpg",
-            "text_collection": "Normandy"
+            "collection": "disabled-toilet",
+            "image_collection": "shopify://shop_images/718300BSB_BK_Image_HeroImage_150604_ori_1772px_1772px_2015Dec07141843_600x600_857f42f4-0bad-4307-84ec-a7e40a50f8bd.webp",
+            "text_collection": ""
           }
         },
-        "featured_collection_3MQM4e": {
+        "featured_collection_BLpdzE": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pietra",
-            "image_collection": "shopify://shop_images/petra.jpg",
-            "text_collection": "Pietra"
+            "collection": "junior-toilets",
+            "image_collection": "shopify://shop_images/766630W_Web.webp",
+            "text_collection": ""
           }
         },
-        "featured_collection_mq4yP6": {
+        "featured_collection_4aDUGU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "la-riviera",
-            "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
-            "text_collection": "La Riviera"
+            "collection": "toilet-seats",
+            "image_collection": "shopify://shop_images/image_2_141765.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_hBDJkr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toilet-spare-parts",
+            "image_collection": "shopify://shop_images/AD13_web.webp",
+            "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_Hz8hdT",
-        "featured_collection_ACdaKq",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6"
+        "featured_collection_QhWfm7",
+        "featured_collection_VgmBNh",
+        "featured_collection_qem3m6",
+        "featured_collection_3Jp8T4",
+        "featured_collection_BLpdzE",
+        "featured_collection_4aDUGU",
+        "featured_collection_hBDJkr"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Explore Popular Collections >",
+        "heading": "",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,

@@ -62,69 +62,77 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
+        "featured_collection_aN4rRe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lusso",
-            "image_collection": "shopify://shop_images/Lusso_Honed.jpg",
-            "text_collection": "Lusso"
+            "collection": "above-counter-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506090508_375_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_Hz8hdT": {
+        "featured_collection_UByYiw": {
           "type": "featured_collection",
           "settings": {
-            "collection": "enzo",
-            "image_collection": "shopify://shop_images/Enzo.jpg",
-            "text_collection": "Enzo"
+            "collection": "semi-recessed-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506090903_376_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_ACdaKq": {
+        "featured_collection_BtkTWh": {
           "type": "featured_collection",
           "settings": {
-            "collection": "orbat",
-            "image_collection": "shopify://shop_images/Orbat.jpg",
-            "text_collection": "Orbat"
+            "collection": "insert-vanity-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506090917_377_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_wKr6pf": {
+        "featured_collection_PP7Hhf": {
           "type": "featured_collection",
           "settings": {
-            "collection": "normandy",
-            "image_collection": "shopify://shop_images/Normandy_Travertine.jpg",
-            "text_collection": "Normandy"
+            "collection": "semi-insert-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506092313_378_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_3MQM4e": {
+        "featured_collection_ffgGtk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pietra",
-            "image_collection": "shopify://shop_images/petra.jpg",
-            "text_collection": "Pietra"
+            "collection": "under-counter-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506094024_379_35.jpg",
+            "text_collection": ""
           }
         },
-        "featured_collection_mq4yP6": {
+        "featured_collection_LT9pDG": {
           "type": "featured_collection",
           "settings": {
-            "collection": "la-riviera",
-            "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
-            "text_collection": "La Riviera"
+            "collection": "wall-mounted-basins",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260506095112_380_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_Yq67Td": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "freestanding-basins",
+            "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_Hz8hdT",
-        "featured_collection_ACdaKq",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6"
+        "featured_collection_aN4rRe",
+        "featured_collection_UByYiw",
+        "featured_collection_BtkTWh",
+        "featured_collection_PP7Hhf",
+        "featured_collection_ffgGtk",
+        "featured_collection_LT9pDG",
+        "featured_collection_Yq67Td"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Explore Popular Collections >",
+        "heading": "",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,

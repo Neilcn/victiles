@@ -109,6 +109,46 @@
             "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
             "text_collection": "La Riviera"
           }
+        },
+        "featured_collection_ayGcUe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "byron",
+            "image_collection": "shopify://shop_images/Byron.jpg",
+            "text_collection": "Byron"
+          }
+        },
+        "featured_collection_qJ8D9n": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "otway",
+            "image_collection": "shopify://shop_images/Otway.jpg",
+            "text_collection": "Otway"
+          }
+        },
+        "featured_collection_HDzBiR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "artemis",
+            "image_collection": "shopify://shop_images/Artemis.jpg",
+            "text_collection": "Artemis"
+          }
+        },
+        "featured_collection_AfnHJL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kit-kat",
+            "image_collection": "shopify://shop_images/kit-kat.jpg",
+            "text_collection": "Kit-kat"
+          }
+        },
+        "featured_collection_h9ygzx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "homey",
+            "image_collection": "shopify://shop_images/Homey_05c90223-4872-4857-bc93-0ccff2341d11.jpg",
+            "text_collection": "Homey"
+          }
         }
       },
       "block_order": [
@@ -117,7 +157,12 @@
         "featured_collection_ACdaKq",
         "featured_collection_wKr6pf",
         "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6"
+        "featured_collection_mq4yP6",
+        "featured_collection_ayGcUe",
+        "featured_collection_qJ8D9n",
+        "featured_collection_HDzBiR",
+        "featured_collection_AfnHJL",
+        "featured_collection_h9ygzx"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"

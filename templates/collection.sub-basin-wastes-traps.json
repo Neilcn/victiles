@@ -62,69 +62,33 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
+        "featured_collection_aN4rRe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lusso",
-            "image_collection": "shopify://shop_images/Lusso_Honed.jpg",
-            "text_collection": "Lusso"
+            "collection": "basin-wastes",
+            "image_collection": "shopify://shop_images/WB_Plug_BB.webp",
+            "text_collection": ""
           }
         },
-        "featured_collection_Hz8hdT": {
+        "featured_collection_WbJywb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "enzo",
-            "image_collection": "shopify://shop_images/Enzo.jpg",
-            "text_collection": "Enzo"
-          }
-        },
-        "featured_collection_ACdaKq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "orbat",
-            "image_collection": "shopify://shop_images/Orbat.jpg",
-            "text_collection": "Orbat"
-          }
-        },
-        "featured_collection_wKr6pf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "normandy",
-            "image_collection": "shopify://shop_images/Normandy_Travertine.jpg",
-            "text_collection": "Normandy"
-          }
-        },
-        "featured_collection_3MQM4e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pietra",
-            "image_collection": "shopify://shop_images/petra.jpg",
-            "text_collection": "Pietra"
-          }
-        },
-        "featured_collection_mq4yP6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "la-riviera",
-            "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
-            "text_collection": "La Riviera"
+            "collection": "bottle-traps",
+            "image_collection": "shopify://shop_images/bt02.06_1800x1800_e4380c5c-4b9b-4c17-b8d2-006bc2539bf0.webp",
+            "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_Hz8hdT",
-        "featured_collection_ACdaKq",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6"
+        "featured_collection_aN4rRe",
+        "featured_collection_WbJywb"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Explore Popular Collections >",
+        "heading": "",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,

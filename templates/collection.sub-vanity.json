@@ -62,69 +62,60 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
+        "featured_collection_GxcxGh": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lusso",
-            "image_collection": "shopify://shop_images/Lusso_Honed.jpg",
-            "text_collection": "Lusso"
+            "collection": "vanity-blair-collection",
+            "image_collection": "shopify://shop_images/WeChat-Image_20240715161433_93a3b938-a05c-4148-91f6-f3dd0a772cc5.png",
+            "text_collection": "Blair"
           }
         },
-        "featured_collection_Hz8hdT": {
+        "featured_collection_DFrKVV": {
           "type": "featured_collection",
           "settings": {
-            "collection": "enzo",
-            "image_collection": "shopify://shop_images/Enzo.jpg",
-            "text_collection": "Enzo"
+            "collection": "vanity-tobi-collection",
+            "image_collection": "shopify://shop_images/IMG_0198-1536x1026.webp",
+            "text_collection": "Tobi"
           }
         },
-        "featured_collection_ACdaKq": {
+        "featured_collection_3diYyi": {
           "type": "featured_collection",
           "settings": {
-            "collection": "orbat",
-            "image_collection": "shopify://shop_images/Orbat.jpg",
-            "text_collection": "Orbat"
+            "collection": "vanity-hudson-collection",
+            "image_collection": "shopify://shop_images/sk68-1500a6-mi-800_81396ef4-069f-4f48-97b1-4cb70dda35c1.webp",
+            "text_collection": "Hudson"
           }
         },
-        "featured_collection_wKr6pf": {
+        "featured_collection_UkFkiw": {
           "type": "featured_collection",
           "settings": {
-            "collection": "normandy",
-            "image_collection": "shopify://shop_images/Normandy_Travertine.jpg",
-            "text_collection": "Normandy"
+            "collection": "vanity-milan-collection",
+            "image_collection": "shopify://shop_images/Milan150.webp",
+            "text_collection": "Milan"
           }
         },
-        "featured_collection_3MQM4e": {
+        "featured_collection_Yt8rm8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pietra",
-            "image_collection": "shopify://shop_images/petra.jpg",
-            "text_collection": "Pietra"
-          }
-        },
-        "featured_collection_mq4yP6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "la-riviera",
-            "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
-            "text_collection": "La Riviera"
+            "collection": "vanity-royce-collection",
+            "image_collection": "shopify://shop_images/IMG_0281-1536x1024.png",
+            "text_collection": "Royce"
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_Hz8hdT",
-        "featured_collection_ACdaKq",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6"
+        "featured_collection_GxcxGh",
+        "featured_collection_DFrKVV",
+        "featured_collection_3diYyi",
+        "featured_collection_UkFkiw",
+        "featured_collection_Yt8rm8"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Explore Popular Collections >",
+        "heading": "",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,

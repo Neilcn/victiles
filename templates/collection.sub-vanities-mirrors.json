@@ -62,69 +62,51 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_z9NAyU": {
+        "featured_collection_DgMCPK": {
           "type": "featured_collection",
           "settings": {
-            "collection": "lusso",
-            "image_collection": "shopify://shop_images/Lusso_Honed.jpg",
-            "text_collection": "Lusso"
+            "collection": "vanity",
+            "image_collection": "shopify://shop_images/sk68-1500a6-mi-800_81396ef4-069f-4f48-97b1-4cb70dda35c1.webp",
+            "text_collection": ""
           }
         },
-        "featured_collection_Hz8hdT": {
+        "featured_collection_CXPPDW": {
           "type": "featured_collection",
           "settings": {
-            "collection": "enzo",
-            "image_collection": "shopify://shop_images/Enzo.jpg",
-            "text_collection": "Enzo"
+            "collection": "mirrors",
+            "image_collection": "shopify://shop_images/T-OV6090F-1_1800x1800_866d8686-7e39-4996-8d34-5fa383ab7ea0.webp",
+            "text_collection": ""
           }
         },
-        "featured_collection_ACdaKq": {
+        "featured_collection_fPA87P": {
           "type": "featured_collection",
           "settings": {
-            "collection": "orbat",
-            "image_collection": "shopify://shop_images/Orbat.jpg",
-            "text_collection": "Orbat"
+            "collection": "all-mirror-cabinets",
+            "image_collection": "shopify://shop_images/Bondi_120.webp",
+            "text_collection": "Mirror Cabinets"
           }
         },
-        "featured_collection_wKr6pf": {
+        "featured_collection_dwQWww": {
           "type": "featured_collection",
           "settings": {
-            "collection": "normandy",
-            "image_collection": "shopify://shop_images/Normandy_Travertine.jpg",
-            "text_collection": "Normandy"
-          }
-        },
-        "featured_collection_3MQM4e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pietra",
-            "image_collection": "shopify://shop_images/petra.jpg",
-            "text_collection": "Pietra"
-          }
-        },
-        "featured_collection_mq4yP6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "la-riviera",
-            "image_collection": "shopify://shop_images/La_Riviera_6d09c9a8-64c0-490a-a575-9bd01857687d.jpg",
-            "text_collection": "La Riviera"
+            "collection": "tall-boys",
+            "image_collection": "shopify://shop_images/Image_Editor-7.webp",
+            "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_z9NAyU",
-        "featured_collection_Hz8hdT",
-        "featured_collection_ACdaKq",
-        "featured_collection_wKr6pf",
-        "featured_collection_3MQM4e",
-        "featured_collection_mq4yP6"
+        "featured_collection_DgMCPK",
+        "featured_collection_CXPPDW",
+        "featured_collection_fPA87P",
+        "featured_collection_dwQWww"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "heading": "Explore Popular Collections >",
+        "heading": "",
         "enable_swipe": true,
         "disable_images": false,
         "number_of_column_desktop": 8,
