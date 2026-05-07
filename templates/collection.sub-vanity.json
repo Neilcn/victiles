@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/IMG_0198-1536x1026.webp",
             "text_collection": "Tobi"
           }
+        },
+        "featured_collection_3diYyi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-hudson-collection",
+            "image_collection": "shopify://shop_images/sk68-1500a6-mi-800_81396ef4-069f-4f48-97b1-4cb70dda35c1.webp",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_DFrKVV"
+        "featured_collection_DFrKVV",
+        "featured_collection_3diYyi"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
