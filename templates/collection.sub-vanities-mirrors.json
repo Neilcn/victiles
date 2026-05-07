@@ -69,10 +69,37 @@
             "image_collection": "shopify://shop_images/sk68-1500a6-mi-800_81396ef4-069f-4f48-97b1-4cb70dda35c1.webp",
             "text_collection": ""
           }
+        },
+        "featured_collection_CXPPDW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mirrors",
+            "image_collection": "shopify://shop_images/T-OV6090F-1_1800x1800_866d8686-7e39-4996-8d34-5fa383ab7ea0.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_fPA87P": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all-mirror-cabinets",
+            "image_collection": "shopify://shop_images/Bondi_120.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_dwQWww": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tall-boys",
+            "image_collection": "shopify://shop_images/Image_Editor-7.webp",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_DgMCPK"
+        "featured_collection_DgMCPK",
+        "featured_collection_CXPPDW",
+        "featured_collection_fPA87P",
+        "featured_collection_dwQWww"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
