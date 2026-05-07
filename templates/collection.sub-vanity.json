@@ -62,35 +62,17 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_WbJywb": {
+        "featured_collection_DFrKVV": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toilet-suites",
-            "image_collection": "shopify://shop_images/022R1064-5.5-1-scaled-1.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_hDEpKK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "inwall-toilet-suites",
-            "image_collection": "shopify://shop_images/102S-1-scaled-1.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_QhWfm7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "smart-toilet-series",
-            "image_collection": "shopify://shop_images/Weixin_Image_20260507093303_382_35.jpg",
-            "text_collection": ""
+            "collection": "vanity-tobi-collection",
+            "image_collection": "shopify://shop_images/IMG_0198-1536x1026.webp",
+            "text_collection": "Tobi"
           }
         }
       },
       "block_order": [
-        "featured_collection_WbJywb",
-        "featured_collection_hDEpKK",
-        "featured_collection_QhWfm7"
+        "featured_collection_DFrKVV"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
