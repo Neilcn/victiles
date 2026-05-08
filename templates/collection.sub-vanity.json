@@ -109,6 +109,14 @@
             "image_collection": "shopify://shop_images/cwh68-1200wm-mi-1100-1024x784.webp",
             "text_collection": "Bristol"
           }
+        },
+        "featured_collection_949D7R": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-erica-collection",
+            "image_collection": "shopify://shop_images/1500-1.webp",
+            "text_collection": "Erica"
+          }
         }
       },
       "block_order": [
@@ -117,7 +125,8 @@
         "featured_collection_3diYyi",
         "featured_collection_UkFkiw",
         "featured_collection_Yt8rm8",
-        "featured_collection_g6f9az"
+        "featured_collection_g6f9az",
+        "featured_collection_949D7R"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
