@@ -117,6 +117,13 @@
             "image_collection": "shopify://shop_images/1500-1.webp",
             "text_collection": "Erica"
           }
+        },
+        "featured_collection_NLGfEP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-elwood-collection",
+            "text_collection": "Elwood"
+          }
         }
       },
       "block_order": [
@@ -126,7 +133,8 @@
         "featured_collection_UkFkiw",
         "featured_collection_Yt8rm8",
         "featured_collection_g6f9az",
-        "featured_collection_949D7R"
+        "featured_collection_949D7R",
+        "featured_collection_NLGfEP"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
