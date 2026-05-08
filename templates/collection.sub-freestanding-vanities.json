@@ -85,12 +85,21 @@
             "image_collection": "shopify://shop_images/G1200-2048x2048.webp",
             "text_collection": "Glen"
           }
+        },
+        "featured_collection_GyYKCp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-duplex-collection",
+            "image_collection": "shopify://shop_images/WH56SK56-900WM.webp",
+            "text_collection": "Duplex"
+          }
         }
       },
       "block_order": [
         "featured_collection_3diYyi",
         "featured_collection_DFrKVV",
-        "featured_collection_pfzB3d"
+        "featured_collection_pfzB3d",
+        "featured_collection_GyYKCp"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
