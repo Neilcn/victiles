@@ -62,14 +62,6 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_3diYyi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanity-hudson-collection",
-            "image_collection": "shopify://shop_images/sk68-1500a6-mi-800_81396ef4-069f-4f48-97b1-4cb70dda35c1.webp",
-            "text_collection": "Hudson"
-          }
-        },
         "featured_collection_UkFkiw": {
           "type": "featured_collection",
           "settings": {
@@ -84,6 +76,14 @@
             "collection": "vanity-mornington-collection",
             "image_collection": "shopify://shop_images/MOR1200O-2048x2048.webp",
             "text_collection": "Mornington"
+          }
+        },
+        "featured_collection_g6f9az": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-bristol-collection",
+            "image_collection": "shopify://shop_images/cwh68-1200wm-mi-1100-1024x784.webp",
+            "text_collection": "Bristol"
           }
         },
         "featured_collection_iLNK4C": {
@@ -107,15 +107,7 @@
           "settings": {
             "collection": "vanity-plateau-collection",
             "image_collection": "shopify://shop_images/IMG_0010-1500D-1-1024x700.webp",
-            "text_collection": "Blair"
-          }
-        },
-        "featured_collection_DFrKVV": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanity-tobi-collection",
-            "image_collection": "shopify://shop_images/IMG_0198-1536x1026.webp",
-            "text_collection": "Tobi"
+            "text_collection": "Plateau"
           }
         },
         "featured_collection_Yt8rm8": {
@@ -126,51 +118,23 @@
             "text_collection": "Royce"
           }
         },
-        "featured_collection_g6f9az": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanity-bristol-collection",
-            "image_collection": "shopify://shop_images/cwh68-1200wm-mi-1100-1024x784.webp",
-            "text_collection": "Bristol"
-          }
-        },
-        "featured_collection_949D7R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanity-erica-collection",
-            "image_collection": "shopify://shop_images/1500-1.webp",
-            "text_collection": "Erica"
-          }
-        },
         "featured_collection_NLGfEP": {
           "type": "featured_collection",
           "settings": {
             "collection": "vanity-elwood-collection",
             "text_collection": "Elwood"
           }
-        },
-        "featured_collection_pfzB3d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vanity-glen-collection",
-            "image_collection": "shopify://shop_images/G1200-2048x2048.webp",
-            "text_collection": "Glen"
-          }
         }
       },
       "block_order": [
-        "featured_collection_3diYyi",
         "featured_collection_UkFkiw",
         "featured_collection_wzNUVG",
+        "featured_collection_g6f9az",
         "featured_collection_iLNK4C",
         "featured_collection_QGz7Mb",
         "featured_collection_GxcxGh",
-        "featured_collection_DFrKVV",
         "featured_collection_Yt8rm8",
-        "featured_collection_g6f9az",
-        "featured_collection_949D7R",
-        "featured_collection_NLGfEP",
-        "featured_collection_pfzB3d"
+        "featured_collection_NLGfEP"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
