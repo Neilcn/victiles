@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/IMG_0455-1024x683.jpg",
             "text_collection": "Sammy"
           }
+        },
+        "featured_collection_FgwYia": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-quinn-collection",
+            "image_collection": "shopify://shop_images/IMG_0028-1024x683.jpg",
+            "text_collection": "Quinn"
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_DFrKVV",
         "featured_collection_pfzB3d",
         "featured_collection_GyYKCp",
-        "featured_collection_q4YNwt"
+        "featured_collection_q4YNwt",
+        "featured_collection_FgwYia"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
