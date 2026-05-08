@@ -93,13 +93,22 @@
             "image_collection": "shopify://shop_images/WH56SK56-900WM.webp",
             "text_collection": "Duplex"
           }
+        },
+        "featured_collection_q4YNwt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-sammy-collection",
+            "image_collection": "shopify://shop_images/IMG_0455-1024x683.jpg",
+            "text_collection": "Sammy"
+          }
         }
       },
       "block_order": [
         "featured_collection_3diYyi",
         "featured_collection_DFrKVV",
         "featured_collection_pfzB3d",
-        "featured_collection_GyYKCp"
+        "featured_collection_GyYKCp",
+        "featured_collection_q4YNwt"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
