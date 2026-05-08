@@ -101,6 +101,14 @@
             "image_collection": "shopify://shop_images/IMG_0281-1536x1024.png",
             "text_collection": "Royce"
           }
+        },
+        "featured_collection_g6f9az": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-bristol-collection",
+            "image_collection": "shopify://shop_images/CWH68-1500D-white.webp",
+            "text_collection": "Bristol"
+          }
         }
       },
       "block_order": [
@@ -108,7 +116,8 @@
         "featured_collection_DFrKVV",
         "featured_collection_3diYyi",
         "featured_collection_UkFkiw",
-        "featured_collection_Yt8rm8"
+        "featured_collection_Yt8rm8",
+        "featured_collection_g6f9az"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
