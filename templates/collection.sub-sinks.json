@@ -62,26 +62,35 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_6zGj6R": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "basins",
-            "image_collection": "shopify://shop_images/5fbae0f5431df93016338939_WB4737.webp",
-            "text_collection": "Basins"
-          }
-        },
         "featured_collection_aN4rRe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "basin-wastes-traps",
-            "image_collection": "shopify://shop_images/WB_Plug_BB.webp",
+            "collection": "kitchen-sinks",
+            "image_collection": "shopify://shop_images/Screenshot2023-07-04114257_1800x1800_a87c0fc5-f8a5-4c08-a1ab-9d113705490a.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_k7RCxM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "laundry-troughs",
+            "image_collection": "shopify://shop_images/shopping.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_JgMVWr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sink-accessories",
+            "image_collection": "shopify://shop_images/twmob_1800x1800_62c45be0-8f73-422e-87a3-333f780ad482.webp",
             "text_collection": ""
           }
         }
       },
       "block_order": [
-        "featured_collection_6zGj6R",
-        "featured_collection_aN4rRe"
+        "featured_collection_aN4rRe",
+        "featured_collection_k7RCxM",
+        "featured_collection_JgMVWr"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
