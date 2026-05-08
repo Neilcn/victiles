@@ -62,6 +62,14 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_wzNUVG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vanity-mornington-collection",
+            "image_collection": "shopify://shop_images/MOR1200O-2048x2048.webp",
+            "text_collection": "Mornington"
+          }
+        },
         "featured_collection_GxcxGh": {
           "type": "featured_collection",
           "settings": {
@@ -135,6 +143,7 @@
         }
       },
       "block_order": [
+        "featured_collection_wzNUVG",
         "featured_collection_GxcxGh",
         "featured_collection_DFrKVV",
         "featured_collection_3diYyi",
