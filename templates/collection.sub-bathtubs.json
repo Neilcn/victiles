@@ -62,52 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_aN4rRe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stainless-steel-sinks",
-            "image_collection": "shopify://shop_images/TWM9_1800x1800_3713da26-781f-4fb9-9881-36df782f6bae.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_k7RCxM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "granite-sinks",
-            "image_collection": "shopify://shop_images/twm-nbd150_1_1800x1800_5c681694-71b1-4ee3-b1c4-6eaadc2d55be.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_JgMVWr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fireclay-sinks",
-            "image_collection": "shopify://shop_images/C-8345DBSIDE1_1800x1800_95686109-8fd8-4811-b0cf-c76e861a5ad1.webp",
-            "text_collection": ""
-          }
-        },
-        "featured_collection_jz3V6T": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "single-bowl-sinks",
-            "image_collection": "shopify://shop_images/twm10_sink_gold_1800x1800_3bfaf027-5c03-461d-a6dc-c2432efa52ae.webp",
-            "text_collection": ""
-          }
-        },
         "featured_collection_FYypcr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "double-bowls-sinks",
-            "image_collection": "shopify://shop_images/twm7_sink_gold_1800x1800_2c22a85f-fcbf-4fbd-99f7-f27e977070e4.webp",
-            "text_collection": ""
+            "collection": "insert-baths",
+            "image_collection": "shopify://shop_images/CIVIC1800BATHTUB.webp",
+            "text_collection": "Insert Bathtubs"
           }
         }
       },
       "block_order": [
-        "featured_collection_aN4rRe",
-        "featured_collection_k7RCxM",
-        "featured_collection_JgMVWr",
-        "featured_collection_jz3V6T",
         "featured_collection_FYypcr"
       ],
       "custom_css": [
