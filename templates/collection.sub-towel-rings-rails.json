@@ -65,23 +65,59 @@
         "featured_collection_FYypcr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "underfloor-heating",
-            "image_collection": "shopify://shop_images/Thermonet-T-Kit_6ee42d3a-b15c-4ad9-be60-1901e5f6aed6.webp",
+            "collection": "towel-rings",
+            "image_collection": "shopify://shop_images/ar63.04_1800x1800_48f596ec-17c3-4081-9c13-d2edab1b1228.webp",
             "text_collection": ""
           }
         },
         "featured_collection_GUD8Aa": {
           "type": "featured_collection",
           "settings": {
-            "collection": "other-heating",
-            "image_collection": "shopify://shop_images/Thermofan_TF1800.webp",
+            "collection": "towel-racks",
+            "image_collection": "shopify://shop_images/OX6309TRACC.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_rVdLDh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hand-towel-rails",
+            "image_collection": "shopify://shop_images/gm8003.tr_1800x1800_e8735ddf-4bbf-4ab3-bbbc-faf64e0f7533.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_FDxLPp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "single-towel-rails",
+            "image_collection": "shopify://shop_images/buyg8001.8.tr_1800x1800_a99d5975-f4f2-4549-8970-a7d05c174197.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_DeEAWJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "double-towel-rails",
+            "image_collection": "shopify://shop_images/buyg8002.8.tr_1800x1800_ec3d710a-024a-461e-a730-f67882b26446.webp",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_LMPfn8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "heated-towel-rails",
+            "image_collection": "shopify://shop_images/NRV902hGM_image_1-1.webp",
             "text_collection": ""
           }
         }
       },
       "block_order": [
         "featured_collection_FYypcr",
-        "featured_collection_GUD8Aa"
+        "featured_collection_GUD8Aa",
+        "featured_collection_rVdLDh",
+        "featured_collection_FDxLPp",
+        "featured_collection_DeEAWJ",
+        "featured_collection_LMPfn8"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
