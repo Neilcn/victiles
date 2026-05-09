@@ -62,43 +62,16 @@
     "collection_list_kNirjw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_FYypcr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "insert-baths",
-            "image_collection": "shopify://shop_images/CIVIC1800BATHTUB.webp",
-            "text_collection": "Insert Bathtubs"
-          }
-        },
-        "featured_collection_aLdmY7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "freestanding-baths",
-            "image_collection": "shopify://shop_images/BT281SBKBATHTUB_38e3ddd0-c762-42ba-ad50-35cbf5ec16bb.jpg",
-            "text_collection": "Freestanding Bathtubs"
-          }
-        },
-        "featured_collection_78AGPi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "back-to-wall-baths",
-            "image_collection": "shopify://shop_images/Elivia-3-scaled-1_69783763-a238-40ce-935b-74b963e60c65.webp",
-            "text_collection": "Back to Wall Bathtubs"
-          }
-        },
         "featured_collection_Ut4KUK": {
           "type": "featured_collection",
           "settings": {
-            "collection": "corner-baths",
-            "image_collection": "shopify://shop_images/BTM1500LBATHTUB.webp",
-            "text_collection": "Corner Bathtubs"
+            "collection": "towel-rings-rails",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509105031_387_35.jpg",
+            "text_collection": "Towel Rings & Rails"
           }
         }
       },
       "block_order": [
-        "featured_collection_FYypcr",
-        "featured_collection_aLdmY7",
-        "featured_collection_78AGPi",
         "featured_collection_Ut4KUK"
       ],
       "custom_css": [
