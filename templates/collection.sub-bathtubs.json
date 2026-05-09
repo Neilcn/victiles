@@ -69,10 +69,19 @@
             "image_collection": "shopify://shop_images/CIVIC1800BATHTUB.webp",
             "text_collection": "Insert Bathtubs"
           }
+        },
+        "featured_collection_aLdmY7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "freestanding-baths",
+            "image_collection": "shopify://shop_images/BT281SBKBATHTUB_a3730a70-f660-4e4e-9e7f-132d3019f5cc.jpg",
+            "text_collection": "Freestanding Bathtubs"
+          }
         }
       },
       "block_order": [
-        "featured_collection_FYypcr"
+        "featured_collection_FYypcr",
+        "featured_collection_aLdmY7"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
