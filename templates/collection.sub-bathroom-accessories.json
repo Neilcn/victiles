@@ -69,10 +69,64 @@
             "image_collection": "shopify://shop_images/Weixin_Image_20260509105031_387_35.jpg",
             "text_collection": "Towel Rings & Rails"
           }
+        },
+        "featured_collection_C3rNtL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "towel-ladders",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509105257_388_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_MxY8XG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toilet-holders",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509110645_389_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_89xCdd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "robe-hooks",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509110647_390_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_rP3fXH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "soap-dishes",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509110648_391_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_AcVRpV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shower-shelves",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509110649_392_35.jpg",
+            "text_collection": ""
+          }
+        },
+        "featured_collection_bKk8iU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dda-care-accessories",
+            "image_collection": "shopify://shop_images/Weixin_Image_20260509110704_393_35.jpg",
+            "text_collection": ""
+          }
         }
       },
       "block_order": [
-        "featured_collection_Ut4KUK"
+        "featured_collection_Ut4KUK",
+        "featured_collection_C3rNtL",
+        "featured_collection_MxY8XG",
+        "featured_collection_89xCdd",
+        "featured_collection_rP3fXH",
+        "featured_collection_AcVRpV",
+        "featured_collection_bKk8iU"
       ],
       "custom_css": [
         "h2.headline__title {font-size: 20px; font-weight: 100;}"
