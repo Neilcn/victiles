@@ -12,14 +12,10 @@
     assign ratio = auto
   endif
 
-  if lazy_load
-    assign loading = 'lazy'
-  else
-    assign loading = 'eager'
-  endif
+  assign loading = 'lazy'
 
   if collection_list
-    assign card_image_sizes = '(min-width: 900px) 328px, 50vw'
+    assign card_image_sizes = '(min-width: 656px) 328px, 50vw'
     assign card_image_widths = '165, 250, 328, 500, 656'
     assign card_image_fallback_width = 656
   else
