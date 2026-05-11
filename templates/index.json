@@ -369,7 +369,7 @@
         "margin-bottom": 0
       }
     },
-"collection_list_3q9paF": {
+    "collection_list_3q9paF": {
       "type": "collection-list",
       "blocks": {
         "featured_collection_67g3zM": {
@@ -761,6 +761,7 @@
         "text_mWnmEE",
         "button_7cDcAq"
       ],
+      "disabled": true,
       "custom_css": [
         "a.hero__button--primary.hero__button.hero {border-radius: 0px !important;}",
         ".wt-parallax {min-height: 100vh !important;}"
