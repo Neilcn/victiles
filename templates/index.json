@@ -349,6 +349,7 @@
         "slide_4tjLTb",
         "slide_Yy3Xna"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__overlay__content.hero__overlay__content--center.hero__overlay__content--mobile--center.rte {width: 530px !important;}",
         "a.hero__button.hero__button--primary.hero__button--secondary {border-radius: 0px !important;}",
@@ -761,7 +762,6 @@
         "text_mWnmEE",
         "button_7cDcAq"
       ],
-      "disabled": true,
       "custom_css": [
         "a.hero__button--primary.hero__button.hero {border-radius: 0px !important;}",
         ".wt-parallax {min-height: 100vh !important;}"
@@ -911,7 +911,6 @@
         "product_4zdjEq",
         "product_nziX76"
       ],
-      "disabled": true,
       "custom_css": [
         ".video-reels [data-swiper-slide] .video-container low-power-video {border-radius: 0px !important;}",
         ".video-reels [data-swiper-slide] .video-container {border-radius: 0px !important;}",
