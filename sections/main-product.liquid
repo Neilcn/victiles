@@ -54,6 +54,28 @@
   a.view-collection:hover .view-collection__arrow .icon-arrow {
     transform: rotate(-45deg) scale(1.25);
   }
+  .product-spec-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    column-gap: 16px;
+    align-items: start;
+    padding: 10px 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .product-spec-row__value {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    text-align: right;
+  }
+  .product-spec-row__swatch {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0;
+    display: inline-block;
+  }
 {% endstyle %}
 <style>
   [id="shopify-section-{{ section.id }}"] {    
@@ -1037,7 +1059,69 @@
                                           {% for installation_guide in product.metafields.custom.installation_guide.value %}
                                             <div class="pdf-download {% unless forloop.first %}top-boder{% endunless %}"><a href="{{ installation_guide.pdf_file | file_url }}" target="_blank"><svg id="move-layer-down" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"> <path id="Path_356" data-name="Path 356" d="M10,5.5l-4,4-4-4" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path> <line id="Line_20" data-name="Line 20" y1="9" transform="translate(6 0.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line> <line id="Line_21" data-name="Line 21" x1="11" transform="translate(0.5 11.5)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></line></svg> {{ installation_guide.file_name }}</a></div>
                                           {% endfor %}
-                                        {% endif %} 
+                                        {% endif %}
+                      {% elsif  block.settings.heading == "Specifications" %}
+                        <div>
+                          {% for metafield_item in product.metafields.shopify %}
+                            {% assign category_metafield_name = metafield_item | first %}
+
+                            {% assign category_metafield = metafield_item | last %}
+                            {% assign category_metafield_name_normalized = category_metafield_name | replace: '_', '-' | downcase %}
+                            {% assign spec_swatch_image = blank %}
+                            {% if category_metafield_name_normalized == 'color-pattern' %}
+                              {% if category_metafield.type == 'metaobject_reference' %}
+                                {% assign mo = category_metafield.value %}
+                                {% assign spec_swatch_image = mo.image | default: mo.swatch | default: mo.pattern | default: mo.color_pattern_image %}
+                              {% elsif category_metafield.type == 'list.metaobject_reference' %}
+                                {% assign mo = category_metafield.value | first %}
+                                {% assign spec_swatch_image = mo.image | default: mo.swatch | default: mo.pattern | default: mo.color_pattern_image %}
+                              {% elsif category_metafield.type == 'file_reference' %}
+                                {% assign spec_swatch_image = category_metafield.value %}
+                              {% endif %}
+                            {% endif %}
+
+                            {% if category_metafield.value != blank %}
+                              {% capture specification_value_html %}
+                              {% if category_metafield.type == 'metaobject_reference' %}
+                                {% assign mo = category_metafield.value %}
+                                {{ mo.title | default: mo.name | default: mo.label | default: mo.handle | default: mo.system.handle | default: mo | json }}
+                              {% elsif category_metafield.type == 'list.metaobject_reference' %}
+                                {% for mo in category_metafield.value %}
+                                  {% if forloop.first == false %}<br>{% endif %}
+                                  {{ mo.title | default: mo.name | default: mo.label | default: mo.handle | default: mo.system.handle | default: mo | json }}
+                                {% endfor %}
+                              {% else %}
+                                {% assign rendered_metafield = category_metafield | metafield_tag %}
+                                {% if rendered_metafield != blank %}
+                                  {{ rendered_metafield }}
+                                {% else %}
+                                  {{ category_metafield.value }}
+                                {% endif %}
+                              {% endif %}
+                              {% endcapture %}
+
+                              {% assign specification_value_html_stripped = specification_value_html | strip %}
+                              {% if specification_value_html_stripped != blank %}
+                                <div class="product-spec-row">
+                                  <div>{{ category_metafield_name | replace: '_', ' ' | capitalize }}</div>
+                                  <div class="product-spec-row__value">
+                                    {% if spec_swatch_image != blank %}
+                                      <img
+                                        class="product-spec-row__swatch"
+                                        src="{{ spec_swatch_image | image_url: width: 50, height: 50, crop: 'center' }}"
+                                        alt="{{ category_metafield_name | replace: '_', ' ' | capitalize }}"
+                                        loading="lazy"
+                                        width="50"
+                                        height="50"
+                                      >
+                                    {% endif %}
+                                    {{ specification_value_html | replace: '"', '' }}
+                                  </div>
+                                </div>
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                        </div>
                       {% else %}
                                           {{ block.settings.content }}
                                           {{ block.settings.page.content }}
