@@ -349,7 +349,6 @@
         "slide_4tjLTb",
         "slide_Yy3Xna"
       ],
-      "disabled": true,
       "custom_css": [
         ".hero__overlay__content.hero__overlay__content--center.hero__overlay__content--mobile--center.rte {width: 530px !important;}",
         "a.hero__button.hero__button--primary.hero__button--secondary {border-radius: 0px !important;}",
