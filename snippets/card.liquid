@@ -15,8 +15,8 @@
   assign loading = 'lazy'
 
   if collection_list
-    assign card_image_sizes = '(min-width: 656px) 328px, 50vw'
-    assign card_image_widths = '165, 250, 328, 500, 656'
+    assign card_image_sizes = '(min-width: 1200px) 372px, (min-width: 656px) 328px, 50vw'
+    assign card_image_widths = '165, 250, 328, 375, 500, 656'
     assign card_image_fallback_width = 656
   else
     assign card_image_sizes = '(min-width: 1000px) 620px, 100vw'
@@ -103,6 +103,7 @@
                     {% if img.width >= 165 %}{{ img | image_url: width: 165 }} 165w, {% endif %}
                     {% if img.width >= 250 %}{{ img | image_url: width: 250 }} 250w, {% endif %}
                     {% if img.width >= 328 %}{{ img | image_url: width: 328 }} 328w, {% endif %}
+                    {% if img.width >= 375 %}{{ img | image_url: width: 375 }} 375w, {% endif %}
                     {% if img.width >= 500 %}{{ img | image_url: width: 500 }} 500w, {% endif %}
                     {% if img.width >= 656 %}{{ img | image_url: width: 656 }} 656w, {% endif %}
                   {% else %}
@@ -128,6 +129,7 @@
                     {% if img.width >= 165 %}{{ img | image_url: width: 165 }} 165w, {% endif %}
                     {% if img.width >= 250 %}{{ img | image_url: width: 250 }} 250w, {% endif %}
                     {% if img.width >= 328 %}{{ img | image_url: width: 328 }} 328w, {% endif %}
+                    {% if img.width >= 375 %}{{ img | image_url: width: 375 }} 375w, {% endif %}
                     {% if img.width >= 500 %}{{ img | image_url: width: 500 }} 500w, {% endif %}
                     {% if img.width >= 656 %}{{ img | image_url: width: 656 }} 656w, {% endif %}
                   {% else %}
@@ -175,6 +177,7 @@
                   {% if second_image.width >= 165 %}{{ second_image | image_url: width: 165 }} 165w, {% endif %}
                   {% if second_image.width >= 250 %}{{ second_image | image_url: width: 250 }} 250w, {% endif %}
                   {% if second_image.width >= 328 %}{{ second_image | image_url: width: 328 }} 328w, {% endif %}
+                  {% if second_image.width >= 375 %}{{ second_image | image_url: width: 375 }} 375w, {% endif %}
                   {% if second_image.width >= 500 %}{{ second_image | image_url: width: 500 }} 500w, {% endif %}
                   {% if second_image.width >= 656 %}{{ second_image | image_url: width: 656 }} 656w, {% endif %}
                 {% else %}
