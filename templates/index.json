@@ -911,6 +911,7 @@
         "product_4zdjEq",
         "product_nziX76"
       ],
+      "disabled": true,
       "custom_css": [
         ".video-reels [data-swiper-slide] .video-container low-power-video {border-radius: 0px !important;}",
         ".video-reels [data-swiper-slide] .video-container {border-radius: 0px !important;}",
