@@ -1062,7 +1062,7 @@
                                         {% endif %}
                       {% elsif  block.settings.heading == "Specifications" %}
                         <div>
-                          {% if product.selected_or_first_available_variant.sku !==blank %}
+                          {% if product.selected_or_first_available_variant.sku != blank %}
                                   <div class="product-spec-row">
                                     <div>{{ 'products.product.sku' | t }}</div>
                                     <div class="product-spec-row__value">
