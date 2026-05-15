@@ -161,6 +161,10 @@
             "margin-bottom": 8
           }
         },
+        "view_collection_VzJzye": {
+          "type": "view_collection",
+          "settings": {}
+        },
         "inventory_JWQnXt": {
           "type": "inventory",
           "settings": {
@@ -386,6 +390,7 @@
         "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
         "product_variations_VPy9FL",
         "variant_picker_FHDfXr",
+        "view_collection_VzJzye",
         "inventory_JWQnXt",
         "custom_liquid_dafMPN",
         "buy_buttons",
