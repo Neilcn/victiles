@@ -1062,6 +1062,15 @@
                                         {% endif %}
                       {% elsif  block.settings.heading == "Specifications" %}
                         <div>
+                          {% if product.selected_or_first_available_variant.sku !==blank %}
+                                  <div class="product-spec-row">
+                                    <div>{{ 'products.product.sku' | t }}</div>
+                                    <div class="product-spec-row__value">
+                                      {{ product.selected_or_first_available_variant.sku | default: 'N/A' }}
+                                    </div>
+                                </div>
+                          {% endif %}
+
                           {% for metafield_item in product.metafields.shopify %}
                             {% assign category_metafield_name = metafield_item | first %}
 
