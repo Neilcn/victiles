@@ -92,6 +92,10 @@
             "size_text_mobile": 200
           }
         },
+        "sku_BWaMGM": {
+          "type": "sku",
+          "settings": {}
+        },
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
           "type": "separator",
           "settings": {
@@ -373,6 +377,7 @@
       },
       "block_order": [
         "title",
+        "sku_BWaMGM",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
         "custom_liquid_VGD46y",
         "price",
