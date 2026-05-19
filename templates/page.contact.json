@@ -139,7 +139,7 @@
           "settings": {
             "heading": "Address",
             "heading_disable_on_mobile": false,
-            "text": "<p>2/120 Canterbury Rd, Kilsyth South VIC<br/>64-66 Amberley Cres, Dandenong South VIC<br/><br/></p>",
+            "text": "<p>64-66 Amberley Cres, Dandenong South VIC</p><p>2/120 Canterbury Rd, Kilsyth South VIC</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
