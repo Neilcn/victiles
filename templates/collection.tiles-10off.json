@@ -44,6 +44,7 @@
     },
     "image_banner_EBwbMF": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "heading": "",
@@ -91,6 +92,7 @@
         "heading_AwYELq",
         "text_QJk9zW"
       ],
+      "disabled": true,
       "custom_css": [
         "strong {font-weight: 500; font-size: 22px;}",
         "@media screen and (max-width: 749px) {strong {font-size: 18px; }}"
