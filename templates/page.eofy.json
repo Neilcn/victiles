@@ -66,7 +66,7 @@
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false
@@ -77,10 +77,10 @@
           "settings": {
             "heading": "SHOP BATHWARE",
             "heading_disable_on_mobile": false,
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false
@@ -91,10 +91,10 @@
           "settings": {
             "heading": "SHOP TIMBER FLOORING",
             "heading_disable_on_mobile": false,
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false
