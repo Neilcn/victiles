@@ -469,7 +469,7 @@
         "number_of_column_mobile": 2,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "margin-top": 60,
+        "margin-top": 0,
         "margin-bottom": 60
       }
     },
