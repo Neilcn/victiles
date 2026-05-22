@@ -178,6 +178,7 @@
         },
         "slide_DQ4E6F": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
@@ -210,6 +211,7 @@
         },
         "slide_PfUVKX": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "VICTILES",
             "subheading_disable_on_mobile": false,
@@ -242,6 +244,7 @@
         },
         "slide_j8Prc3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
@@ -274,6 +277,7 @@
         },
         "slide_4tjLTb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
@@ -306,6 +310,7 @@
         },
         "slide_Yy3Xna": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
