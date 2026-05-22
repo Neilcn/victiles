@@ -46,7 +46,7 @@
         "animation_speed": "100",
         "checkbox_close_announcement": false,
         "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#cecece"
+        "background_color": "#ca151d"
       }
     },
     "header": {
