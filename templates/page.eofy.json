@@ -54,11 +54,78 @@
       "settings": {
         "custom_liquid": "<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:48px;font-weight:500;\">EOFY SALE</p>\n<p style=\"font-size:24px;\">10% OFF Everything On Sale</p>\n<p style=\"font-size:18px;padding-bottom:20px;\">Tiles • Bathware • Timber Flooring</p>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">CODE：VTEOFY10</p>\n<p>22TH MAY - 30TH  JUNE</p>\n</div>"
       }
+    },
+    "multicolumn_6rF7ti": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YB8p4Q": {
+          "type": "column",
+          "settings": {
+            "heading": "SHOP TILES",
+            "heading_disable_on_mobile": false,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_kGHmk9": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_CtNifr": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "column_YB8p4Q",
+        "column_kGHmk9",
+        "column_CtNifr"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "heading": "",
+        "swipe_on_mobile": true,
+        "full-width-enabled": false,
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 40,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
     "main",
     "image_banner_qxrY67",
-    "custom_liquid_MB63D4"
+    "custom_liquid_MB63D4",
+    "multicolumn_6rF7ti"
   ]
 }
