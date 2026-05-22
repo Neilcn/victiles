@@ -47,10 +47,18 @@
         "margin-top": 0,
         "margin-bottom": 0
       }
+    },
+    "custom_liquid_MB63D4": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"color:red;font-size:48px;text-align:center;\">EOFY SALE</div>"
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_qxrY67"
+    "image_banner_qxrY67",
+    "custom_liquid_MB63D4"
   ]
 }
