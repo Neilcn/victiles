@@ -14,7 +14,6 @@
       "blocks": {
         "slide_mViwTU": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
@@ -27,7 +26,7 @@
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/tiles",
+            "button_link": "shopify://pages/eofy-sale",
             "second_button_select": "primary",
             "second_button_label": "",
             "button_disable_on_mobile_second": false,
@@ -35,10 +34,10 @@
             "color-body-text": "rgba(0,0,0,0)",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_image": "shopify://shop_images/slider_10off-2.jpg",
+            "desktop_image": "shopify://shop_images/1153_beb8eb16-682c-4846-a28c-86a8c6ccd889.jpg",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/10off-mobslider-2.jpg",
+            "mobile_image": "shopify://shop_images/1160.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "out-background-color": "rgba(0,0,0,0)",
