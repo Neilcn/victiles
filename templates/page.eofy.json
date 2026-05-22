@@ -83,7 +83,7 @@
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
-            "button_link": "",
+            "button_link": "shopify://collections/bathwares",
             "button_link_in_new_window": false,
             "desktop_image": "shopify://shop_images/1158.jpg"
           }
