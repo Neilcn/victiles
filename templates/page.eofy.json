@@ -109,6 +109,9 @@
         "column_kGHmk9",
         "column_CtNifr"
       ],
+      "custom_css": [
+        ".icon.icon-arrow {display: none;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "heading": "",
@@ -121,7 +124,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 40,
-        "margin-bottom": 20
+        "margin-bottom": 40
       }
     },
     "custom_liquid_dCDnHp": {
