@@ -130,7 +130,7 @@
     "custom_liquid_dCDnHp": {
       "type": "custom-liquid",
       "custom_css": [
-        ".custom-wrap {padding: 20px 0 40px 0;}"
+        ".custom-wrap {padding: 20px 16px 40px 16px;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
