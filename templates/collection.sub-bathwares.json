@@ -34,11 +34,11 @@
         "mobile_image": "shopify://shop_images/WechatIMG86.png",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
-        "color-heading": "transparent",
-        "section-color-overlay": "transparent",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "text-container-color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 12,
         "margin-bottom": 0
@@ -52,7 +52,7 @@
           "settings": {
             "heading": "EOFY SALE",
             "disable_on_mobile": false,
-            "size_heading": 130,
+            "size_heading": 120,
             "size_heading_mobile": 100
           }
         },
@@ -72,8 +72,8 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 0,
         "margin-bottom": 0
       }
