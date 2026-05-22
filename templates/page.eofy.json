@@ -129,9 +129,12 @@
     },
     "custom_liquid_dCDnHp": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".custom-wrap {padding:20px 0 40px 0;}"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center;\">\n\n<p style=\"font-weight:900;\">Renovate For Less This EOFY</p>\n<p>At VICTiles, renovating is easier when everything comes together in one place. </br>\nExplore a wide range of **tiles, bathware and timber flooring， </br>\nwith styles to suit every home — from clean modern looks to warm natural textures and timeless finishes. </br>\nWith competitive prices, ready stock, and one of Melbourne’s largest showroom selections, you can confidently create a space \nthat looks great and feels right, while staying within budget. </br>\nVisit our showroom, order samples, and bring your renovation ideas to life this EOFY.</p>\n</div>"
+        "custom_liquid": "<div class=\"custom-wrap\" style=\"text-align:center;\">\n\n<p style=\"font-weight:900;\">Renovate For Less This EOFY</p>\n<p>At VICTiles, renovating is easier when everything comes together in one place. </br>\nExplore a wide range of **tiles, bathware and timber flooring， </br>\nwith styles to suit every home — from clean modern looks to warm natural textures and timeless finishes. </br>\nWith competitive prices, ready stock, and one of Melbourne’s largest showroom selections, you can confidently create a space \nthat looks great and feels right, while staying within budget. </br>\nVisit our showroom, order samples, and bring your renovation ideas to life this EOFY.</p>\n</div>"
       }
     }
   },
