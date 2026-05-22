@@ -44,7 +44,6 @@
     },
     "image_banner_EBwbMF": {
       "type": "image-banner",
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "heading": "",
@@ -52,10 +51,10 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/slider_10off-2.jpg",
+        "desktop_image": "shopify://shop_images/1153_beb8eb16-682c-4846-a28c-86a8c6ccd889.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/10off-mobslider-2.jpg",
+        "mobile_image": "shopify://shop_images/1160.jpg",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
         "color-heading": "rgba(0,0,0,0)",
@@ -64,34 +63,12 @@
         "color-body-text": "rgba(0,0,0,0)",
         "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "margin-top": 20,
+        "margin-top": 12,
         "margin-bottom": 0
       }
     },
     "rich_text_MmCchj": {
       "type": "rich-text",
-      "blocks": {
-        "heading_AwYELq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Enjoy 10% off Tiles",
-            "disable_on_mobile": false,
-            "size_heading": 120,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_QJk9zW": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>14 April - 20 May<br/></strong>T&Cs: Valid on tiles only (excludes clearance).Code must be applied at checkout. Not valid with other offers. No cash alternative. VicTiles reserves the right to modify or end the promotion at any time.</p>",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_AwYELq",
-        "text_QJk9zW"
-      ],
       "disabled": true,
       "custom_css": [
         "strong {font-weight: 500; font-size: 22px;}",
@@ -101,7 +78,45 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "rgba(0,0,0,0)",
+        "color-body-text": "#ca151d",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_hrBfLb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hYqezh": {
+          "type": "heading",
+          "settings": {
+            "heading": "EOFY SALE",
+            "disable_on_mobile": false,
+            "size_heading": 130,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_JPfbtE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>10% OFF Everything On sale</strong></p><p>Tiles & Bathware & Timber Flooring</p><p><br/>Shop Online Or Visit Showroom:</p><p>64-66 Amberley Cres, Dandenong South VlC</p><p>2/120 Canterbury Rd, Kilsyth South VIC</p><p><br/>CODE:VTEOFY10</p><p>22TH MAY-3OTH JUNE</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hYqezh",
+        "text_JPfbtE"
+      ],
+      "custom_css": [
+        "strong {font-weight: 500; font-size: 22px;}",
+        "@media screen and (max-width: 749px) {strong {font-size: 18px; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "#222321",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 0,
         "margin-bottom": 0
@@ -420,6 +435,7 @@
     "banner",
     "image_banner_EBwbMF",
     "rich_text_MmCchj",
+    "rich_text_hrBfLb",
     "title",
     "collection_list_kNirjw",
     "product-grid",
