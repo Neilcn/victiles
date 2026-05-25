@@ -192,7 +192,7 @@
                 aria-label="{{ button_label }}"
                 class="hero__button {% if button_disable_on_mobile %}hero__button--mobile {% endif %} hero__button--primary {% if button_select != 'primary' %} hero__button--secondary{% endif %}{% if button_select == 'link' %} hero__button--link{% endif %}"
               >
-                <span>{{ button_label }}</span>
+                <span>{{ button_label }} {% render 'icon-arrow' %}</span>
               </a>
             {% endif %}
 

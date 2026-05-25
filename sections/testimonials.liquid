@@ -71,6 +71,15 @@
     }
     .large-up-hide .testimonial-card {
     margin:0 10px;}
+
+    .card-title-ellipsis {
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
 </style>
 
 <div data-section-id="{{ section.id }}" class="wt-test">
@@ -116,7 +125,7 @@
                 {% if block.settings.icon_select == '100' %}
                   {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
                 {% endif %}
-                <div class="wt-test__text">{{ block.settings.text | truncate: 90 }}</div>
+                <div class="wt-test__text card-title-ellipsis">{{ block.settings.text }}</div>
                 <div class="author-wrapper">
                   {%- if block.settings.desktop_image != blank -%}
                     {% assign alt_text = block.settings.desktop_image.alt | escape %}
@@ -205,7 +214,7 @@
                 {% if block.settings.icon_select == '100' %}
                   {% render 'rating-stars', percent: block.settings.icon_select, icon_class: 'wt-test__icon' %}
                 {% endif %}
-                <div class="wt-test__text">{{ block.settings.text | truncate: 80 }}</div>
+                <div class="wt-test__text card-title-ellipsis">{{ block.settings.text }}</div>
                 <div class="author-wrapper">
                   {%- if block.settings.desktop_image != blank -%}
                     {% assign alt_text = block.settings.desktop_image.alt | escape %}
