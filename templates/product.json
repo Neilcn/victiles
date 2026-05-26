@@ -94,6 +94,7 @@
         },
         "sku_BWaMGM": {
           "type": "sku",
+          "disabled": true,
           "settings": {}
         },
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
