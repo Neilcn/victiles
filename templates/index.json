@@ -46,7 +46,6 @@
         },
         "slide_gLcrH6": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
@@ -67,10 +66,10 @@
             "color-body-text": "rgba(0,0,0,0)",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_image": "shopify://shop_images/sample-slider-desktop.jpg",
+            "desktop_image": "shopify://shop_images/1278.pic_hd.jpg",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/sample-slider-mobile.jpg",
+            "mobile_image": "shopify://shop_images/1307.pic.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "out-background-color": "rgba(0,0,0,0)",
@@ -354,7 +353,6 @@
         "slide_4tjLTb",
         "slide_Yy3Xna"
       ],
-      "disabled": true,
       "custom_css": [
         ".hero__overlay__content.hero__overlay__content--center.hero__overlay__content--mobile--center.rte {width: 530px !important;}",
         "a.hero__button.hero__button--primary.hero__button--secondary {border-radius: 0px !important;}",
@@ -395,6 +393,7 @@
       "block_order": [
         "button_w9wqM8"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "heading": "",
