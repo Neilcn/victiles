@@ -114,11 +114,21 @@
             "text": "<p>Choosing the right tile or flooring online can be difficult. Colours, textures and finishes often look different in person compared to photos. With samples, you can see the true colour, feel the texture, and compare options in your own lighting and space — helping you make the right decision with confidence. Whether you're renovating, building, or simply exploring ideas, tile samples make the selection process easier and more reliable.</p>",
             "disable_on_mobile": false
           }
+        },
+        "button_iT7DXT": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "EXPLORE OUR TILES",
+            "button_link": "shopify://collections/tiles",
+            "disable_on_mobile": false
+          }
         }
       },
       "block_order": [
         "heading_twcNPU",
-        "text_6pFapn"
+        "text_6pFapn",
+        "button_iT7DXT"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
