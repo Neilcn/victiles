@@ -95,10 +95,114 @@
         "margin-top": 0,
         "margin-bottom": 0
       }
+    },
+    "rich_text_WKiQFt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_twcNPU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Order Tile Samples?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6pFapn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choosing the right tile or flooring online can be difficult. Colours, textures and finishes often look different in person compared to photos. With samples, you can see the true colour, feel the texture, and compare options in your own lighting and space — helping you make the right decision with confidence. Whether you're renovating, building, or simply exploring ideas, tile samples make the selection process easier and more reliable.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_twcNPU",
+        "text_6pFapn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_iMNx8V": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_LYr3Pj": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_G7qNUw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sample Sizes",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_aExxaP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tiles 150 × 300mm / 300 × 300mm (We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p>Subway & Pattern Tiles Original full tile size<br/>Mosaic Tiles 100 × 300mm</p><p>Timber Flooring 200 × 200mm</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_DedUHD": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LYr3Pj",
+        "heading_G7qNUw",
+        "text_aExxaP",
+        "button_DedUHD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/sample1.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/sample1.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_wJji7w"
+    "image_banner_wJji7w",
+    "rich_text_WKiQFt",
+    "image_with_text_iMNx8V"
   ]
 }
