@@ -181,7 +181,7 @@
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
         "slide_height": "fixed_height",
-        "desktop_fixed_height": 320,
+        "desktop_fixed_height": 400,
         "mobile_fixed_height": 460,
         "section-color-body-text": "transparent",
         "section-color-overlay": "transparent",
