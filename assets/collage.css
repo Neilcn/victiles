@@ -9,6 +9,7 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 @media (min-width: 1200px) {
   .wt-mosaic__container {
@@ -26,7 +27,6 @@
     flex-direction: row;
     justify-content: space-between;
     height: 42vw;
-    column-gap: 8px;
   }
 }
 @media (min-width: 1400px) {
@@ -138,6 +138,7 @@
 .wt-mosaic__aside {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 .wt-mosaic__aside__item:not(:last-child) {
   margin-bottom: calc(var(--gap, 8px) * 2);
@@ -173,7 +174,6 @@
     flex-direction: column;
     justify-content: space-between;
     width: calc(33.33% - var(--gap));
-    row-gap: 8px;
   }
   .wt-mosaic__aside__item {
     min-height: initial;

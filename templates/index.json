@@ -467,7 +467,8 @@
         "h2 {margin-bottom: 0;}",
         "h2 svg {display: none;}",
         ".wt-multicol .hero--out .hero__overlay--left {padding: 0;}",
-        "@media (max-width: 899px) {.wt-multicol__list {display: grid; grid-template-columns: auto auto; } .wt-multicol__list--5 .wt-multicol__item:nth-child(5) {display: none; }}"
+        ".wt-multicol__list {padding: 0 50px;}",
+        "@media (max-width: 899px) {.wt-multicol__list {display: grid; grid-template-columns: auto auto; } .wt-multicol__list--5 .wt-multicol__item:nth-child(5) {display: none; } .wt-multicol__list {padding: 0; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -599,7 +600,7 @@
             "button_label": "Shop New Arrivals",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/clearance",
-            "desktop_image": "shopify://shop_images/tiles.jpg",
+            "desktop_image": "shopify://shop_images/just_arrival_image1.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -622,7 +623,7 @@
             "button_label": "Shop the Look",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/clearance-timber-flooring",
-            "desktop_image": "shopify://shop_images/timber.jpg",
+            "desktop_image": "shopify://shop_images/real_project_image2.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -645,7 +646,7 @@
             "button_label": "Shop Deals",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/bathwares",
-            "desktop_image": "shopify://shop_images/bathware.jpg",
+            "desktop_image": "shopify://shop_images/hotdeals_image3.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -662,7 +663,7 @@
         "image_8hAdHg"
       ],
       "custom_css": [
-        ".hero__button--link span {background: #c0191f; display: flex;}",
+        ".hero__button--link span {background: #c0191f; display: flex; padding:0 10px;}",
         ".hero__button--link span:before {background: none;}",
         ".hero__title svg {display: none;}",
         ".hero__button--gap svg {display: block; width: 1rem; margin: 0 5px;}",
@@ -1231,7 +1232,7 @@
         "heading_JypLzQ": {
           "type": "heading",
           "settings": {
-            "heading": "Melbourne’s Trusted Tile Store",
+            "heading": "Why Choose VICTiles for Tiles in Melbourne?",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -1240,7 +1241,7 @@
         "text_6EBK3b": {
           "type": "text",
           "settings": {
-            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
+            "text": "<p>VICTILES is a preferred choice for homeowners, builders, and renovators looking for high-quality tiles in Melbourne. We offer competitive pricing, a wide selection of products, and expert guidance to make your renovation or build seamless.</p><p>With a strong reputation for service and quality, we continue to be a trusted name for Melbourne tiles.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -1253,7 +1254,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
         "slide_height": "fixed_height",
@@ -1265,7 +1266,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
+        "desktop_image": "shopify://shop_images/image4.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_text_horizontal_position": "center",
@@ -1301,7 +1302,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
         "slide_height": "fixed_height",
@@ -1313,7 +1314,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
+        "desktop_image": "shopify://shop_images/image5.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_text_horizontal_position": "center",
@@ -1327,7 +1328,7 @@
         "heading_XMLCbt": {
           "type": "heading",
           "settings": {
-            "heading": "Melbourne’s Trusted Tile Store",
+            "heading": "Tiles Melbourne – Affordable Quality Tiles & Flooring",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -1336,7 +1337,7 @@
         "text_ehhyjc": {
           "type": "text",
           "settings": {
-            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
+            "text": "<p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -1349,7 +1350,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
         "slide_height": "fixed_height",
@@ -1361,7 +1362,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
+        "desktop_image": "shopify://shop_images/image6.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_text_horizontal_position": "center",
