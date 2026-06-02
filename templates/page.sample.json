@@ -182,7 +182,7 @@
         "full-width-enabled": false,
         "slide_height": "fixed_height",
         "desktop_fixed_height": 400,
-        "mobile_fixed_height": 460,
+        "mobile_fixed_height": 360,
         "section-color-body-text": "transparent",
         "section-color-overlay": "transparent",
         "section-color-overlay-opacity": 100,
