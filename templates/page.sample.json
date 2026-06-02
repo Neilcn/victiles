@@ -266,6 +266,75 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "image_with_text_HTDdWG": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_PFJJAN": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_YT9gtD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need Help Choosing?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_feVpWG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team is here to help you choose the perfect samples for your project.<br/><br/>Contact us at sales@victiles.com.au or visit our stores for expert advice.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_Azz7Bi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PFJJAN",
+        "heading_YT9gtD",
+        "text_feVpWG",
+        "button_Azz7Bi"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 400,
+        "mobile_fixed_height": 360,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/Sample3.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/Sample3.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -273,6 +342,7 @@
     "image_banner_wJji7w",
     "rich_text_WKiQFt",
     "image_with_text_8bMjVh",
-    "image_with_text_iMNx8V"
+    "image_with_text_iMNx8V",
+    "image_with_text_HTDdWG"
   ]
 }
