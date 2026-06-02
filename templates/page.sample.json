@@ -130,6 +130,74 @@
         "margin-bottom": 20
       }
     },
+    "image_with_text_8bMjVh": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Mjay7Q": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_eyRGh4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sample Sizes",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_jgck4D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tiles 150 × 300mm / 300 × 300mm (We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p></p><p>Subway & Pattern Tiles Original full tile size<br/>Mosaic Tiles 100 × 300mm</p><p></p><p>Timber Flooring 200 × 200mm</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_LBQzgn": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mjay7Q",
+        "heading_eyRGh4",
+        "text_jgck4D",
+        "button_LBQzgn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 400,
+        "mobile_fixed_height": 360,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/sample2.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/sample2.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_iMNx8V": {
       "type": "image-with-text",
       "blocks": {
@@ -177,7 +245,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
         "slide_height": "fixed_height",
@@ -197,81 +265,13 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
-    },
-    "image_with_text_8bMjVh": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_Mjay7Q": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Tell you story",
-            "subheading_disable_on_mobile": false
-          }
-        },
-        "heading_eyRGh4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sample Sizes",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_jgck4D": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tiles 150 × 300mm / 300 × 300mm (We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p>Subway & Pattern Tiles Original full tile size<br/>Mosaic Tiles 100 × 300mm</p><p>Timber Flooring 200 × 200mm</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        },
-        "button_LBQzgn": {
-          "type": "button",
-          "settings": {
-            "button_select": "primary",
-            "button_label": "Button label",
-            "button_link": "/",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Mjay7Q",
-        "heading_eyRGh4",
-        "text_jgck4D",
-        "button_LBQzgn"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "title": "",
-        "layout": "text_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 400,
-        "mobile_fixed_height": 360,
-        "section-color-body-text": "transparent",
-        "section-color-overlay": "transparent",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "transparent",
-        "color-overlay": "transparent",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/sample2.png",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_image": "shopify://shop_images/sample2.png",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
     }
   },
   "order": [
     "main",
     "image_banner_wJji7w",
     "rich_text_WKiQFt",
-    "image_with_text_iMNx8V",
-    "image_with_text_8bMjVh"
+    "image_with_text_8bMjVh",
+    "image_with_text_iMNx8V"
   ]
 }
