@@ -160,6 +160,7 @@
         },
         "button_LBQzgn": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_select": "primary",
             "button_label": "Button label",
@@ -230,8 +231,8 @@
           "type": "button",
           "settings": {
             "button_select": "primary",
-            "button_label": "Button label",
-            "button_link": "/",
+            "button_label": "TAKE ME TO THE TILES",
+            "button_link": "shopify://collections/tiles",
             "disable_on_mobile": false
           }
         }
