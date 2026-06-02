@@ -599,7 +599,7 @@
             "button_select": "link",
             "button_label": "Shop New Arrivals",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/clearance",
+            "button_link": "shopify://collections/new-arrivals",
             "desktop_image": "shopify://shop_images/just_arrival_image1.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
@@ -622,7 +622,7 @@
             "button_select": "link",
             "button_label": "Shop the Look",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/clearance-timber-flooring",
+            "button_link": "shopify://pages/get-inspired",
             "desktop_image": "shopify://shop_images/real_project_image2.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
@@ -645,7 +645,7 @@
             "button_select": "link",
             "button_label": "Shop Deals",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/bathwares",
+            "button_link": "shopify://collections/clearance",
             "desktop_image": "shopify://shop_images/hotdeals_image3.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
@@ -663,13 +663,13 @@
         "image_8hAdHg"
       ],
       "custom_css": [
-        ".hero__button--link span {background: #c0191f; display: flex; padding:0 10px;}",
+        ".hero__button--link span {background: #c0191f; display: flex; padding: 0 10px;}",
         ".hero__button--link span:before {background: none;}",
         ".hero__title svg {display: none;}",
         ".hero__button--gap svg {display: block; width: 1rem; margin: 0 5px;}",
         "h2.hero__title {margin-bottom: 0;}",
         ".wt-mosaic__main {min-height: unset;}",
-        "@media (min-width: 900px) {.hero__overlay--top {align-items: end; }}"
+        "@media (min-width: 900px) {.hero__overlay--top {align-items: end; } .hero__wrapper .hero__overlay {padding: 0 24px; }}"
       ],
       "settings": {
         "heading": "",
