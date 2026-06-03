@@ -53,9 +53,10 @@
   .icon-arrow {
     width: 2.5rem;
 }
+  .hero__button--gap svg {display:none;}
 </style>
 
-<div class="wt-mosaic" data-section-id="{{ section.id }}">
+<div class="wt-mosaic hero__wrapper" data-section-id="{{ section.id }}">
   {% render 'headline', title: section.settings.heading | newline_to_br %}
   <div
     data-section-id="{{ section.id }}"

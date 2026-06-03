@@ -373,47 +373,114 @@
         "margin-bottom": 0
       }
     },
-    "image_banner_zheeFX": {
-      "type": "image-banner",
+    "multicolumn_y7NWPM": {
+      "type": "multicolumn",
       "blocks": {
-        "button_w9wqM8": {
-          "type": "button",
+        "column_PY9RBX": {
+          "type": "column",
           "settings": {
+            "heading": "4.9",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Google Rating</p>",
+            "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
-            "disable_on_mobile": false,
-            "button_link": "shopify://pages/eofy-sale",
-            "second_button_select": "primary",
-            "second_button_label": "Button label",
-            "second_disable_on_mobile": false,
-            "second_button_link": ""
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/002-star.svg"
+          }
+        },
+        "column_kYDYnX": {
+          "type": "column",
+          "settings": {
+            "heading": "10,000+",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Happy Customers</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/003-smile.svg"
+          }
+        },
+        "column_4r86G6": {
+          "type": "column",
+          "settings": {
+            "heading": "Melbourne",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Local Showrooms</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/004-supermarket.svg"
+          }
+        },
+        "column_NCaxUD": {
+          "type": "column",
+          "settings": {
+            "heading": "Builder's",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Choice</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/001-builder.svg"
+          }
+        },
+        "column_YbX9bt": {
+          "type": "column",
+          "settings": {
+            "heading": "Australia-wide",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Delivery</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/005-delivery-truck.svg"
           }
         }
       },
       "block_order": [
-        "button_w9wqM8"
+        "column_PY9RBX",
+        "column_kYDYnX",
+        "column_4r86G6",
+        "column_NCaxUD",
+        "column_YbX9bt"
       ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
+      "custom_css": [
+        ".hero--out {flex-direction: row; gap: 10px;}",
+        ".hero__pic-container {width: unset;}",
+        ".hero__pic {width: 24px;}",
+        "h2 {margin-bottom: 0;}",
+        "h2 svg {display: none;}",
+        ".wt-multicol .hero--out .hero__overlay--left {padding: 0;}",
+        ".wt-multicol__list {padding: 0 50px;}",
+        "@media (max-width: 899px) {.wt-multicol__list {display: grid; grid-template-columns: auto auto; } .wt-multicol__list--5 .wt-multicol__item:nth-child(5) {display: none; } .wt-multicol__list {padding: 0; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "heading": "",
-        "full-width-enabled": true,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/desktop_EOFY26.jpg",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/mobile_hp_EOFY26.jpg",
-        "mobile_text_vertical_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "color-heading": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 100,
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
         "color-body-text": "rgba(0,0,0,0)",
-        "text-container-color": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "margin-top": 0,
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
         "margin-bottom": 20
       }
     },
@@ -512,8 +579,8 @@
         "number_of_column_mobile": 2,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 60
+        "margin-top": 48,
+        "margin-bottom": 48
       }
     },
     "collage_fTynMR": {
@@ -522,17 +589,17 @@
         "image_p4Dcwz": {
           "type": "image",
           "settings": {
-            "heading": "Tiles",
+            "heading": "Just Arrived\nUpgrade Your Space*",
             "heading_disable_on_mobile": false,
             "size_heading": 130,
             "size_heading_mobile": 100,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "link",
-            "button_label": "From $25/㎡",
+            "button_label": "Shop New Arrivals",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/clearance",
-            "desktop_image": "shopify://shop_images/tiles.jpg",
+            "button_link": "shopify://collections/new-arrivals",
+            "desktop_image": "shopify://shop_images/just_arrival_image1.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -545,17 +612,17 @@
         "image_bmwQVt": {
           "type": "image",
           "settings": {
-            "heading": "Timber Flooring",
+            "heading": "Real Projects \nInspiration",
             "heading_disable_on_mobile": false,
             "size_heading": 130,
             "size_heading_mobile": 100,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "link",
-            "button_label": "From $24/㎡",
+            "button_label": "Shop the Look",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/clearance-timber-flooring",
-            "desktop_image": "shopify://shop_images/timber.jpg",
+            "button_link": "shopify://pages/get-inspired",
+            "desktop_image": "shopify://shop_images/real_project_image2.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -568,17 +635,17 @@
         "image_8hAdHg": {
           "type": "image",
           "settings": {
-            "heading": "Bathware",
+            "heading": "Hot Deals on Tiles\nOnly $25/m",
             "heading_disable_on_mobile": false,
             "size_heading": 130,
             "size_heading_mobile": 100,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "link",
-            "button_label": "Save up to 35%",
+            "button_label": "Shop Deals",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/bathwares",
-            "desktop_image": "shopify://shop_images/bathware.jpg",
+            "button_link": "shopify://collections/clearance",
+            "desktop_image": "shopify://shop_images/hotdeals_image3.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
             "mobile_text_vertical_position": "center",
@@ -595,15 +662,136 @@
         "image_8hAdHg"
       ],
       "custom_css": [
-        "@media (max-width: 790px) {.hero__title {color: #ffffff !important; } .hero__button--link {color: #ffffff !important; } .wt-mosaic__aside {gap: 10px; }}"
+        ".hero__button--link span {background: #c0191f; display: flex; padding: 0 10px;}",
+        ".hero__button--link span:before {background: none;}",
+        ".hero__title svg {display: none;}",
+        ".hero__button--gap svg {display: block; width: 1rem; margin: 0 5px;}",
+        "h2.hero__title {margin-bottom: 0;}",
+        ".wt-mosaic__main {min-height: unset;}",
+        "@media (min-width: 900px) {.hero__overlay--top {align-items: end; } .hero__wrapper .hero__overlay {padding: 0 24px; }}"
       ],
       "settings": {
-        "heading": "Value Range",
+        "heading": "",
         "full-width-enabled": true,
         "desktop_layout": "row",
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "video_reels_kb4KdA": {
+      "type": "video-reels",
+      "blocks": {
+        "product_pxFerf": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/bc5b22c0-5261-11f0-b18e-f5abde61943a.MP4",
+            "featured_product": "hf-origin-white-matt-finish-300x600mm"
+          }
+        },
+        "product_wGE6cU": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/Videos2026-01-08_135225_188.mp4",
+            "featured_product": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy"
+          }
+        },
+        "product_RxW6hC": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/Videos2026-01-08_135216_550.mp4",
+            "featured_product": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain"
+          }
+        },
+        "product_VgJAxA": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/coco.mp4",
+            "featured_product": "hf-everest-silver-matt-smoothgrip-in-out-finish-600x600mm"
+          }
+        },
+        "product_4yGbVC": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/MW.mp4",
+            "featured_product": "caloro60120m-calacutta-oro-matt-600x1200mm"
+          }
+        },
+        "product_FBdQgA": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/shirley.mp4",
+            "featured_product": "plasil3060m-plazzo-silver-matt-300x600mm"
+          }
+        },
+        "product_CAAJBg": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/dune-mosaic.mp4",
+            "featured_product": "188859-dune-kit-kat-mosaic-water-glossy-115x231"
+          }
+        },
+        "product_wrYgbH": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "video_hosted": "shopify://files/videos/0_Explosion_Tiles_1280x720.mp4",
+            "featured_product": ""
+          }
+        },
+        "product_Q3Dhwd": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "video_hosted": "shopify://files/videos/4675010_Tracking_Wooden_1280x720.mp4",
+            "featured_product": ""
+          }
+        },
+        "product_4zdjEq": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "video_hosted": "shopify://files/videos/0_Abstract_Lattice_1280x720.mp4",
+            "featured_product": ""
+          }
+        },
+        "product_nziX76": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "video_hosted": "shopify://files/videos/0_Explosion_Tiles_1280x720.mp4",
+            "featured_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_pxFerf",
+        "product_wGE6cU",
+        "product_RxW6hC",
+        "product_VgJAxA",
+        "product_4yGbVC",
+        "product_FBdQgA",
+        "product_CAAJBg",
+        "product_wrYgbH",
+        "product_Q3Dhwd",
+        "product_4zdjEq",
+        "product_nziX76"
+      ],
+      "custom_css": [
+        ".video-reels [data-swiper-slide] .video-container low-power-video {border-radius: 0px !important;}",
+        ".video-reels [data-swiper-slide] .video-container {border-radius: 0px !important;}",
+        ".shoppable-product-card {border-radius: 0px !important;}",
+        "span.price-item.price-item--regular.wt-product__price__final.wt-product__price__final {color: #ca151d !important;}"
+      ],
+      "settings": {
+        "heading": "Latest Inspirations",
+        "quick-add-enabled": false,
+        "hide-brand-name": false,
+        "video_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
         "margin-bottom": 20
       }
     },
@@ -655,20 +843,6 @@
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 60,
         "margin-bottom": 0
-      }
-    },
-    "button_YXBYRX": {
-      "type": "button",
-      "disabled": true,
-      "name": "t:sections.button.presets.name",
-      "settings": {
-        "button_select": "primary",
-        "button_horizontal_position": "center",
-        "button_label": "View More",
-        "button_link": "shopify://collections/top-selling-tiles255",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "background_color": "rgba(0,0,0,0)"
       }
     },
     "featured_collection_XL4U6J": {
@@ -809,6 +983,7 @@
         "text_mWnmEE",
         "button_7cDcAq"
       ],
+      "disabled": true,
       "custom_css": [
         "a.hero__button--primary.hero__button.hero {border-radius: 0px !important;}",
         ".wt-parallax {min-height: 100vh !important;}"
@@ -850,6 +1025,7 @@
         "heading_e8MYNq",
         "text_anCV7i"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_width": "regular",
@@ -860,188 +1036,12 @@
         "margin-bottom": 20
       }
     },
-    "video_reels_kb4KdA": {
-      "type": "video-reels",
-      "blocks": {
-        "product_pxFerf": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/bc5b22c0-5261-11f0-b18e-f5abde61943a.MP4",
-            "featured_product": "hf-origin-white-matt-finish-300x600mm"
-          }
-        },
-        "product_wGE6cU": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/Videos2026-01-08_135225_188.mp4",
-            "featured_product": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy"
-          }
-        },
-        "product_RxW6hC": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/Videos2026-01-08_135216_550.mp4",
-            "featured_product": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain"
-          }
-        },
-        "product_VgJAxA": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/coco.mp4",
-            "featured_product": "hf-everest-silver-matt-smoothgrip-in-out-finish-600x600mm"
-          }
-        },
-        "product_4yGbVC": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/MW.mp4",
-            "featured_product": "caloro60120m-calacutta-oro-matt-600x1200mm"
-          }
-        },
-        "product_FBdQgA": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/shirley.mp4",
-            "featured_product": "plasil3060m-plazzo-silver-matt-300x600mm"
-          }
-        },
-        "product_CAAJBg": {
-          "type": "product",
-          "settings": {
-            "video_hosted": "shopify://files/videos/dune-mosaic.mp4",
-            "featured_product": "188859-dune-kit-kat-mosaic-water-glossy-115x231"
-          }
-        },
-        "product_wrYgbH": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "video_hosted": "shopify://files/videos/0_Explosion_Tiles_1280x720.mp4",
-            "featured_product": ""
-          }
-        },
-        "product_Q3Dhwd": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "video_hosted": "shopify://files/videos/4675010_Tracking_Wooden_1280x720.mp4",
-            "featured_product": ""
-          }
-        },
-        "product_4zdjEq": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "video_hosted": "shopify://files/videos/0_Abstract_Lattice_1280x720.mp4",
-            "featured_product": ""
-          }
-        },
-        "product_nziX76": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "video_hosted": "shopify://files/videos/0_Explosion_Tiles_1280x720.mp4",
-            "featured_product": ""
-          }
-        }
-      },
-      "block_order": [
-        "product_pxFerf",
-        "product_wGE6cU",
-        "product_RxW6hC",
-        "product_VgJAxA",
-        "product_4yGbVC",
-        "product_FBdQgA",
-        "product_CAAJBg",
-        "product_wrYgbH",
-        "product_Q3Dhwd",
-        "product_4zdjEq",
-        "product_nziX76"
-      ],
-      "custom_css": [
-        ".video-reels [data-swiper-slide] .video-container low-power-video {border-radius: 0px !important;}",
-        ".video-reels [data-swiper-slide] .video-container {border-radius: 0px !important;}",
-        ".shoppable-product-card {border-radius: 0px !important;}",
-        "span.price-item.price-item--regular.wt-product__price__final.wt-product__price__final {color: #ca151d !important;}"
-      ],
-      "settings": {
-        "heading": "Latest Inspirations",
-        "quick-add-enabled": false,
-        "hide-brand-name": false,
-        "video_button": false,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 60,
-        "margin-bottom": 20
-      }
-    },
     "custom_liquid_X3BYgR": {
       "type": "custom-liquid",
       "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"elfsight-sapp-cb87604d-3738-4d9d-8114-9818930ceb0d\"></div>"
-      }
-    },
-    "video_section_Erc7Cx": {
-      "type": "video-section",
-      "blocks": {
-        "heading_RQwPNq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sale",
-            "disable_on_mobile": false,
-            "size_heading": 300,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_F6UrkC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Up to 50% Off</p>",
-            "disable_on_mobile": false
-          }
-        },
-        "button_raNaAr": {
-          "type": "button",
-          "settings": {
-            "button_select": "primary",
-            "button_label": "See all products",
-            "button_link": "/",
-            "button_link_in_new_window": false,
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_RQwPNq",
-        "text_F6UrkC",
-        "button_raNaAr"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "full-width-enabled": true,
-        "content_position": "over_image",
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 560,
-        "mobile_fixed_height": 460,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "layout_mobile": "video",
-        "layout": "hero_first",
-        "color-heading-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "#ffffff",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 68,
-        "desktop_image": "shopify://shop_images/tropical-pool-outside-a-white-house.jpg",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_text_vertical_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
       }
     },
     "brands_cygNdd": {
@@ -1113,170 +1113,6 @@
         "animation_speed": "100",
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
-    "shoppable_video_PWWPiV": {
-      "type": "shoppable-video",
-      "blocks": {
-        "product_4F9efb": {
-          "type": "product",
-          "settings": {
-            "start_second": 1,
-            "featured_product": ""
-          }
-        },
-        "product_9WHJPz": {
-          "type": "product",
-          "settings": {
-            "start_second": 4,
-            "featured_product": ""
-          }
-        },
-        "product_tkHdPX": {
-          "type": "product",
-          "settings": {
-            "start_second": 6,
-            "featured_product": ""
-          }
-        }
-      },
-      "block_order": [
-        "product_4F9efb",
-        "product_9WHJPz",
-        "product_tkHdPX"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "full-width-enabled": false,
-        "quick-add-enabled": false,
-        "rewind-enabled": false,
-        "hide-brand-name": false,
-        "desktop_fixed_height": 600,
-        "mobile_fixed_height": 480,
-        "enable_full_screen_mode": false,
-        "color-body-heading": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "color-body-text": "#000000",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
-    "grid_view_PEBP9T": {
-      "type": "grid-view",
-      "blocks": {
-        "image_dkHG7f": {
-          "type": "image",
-          "settings": {
-            "heading": "Column",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "Button label",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "rgba(0,0,0,0)",
-            "color-overlay": "rgba(0,0,0,0)",
-            "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center"
-          }
-        },
-        "image_zAqt6N": {
-          "type": "image",
-          "settings": {
-            "heading": "Column",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "Button label",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "rgba(0,0,0,0)",
-            "color-overlay": "rgba(0,0,0,0)",
-            "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_dkHG7f",
-        "image_zAqt6N"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "swipe_on_mobile": false,
-        "full-width-enabled": false,
-        "image_ratio": "adapt",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
-    "shoppable_image_ULUG48": {
-      "type": "shoppable-image",
-      "blocks": {
-        "dots_kwEwML": {
-          "type": "dots",
-          "settings": {
-            "coordinate_width": 66,
-            "coordinate_height": 40,
-            "coordinate_width_mobile": 66,
-            "coordinate_height_mobile": 40,
-            "featured_product": "12timblg-61231-timeworn-blue-gloss-100x200mm"
-          }
-        },
-        "dots_FrA8Pn": {
-          "type": "dots",
-          "settings": {
-            "coordinate_width": 75,
-            "coordinate_height": 61,
-            "coordinate_width_mobile": 80,
-            "coordinate_height_mobile": 61,
-            "featured_product": "13dalgym-da75303-dallas-grey-matt-75x300mm"
-          }
-        },
-        "dots_NHmcwe": {
-          "type": "dots",
-          "settings": {
-            "coordinate_width": 20,
-            "coordinate_height": 44,
-            "coordinate_width_mobile": 13,
-            "coordinate_height_mobile": 44,
-            "featured_product": "13troalm-ts75301m-tropical-stone-almond-matt-75x300mm"
-          }
-        }
-      },
-      "block_order": [
-        "dots_kwEwML",
-        "dots_FrA8Pn",
-        "dots_NHmcwe"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Shoppable image",
-        "full-width-enabled": false,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "#dfdfdf",
-        "color-overlay-opacity": 100,
         "margin-top": 20,
         "margin-bottom": 20
       }
@@ -1389,6 +1225,150 @@
         "margin-bottom": 60
       }
     },
+    "image_with_text_RJcJMd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JypLzQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose VICTiles for Tiles in Melbourne?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6EBK3b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VICTILES is a preferred choice for homeowners, builders, and renovators looking for high-quality tiles in Melbourne. We offer competitive pricing, a wide selection of products, and expert guidance to make your renovation or build seamless.</p><p>With a strong reputation for service and quality, we continue to be a trusted name for Melbourne tiles.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JypLzQ",
+        "text_6EBK3b"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#dfdfdf",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image4.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_YHHhrc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y9c9WW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Melbourne’s Trusted Tile Store",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_eTM7jV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y9c9WW",
+        "text_eTM7jV"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image5.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_WMNfet": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XMLCbt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tiles Melbourne – Affordable Quality Tiles & Flooring",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_ehhyjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XMLCbt",
+        "text_ehhyjc"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#dfdfdf",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image6.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "collapsible_menu_nEQKAL": {
       "type": "collapsible_menu",
       "blocks": {
@@ -1445,7 +1425,7 @@
         "subtitle": "Get to know us",
         "description": "<p>Every homeowner wants what’s best for their space. Investing in the right products and accessories is very crucial to ensure your home lasts a lifetime. If you want your home to look modern, stylish and trendy, you need to shop for the best tiles online. Keeping this in mind, we at <strong>VICTILES</strong> offer tiles online in Melbourne at the best prices.</p>",
         "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#f2f2f2",
+        "background_color": "rgba(0,0,0,0)",
         "compact-size-enabled": false,
         "two-columns-enabled": true,
         "margin-top": 32,
@@ -1626,6 +1606,7 @@
       "block_order": [
         "text_weiDhx"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {font-size: 2em;}"
       ],
@@ -1638,80 +1619,29 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
-    },
-    "image_with_text_RJcJMd": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JypLzQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Melbourne’s Trusted Tile Store",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_6EBK3b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JypLzQ",
-        "text_6EBK3b"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "title": "",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/MANTRA22_2.avif",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
     }
   },
   "order": [
     "slideshow_NB3UMP",
-    "image_banner_zheeFX",
+    "multicolumn_y7NWPM",
     "collection_list_3q9paF",
     "collage_fTynMR",
+    "video_reels_kb4KdA",
     "featured_collection_98txhK",
-    "button_YXBYRX",
     "featured_collection_XL4U6J",
     "featured_collection_VyP6LT",
     "parallax_9pNgNx",
     "rich_text_Xd3HJc",
-    "video_reels_kb4KdA",
     "custom_liquid_X3BYgR",
-    "video_section_Erc7Cx",
     "brands_cygNdd",
-    "shoppable_video_PWWPiV",
-    "grid_view_PEBP9T",
-    "shoppable_image_ULUG48",
     "testimonials_mB6iUg",
+    "image_with_text_RJcJMd",
+    "image_with_text_YHHhrc",
+    "image_with_text_WMNfet",
     "collapsible_menu_nEQKAL",
     "newsletter_i8q83Y",
     "features_banner_rnAYGJ",
     "image_with_text_Ef4PPw",
-    "rich_text_FDECUV",
-    "image_with_text_RJcJMd"
+    "rich_text_FDECUV"
   ]
 }
