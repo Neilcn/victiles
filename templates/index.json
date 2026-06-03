@@ -605,8 +605,8 @@
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "color-body-text": "#ffffff",
-            "color-overlay": "rgba(0,0,0,0)",
-            "color-overlay-opacity": 100
+            "color-overlay": "#222321",
+            "color-overlay-opacity": 30
           }
         },
         "image_bmwQVt": {
