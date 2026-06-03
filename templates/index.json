@@ -1131,7 +1131,20 @@
             "mobile_screen_logo_width": 100,
             "author": "Joe",
             "date": "June 2026",
-            "link": "https://maps.app.goo.gl/kMA2gWWtQPBLV2QNA"
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOUlNrMVBVVUZwWTNGa01ITlNUR2czT0VORlkwRRAB!2m1!1s0x0:0xa2ff0e8f59bfb6c3!3m1!1s2@1:CAIQACodChtycF9oOjNRSk1PUUFpY3FkMHNSTGg3OENFY0E%7C%7C?entry=tts&g_ep=EgoyMDI2MDUzMS4wIPu8ASoASAFQAw%3D%3D&skid=451efdae-fca6-4c4a-811a-6e1728b8c953"
+          }
+        },
+        "image_dNXyHf": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>The Best Tiles Place with the Finest Service - Mehak & Damien helped us from the beginning till the end - Extremely Professional and Highly Skilled Staff - Both Mehak & Damien treated our little 2 Bathroom Project as their own and helped making it a Success - Vic Tiles has a great collection of tiles to suit every budget - And Top Service with a Smile - Highly Recommended.</p>",
+            "desktop_image": "shopify://shop_images/unnamed_8acaa720-f68c-4b63-9d63-5d329e8a2c4c.png",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Satish Nair",
+            "date": "March 2026",
+            "link": "https://maps.app.goo.gl/ahNpkvi4GCx3A42GA"
           }
         },
         "image_ArCqVm": {
@@ -1173,19 +1186,6 @@
             "link": "https://maps.app.goo.gl/V2XRMrbhhUp3tHgc7"
           }
         },
-        "image_dNXyHf": {
-          "type": "image",
-          "settings": {
-            "icon_select": "100",
-            "text": "<p>The Best Tiles Place with the Finest Service - Mehak & Damien helped us from the beginning till the end - Extremely Professional and Highly Skilled Staff - Both Mehak & Damien treated our little 2 Bathroom Project as their own and helped making it a Success - Vic Tiles has a great collection of tiles to suit every budget - And Top Service with a Smile - Highly Recommended.</p>",
-            "desktop_image": "shopify://shop_images/unnamed_8acaa720-f68c-4b63-9d63-5d329e8a2c4c.png",
-            "large_screen_logo_width": 100,
-            "mobile_screen_logo_width": 100,
-            "author": "Satish Nair",
-            "date": "March 2026",
-            "link": "https://maps.app.goo.gl/ahNpkvi4GCx3A42GA"
-          }
-        },
         "image_ebm39F": {
           "type": "image",
           "settings": {
@@ -1202,10 +1202,10 @@
       },
       "block_order": [
         "image_KJynVq",
+        "image_dNXyHf",
         "image_ArCqVm",
         "image_6xRWWd",
         "image_UkjCAq",
-        "image_dNXyHf",
         "image_ebm39F"
       ],
       "custom_css": [
