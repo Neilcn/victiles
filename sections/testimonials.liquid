@@ -194,6 +194,15 @@
           <div data-swiper-slide class="wt-test__item" data-block-id="{{ block.id }}">
             {% for block in section.blocks limit: 1 offset: slide_offset %}
               <div class="testimonial-card">
+                <a
+                  class="link-overlay"
+                  {% if block.settings.link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.link }}"
+                  {% endif %}
+                >
+                </a>
                 {% assign image_class = 'wt-test__image' %}
                 {% if section.settings.image_shape == 'natural' %}
                   {% assign image_class = image_class | append: ' wt-test__image--natural' %}
