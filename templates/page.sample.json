@@ -1,0 +1,358 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "image_banner_wJji7w": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_iezLEm": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_4yEhXx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_iiFwEh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_CUGVGM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "disable_on_mobile": false,
+            "button_link": "/",
+            "second_button_select": "primary",
+            "second_button_label": "Button label",
+            "second_disable_on_mobile": false,
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iezLEm",
+        "heading_4yEhXx",
+        "text_iiFwEh",
+        "button_CUGVGM"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "heading": "",
+        "full-width-enabled": true,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/WechatIMG201.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/WechatIMG222.jpg",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "text-container-color": "transparent",
+        "color-overlay-opacity": 100,
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
+    "rich_text_WKiQFt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_twcNPU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Order Tile Samples?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6pFapn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choosing the right tile or flooring online can be difficult. Colours, textures and finishes often look different in person compared to photos. With samples, you can see the true colour, feel the texture, and compare options in your own lighting and space — helping you make the right decision with confidence. Whether you're renovating, building, or simply exploring ideas, tile samples make the selection process easier and more reliable.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_iT7DXT": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "EXPLORE OUR TILES",
+            "button_link": "shopify://collections/tiles",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_twcNPU",
+        "text_6pFapn",
+        "button_iT7DXT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_8bMjVh": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Mjay7Q": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_eyRGh4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sample Sizes",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_jgck4D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tiles 150 × 300mm / 300 × 300mm (We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p></p><p>Subway & Pattern Tiles Original full tile size<br/>Mosaic Tiles 100 × 300mm</p><p></p><p>Timber Flooring 200 × 200mm</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_LBQzgn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mjay7Q",
+        "heading_eyRGh4",
+        "text_jgck4D",
+        "button_LBQzgn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 400,
+        "mobile_fixed_height": 360,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/sample2.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/sample2.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_iMNx8V": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_LYr3Pj": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_G7qNUw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sample Pricing & Delivery",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_aExxaP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>$2 per sample $6 Australia-wide delivery<br/>Samples delivered straight to your door from Melbourne.</p><p><br/>Most sample orders arrive within 3–7 business days after dispatch via Australia Post.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_DedUHD": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "TAKE ME TO THE TILES",
+            "button_link": "shopify://collections/tiles",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LYr3Pj",
+        "heading_G7qNUw",
+        "text_aExxaP",
+        "button_DedUHD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 400,
+        "mobile_fixed_height": 360,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/sample1.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/sample1.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_HTDdWG": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_PFJJAN": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_YT9gtD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need Help Choosing?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_feVpWG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team is here to help you choose the perfect samples for your project.<br/><br/>Contact us at sales@victiles.com.au or visit our stores for expert advice.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_Azz7Bi": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PFJJAN",
+        "heading_YT9gtD",
+        "text_feVpWG",
+        "button_Azz7Bi"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 400,
+        "mobile_fixed_height": 360,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/Sample3.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/Sample3.png",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_wJji7w",
+    "rich_text_WKiQFt",
+    "image_with_text_8bMjVh",
+    "image_with_text_iMNx8V",
+    "image_with_text_HTDdWG"
+  ]
+}
