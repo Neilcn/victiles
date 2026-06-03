@@ -1583,27 +1583,119 @@ document.querySelector('#add-sample')?.addEventListener('click', function() {
                 "Main Product Image": mainProductImage
               }
             }
-          ]
+          ],
+          sections: getCartSectionIds().join(','),
+          sections_url: window.location.pathname
         })
       });
     })
-    .then(() => {
-      // Step 4: Show cart drawer or fallback popup
-      if (window.Shopify && Shopify.theme && Shopify.theme.sections) {
-        const drawerToggle = document.querySelector(
-          '[data-drawer-trigger], button[data-action="open-drawer"], button[aria-controls="CartDrawer"]'
-        );
-        if (drawerToggle) {
-          drawerToggle.click(); // open drawer
-        } else {
-          showMiniCart();
-        }
-      } else {
-        showMiniCart();
+    .then(response => response.json())
+    .then((response) => {
+      if (response.status) {
+        alert(response.description || response.message || 'Unable to add sample to cart.');
+        return;
       }
+
+      openCartAfterAdd(response);
     })
     .catch(error => {
       if (!error.message.includes("limit")) console.error(error);
+    });
+});
+
+function getCartDrawer() {
+  return document.querySelector('cart-drawer');
+}
+
+function getCartSectionIds() {
+  const cartDrawer = getCartDrawer();
+
+  if (cartDrawer) {
+    return cartDrawer.getSectionsToRender().map((section) => section.id);
+  }
+
+  return ['cart-drawer', 'cart-icon-bubble'];
+}
+
+function getSelectedVariantId() {
+  const variantOptions = document.querySelector('variant-options[data-product-handle="{{ product.handle }}"]');
+  const variantIdFromData = variantOptions?.dataset.variantId;
+
+  if (variantIdFromData) {
+    return variantIdFromData;
+  }
+
+  const variantInput = document.querySelector('#product-form-{{ section.id }} input[name="id"], #product-form-installment-{{ section.id }} input[name="id"]');
+  return variantInput?.value;
+}
+
+function openCartAfterAdd(response) {
+  const cartDrawer = getCartDrawer();
+
+  if (!cartDrawer || cartDrawer.dataset.cartType !== 'drawer') {
+    showMiniCart();
+    return;
+  }
+
+  const isClosedCart = !document.body.classList.contains('page-overlay-cart-on');
+  cartDrawer.renderContents(response, isClosedCart);
+}
+
+document.querySelector('#custom-add-to-cart')?.addEventListener('click', function(event) {
+  event.preventDefault();
+  event.stopPropagation();
+
+  if (typeof event.stopImmediatePropagation === 'function') {
+    event.stopImmediatePropagation();
+  }
+
+  const calculator = document.getElementById('flooring-calculator');
+  const quantityInput = document.getElementById('quantity-input');
+  const unitToggle = document.getElementById('unit-toggle');
+  const wastageToggle = document.getElementById('wastage-toggle');
+  const variantId = getSelectedVariantId();
+  const coefficient = Number.parseFloat(calculator?.dataset.coefficient || '0');
+  const requestedQuantity = Number.parseFloat(quantityInput?.value || '1');
+
+  if (!variantId) {
+    alert('Please select a product option before adding to cart.');
+    return;
+  }
+
+  const requestedArea = Number.isFinite(requestedQuantity) && requestedQuantity > 0 ? requestedQuantity : 1;
+  const adjustedArea = wastageToggle?.checked ? requestedArea * 1.1 : requestedArea;
+  const quantity = unitToggle?.checked
+    ? Math.max(1, Math.ceil(adjustedArea))
+    : Math.max(1, coefficient > 0 ? Math.ceil(adjustedArea / coefficient) : Math.ceil(adjustedArea));
+
+  fetch('/cart/add.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Requested-With': 'XMLHttpRequest'
+    },
+    body: JSON.stringify({
+      items: [
+        {
+          id: Number(variantId),
+          quantity: quantity
+        }
+      ],
+      sections: getCartSectionIds().join(','),
+      sections_url: window.location.pathname
+    })
+  })
+    .then(response => response.json())
+    .then((response) => {
+      if (response.status) {
+        alert(response.description || response.message || 'Unable to add item to cart.');
+        return;
+      }
+
+      openCartAfterAdd(response);
+    })
+    .catch((error) => {
+      console.error(error);
     });
 });
 
