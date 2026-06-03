@@ -232,6 +232,13 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_8NBNXn": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"victiles-contact-tour-section\">\n  <div class=\"victiles-contact-tour-heading\">\n    <h2>Step Inside Our Dandenong Tile Showroom</h2>\n    <p>Take a 360° look around Victiles and explore our tile displays before visiting us in store.</p>\n  </div>\n\n  <div class=\"victiles-contact-tour\">\n    <iframe\n      title=\"Victiles Dandenong showroom 360 virtual tour\"\n      src=\"https://www.google.com/maps/embed?pb=!4v1780466650928!6m8!1m7!1sCAoSHENJQUJJaERBUDhoWTVlaWFoMjdRNUlZWk1VbTc.!2m2!1d-38.00262210379194!2d145.2164775152309!3f120!4f0!5f0.7820865974627469\"\n      allowfullscreen\n      loading=\"lazy\"\n      referrerpolicy=\"no-referrer-when-downgrade\">\n    </iframe>\n  </div>\n</div>\n\n<style>\n  .victiles-contact-tour-section {\n    width: 100%;\n    max-width: 1200px;\n    margin: 48px auto;\n    padding: 0 16px;\n  }\n\n  .victiles-contact-tour-heading {\n    text-align: center;\n    margin-bottom: 24px;\n  }\n\n  .victiles-contact-tour-heading h2 {\n    margin: 0 0 10px;\n    font-size: 32px;\n    line-height: 1.2;\n  }\n\n  .victiles-contact-tour-heading p {\n    margin: 0;\n    font-size: 16px;\n    line-height: 1.6;\n  }\n\n  .victiles-contact-tour {\n    width: 100%;\n    border-radius: 12px;\n    overflow: hidden;\n    background: #f5f5f5;\n    aspect-ratio: 16 / 9;\n  }\n\n  .victiles-contact-tour iframe {\n    width: 100%;\n    height: 100%;\n    border: 0;\n    display: block;\n  }\n\n  @media screen and (max-width: 749px) {\n    .victiles-contact-tour-section {\n      margin: 32px auto;\n      padding: 0 12px;\n    }\n\n    .victiles-contact-tour-heading h2 {\n      font-size: 24px;\n    }\n\n    .victiles-contact-tour-heading p {\n      font-size: 15px;\n    }\n\n    .victiles-contact-tour {\n      aspect-ratio: auto;\n      height: 420px;\n      border-radius: 10px;\n    }\n  }\n</style>"
+      }
     }
   },
   "order": [
@@ -240,6 +247,7 @@
     "form",
     "multicolumn_KJpTjm",
     "1740995753020ccdb1",
-    "1739945658c94bbf3a"
+    "1739945658c94bbf3a",
+    "custom_liquid_8NBNXn"
   ]
 }
