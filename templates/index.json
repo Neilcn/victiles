@@ -602,7 +602,7 @@
             "desktop_image": "shopify://shop_images/just_arrival_image1.jpg",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
-            "mobile_image": "shopify://shop_images/banner_mobile1.jpg",
+            "mobile_image": "shopify://shop_images/mobilebanner_hp1.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "color-body-text": "#ffffff",
