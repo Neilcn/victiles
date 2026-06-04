@@ -406,21 +406,6 @@
             "desktop_image": "shopify://shop_images/003-smile.svg"
           }
         },
-        "column_4r86G6": {
-          "type": "column",
-          "settings": {
-            "heading": "Melbourne",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Local Showrooms</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/004-supermarket.svg"
-          }
-        },
         "column_NCaxUD": {
           "type": "column",
           "settings": {
@@ -434,6 +419,21 @@
             "button_link": "",
             "button_link_in_new_window": false,
             "desktop_image": "shopify://shop_images/001-builder.svg"
+          }
+        },
+        "column_4r86G6": {
+          "type": "column",
+          "settings": {
+            "heading": "Melbourne",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Local Showrooms</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/004-supermarket.svg"
           }
         },
         "column_YbX9bt": {
@@ -455,8 +455,8 @@
       "block_order": [
         "column_PY9RBX",
         "column_kYDYnX",
-        "column_4r86G6",
         "column_NCaxUD",
+        "column_4r86G6",
         "column_YbX9bt"
       ],
       "custom_css": [
