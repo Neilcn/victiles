@@ -289,10 +289,10 @@
         "margin-bottom": 40
       }
     },
-    "collapsible_menu_darG7U": {
+    "collapsible_menu_cVAqcV": {
       "type": "collapsible_menu",
       "blocks": {
-        "collapsible_tab_QmURxH": {
+        "collapsible_tab_ja4GEr": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_1.value }}",
@@ -301,7 +301,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_mmFKYj": {
+        "collapsible_tab_RxtQh6": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_2.value }}",
@@ -310,7 +310,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_G3hb6t": {
+        "collapsible_tab_cLdBqE": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_3.value }}",
@@ -319,7 +319,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_z6jBVy": {
+        "collapsible_tab_W9BRix": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_4.value }}",
@@ -328,7 +328,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_fQBYyw": {
+        "collapsible_tab_gAAMz9": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_5.value }}",
@@ -337,7 +337,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_i8HX4V": {
+        "collapsible_tab_TFkbQG": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_6.value }}",
@@ -346,7 +346,7 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_WjyKMN": {
+        "collapsible_tab_xqXynq": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "{{ collection.metafields.custom.question_7.value }}",
@@ -355,25 +355,25 @@
             "icon": "none"
           }
         },
-        "collapsible_tab_8Yz7T9": {
+        "collapsible_tab_684Rye": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ collection.metafields.custom.question_7.value }}",
-            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "heading": "{{ collection.metafields.custom.question_8.value }}",
+            "content": "{{ collection.metafields.custom.answer_8 | metafield_tag }}",
             "page": "",
             "icon": "none"
           }
         }
       },
       "block_order": [
-        "collapsible_tab_QmURxH",
-        "collapsible_tab_mmFKYj",
-        "collapsible_tab_G3hb6t",
-        "collapsible_tab_z6jBVy",
-        "collapsible_tab_fQBYyw",
-        "collapsible_tab_i8HX4V",
-        "collapsible_tab_WjyKMN",
-        "collapsible_tab_8Yz7T9"
+        "collapsible_tab_ja4GEr",
+        "collapsible_tab_RxtQh6",
+        "collapsible_tab_cLdBqE",
+        "collapsible_tab_W9BRix",
+        "collapsible_tab_gAAMz9",
+        "collapsible_tab_TFkbQG",
+        "collapsible_tab_xqXynq",
+        "collapsible_tab_684Rye"
       ],
       "custom_css": [
         ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
@@ -400,6 +400,6 @@
     "collection_list_kNirjw",
     "product-grid",
     "features_banner_hADmFT",
-    "collapsible_menu_darG7U"
+    "collapsible_menu_cVAqcV"
   ]
 }
