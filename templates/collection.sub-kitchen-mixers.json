@@ -207,6 +207,109 @@
         "margin-top": 40,
         "margin-bottom": 40
       }
+    },
+    "collapsible_menu_UCzXVV": {
+      "type": "collapsible_menu",
+      "blocks": {
+        "collapsible_tab_deQRq9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_1.value }}",
+            "content": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_XQ6Kbf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_2.value }}",
+            "content": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_6P4iT4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_3.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_KmJ9hJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_4.value }}",
+            "content": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_LBUywV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_5.value }}",
+            "content": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_H8BDYX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_6.value }}",
+            "content": "{{ collection.metafields.custom.answer_6 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_QpPFhG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "collapsible_tab_h4aDAp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.question_7.value }}",
+            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_deQRq9",
+        "collapsible_tab_XQ6Kbf",
+        "collapsible_tab_6P4iT4",
+        "collapsible_tab_KmJ9hJ",
+        "collapsible_tab_LBUywV",
+        "collapsible_tab_H8BDYX",
+        "collapsible_tab_QpPFhG",
+        "collapsible_tab_h4aDAp"
+      ],
+      "custom_css": [
+        ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
+        ".wt-collapse__trigger__title,.metafield-rich_text_field {font-size: 16px; font-weight: 100;}"
+      ],
+      "name": "t:sections.collapsible_menu.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "{{ collection.metafields.custom.faq_title.value }}",
+        "description": "",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "compact-size-enabled": false,
+        "two-columns-enabled": true,
+        "margin-top": 20,
+        "margin-bottom": 40
+      }
     }
   },
   "order": [
@@ -215,6 +318,7 @@
     "title",
     "collection_list_kNirjw",
     "product-grid",
-    "features_banner_hADmFT"
+    "features_banner_hADmFT",
+    "collapsible_menu_UCzXVV"
   ]
 }
