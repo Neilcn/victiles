@@ -32,10 +32,10 @@
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/desktop_EOFY26.jpg",
+        "desktop_image": "shopify://shop_images/VICTiles_EOFY_HP_Desktop.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/mobile_EOFY26.png",
+        "mobile_image": "shopify://shop_images/VICTiles_EOFY_HP_Mobile.jpg",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
         "color-heading": "rgba(0,0,0,0)",
@@ -52,7 +52,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:48px;font-weight:500;\">EOFY SALE</p>\n<p style=\"font-size:24px;\">10% OFF Everything On Sale</p>\n<p style=\"font-size:18px;padding-bottom:20px;\">Tiles • Bathware • Timber Flooring</p>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">CODE：VTEOFY10</p>\n<p>22 MAY - 30  JUNE</p>\n</div>"
+        "custom_liquid": "<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:48px;font-weight:500;\">EOFY SALE</p>\n<p style=\"font-size:24px;\">Up to 50% Off PLUS Extra 10% Off</p>\n<p style=\"font-size:18px;padding-bottom:20px;\">Tiles • Bathware • Timber Flooring</p>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">CODE：VTEOFY10</p>\n<p>22 MAY - 30  JUNE</p>\n</div>"
       }
     },
     "multicolumn_6rF7ti": {
