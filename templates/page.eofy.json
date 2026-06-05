@@ -61,12 +61,12 @@
         "column_YB8p4Q": {
           "type": "column",
           "settings": {
-            "heading": "SHOP TILES",
+            "heading": "",
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "",
+            "button_label": "SHOP TILES",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/tiles",
             "button_link_in_new_window": false,
@@ -76,12 +76,12 @@
         "column_kGHmk9": {
           "type": "column",
           "settings": {
-            "heading": "SHOP BATHWARE",
+            "heading": "",
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "",
+            "button_label": "SHOP BATHWARE",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/bathwares",
             "button_link_in_new_window": false,
@@ -91,12 +91,12 @@
         "column_CtNifr": {
           "type": "column",
           "settings": {
-            "heading": "SHOP TIMBER FLOORING",
+            "heading": "",
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "",
+            "button_label": "SHOP TIMBER FLOORING",
             "button_disable_on_mobile": false,
             "button_link": "shopify://collections/timber-flooring",
             "button_link_in_new_window": false,
