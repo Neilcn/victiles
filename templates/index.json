@@ -742,10 +742,9 @@
         },
         "product_wrYgbH": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "video_hosted": "shopify://files/videos/0_Explosion_Tiles_1280x720.mp4",
-            "featured_product": ""
+            "video_hosted": "shopify://files/videos/reefvideo_3.mp4",
+            "featured_product": "victiles-wins-600x600mm-matt-porcelian-tile-moon"
           }
         },
         "product_Q3Dhwd": {
