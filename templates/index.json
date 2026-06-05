@@ -684,6 +684,13 @@
     "video_reels_kb4KdA": {
       "type": "video-reels",
       "blocks": {
+        "product_r3iijj": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/reelvideo_2.mp4",
+            "featured_product": "aura-white-matt-travertine-tile-look-600x600mm"
+          }
+        },
         "product_pxFerf": {
           "type": "product",
           "settings": {
@@ -767,6 +774,7 @@
         }
       },
       "block_order": [
+        "product_r3iijj",
         "product_pxFerf",
         "product_wGE6cU",
         "product_RxW6hC",
