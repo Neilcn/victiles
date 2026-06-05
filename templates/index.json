@@ -749,18 +749,17 @@
         },
         "product_Q3Dhwd": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "video_hosted": "shopify://files/videos/4675010_Tracking_Wooden_1280x720.mp4",
-            "featured_product": ""
+            "video_hosted": "shopify://files/videos/reelvideo_4.mp4",
+            "featured_product": "dec-forcar-deco-formes-carrara-298x256mm"
           }
         },
         "product_4zdjEq": {
           "type": "product",
           "disabled": true,
           "settings": {
-            "video_hosted": "shopify://files/videos/0_Abstract_Lattice_1280x720.mp4",
-            "featured_product": ""
+            "video_hosted": "shopify://files/videos/reelvideo_5.mp4",
+            "featured_product": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural"
           }
         },
         "product_nziX76": {
