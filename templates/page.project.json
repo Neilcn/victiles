@@ -23,6 +23,40 @@
         "margin-bottom": 0
       }
     },
+    "rich_text_rWJ8cU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hKKGhk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_RUyGUL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make annuncements, or welcome customers to your store.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hKKGhk",
+        "text_RUyGUL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "project_gallery_cciiMR": {
       "type": "project-gallery",
       "blocks": {
@@ -184,6 +218,7 @@
   },
   "order": [
     "main",
+    "rich_text_rWJ8cU",
     "project_gallery_cciiMR",
     "project_gallery_YrEyya"
   ]
