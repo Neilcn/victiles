@@ -579,7 +579,7 @@
         "number_of_column_mobile": 2,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "margin-top": 48,
+        "margin-top": 28,
         "margin-bottom": 48
       }
     },
@@ -669,7 +669,7 @@
         ".hero__button--gap svg {display: block; width: 1rem; margin: 0 5px;}",
         "h2.hero__title {margin-bottom: 0;}",
         ".wt-mosaic__main {min-height: unset;}",
-        ".hero__title{font-size:24px;}",
+        ".hero__title {font-size: 24px;}",
         "@media (min-width: 900px) {.hero__overlay--top {align-items: end; } .hero__wrapper .hero__overlay {padding: 0 24px; }}"
       ],
       "settings": {
