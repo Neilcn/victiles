@@ -467,7 +467,7 @@
         "h2 svg {display: none;}",
         ".wt-multicol .hero--out .hero__overlay--left {padding: 0;}",
         ".wt-multicol__list {padding: 0 50px;}",
-        "@media (max-width: 899px) {.hero__title {font-size: 14px; }.hero__text {font-size:12px;} .wt-multicol__list {display: grid; grid-template-columns: auto auto auto; } .wt-multicol__item:nth-child(5), .wt-multicol__item:nth-child(4) {display: none; } .wt-multicol__list {padding: 0; }}"
+        "@media (max-width: 899px) {.hero__title {font-size: 14px; } .hero__text {font-size: 12px; } .wt-multicol__list {display: grid; grid-template-columns: auto auto auto; } .wt-multicol__item:nth-child(5), .wt-multicol__item:nth-child(4) {display: none; } .wt-multicol__list {padding: 0; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -669,6 +669,7 @@
         ".hero__button--gap svg {display: block; width: 1rem; margin: 0 5px;}",
         "h2.hero__title {margin-bottom: 0;}",
         ".wt-mosaic__main {min-height: unset;}",
+        ".hero__title{font-size:24px;}",
         "@media (min-width: 900px) {.hero__overlay--top {align-items: end; } .hero__wrapper .hero__overlay {padding: 0 24px; }}"
       ],
       "settings": {
