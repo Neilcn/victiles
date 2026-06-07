@@ -1,0 +1,190 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "project_gallery_cciiMR": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_KUGRBk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-mamic-grigio-polished-marble-tile-300x300mm-1241147347.webp",
+            "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jc7UXq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-herman-bianco-matt-p2-stone-look-tile-600x600mm-1241147292.webp",
+            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_DcNVNj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p4-stone-look-tile-600x600mm-1241147300.webp",
+            "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_3ka73t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p2-stone-look-tile-300x600mm-1241147302.webp",
+            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_KUGRBk",
+        "image_jc7UXq",
+        "image_DcNVNj",
+        "image_3ka73t"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Gallery",
+        "heading_size": "h2",
+        "text": "<p>Bring lasting style and resilience into your space with MTF 12mm Water-Resistant Laminate Flooring, available at Victiles Melbourne. </p>",
+        "button_text": "Shop",
+        "button_link": "#"
+      }
+    },
+    "project_gallery_YrEyya": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_pbBkam": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-mamic-grigio-polished-marble-tile-300x300mm-1241147347.webp",
+            "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jKdfM3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-herman-bianco-matt-p2-stone-look-tile-600x600mm-1241147292.webp",
+            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_YhAn3C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p4-stone-look-tile-600x600mm-1241147300.webp",
+            "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_dhPYMJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p2-stone-look-tile-300x600mm-1241147302.webp",
+            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_pbBkam",
+        "image_jKdfM3",
+        "image_YhAn3C",
+        "image_dhPYMJ"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Gallery",
+        "heading_size": "h2",
+        "text": "<p>Designed with high-definition digital printing and an embossed surface, this laminate authentically replicates the warmth and texture of natural timber.</p>",
+        "button_text": "Shop",
+        "button_link": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "project_gallery_cciiMR",
+    "project_gallery_YrEyya"
+  ]
+}
