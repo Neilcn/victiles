@@ -1356,8 +1356,8 @@ page-header {
     width: 44px;
     height: 44px;
     order: -1;
-    margin-left: auto;
-    margin-right: calc(var(--gap, 8px) * 1);
+    /* margin-left: auto;
+    margin-right: calc(var(--gap, 8px) * 1); */
     margin-block: calc(var(--gap, 8px) * 1);
     padding-inline: 0;
   }
@@ -2060,14 +2060,17 @@ body:not(.search-overlay-on) .wt-header--opacity.wt-header--v3 .wt-header__searc
 }
 @media (max-width: 1199px) {
   .wt-header__panel__label {
-    clip: rect(0 0 0 0);
+    /* clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
+    height: 1px; */
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
+    bottom: -14px;
+    font-size: 10px;
+    /* width: 1px; */
   }
+
 }
 .wt-header__panel--no-labels .wt-header__panel__label {
   clip: rect(0 0 0 0);
