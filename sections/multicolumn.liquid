@@ -44,6 +44,20 @@
   }
 </style>
 
+{% style %}
+
+@media (min-width: 1200px) {
+    .homepage-icons .hero__title {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+      .homepage-icons .hero__title {
+        font-size: 20px;
+    }
+}
+{% endstyle %}
+
 <div
   class="wt-multicol__wrapper{% if section.settings.section_class != blank %} {{ section.settings.section_class | escape }}{% endif %} {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
   data-section-id="{{ section.id }}"
