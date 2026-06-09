@@ -753,3 +753,14 @@ document.getElementById('use-quantity').addEventListener('click', function () {
   </body>
 </html>
 
+<script>
+  // 检查当前 URL 是否同时包含 collections 和 products
+  if (window.location.pathname.indexOf('/collections/') !== -1 && window.location.pathname.indexOf('/products/') !== -1) {
+    // 提取出 /products/ 之后的所有内容（即产品 handle）
+    var productHandle = window.location.pathname.split('/products/')[1];
+    // 拼接成新的干净 URL
+    var cleanUrl = '/products/' + productHandle + window.location.search;
+    // 执行替换跳转
+    window.location.replace(cleanUrl);
+  }
+</script>
