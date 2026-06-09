@@ -45,7 +45,7 @@
 </style>
 
 <div
-  class="wt-multicol__wrapper {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
+  class="wt-multicol__wrapper{% if section.settings.section_class != blank %} {{ section.settings.section_class | escape }}{% endif %} {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}"
   data-section-id="{{ section.id }}"
 >
   {% if section.settings.image_ratio == 'portrait' %}
@@ -177,6 +177,11 @@
       "id": "heading",
       "default": "Multicolumn",
       "label": "t:sections.settings.settings.heading.label"
+    },
+    {
+      "type": "text",
+      "id": "section_class",
+      "label": "Section class"
     },
     {
       "type": "checkbox",
