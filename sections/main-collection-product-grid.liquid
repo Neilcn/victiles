@@ -215,7 +215,7 @@
               {% assign lazy_load = true %}
             {% endif %}
 
-            {% assign url = product.url | within: collection %}
+            {% assign url = product.url %}
 
             {% assign alt = product.featured_image.alt | escape %}
             {% assign uri = product.handle | escape %}
