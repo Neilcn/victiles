@@ -472,6 +472,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "heading": "",
+        "section_class": "homepage-icons",
         "swipe_on_mobile": false,
         "full-width-enabled": false,
         "image_ratio": "square",
