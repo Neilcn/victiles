@@ -157,7 +157,7 @@
             "picker_type": "button",
             "color_swatch_names": "",
             "variant_picture_swatch_names": "",
-            "dropdown_swatch_names": "",
+            "dropdown_swatch_names": "Front Door Size\nReturn Panel Size",
             "margin-top": 8,
             "margin-bottom": 8
           }
