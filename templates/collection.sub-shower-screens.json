@@ -66,6 +66,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "louve-pivot-shower-screen",
+            "image_collection": "shopify://shop_images/image_desktop.webp",
             "text_collection": "Louve Pivot"
           }
         },
@@ -73,6 +74,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "louve-neo-pivot-shower-screen",
+            "image_collection": "shopify://shop_images/image_desktop_1.webp",
             "text_collection": "Louve Neo"
           }
         },
