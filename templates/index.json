@@ -1234,6 +1234,47 @@
         "margin-bottom": 60
       }
     },
+    "image_with_text_WMNfet": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ehhyjc": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Tiles Melbourne – Affordable Quality Tiles & Flooring</h1><p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_ehhyjc"
+      ],
+      "custom_css": [
+        "h1 {font-size: 1.6em;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#dfdfdf",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image6.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_RJcJMd": {
       "type": "image-with-text",
       "blocks": {
@@ -1323,47 +1364,6 @@
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/image5.jpg",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
-    "image_with_text_WMNfet": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_ehhyjc": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>Tiles Melbourne – Affordable Quality Tiles & Flooring</h1><p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "text_ehhyjc"
-      ],
-      "custom_css": [
-        "h1 {font-size: 1.6em;}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "title": "",
-        "layout": "text_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#dfdfdf",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/image6.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_text_horizontal_position": "center",
@@ -1637,9 +1637,9 @@
     "custom_liquid_X3BYgR",
     "brands_cygNdd",
     "testimonials_mB6iUg",
-    "image_with_text_RJcJMd",
-    "image_with_text_YHHhrc",
     "image_with_text_WMNfet",
+    "image_with_text_YHHhrc",
+    "image_with_text_RJcJMd",
     "collapsible_menu_nEQKAL",
     "newsletter_i8q83Y",
     "features_banner_rnAYGJ",
