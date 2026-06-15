@@ -146,8 +146,8 @@
         "product_variations_VPy9FL": {
           "type": "product_variations",
           "settings": {
-            "option_name": "",
-            "option_value_metafield": "",
+            "option_name": "Width",
+            "option_value_metafield": "custom.size_label",
             "products": []
           }
         },
