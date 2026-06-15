@@ -1333,27 +1333,20 @@
     "image_with_text_WMNfet": {
       "type": "image-with-text",
       "blocks": {
-        "heading_XMLCbt": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tiles Melbourne – Affordable Quality Tiles & Flooring",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
         "text_ehhyjc": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
+            "text": "<h1>Tiles Melbourne – Affordable Quality Tiles & Flooring</h1><p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
         }
       },
       "block_order": [
-        "heading_XMLCbt",
         "text_ehhyjc"
+      ],
+      "custom_css": [
+        "h1 {font-size: 1.6em;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
