@@ -1275,54 +1275,6 @@
         "margin-bottom": 20
       }
     },
-    "image_with_text_RJcJMd": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JypLzQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Why Choose VICTiles for Tiles in Melbourne?",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_6EBK3b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>VICTILES is a preferred choice for homeowners, builders, and renovators looking for high-quality tiles in Melbourne. We offer competitive pricing, a wide selection of products, and expert guidance to make your renovation or build seamless.</p><p>With a strong reputation for service and quality, we continue to be a trusted name for Melbourne tiles.</p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JypLzQ",
-        "text_6EBK3b"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "title": "",
-        "layout": "text_first",
-        "desktop-percentage-image-width": 50,
-        "full-width-enabled": false,
-        "slide_height": "fixed_height",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#dfdfdf",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/image4.jpg",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_text_horizontal_position": "center",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
     "image_with_text_YHHhrc": {
       "type": "image-with-text",
       "blocks": {
@@ -1338,7 +1290,7 @@
         "text_eTM7jV": {
           "type": "text",
           "settings": {
-            "text": "<p>At VICTILES, we supply a wide range of tiles in Melbourne for bathrooms, kitchens, living areas, and outdoor spaces. Our collection includes ceramic tiles, porcelain tiles, feature tiles, and timber-look flooring designed to suit every style and budget. </p><p>As a leading supplier of Melbourne tiles, we focus on quality, affordability, and expert advice to help you complete your project with confidence.</p>",
+            "text": "<p>Looking for quality tiles in Melbourne at the best prices? VICTILES is a trusted tiles store offering tiles for every need. From bathroom tiles and kitchen tiles to floor tiles and feature wall tiles, we supply tiles that Melbourne homeowners and builders rely on for style, durability and value. Whether you're renovating or building, our tiles selection and competitive pricing make VICTILES your ultimate tiles destination.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -1364,6 +1316,54 @@
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "desktop_image": "shopify://shop_images/image5.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_RJcJMd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JypLzQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose VICTiles for Tiles in Melbourne?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_6EBK3b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VICTILES is Melbourne's preferred choice for quality tiles. Whether you're a homeowner, builder, or renovator looking for tiles in Melbourne, we offer competitive pricing on our extensive selection of tiles and expert guidance to make your renovation seamless. With a strong reputation for service and quality tiles, we're a trusted name for Melbourne tiles. Our customers choose us for bathroom tiles, kitchen tiles, feature tiles and more.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JypLzQ",
+        "text_6EBK3b"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#dfdfdf",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image4.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_text_horizontal_position": "center",
