@@ -330,7 +330,6 @@
         "collapsible_tab_HDxwtK",
         "collapsible_tab_cDe97N"
       ],
-      "disabled": true,
       "custom_css": [
         ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
         ".wt-collapse__trigger__title,.metafield-rich_text_field {font-size: 16px; font-weight: 100;}"
