@@ -148,7 +148,10 @@
           "settings": {
             "option_name": "Width",
             "option_value_metafield": "custom.size_label",
-            "products": []
+            "products": [
+              "test-tobi-freestanding-vanity-1200mm",
+              "tobi-vanity"
+            ]
           }
         },
         "variant_picker_FHDfXr": {
