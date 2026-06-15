@@ -146,8 +146,8 @@
         "product_variations_VPy9FL": {
           "type": "product_variations",
           "settings": {
-            "option_name": "Width",
-            "option_value_metafield": "custom.size_label",
+            "option_name": "Colour",
+            "option_value_metafield": "custom.colour_swatch",
             "products": [
               "test-tobi-freestanding-vanity-1200mm",
               "tobi-vanity"
