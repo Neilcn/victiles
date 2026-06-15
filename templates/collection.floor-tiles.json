@@ -294,6 +294,7 @@
         },
         "collapsible_tab_KaQ4Bc": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.metafields.custom.question_6.value }}",
             "content": "{{ collection.metafields.custom.answer_6 | metafield_tag }}",
@@ -303,6 +304,7 @@
         },
         "collapsible_tab_HDxwtK": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.metafields.custom.question_7.value }}",
             "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
@@ -312,6 +314,7 @@
         },
         "collapsible_tab_cDe97N": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.metafields.custom.question_8.value }}",
             "content": "{{ collection.metafields.custom.answer_8 | metafield_tag }}",
