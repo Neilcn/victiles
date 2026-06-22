@@ -108,6 +108,7 @@
         "image_3ka73t": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Weixin_Image_20260616150902_471_35.jpg",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -135,12 +136,13 @@
         "button_link": "#"
       }
     },
-    "project_gallery_YrEyya": {
+    "project_gallery_xcnweb": {
       "type": "project-gallery",
       "blocks": {
-        "image_pbBkam": {
+        "image_J68mcw": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/green_tile_bathroom.png",
             "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -152,9 +154,10 @@
             "hotspot_y_3": 70
           }
         },
-        "image_jKdfM3": {
+        "image_grdkTM": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Weixin_Image_20260616152407_473_35.jpg",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -166,9 +169,10 @@
             "hotspot_y_3": 70
           }
         },
-        "image_YhAn3C": {
+        "image_MViCjy": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Weixin_Image_20260616152857_475_35.jpg",
             "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -180,9 +184,10 @@
             "hotspot_y_3": 70
           }
         },
-        "image_dhPYMJ": {
+        "image_Per7bT": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Weixin_Image_20260616150902_471_35.jpg",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -196,16 +201,16 @@
         }
       },
       "block_order": [
-        "image_pbBkam",
-        "image_jKdfM3",
-        "image_YhAn3C",
-        "image_dhPYMJ"
+        "image_J68mcw",
+        "image_grdkTM",
+        "image_MViCjy",
+        "image_Per7bT"
       ],
       "name": "Project Gallery",
       "settings": {
         "heading": "Gallery",
         "heading_size": "h2",
-        "text": "<p>Designed with high-definition digital printing and an embossed surface, this laminate authentically replicates the warmth and texture of natural timber.</p>",
+        "text": "<p>Bring lasting style and resilience into your space with MTF 12mm Water-Resistant Laminate Flooring, available at Victiles Melbourne. </p>",
         "button_text": "Shop",
         "button_link": "#"
       }
@@ -215,6 +220,6 @@
     "main",
     "rich_text_rWJ8cU",
     "project_gallery_cciiMR",
-    "project_gallery_YrEyya"
+    "project_gallery_xcnweb"
   ]
 }
