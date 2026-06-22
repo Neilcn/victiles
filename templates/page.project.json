@@ -51,8 +51,8 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
       }
@@ -63,7 +63,7 @@
         "image_KUGRBk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-mamic-grigio-polished-marble-tile-300x300mm-1241147347.webp",
+            "image": "shopify://shop_images/green_tile_bathroom.png",
             "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -78,7 +78,7 @@
         "image_jc7UXq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-herman-bianco-matt-p2-stone-look-tile-600x600mm-1241147292.webp",
+            "image": "shopify://shop_images/Weixin_Image_20260616152407_473_35.jpg",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -93,7 +93,6 @@
         "image_DcNVNj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p4-stone-look-tile-600x600mm-1241147300.webp",
             "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -108,7 +107,6 @@
         "image_3ka73t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p2-stone-look-tile-300x600mm-1241147302.webp",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -142,7 +140,6 @@
         "image_pbBkam": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-mamic-grigio-polished-marble-tile-300x300mm-1241147347.webp",
             "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -157,7 +154,6 @@
         "image_jKdfM3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-herman-bianco-matt-p2-stone-look-tile-600x600mm-1241147292.webp",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -172,7 +168,6 @@
         "image_YhAn3C": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p4-stone-look-tile-600x600mm-1241147300.webp",
             "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
@@ -187,7 +182,6 @@
         "image_dhPYMJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/et-tile-herman-ashwood-matt-p2-stone-look-tile-300x600mm-1241147302.webp",
             "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
