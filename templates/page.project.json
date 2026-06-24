@@ -57,6 +57,13 @@
         "margin-bottom": 20
       }
     },
+    "project_gallery_filter_4Wqmny": {
+      "type": "project-gallery-filter",
+      "settings": {
+        "heading": "Filter Projects",
+        "heading_size": "h2"
+      }
+    },
     "project_gallery_cciiMR": {
       "type": "project-gallery",
       "blocks": {
@@ -133,7 +140,10 @@
         "heading_size": "h2",
         "text": "<p>Bring lasting style and resilience into your space with MTF 12mm Water-Resistant Laminate Flooring, available at Victiles Melbourne. </p>",
         "button_text": "Shop",
-        "button_link": "#"
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "Green",
+        "style": "Rustic & Farmhouse"
       }
     },
     "project_gallery_xcnweb": {
@@ -212,13 +222,17 @@
         "heading_size": "h2",
         "text": "<p>Bring lasting style and resilience into your space with MTF 12mm Water-Resistant Laminate Flooring, available at Victiles Melbourne. </p>",
         "button_text": "Shop",
-        "button_link": "#"
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey,Black",
+        "style": "Modern Minimal,Rustic & Farmhouse"
       }
     }
   },
   "order": [
     "main",
     "rich_text_rWJ8cU",
+    "project_gallery_filter_4Wqmny",
     "project_gallery_cciiMR",
     "project_gallery_xcnweb"
   ]

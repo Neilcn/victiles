@@ -1,0 +1,341 @@
+{% style %}
+.project-gallery-filter-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project-gallery-filters-container {
+  margin-bottom: 2rem;
+}
+
+.project-gallery-filter-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.project-gallery-filter-label {
+  font-weight: bold;
+  min-width: 60px;
+}
+
+.project-gallery-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.project-gallery-filter-btn {
+  background: transparent;
+  border: 1px solid currentColor;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.4rem;
+}
+
+.project-gallery-filter-btn:hover {
+  opacity: 0.7;
+}
+
+.project-gallery-filter-btn.active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.project-gallery-filter-btn.unavailable {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.project-gallery-clear-filters {
+  margin-top: 1rem;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-gallery-clear-filters.visible {
+  display: inline-block;
+}
+
+.project-gallery-filter-hidden {
+  display: none !important;
+}
+
+@media screen and (max-width: 989px) {
+  .project-gallery-filter-label {
+    min-width: auto;
+  }
+}
+{% endstyle %}
+
+<div id="project-gallery-filter-{{ section.id }}" class="project-gallery-filter-section wt-product__wrapper">
+  {% if section.settings.heading != blank %}
+    <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+  {% endif %}
+
+  <div class="project-gallery-filters-container">
+    <div class="project-gallery-filter-group" data-filter-group="room">
+      <span class="project-gallery-filter-label">Room:</span>
+      <div class="project-gallery-filter-buttons"></div>
+    </div>
+
+    <div class="project-gallery-filter-group" data-filter-group="colour">
+      <span class="project-gallery-filter-label">Colour:</span>
+      <div class="project-gallery-filter-buttons"></div>
+    </div>
+
+    <div class="project-gallery-filter-group" data-filter-group="style">
+      <span class="project-gallery-filter-label">Style:</span>
+      <div class="project-gallery-filter-buttons"></div>
+    </div>
+
+    <button type="button" class="button button--secondary project-gallery-clear-filters">Clear All</button>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Gallery Filter",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Filter Projects"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h2",
+      "label": "Heading Size"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Gallery Filter"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var root = document.getElementById('project-gallery-filter-{{ section.id }}');
+
+    if (!root) {
+      return;
+    }
+
+    var clearBtn = root.querySelector('.project-gallery-clear-filters');
+    var targetSections = Array.from(document.querySelectorAll('.project-gallery-section[data-project-gallery-filter-target="true"]'));
+
+    if (!targetSections.length || !clearBtn) {
+      root.style.display = 'none';
+      return;
+    }
+
+    var activeFilters = {
+      room: [],
+      colour: [],
+      style: []
+    };
+
+    function parseValues(value) {
+      if (!value) {
+        return [];
+      }
+
+      return value
+        .split(',')
+        .map(function (entry) {
+          return entry.trim();
+        })
+        .filter(function (entry) {
+          return entry.length > 0;
+        });
+    }
+
+    function getUniqueValues(group) {
+      var values = new Set();
+
+      targetSections.forEach(function (sectionEl) {
+        parseValues(sectionEl.getAttribute('data-' + group)).forEach(function (value) {
+          values.add(value);
+        });
+      });
+
+      return Array.from(values).sort();
+    }
+
+    function createButtons(group, values) {
+      var groupEl = root.querySelector('.project-gallery-filter-group[data-filter-group="' + group + '"]');
+      if (!groupEl) {
+        return;
+      }
+
+      var container = groupEl.querySelector('.project-gallery-filter-buttons');
+      if (!container) {
+        return;
+      }
+
+      if (!values.length) {
+        groupEl.style.display = 'none';
+        return;
+      }
+
+      values.forEach(function (value) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'project-gallery-filter-btn';
+        btn.textContent = value;
+        btn.dataset.group = group;
+        btn.dataset.value = value;
+
+        btn.addEventListener('click', function () {
+          toggleFilter(group, value, btn);
+        });
+
+        container.appendChild(btn);
+      });
+    }
+
+    function toggleFilter(group, value, buttonEl) {
+      if (buttonEl.disabled) {
+        return;
+      }
+
+      var currentValues = activeFilters[group];
+      var valueIndex = currentValues.indexOf(value);
+
+      if (valueIndex !== -1) {
+        currentValues.splice(valueIndex, 1);
+        buttonEl.classList.remove('active');
+      } else {
+        currentValues.push(value);
+        buttonEl.classList.add('active');
+      }
+
+      applyFilters();
+    }
+
+    function sectionMatchesFilters(sectionEl, filters) {
+      return Object.keys(filters).every(function (group) {
+        var selectedValues = filters[group];
+
+        if (!selectedValues.length) {
+          return true;
+        }
+
+        var sectionValues = parseValues(sectionEl.getAttribute('data-' + group));
+
+        return selectedValues.some(function (selectedValue) {
+          return sectionValues.indexOf(selectedValue) !== -1;
+        });
+      });
+    }
+
+    function hasAnyMatch(filters) {
+      return targetSections.some(function (sectionEl) {
+        return sectionMatchesFilters(sectionEl, filters);
+      });
+    }
+
+    function updateButtonAvailability() {
+      var buttons = root.querySelectorAll('.project-gallery-filter-btn');
+
+      buttons.forEach(function (btn) {
+        var group = btn.dataset.group;
+        var value = btn.dataset.value;
+        var isActive = activeFilters[group].indexOf(value) !== -1;
+
+        if (isActive) {
+          btn.classList.remove('unavailable');
+          btn.disabled = false;
+          return;
+        }
+
+        var testFilters = {
+          room: activeFilters.room.slice(),
+          colour: activeFilters.colour.slice(),
+          style: activeFilters.style.slice()
+        };
+
+        testFilters[group].push(value);
+
+        var isAvailable = hasAnyMatch(testFilters);
+
+        btn.classList.toggle('unavailable', !isAvailable);
+        btn.disabled = !isAvailable;
+      });
+    }
+
+    function applyFilters() {
+      var hasActiveFilters = Object.keys(activeFilters).some(function (group) {
+        return activeFilters[group].length > 0;
+      });
+
+      targetSections.forEach(function (sectionEl) {
+        var matches = sectionMatchesFilters(sectionEl, activeFilters);
+
+        var visibilityTarget = sectionEl.closest('.shopify-section') || sectionEl;
+
+        if (matches) {
+          visibilityTarget.classList.remove('project-gallery-filter-hidden');
+        } else {
+          visibilityTarget.classList.add('project-gallery-filter-hidden');
+        }
+      });
+
+      if (hasActiveFilters) {
+        clearBtn.classList.add('visible');
+      } else {
+        clearBtn.classList.remove('visible');
+      }
+
+      updateButtonAvailability();
+    }
+
+    clearBtn.addEventListener('click', function () {
+      Object.keys(activeFilters).forEach(function (group) {
+        activeFilters[group] = [];
+      });
+
+      root.querySelectorAll('.project-gallery-filter-btn').forEach(function (btn) {
+        btn.classList.remove('active');
+      });
+
+      applyFilters();
+    });
+
+    ['room', 'colour', 'style'].forEach(function (group) {
+      createButtons(group, getUniqueValues(group));
+    });
+
+    applyFilters();
+  });
+</script>

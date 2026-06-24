@@ -28,6 +28,13 @@
   width: 100%;
 }
 
+@media screen and (max-width: 989px) {
+  .project-gallery-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .project-gallery-heading.title {
   color: #1a1a1a;
   margin:0;
@@ -37,7 +44,7 @@
   display: block;
   width: 64px;
   height: 1px;
-  background: #1a1a1a;
+  background: #ca151d;
   opacity: 0.4;
 }
 
@@ -282,7 +289,18 @@
 }
 {% endstyle %}
 
-<div id="project-gallery-{{ section.id }}" class="project-gallery-section wt-product__wrapper">
+{% assign rooms = section.settings.room | split: ',' %}
+{% assign colours = section.settings.colour | split: ',' %}
+{% assign styles = section.settings.style | split: ',' %}
+
+<div
+  id="project-gallery-{{ section.id }}"
+  class="project-gallery-section wt-product__wrapper"
+  data-project-gallery-filter-target="true"
+  data-room="{% for r in rooms %}{{ r | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+  data-colour="{% for c in colours %}{{ c | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+  data-style="{% for s in styles %}{{ s | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+>
   <div class="project-gallery-layout">
     <div class="project-gallery-content">
       {% if section.settings.heading != blank %}
@@ -408,7 +426,25 @@
       "type": "url",
       "id": "button_link",
       "label": "Button Link"
-    }
+    },
+    {
+          "type": "text",
+          "id": "room",
+          "label": "Room",
+          "info": "Filterable category (e.g. Kitchen)"
+        },
+        {
+          "type": "text",
+          "id": "colour",
+          "label": "Colour",
+          "info": "Filterable category (e.g. Blue)"
+        },
+        {
+          "type": "text",
+          "id": "style",
+          "label": "Style",
+          "info": "Filterable category (e.g. Modern)"
+        }
   ],
   "blocks": [
     {
