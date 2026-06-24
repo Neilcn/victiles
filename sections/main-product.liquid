@@ -59,8 +59,9 @@
     grid-template-columns: 180px 1fr;
     column-gap: 16px;
     align-items: start;
-    padding: 10px 0;
+    padding: 5px 0;
     border-bottom: 1px solid #f2f2f2;
+    font-size: 14px;
   }
   .product-spec-row__value {
     display: flex;
@@ -1096,7 +1097,7 @@
                                 {{ mo.title | default: mo.name | default: mo.label | default: mo.handle | default: mo.system.handle | default: mo | json }}
                               {% elsif category_metafield.type == 'list.metaobject_reference' %}
                                 {% for mo in category_metafield.value %}
-                                  {% if forloop.first == false %}<br>{% endif %}
+                                  {% if forloop.first == false %},{% endif %}
                                   {{ mo.title | default: mo.name | default: mo.label | default: mo.handle | default: mo.system.handle | default: mo | json }}
                                 {% endfor %}
                               {% else %}
