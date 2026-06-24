@@ -373,6 +373,23 @@
         "margin-bottom": 0
       }
     },
+    "17821724483f602629": {
+      "type": "apps",
+      "blocks": {
+        "gsc_countdown_timer_countdown_PiYbKK": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-INLINE-BAR-mKGgxVJcnOPT"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_countdown_timer_countdown_PiYbKK"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "multicolumn_y7NWPM": {
       "type": "multicolumn",
       "blocks": {
@@ -1625,6 +1642,7 @@
   },
   "order": [
     "slideshow_NB3UMP",
+    "17821724483f602629",
     "multicolumn_y7NWPM",
     "collection_list_3q9paF",
     "collage_fTynMR",
