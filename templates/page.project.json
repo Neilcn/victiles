@@ -189,9 +189,9 @@
         "text": "<p>Soft grey tones, warm timber and a floral feature wall bring this bathroom to life. A calm, modern space with just the right amount of detail.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey,Black",
-        "style": "Modern Minimal,Rustic & Farmhouse"
+        "room": "Bathroom",
+        "colour": "Grey",
+        "style": "Modern"
       }
     }
   },
