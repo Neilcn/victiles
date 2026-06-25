@@ -605,6 +605,88 @@
         "colour": "Ivory",
         "style": "Modern Classic"
       }
+    },
+    "project_gallery_AqtheF": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_kbfAFx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG70.jpg",
+            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 89,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_QxCyEj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2Untitled-1.jpg",
+            "product_1": "art401-artemis-calacatta-gold-feather-honed-50x103",
+            "hotspot_x_1": 66,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_JXYMgV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c31bacc6-4a8c-4e50-9ca8-a03eec04038f.jpg",
+            "product_1": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 42,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_dme7jR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_1e1d1878-ab2e-4563-92eb-77c18d9114a9.jpg",
+            "product_1": "porstobia6060m-portland-stone-bianco-60x60",
+            "hotspot_x_1": 37,
+            "hotspot_y_1": 37,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_kbfAFx",
+        "image_QxCyEj",
+        "image_JXYMgV",
+        "image_dme7jR"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Open Living Flow",
+        "heading_size": "h2",
+        "text": "<p>Soft grey floor tiles create a seamless flow through the kitchen, dining and living areas. Paired with warm timber finishes and clean white walls, the space feels open, modern and beautifully balanced.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -616,6 +698,7 @@
     "project_gallery_caCRKm",
     "project_gallery_Pa7wHn",
     "project_gallery_LVazkd",
-    "project_gallery_4YfTBN"
+    "project_gallery_4YfTBN",
+    "project_gallery_AqtheF"
   ]
 }
