@@ -184,6 +184,88 @@
       ],
       "name": "Project Gallery",
       "settings": {
+        "heading": "Warm Kitchen Glow",
+        "heading_size": "h2",
+        "text": "<p>A warm and inviting kitchen brought to life with soft lighting and a textured feature wall. The glossy tiles add depth and movement, creating a space that feels classic, cosy and beautifully finished.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "Grey",
+        "style": "Modern"
+      }
+    },
+    "project_gallery_7wmbUA": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_x4xWAP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1354.jpg",
+            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_gwr8fL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_5ea626c7-6680-4d32-9eef-1be7bbd44a7a.jpg",
+            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1": 43,
+            "hotspot_y_1": 26,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_3rjPhp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1347.jpg",
+            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_nYPNdd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06_f418cdd0-10fd-4a1b-a450-8c58c47a2854.jpg",
+            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_x4xWAP",
+        "image_gwr8fL",
+        "image_3rjPhp",
+        "image_nYPNdd"
+      ],
+      "name": "Project Gallery",
+      "settings": {
         "heading": "Botanical Calm",
         "heading_size": "h2",
         "text": "<p>Soft grey tones, warm timber and a floral feature wall bring this bathroom to life. A calm, modern space with just the right amount of detail.</p>",
@@ -199,6 +281,7 @@
     "main",
     "project_gallery_filter_4Wqmny",
     "project_gallery_cciiMR",
+    "project_gallery_7wmbUA",
     "project_gallery_xcnweb"
   ]
 }
