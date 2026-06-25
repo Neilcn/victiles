@@ -118,8 +118,8 @@
         "image_J68mcw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/green_tile_bathroom.png",
-            "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
+            "image": "shopify://shop_images/WechatIMG1354.jpg",
+            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
             "product_2": "",
@@ -133,10 +133,10 @@
         "image_grdkTM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Weixin_Image_20260616152407_473_35.jpg",
-            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
+            "image": "shopify://shop_images/02_5ea626c7-6680-4d32-9eef-1be7bbd44a7a.jpg",
+            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1": 43,
+            "hotspot_y_1": 26,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -148,10 +148,10 @@
         "image_MViCjy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Weixin_Image_20260616152857_475_35.jpg",
-            "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
+            "image": "shopify://shop_images/WechatIMG1347.jpg",
+            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 15,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -163,8 +163,8 @@
         "image_Per7bT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Weixin_Image_20260616150902_471_35.jpg",
-            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "image": "shopify://shop_images/06_f418cdd0-10fd-4a1b-a450-8c58c47a2854.jpg",
+            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
             "product_2": "",
@@ -184,9 +184,9 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Gallery",
+        "heading": "Botanical Calm",
         "heading_size": "h2",
-        "text": "<p>Bring lasting style and resilience into your space with MTF 12mm Water-Resistant Laminate Flooring, available at Victiles Melbourne. </p>",
+        "text": "<p>Soft grey tones, warm timber and a floral feature wall bring this bathroom to life. A calm, modern space with just the right amount of detail.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Living Room",
