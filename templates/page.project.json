@@ -523,6 +523,88 @@
         "colour": "Grey",
         "style": "Modern Classic"
       }
+    },
+    "project_gallery_4YfTBN": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_Xhk6iT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_17f33302-411b-4e0c-8a40-8ddb7e905f78.jpg",
+            "product_1": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
+            "hotspot_x_1": 48,
+            "hotspot_y_1": 49,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Qk9Prn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2Untitled-1.jpg",
+            "product_1": "art401-artemis-calacatta-gold-feather-honed-50x103",
+            "hotspot_x_1": 66,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_tMcx79": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c31bacc6-4a8c-4e50-9ca8-a03eec04038f.jpg",
+            "product_1": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 42,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_MBXVbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_1e1d1878-ab2e-4563-92eb-77c18d9114a9.jpg",
+            "product_1": "porstobia6060m-portland-stone-bianco-60x60",
+            "hotspot_x_1": 37,
+            "hotspot_y_1": 37,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_Xhk6iT",
+        "image_Qk9Prn",
+        "image_tMcx79",
+        "image_MBXVbX"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Warm Marble Detail",
+        "heading_size": "h2",
+        "text": "<p>A soft, elegant bathroom with warm marble-look tiles and brushed gold details. The mosaic feature niche adds a delicate touch, creating a space that feels bright, refined and beautifully balanced.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "Ivory",
+        "style": "Modern Classic"
+      }
     }
   },
   "order": [
@@ -533,6 +615,7 @@
     "project_gallery_xcnweb",
     "project_gallery_caCRKm",
     "project_gallery_Pa7wHn",
-    "project_gallery_LVazkd"
+    "project_gallery_LVazkd",
+    "project_gallery_4YfTBN"
   ]
 }
