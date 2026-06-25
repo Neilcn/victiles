@@ -190,7 +190,7 @@
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
-        "colour": "Grey; white",
+        "colour": "Grey,White",
         "style": "Modern"
       }
     }
