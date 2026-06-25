@@ -359,6 +359,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_Pa7wHn": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_pH9zkj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_736e34f4-dcec-4380-a0f7-0bc09a309ffc.jpg",
+            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1": 48,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_7UDB6z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05_92baa525-1c00-47de-b235-583c0359618b.jpg",
+            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1": 76,
+            "hotspot_y_1": 26,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_hCEa9z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_423380d2-36fc-4825-aba7-68421b4a5fb3.jpg",
+            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1": 63,
+            "hotspot_y_1": 38,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_UPkFaR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_b54a9f20-d5cb-454b-9c2c-d7034f2a7cb2.jpg",
+            "product_1": "sti-ls6000sh-lusso-bianco-soft-honed-600x600",
+            "hotspot_x_1": 78,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_pH9zkj",
+        "image_7UDB6z",
+        "image_hCEa9z",
+        "image_UPkFaR"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Clean Grey Calm",
+        "heading_size": "h2",
+        "text": "<p>A bright bathroom kept simple with soft grey stone-look tiles and clean white finishes. The black fittings add a modern contrast, creating a space that feels fresh, calm and easy to live with.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -367,6 +449,7 @@
     "project_gallery_cciiMR",
     "project_gallery_7wmbUA",
     "project_gallery_xcnweb",
-    "project_gallery_caCRKm"
+    "project_gallery_caCRKm",
+    "project_gallery_Pa7wHn"
   ]
 }
