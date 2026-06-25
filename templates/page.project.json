@@ -438,7 +438,89 @@
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
-        "colour": "Grey",
+        "colour": "Ivory",
+        "style": "Modern"
+      }
+    },
+    "project_gallery_LVazkd": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_Y4Tw6x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/09.jpg",
+            "product_1": "violet-10-10mm-frameless-sliding-screen-front-return-v10-s-v10-s-r-gun-metal",
+            "hotspot_x_1": 48,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ben9Rb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_fbeb5a21-b215-48b8-a083-c62cd2055aa8.jpg",
+            "product_1": "vt-q832660h-jadestone-ivory-600x600mm-honed",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 26,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_CkwiYM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/08_d773a7c1-a340-452e-9264-f978e6f3f711.jpg",
+            "product_1": "led-rsh-6090a8-led-eric-collection-600-900-115mm-natural-timber-shaving-cabinet",
+            "hotspot_x_1": 33,
+            "hotspot_y_1": 26,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_8ttaiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04_f7c187a7-8780-4082-9a3f-5be83f29ce4b.jpg",
+            "product_1": "vt-q832660h-jadestone-ivory-600x600mm-honed",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 79,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_Y4Tw6x",
+        "image_ben9Rb",
+        "image_CkwiYM",
+        "image_8ttaiq"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Clean Grey Calm",
+        "heading_size": "h2",
+        "text": "<p>A bright bathroom kept simple with soft grey stone-look tiles and clean white finishes. The black fittings add a modern contrast, creating a space that feels fresh, calm and easy to live with.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "Ivory",
         "style": "Modern"
       }
     }
@@ -450,6 +532,7 @@
     "project_gallery_7wmbUA",
     "project_gallery_xcnweb",
     "project_gallery_caCRKm",
-    "project_gallery_Pa7wHn"
+    "project_gallery_Pa7wHn",
+    "project_gallery_LVazkd"
   ]
 }
