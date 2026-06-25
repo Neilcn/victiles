@@ -82,9 +82,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/03_6dbe29cd-005f-46ec-b0af-c976df1a63ac.jpg",
-            "product_1": "",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
+            "product_1": "dec-forcar-deco-formes-carrara-298x256mm",
+            "hotspot_x_1": 24,
+            "hotspot_y_1": 50,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
