@@ -36,10 +36,10 @@
         "image_KUGRBk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/green_tile_bathroom.png",
-            "product_1": "36pcowhs-ypc21055a-palm-cove-off-white-decor-300x600",
+            "image": "shopify://shop_images/01_0b47411e-a594-4ea9-9354-6d99b6cda2ef.jpg",
+            "product_1": "xin0016-alba-white-satin-600x1200mm-m820612h",
             "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
+            "hotspot_y_1": 20,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -51,10 +51,10 @@
         "image_jc7UXq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Weixin_Image_20260616152407_473_35.jpg",
-            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
+            "image": "shopify://shop_images/08.jpg",
+            "product_1": "xin0016-alba-white-satin-600x1200mm-m820612h",
+            "hotspot_x_1": 52,
+            "hotspot_y_1": 80,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -66,10 +66,10 @@
         "image_DcNVNj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Weixin_Image_20260616152857_475_35.jpg",
-            "product_1": "01159-piemme-60x60-bits-pearl-gray-nat-ret-made-in-italy",
+            "image": "shopify://shop_images/06.jpg",
+            "product_1": "dec-forcar-deco-formes-carrara-298x256mm",
             "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
+            "hotspot_y_1": 26,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -81,8 +81,8 @@
         "image_3ka73t": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Weixin_Image_20260616150902_471_35.jpg",
-            "product_1": "723kstchm-ks752304-karst-stone-charcoal-matt-p3-75x230",
+            "image": "shopify://shop_images/03_6dbe29cd-005f-46ec-b0af-c976df1a63ac.jpg",
+            "product_1": "",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
             "product_2": "",
@@ -102,9 +102,9 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Gallery",
+        "heading": "Soft Luxury",
         "heading_size": "h2",
-        "text": "<p>Bring lasting style and resilience into your space with MTF 12mm Water-Resistant Laminate Flooring, available at Victiles Melbourne. </p>",
+        "text": "<p>A bright bathroom that feels calm, elegant and effortlessly refined.<br/><br/>The marble-look tiles create a soft, seamless base, while the gold tapware and geometric feature wall add warmth, detail and just the right amount of character. It’s the kind of space that feels luxurious without trying too hard — fresh, timeless and beautifully balanced.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
