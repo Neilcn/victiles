@@ -448,8 +448,8 @@
         "image_Y4Tw6x": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/09.jpg",
-            "product_1": "violet-10-10mm-frameless-sliding-screen-front-return-v10-s-v10-s-r-gun-metal",
+            "image": "shopify://shop_images/03_1af5f13c-7a64-49be-bd12-9a122a557d94.jpg",
+            "product_1": "megaslim™-thin-slabs-statuario-reale-3200x1600x6mm-made-in-italy",
             "hotspot_x_1": 48,
             "hotspot_y_1": 30,
             "product_2": "",
@@ -463,10 +463,10 @@
         "image_ben9Rb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/01_fbeb5a21-b215-48b8-a083-c62cd2055aa8.jpg",
-            "product_1": "vt-q832660h-jadestone-ivory-600x600mm-honed",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 26,
+            "image": "shopify://shop_images/04_6f1b701e-508d-4f7a-88bd-e98cf4073bfe.jpg",
+            "product_1": "btl1700-lyon-freestanding-bathtub-1700x780x680mm",
+            "hotspot_x_1": 53,
+            "hotspot_y_1": 75,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -478,10 +478,10 @@
         "image_CkwiYM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/08_d773a7c1-a340-452e-9264-f978e6f3f711.jpg",
-            "product_1": "led-rsh-6090a8-led-eric-collection-600-900-115mm-natural-timber-shaving-cabinet",
-            "hotspot_x_1": 33,
-            "hotspot_y_1": 26,
+            "image": "shopify://shop_images/01_25e575f6-23d7-4e92-b037-ba688434c01e.jpg",
+            "product_1": "hf-origin-white-matt-finish-600x1200mm",
+            "hotspot_x_1": 46,
+            "hotspot_y_1": 73,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -493,10 +493,10 @@
         "image_8ttaiq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/04_f7c187a7-8780-4082-9a3f-5be83f29ce4b.jpg",
-            "product_1": "vt-q832660h-jadestone-ivory-600x600mm-honed",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 79,
+            "image": "shopify://shop_images/02_27f92415-1d29-4c0b-a043-005537ffff4a.jpg",
+            "product_1": "osh-12075a1-amber-collection-1200x750x120mm-prime-oak-shaving-cabinet",
+            "hotspot_x_1": 59,
+            "hotspot_y_1": 21,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -514,14 +514,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Clean Grey Calm",
+        "heading": "Marble Feature Moment",
         "heading_size": "h2",
-        "text": "<p>A bright bathroom kept simple with soft grey stone-look tiles and clean white finishes. The black fittings add a modern contrast, creating a space that feels fresh, calm and easy to live with.</p>",
+        "text": "<p>A refined bathroom brought to life with a bold marble-look feature wall. The soft grey tiles keep the space calm and seamless, while the timber vanity adds warmth and balance.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
-        "colour": "Ivory",
-        "style": "Modern"
+        "colour": "Grey",
+        "style": "Modern Classic"
       }
     }
   },
