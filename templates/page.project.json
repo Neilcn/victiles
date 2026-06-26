@@ -1511,6 +1511,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_PN4cLC": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_FrAncY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1025.jpg",
+            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1": 77,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_n4eDT7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2026-06-26_at_1.02.06_PM.jpg",
+            "product_1": "",
+            "hotspot_x_1": 66,
+            "hotspot_y_1": 24,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4wTHtr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1026.jpg",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Y6Jn3z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2026-06-26_at_1.02.43_PM.jpg",
+            "product_1": "",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_FrAncY",
+        "image_n4eDT7",
+        "image_4wTHtr",
+        "image_Y6Jn3z"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Green Bar Feature",
+        "heading_size": "h2",
+        "text": "<p>Glossy green tiles bring depth, texture and a bold focal point to this commercial bar. The slim linear format catches the light beautifully, creating a rich and memorable finish.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1533,6 +1615,7 @@
     "project_gallery_DpbTer",
     "project_gallery_wJeYKc",
     "project_gallery_jqaHRe",
-    "project_gallery_aqMBmY"
+    "project_gallery_aqMBmY",
+    "project_gallery_PN4cLC"
   ]
 }
