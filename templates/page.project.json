@@ -1666,14 +1666,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Beige Travertine Calm",
+        "heading": "Travertine Light",
         "heading_size": "h2",
-        "text": "<p>Soft beige travertine-look tiles create a warm and calming base for this bathroom. The matt finish keeps the space subtle and refined, while the light cabinetry adds a clean, timeless feel.</p>",
+        "text": "<p>Soft beige travertine-look texture runs through this calm bathroom. The pale vanity and glass shower keep the room feeling bright, while the natural stone finish adds warmth and timelessness.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "Beige",
+        "style": "Warm Natural"
       }
     }
   },
