@@ -350,14 +350,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Soft Green Detail",
+        "heading": "Sage Detail",
         "heading_size": "h2",
-        "text": "<p>A fresh bathroom brought to life with a soft green feature wall and warm timber vanity. The slim gloss tiles catch the light beautifully, adding texture, colour and a calm spa-like feel.</p>",
+        "text": "<p>Pale green gloss tiles give this bathroom its fresh, calming feel. The textured feature wall bounces the light beautifully, while the timber vanity keeps the space warm, simple and easy to live with.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Modern"
+        "colour": "Green",
+        "style": "Modern Minimal"
       }
     },
     "project_gallery_Pa7wHn": {
