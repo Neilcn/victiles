@@ -953,10 +953,25 @@
             "hotspot_y_3": 70
           }
         },
-        "image_byR6kG": {
+        "image_33pUXP": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2_26532fbf-a151-4db7-9fb7-4588b95245b6.jpg",
+            "product_1": "cairo-freestanding-bathtub-1700mm-1",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 77,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_byR6kG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_6ef6b313-cc38-4477-838e-6b45229ed335.jpg",
             "product_1": "",
             "hotspot_x_1": 28,
             "hotspot_y_1": 22,
@@ -982,28 +997,13 @@
             "hotspot_x_3": 70,
             "hotspot_y_3": 70
           }
-        },
-        "image_33pUXP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4_6ef6b313-cc38-4477-838e-6b45229ed335.jpg",
-            "product_1": "cairo-freestanding-bathtub-1700mm-1",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
         }
       },
       "block_order": [
         "image_CtMnFA",
+        "image_33pUXP",
         "image_byR6kG",
-        "image_RX4dMw",
-        "image_33pUXP"
+        "image_RX4dMw"
       ],
       "name": "Project Gallery",
       "settings": {
