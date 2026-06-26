@@ -856,13 +856,13 @@
     "project_gallery_93QCtE": {
       "type": "project-gallery",
       "blocks": {
-        "image_t7Q8BW": {
+        "image_ynW6EQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MW-ins_7984e474-9a7a-45bd-b479-bfe622f7952a.jpg",
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_10_47_30_AM.png",
             "product_1": "caloro60120m-calacutta-oro-matt-600x1200mm",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 28,
+            "hotspot_x_1": 28,
+            "hotspot_y_1": 22,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -871,13 +871,13 @@
             "hotspot_y_3": 70
           }
         },
-        "image_ynW6EQ": {
+        "image_t7Q8BW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_10_47_30_AM.png",
-            "product_1": "",
-            "hotspot_x_1": 70,
-            "hotspot_y_1": 50,
+            "image": "shopify://shop_images/MW-ins_7984e474-9a7a-45bd-b479-bfe622f7952a.jpg",
+            "product_1": "cairo-freestanding-bathtub-1700mm-1",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -918,8 +918,8 @@
         }
       },
       "block_order": [
-        "image_t7Q8BW",
         "image_ynW6EQ",
+        "image_t7Q8BW",
         "image_xGRQpi",
         "image_HTRDeF"
       ],
