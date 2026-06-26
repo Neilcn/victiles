@@ -1584,14 +1584,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Green Bar Feature",
+        "heading": "Green Bar Glow",
         "heading_size": "h2",
-        "text": "<p>Glossy green tiles bring depth, texture and a bold focal point to this commercial bar. The slim linear format catches the light beautifully, creating a rich and memorable finish.</p>",
+        "text": "<p>Glossy green tiles turn this commercial bar into a real feature. The slim linear format catches the warm lighting across the counter, creating depth, rhythm and a polished hospitality feel.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Commercial",
+        "colour": "Green",
+        "style": "Industrial"
       }
     },
     "project_gallery_bwTcnN": {
