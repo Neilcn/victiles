@@ -1098,6 +1098,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_JePYYw": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_yFxxNL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_3c1e9d2f-fdf4-4a3e-bc6a-d4a7f28b33f5.jpg",
+            "product_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
+            "hotspot_x_1": 60,
+            "hotspot_y_1": 35,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_FTYmci": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_b7acfc3c-acda-4883-b6b4-72ada92318d9.jpg",
+            "product_1": "",
+            "hotspot_x_1": 46,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_TiFMde": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_91ccd5c8-6e85-465b-9d3c-c8ad500aef75.jpg",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jJyUma": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG876.jpg",
+            "product_1": "",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_yFxxNL",
+        "image_FTYmci",
+        "image_TiFMde",
+        "image_jJyUma"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Blue Feature Wall",
+        "heading_size": "h2",
+        "text": "<p>A deep blue glossy feature wall brings texture, depth and a bold focal point to this bathroom. Paired with crisp white cabinetry and soft neutral finishes, the space feels fresh, modern and beautifully balanced.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1115,6 +1197,7 @@
     "project_gallery_AWpa9p",
     "project_gallery_93QCtE",
     "project_gallery_BrqYBc",
-    "project_gallery_TAPgfc"
+    "project_gallery_TAPgfc",
+    "project_gallery_JePYYw"
   ]
 }
