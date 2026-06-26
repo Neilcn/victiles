@@ -1419,14 +1419,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Warm Wheat Glow",
+        "heading": "Wheat Glow",
         "heading_size": "h2",
-        "text": "<p>Warm neutral tiles bring a soft glow to this bathroom, adding texture and a gentle handmade feel. Paired with brushed gold fittings, the space feels calm, cosy and beautifully refined.</p>",
+        "text": "<p>Warm wheat-toned gloss tiles bring a handmade feel to this bathroom. Brushed gold fittings, soft ivory walls and patterned floor tiles add charm, texture and a cosy sense of warmth.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "Beige",
+        "style": "Warm Natural"
       }
     },
     "project_gallery_aqMBmY": {
