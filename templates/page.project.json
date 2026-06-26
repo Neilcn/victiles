@@ -1346,6 +1346,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_jqaHRe": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_NeFPVd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4B6F8457-A198-4180-A958-67135C1FB324.jpg",
+            "product_1": "equ0028-la-riviera-wheat-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1": 71,
+            "hotspot_y_1": 28,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_CfJJec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3EC081DA-8A9D-4B03-AE6D-703B2299D724.jpg",
+            "product_1": "",
+            "hotspot_x_1": 23,
+            "hotspot_y_1": 24,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_eew86q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6DCF31B3-EA10-4A3B-90DD-85C1178E14B1.jpg",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_AWPiQG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/A8EF74A7-43A1-4386-B016-77E0477E7981.jpg",
+            "product_1": "",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_NeFPVd",
+        "image_CfJJec",
+        "image_eew86q",
+        "image_AWPiQG"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Warm Wheat Glow",
+        "heading_size": "h2",
+        "text": "<p>Warm neutral tiles bring a soft glow to this bathroom, adding texture and a gentle handmade feel. Paired with brushed gold fittings, the space feels calm, cosy and beautifully refined.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1366,6 +1448,7 @@
     "project_gallery_TAPgfc",
     "project_gallery_JePYYw",
     "project_gallery_DpbTer",
-    "project_gallery_wJeYKc"
+    "project_gallery_wJeYKc",
+    "project_gallery_jqaHRe"
   ]
 }
