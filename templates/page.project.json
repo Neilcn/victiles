@@ -852,6 +852,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_93QCtE": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_t7Q8BW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MW-ins_7984e474-9a7a-45bd-b479-bfe622f7952a.jpg",
+            "product_1": "caloro60120m-calacutta-oro-matt-600x1200mm",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 28,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ynW6EQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_10_47_30_AM.png",
+            "product_1": "",
+            "hotspot_x_1": 70,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_xGRQpi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_defb36af-dc8f-4085-810c-0d337832f28b.jpg",
+            "product_1": "",
+            "hotspot_x_1": 69,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_HTRDeF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000.jpg",
+            "product_1": "",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_t7Q8BW",
+        "image_ynW6EQ",
+        "image_xGRQpi",
+        "image_HTRDeF"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Bright Marble Luxury",
+        "heading_size": "h2",
+        "text": "<p>A bright bathroom with soft marble-look surfaces and warm gold details. The bold veining adds movement, while the white vanity and fluted bath keep the space clean, refined and beautifully balanced.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -866,6 +948,7 @@
     "project_gallery_4YfTBN",
     "project_gallery_AqtheF",
     "project_gallery_w9CVLE",
-    "project_gallery_AWpa9p"
+    "project_gallery_AWpa9p",
+    "project_gallery_93QCtE"
   ]
 }
