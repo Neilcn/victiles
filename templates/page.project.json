@@ -1428,6 +1428,89 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_aqMBmY": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_43dXi7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lisa-BATH01_9583bf55-45e0-46c9-84d5-39220d5ab540.jpg",
+            "product_1": "hf-origin-white-matt-finish-300x600mm",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 88,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_n68HbE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lisa-bath03.jpg",
+            "product_1": "hf-origin-white-matt-finish-300x600mm",
+            "hotspot_x_1": 66,
+            "hotspot_y_1": 24,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_XzDV4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lisa-bath02.jpg",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_GWcMQQ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/A8EF74A7-43A1-4386-B016-77E0477E7981.jpg",
+            "product_1": "",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_43dXi7",
+        "image_n68HbE",
+        "image_XzDV4e",
+        "image_GWcMQQ"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Soft White Calm",
+        "heading_size": "h2",
+        "text": "<p>Soft white stone-look tiles create a clean and calming base for this bathroom. The matt finish keeps the space subtle and refined, while black fittings add a modern touch of contrast.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1449,6 +1532,7 @@
     "project_gallery_JePYYw",
     "project_gallery_DpbTer",
     "project_gallery_wJeYKc",
-    "project_gallery_jqaHRe"
+    "project_gallery_jqaHRe",
+    "project_gallery_aqMBmY"
   ]
 }
