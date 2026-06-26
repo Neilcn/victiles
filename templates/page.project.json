@@ -925,14 +925,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Bright Marble Luxury",
+        "heading": "Marble Luxe",
         "heading_size": "h2",
-        "text": "<p>A bright bathroom with soft marble-look surfaces and warm gold details. The bold veining adds movement, while the white vanity and fluted bath keep the space clean, refined and beautifully balanced.</p>",
+        "text": "<p>Marble-look surfaces, gold fittings and fluted glass give this bathroom a fresh sense of luxury. The bold veining carries through the room, while soft curves keep the space feeling light and balanced.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "White",
+        "style": "Luxury Living"
       }
     },
     "project_gallery_BrqYBc": {
