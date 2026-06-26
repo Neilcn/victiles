@@ -1180,6 +1180,89 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_DpbTer": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_rVLQLW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_48023b46-49f5-4de3-81d9-cb840d94c3b6.jpg",
+            "product_1": "plasil3060m-plazzo-silver-matt-300x600mm",
+            "hotspot_x_1": 74,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_N3xAkx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_096c548d-6a4a-46fd-9505-dcca6e9b08ba.jpg",
+            "product_1": "",
+            "hotspot_x_1": 46,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Jqcd9R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_a9de496c-d5c7-423d-af30-6bb01d9df757.jpg",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_X6tXnF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG876.jpg",
+            "product_1": "",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_rVLQLW",
+        "image_N3xAkx",
+        "image_Jqcd9R",
+        "image_X6tXnF"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Silver Grey Calm",
+        "heading_size": "h2",
+        "text": "<p>Soft silver-grey tiles create a calm, modern base for this bathroom. The matt finish keeps the space understated, clean and easy to live with, while subtle feature details add just enough interest.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1198,6 +1281,7 @@
     "project_gallery_93QCtE",
     "project_gallery_BrqYBc",
     "project_gallery_TAPgfc",
-    "project_gallery_JePYYw"
+    "project_gallery_JePYYw",
+    "project_gallery_DpbTer"
   ]
 }
