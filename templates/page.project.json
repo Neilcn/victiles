@@ -678,14 +678,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Open Living Flow",
+        "heading": "Open Flow",
         "heading_size": "h2",
-        "text": "<p>Soft grey floor tiles create a seamless flow through the kitchen, dining and living areas. Paired with warm timber finishes and clean white walls, the space feels open, modern and beautifully balanced.</p>",
+        "text": "<p>Soft grey floor tiles carry through the entry, kitchen, dining and living areas for a seamless open-plan feel. Clean white walls and timber accents keep the home feeling modern, bright and beautifully connected.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Living Room",
         "colour": "Grey",
-        "style": "Modern"
+        "style": "Modern Minimal"
       }
     },
     "project_gallery_w9CVLE": {
