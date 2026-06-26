@@ -596,14 +596,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Warm Marble Detail",
+        "heading": "Golden Marble",
         "heading_size": "h2",
-        "text": "<p>A soft, elegant bathroom with warm marble-look tiles and brushed gold details. The mosaic feature niche adds a delicate touch, creating a space that feels bright, refined and beautifully balanced.</p>",
+        "text": "<p>Brushed gold fittings, soft marble-look surfaces and a delicate mosaic detail make this bathroom feel bright and refined. The curved mirror and warm veining add a gentle elegance that ties it all together.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
-        "colour": "Ivory",
-        "style": "Modern Classic"
+        "colour": "White",
+        "style": "Luxury Living"
       }
     },
     "project_gallery_AqtheF": {
