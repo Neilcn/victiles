@@ -640,7 +640,7 @@
             "button_select": "link",
             "button_label": "Shop the Look",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://pages/get-inspired",
+            "button_link": "shopify://pages/project",
             "desktop_image": "shopify://shop_images/realproject_hp.png",
             "desktop_text_vertical_position": "top",
             "desktop_text_horizontal_position": "left",
