@@ -1593,6 +1593,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_bwTcnN": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_GH3awe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05_a7c057ea-d617-4807-868c-22c22c5f8fdf.jpg",
+            "product_1": "6crwbem-60cr02-crown-travertine-beige-matt-p3-600x600",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 84,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_PD7JMU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04_33d3be8c-b246-4a47-8db1-14e132ceef75.jpg",
+            "product_1": "6crwbem-60cr02-crown-travertine-beige-matt-p3-600x600",
+            "hotspot_x_1": 23,
+            "hotspot_y_1": 24,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_VQUkWQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_835c9f22-4e7c-4f35-97bd-b7e00d2ebca4.jpg",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_NTxWUC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_a3c4c93a-a3d3-4517-9914-44f394754c6e.jpg",
+            "product_1": "6crwbem-60cr02-crown-travertine-beige-matt-p3-600x600",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_GH3awe",
+        "image_PD7JMU",
+        "image_VQUkWQ",
+        "image_NTxWUC"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Beige Travertine Calm",
+        "heading_size": "h2",
+        "text": "<p>Soft beige travertine-look tiles create a warm and calming base for this bathroom. The matt finish keeps the space subtle and refined, while the light cabinetry adds a clean, timeless feel.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1616,6 +1698,7 @@
     "project_gallery_wJeYKc",
     "project_gallery_jqaHRe",
     "project_gallery_aqMBmY",
-    "project_gallery_PN4cLC"
+    "project_gallery_PN4cLC",
+    "project_gallery_bwTcnN"
   ]
 }
