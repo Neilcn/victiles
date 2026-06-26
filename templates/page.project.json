@@ -1007,14 +1007,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Terrazzo Statement",
+        "heading": "Terrazzo Joy",
         "heading_size": "h2",
-        "text": "<p>A bright bathroom with a playful terrazzo feature wall and warm gold details. The soft neutral base keeps the space calm, while the colourful chips add personality and charm.</p>",
+        "text": "<p>Playful terrazzo brings colour and charm to this bathroom. Gold fittings, warm lighting and a curved mirror soften the statement wall, creating a space that feels bright, fun and full of personality.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "Beige",
+        "style": "Luxury Living"
       }
     },
     "project_gallery_TAPgfc": {
