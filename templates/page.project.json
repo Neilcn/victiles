@@ -1337,14 +1337,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Moon Grey Calm",
+        "heading": "Moonlit Grey",
         "heading_size": "h2",
-        "text": "<p>Soft grey stone-look tiles create a calm and modern base for this bathroom. The matt finish keeps the space refined and understated, while timber details and black fittings add warmth and contrast.</p>",
+        "text": "<p>Grey texture, warm timber cabinetry and black tapware make this compact bathroom feel considered and calm. The round mirror and gentle wall lighting add just enough glow.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
+        "room": "Bathroom",
         "colour": "Grey",
-        "style": "Modern"
+        "style": "Modern Minimal"
       }
     },
     "project_gallery_jqaHRe": {
