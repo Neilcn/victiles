@@ -102,14 +102,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Soft Luxury",
+        "heading": "Marble Glow",
         "heading_size": "h2",
-        "text": "<p>A calm, elegant bathroom with soft marble-look finishes and warm gold details. The geometric feature wall adds just enough texture, creating a space that feels bright, refined and effortlessly luxurious.</p>",
+        "text": "<p>Soft marble-look finishes set the tone for this bright, elegant bathroom. Brushed gold details and a geometric feature wall add just enough texture, while the twin vanity and glass shower keep everything feeling refined and effortless.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
         "colour": "White",
-        "style": "Modern Classic"
+        "style": "Luxury Living"
       }
     },
     "project_gallery_7wmbUA": {
