@@ -514,14 +514,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Marble Feature Moment",
+        "heading": "Marble Moment",
         "heading_size": "h2",
-        "text": "<p>A refined bathroom brought to life with a bold marble-look feature wall. The soft grey tiles keep the space calm and seamless, while the timber vanity adds warmth and balance.</p>",
+        "text": "<p>Bold marble-look veining gives this bathroom an instant lift. Soft grey floor tiles and a warm timber vanity balance the feature wall beautifully, creating a space that feels polished without being too formal.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
         "colour": "Grey",
-        "style": "Modern Classic"
+        "style": "Luxury Living"
       }
     },
     "project_gallery_4YfTBN": {
