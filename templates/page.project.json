@@ -432,14 +432,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Clean Grey Calm",
+        "heading": "Grey Quiet",
         "heading_size": "h2",
-        "text": "<p>A bright bathroom kept simple with soft grey stone-look tiles and clean white finishes. The black fittings add a modern contrast, creating a space that feels fresh, calm and easy to live with.</p>",
+        "text": "<p>Simple, clean and quietly modern. Soft grey stone-look tiles run through the shower and floor, paired with white cabinetry and black fittings for a bathroom that feels fresh, practical and calm.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Bathroom",
-        "colour": "Ivory",
-        "style": "Modern"
+        "colour": "Grey",
+        "style": "Modern Minimal"
       }
     },
     "project_gallery_LVazkd": {
