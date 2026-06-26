@@ -934,6 +934,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_BrqYBc": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_CtMnFA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_d4435cd8-9970-4fd0-8689-c642425cbfb0.jpg",
+            "product_1": "led-mash-6161-tasman-led-mirror-610-900mm-no-frame",
+            "hotspot_x_1": 58,
+            "hotspot_y_1": 35,
+            "product_2": "wh76-1200wgm-luna-collection-vanity-1200mm-matt-grey-single-bowl-double-bowls",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_byR6kG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_26532fbf-a151-4db7-9fb7-4588b95245b6.jpg",
+            "product_1": "",
+            "hotspot_x_1": 28,
+            "hotspot_y_1": 22,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_RX4dMw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_5c613ca2-d51e-4f62-96f6-4ddffc4a9f62.jpg",
+            "product_1": "",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_33pUXP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_6ef6b313-cc38-4477-838e-6b45229ed335.jpg",
+            "product_1": "cairo-freestanding-bathtub-1700mm-1",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_CtMnFA",
+        "image_byR6kG",
+        "image_RX4dMw",
+        "image_33pUXP"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Terrazzo Statement",
+        "heading_size": "h2",
+        "text": "<p>A bright bathroom with a playful terrazzo feature wall and warm gold details. The soft neutral base keeps the space calm, while the colourful chips add personality and charm.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -949,6 +1031,7 @@
     "project_gallery_AqtheF",
     "project_gallery_w9CVLE",
     "project_gallery_AWpa9p",
-    "project_gallery_93QCtE"
+    "project_gallery_93QCtE",
+    "project_gallery_BrqYBc"
   ]
 }
