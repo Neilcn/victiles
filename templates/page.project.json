@@ -1254,14 +1254,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Silver Grey Calm",
+        "heading": "Silver Serenity",
         "heading_size": "h2",
-        "text": "<p>Soft silver-grey tiles create a calm, modern base for this bathroom. The matt finish keeps the space understated, clean and easy to live with, while subtle feature details add just enough interest.</p>",
+        "text": "<p>Soft silver-grey tones give this bathroom a calm, moody finish. Subtle lighting and a delicate feature detail add movement, while the stone-look tiles keep the space modern and understated.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
+        "room": "Bathroom",
         "colour": "Grey",
-        "style": "Modern"
+        "style": "Modern Minimal"
       }
     },
     "project_gallery_wJeYKc": {
