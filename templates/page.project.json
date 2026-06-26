@@ -1089,14 +1089,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Green Feature Moment",
+        "heading": "Deep Green Moment",
         "heading_size": "h2",
-        "text": "<p>A striking bathroom brought to life with deep green gloss tiles. The marble-look surfaces keep the space bright, while the green feature wall adds colour, texture and a bold sense of character.</p>",
+        "text": "<p>Deep green gloss tiles create the hero moment in this bathroom. Framed by marble-look surfaces and classic details, the feature wall adds depth, texture and a bold sense of character.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "Green",
+        "style": "Luxury Living"
       }
     },
     "project_gallery_JePYYw": {
