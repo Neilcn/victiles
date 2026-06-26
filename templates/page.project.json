@@ -843,14 +843,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Warm Travertine Calm",
+        "heading": "Travertine Calm",
         "heading_size": "h2",
-        "text": "<p>Soft travertine tones and warm timber details create a bathroom that feels calm, natural and beautifully refined. The matt finish keeps the space understated, while the brushed gold fittings add a gentle touch of luxury.</p>",
+        "text": "<p>Travertine-look tiles wrap this bathroom in soft sandy texture. Timber vanities, rounded mirrors and brushed gold details bring warmth to the room, creating a calm look that feels beautifully timeless.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "Beige",
+        "style": "Warm Natural"
       }
     },
     "project_gallery_93QCtE": {
