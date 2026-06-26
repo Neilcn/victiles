@@ -770,6 +770,88 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_AWpa9p": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_cHTMxc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04_c2d9fe8c-aea2-4491-a734-402aacdb9656.jpg",
+            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
+            "hotspot_x_1": 18,
+            "hotspot_y_1": 28,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_bbXMzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_1a1e1cb0-8c36-4e18-8737-043fc4ed2f0e.jpg",
+            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
+            "hotspot_x_1": 70,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_YQ7XtC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05_24c964e2-483a-4a19-b902-0d96125b17fb.jpg",
+            "product_1": "",
+            "hotspot_x_1": 69,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_TQG3YY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/07.jpg",
+            "product_1": "",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_cHTMxc",
+        "image_bbXMzE",
+        "image_YQ7XtC",
+        "image_TQG3YY"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Warm Travertine Calm",
+        "heading_size": "h2",
+        "text": "<p>Soft travertine tones and warm timber details create a bathroom that feels calm, natural and beautifully refined. The matt finish keeps the space understated, while the brushed gold fittings add a gentle touch of luxury.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -783,6 +865,7 @@
     "project_gallery_LVazkd",
     "project_gallery_4YfTBN",
     "project_gallery_AqtheF",
-    "project_gallery_w9CVLE"
+    "project_gallery_w9CVLE",
+    "project_gallery_AWpa9p"
   ]
 }
