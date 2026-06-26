@@ -1171,14 +1171,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Blue Feature Wall",
+        "heading": "Blue Mood",
         "heading_size": "h2",
-        "text": "<p>A deep blue glossy feature wall brings texture, depth and a bold focal point to this bathroom. Paired with crisp white cabinetry and soft neutral finishes, the space feels fresh, modern and beautifully balanced.</p>",
+        "text": "<p>Rich blue gloss tiles bring depth and mood to this bathroom. Warm timber, brass details and crisp white cabinetry balance the colour beautifully, making the space feel bold but still relaxed.</p>",
         "button_text": "",
         "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern"
+        "room": "Bathroom",
+        "colour": "Blue",
+        "style": "Luxury Living"
       }
     },
     "project_gallery_DpbTer": {
