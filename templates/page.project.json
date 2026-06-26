@@ -687,6 +687,89 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_w9CVLE": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_qQM8y6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/200.jpg",
+            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1": 18,
+            "hotspot_y_1": 80,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jtChqG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/100.jpg",
+            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1": 70,
+            "hotspot_y_1": 20,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_AcjJM4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/300.jpg",
+            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1": 69,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_P3hkUg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/4_78b509a0-1b5d-4aad-9853-4488210ff52f.jpg",
+            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 75,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_qQM8y6",
+        "image_jtChqG",
+        "image_AcjJM4",
+        "image_P3hkUg"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Natural Warmth",
+        "heading_size": "h2",
+        "text": "<p>Soft sandstone tones and timber finishes bring a natural warmth to this bathroom. The matt stone-look surface keeps the space calm, refined and easy to live with.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -699,6 +782,7 @@
     "project_gallery_Pa7wHn",
     "project_gallery_LVazkd",
     "project_gallery_4YfTBN",
-    "project_gallery_AqtheF"
+    "project_gallery_AqtheF",
+    "project_gallery_w9CVLE"
   ]
 }
