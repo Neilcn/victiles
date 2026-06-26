@@ -268,14 +268,14 @@
       ],
       "name": "Project Gallery",
       "settings": {
-        "heading": "Warm Kitchen Glow",
+        "heading": "Kitchen Glow",
         "heading_size": "h2",
-        "text": "<p>A warm and inviting kitchen brought to life with soft lighting and a textured feature wall. The glossy tiles add depth and movement, creating a space that feels classic, cosy and beautifully finished.</p>",
+        "text": "<p>Warm pendant lighting brings this kitchen to life. Soft green gloss tiles catch the glow beautifully, adding texture and colour against the white cabinetry, stone benchtops and timber flooring.</p>",
         "button_text": "",
         "button_link": "#",
         "room": "Kitchen",
         "colour": "Green",
-        "style": "Modern Classic"
+        "style": "Luxury Living"
       }
     },
     "project_gallery_caCRKm": {
