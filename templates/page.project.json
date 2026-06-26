@@ -1263,6 +1263,89 @@
         "colour": "Grey",
         "style": "Modern"
       }
+    },
+    "project_gallery_wJeYKc": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_mCmgNa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_1.png",
+            "product_1": "victiles-wins-600x600mm-matt-porcelian-tile-moon",
+            "hotspot_x_1": 60,
+            "hotspot_y_1": 40,
+            "product_2": "",
+            "hotspot_x_2": 57,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_bYnHPp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_2.png",
+            "product_1": "",
+            "hotspot_x_1": 46,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4NEUVG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_3.png",
+            "product_1": "",
+            "hotspot_x_1": 54,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_mdnnh7": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG876.jpg",
+            "product_1": "",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 61,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_mCmgNa",
+        "image_bYnHPp",
+        "image_4NEUVG",
+        "image_mdnnh7"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Moon Grey Calm",
+        "heading_size": "h2",
+        "text": "<p>Soft grey stone-look tiles create a calm and modern base for this bathroom. The matt finish keeps the space refined and understated, while timber details and black fittings add warmth and contrast.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Living Room",
+        "colour": "Grey",
+        "style": "Modern"
+      }
     }
   },
   "order": [
@@ -1282,6 +1365,7 @@
     "project_gallery_BrqYBc",
     "project_gallery_TAPgfc",
     "project_gallery_JePYYw",
-    "project_gallery_DpbTer"
+    "project_gallery_DpbTer",
+    "project_gallery_wJeYKc"
   ]
 }
