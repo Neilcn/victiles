@@ -1069,9 +1069,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/745.png",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
+            "product_1": "victiles-carrara-marble-600x600mm-polished-porcelian-tile",
+            "hotspot_x_1": 80,
+            "hotspot_y_1": 41,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
