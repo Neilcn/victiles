@@ -386,6 +386,7 @@
       "block_order": [
         "gsc_countdown_timer_countdown_PiYbKK"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
