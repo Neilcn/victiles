@@ -30,6 +30,88 @@
         "heading_size": "h2"
       }
     },
+    "project_gallery_JwLjy9": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_4igEEk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06_5c4b0fa2-2789-47ad-ad22-6dcfb3ccc7ea.jpg",
+            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1": 57,
+            "hotspot_y_1": 20,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ndqUVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_c4e0a8cd-feab-49d3-b285-7cd6319db05b.jpg",
+            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1": 34,
+            "hotspot_y_1": 86,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ey7erB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_c59d56a0-838f-45b3-a779-0e251a162a19.jpg",
+            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1": 19,
+            "hotspot_y_1": 38,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_xUHNHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_1f1028af-f93d-4f0c-ac88-a571be1e6f2e.jpg",
+            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1": 49,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_4igEEk",
+        "image_ndqUVL",
+        "image_ey7erB",
+        "image_xUHNHk"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Golden Serenity",
+        "heading_size": "h2",
+        "text": "<p>A warm, elegant bathroom with a soft hotel-style feel. Our GDER Gold Matt tiles bring gentle marble movement across the walls and floors, while brushed gold fittings, warm lighting and curved basins add just the right touch of luxury. Bright, refined and effortlessly timeless.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "White",
+        "style": "Luxury Living"
+      }
+    },
     "project_gallery_cciiMR": {
       "type": "project-gallery",
       "blocks": {
@@ -1680,6 +1762,7 @@
   "order": [
     "main",
     "project_gallery_filter_4Wqmny",
+    "project_gallery_JwLjy9",
     "project_gallery_cciiMR",
     "project_gallery_7wmbUA",
     "project_gallery_xcnweb",
