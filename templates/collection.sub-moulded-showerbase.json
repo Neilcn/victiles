@@ -66,6 +66,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "stonelite-eco",
+            "image_collection": "shopify://shop_images/stonelite2.jpg",
             "text_collection": "StoneLite ECO"
           }
         },
@@ -73,6 +74,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "stonelite-elite",
+            "image_collection": "shopify://shop_images/stonelite_1.jpg",
             "text_collection": "StoneLite Elite"
           }
         },
