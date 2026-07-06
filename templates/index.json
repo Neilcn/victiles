@@ -776,10 +776,9 @@
         },
         "product_4zdjEq": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "video_hosted": "shopify://files/videos/reelvideo_5.mp4",
-            "featured_product": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural"
+            "video_hosted": "shopify://files/videos/06JulyWEB.mp4",
+            "featured_product": "vt-orbat-grey-600x600mm-matt-p4"
           }
         },
         "product_nziX76": {
