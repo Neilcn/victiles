@@ -780,14 +780,6 @@
             "video_hosted": "shopify://files/videos/06JulyWEB.mp4",
             "featured_product": "vt-orbat-grey-600x600mm-matt-p4"
           }
-        },
-        "product_nziX76": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "video_hosted": "shopify://files/videos/0_Explosion_Tiles_1280x720.mp4",
-            "featured_product": ""
-          }
         }
       },
       "block_order": [
@@ -801,8 +793,7 @@
         "product_CAAJBg",
         "product_wrYgbH",
         "product_Q3Dhwd",
-        "product_4zdjEq",
-        "product_nziX76"
+        "product_4zdjEq"
       ],
       "custom_css": [
         ".video-reels [data-swiper-slide] .video-container low-power-video {border-radius: 0px !important;}",
