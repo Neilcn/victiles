@@ -103,7 +103,7 @@
     "custom-badge-2-input": "New",
     "custom-badge-3-background": "#ca151d",
     "custom-badge-3-input": "Save",
-    "animations": true,
+    "animations": false,
     "disabled_animations_on_mobile": true,
     "logo": "shopify://shop_images/Path_849.svg",
     "large_screen_logo_width": 140,
@@ -309,14 +309,14 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
+          "greeting_message": "",
           "button_color": "#000000",
           "secondary_color": "#ffffff",
           "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": ""
+          "button_vertical_position": "lowest"
         }
       },
       "2567389343055140935": {
