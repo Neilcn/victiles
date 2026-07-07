@@ -1241,7 +1241,7 @@
         ".testimonial-card {background: #f2f2f2; border-radius: 10px; padding: 20px; flex: 1; position: relative;}"
       ],
       "settings": {
-        "heading": "What out customers say",
+        "heading": "What our customers say",
         "image_shape": "circle",
         "testimonial_text_size_desktop": 100,
         "testimonial_text_size": 100,
