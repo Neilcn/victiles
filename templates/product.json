@@ -499,6 +499,206 @@
         "margin-bottom": 20
       }
     },
+    "video_reels_Wkg9w6": {
+      "type": "video-reels",
+      "blocks": {
+        "product_UpYgx8": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/reelvideo_2.mp4",
+            "featured_product": "aura-white-matt-travertine-tile-look-600x600mm"
+          }
+        },
+        "product_H76EPY": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/bc5b22c0-5261-11f0-b18e-f5abde61943a.MP4",
+            "featured_product": "hf-origin-white-matt-finish-300x600mm"
+          }
+        },
+        "product_8Tbrwp": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/Videos2026-01-08_135225_188.mp4",
+            "featured_product": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy"
+          }
+        },
+        "product_xn3cY6": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/Videos2026-01-08_135216_550.mp4",
+            "featured_product": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain"
+          }
+        },
+        "product_6MUqQg": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/video111_Alan.mp4",
+            "featured_product": "tus0023-universal-mirabell-feature-610x1222mm"
+          }
+        },
+        "product_nMjfUV": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/MW.mp4",
+            "featured_product": "caloro60120m-calacutta-oro-matt-600x1200mm"
+          }
+        },
+        "product_cJYXpQ": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/shirley.mp4",
+            "featured_product": "plasil3060m-plazzo-silver-matt-300x600mm"
+          }
+        },
+        "product_nEqXiV": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/dune-mosaic.mp4",
+            "featured_product": "188859-dune-kit-kat-mosaic-water-glossy-115x231"
+          }
+        },
+        "product_jb4qKW": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/reefvideo_3.mp4",
+            "featured_product": "victiles-wins-600x600mm-matt-porcelian-tile-moon"
+          }
+        },
+        "product_r8DhUf": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/reelvideo_4.mp4",
+            "featured_product": "dec-forcar-deco-formes-carrara-298x256mm"
+          }
+        },
+        "product_BcEtdT": {
+          "type": "product",
+          "settings": {
+            "video_hosted": "shopify://files/videos/06JulyWEB.mp4",
+            "featured_product": "vt-orbat-grey-600x600mm-matt-p4"
+          }
+        }
+      },
+      "block_order": [
+        "product_UpYgx8",
+        "product_H76EPY",
+        "product_8Tbrwp",
+        "product_xn3cY6",
+        "product_6MUqQg",
+        "product_nMjfUV",
+        "product_cJYXpQ",
+        "product_nEqXiV",
+        "product_jb4qKW",
+        "product_r8DhUf",
+        "product_BcEtdT"
+      ],
+      "custom_css": [
+        ".video-reels [data-swiper-slide] .video-container low-power-video {border-radius: 0px !important;}",
+        ".video-reels [data-swiper-slide] .video-container {border-radius: 0px !important;}",
+        ".shoppable-product-card {border-radius: 0px !important;}",
+        "span.price-item.price-item--regular.wt-product__price__final.wt-product__price__final {color: #ca151d !important;}"
+      ],
+      "settings": {
+        "heading": "Latest Inspirations",
+        "quick-add-enabled": false,
+        "hide-brand-name": false,
+        "video_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_xaU3tD": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_TDDdDy": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Tiles Melbourne – Affordable Quality Tiles & Flooring</h1><p>Looking for high-quality tiles in Melbourne at the best prices? VICTILES is a trusted tile store offering a wide range of wall tiles, floor tiles, bathware, timber flooring and more. Whether you're renovating or building, we supply premium tiles Melbourne homeowners and builders rely on for style, durability, and value.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "text_TDDdDy"
+      ],
+      "custom_css": [
+        "h1 {font-size: 1.6em;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "#dfdfdf",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image6.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "image_with_text_g6dtNn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qiyabL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Melbourne’s Trusted Tile Store",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_LhBgDY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for quality tiles in Melbourne at the best prices? VICTILES is a trusted tiles store offering tiles for every need. From bathroom tiles and kitchen tiles to floor tiles and feature wall tiles, we supply tiles that Melbourne homeowners and builders rely on for style, durability and value. Whether you're renovating or building, our tiles selection and competitive pricing make VICTILES your ultimate tiles destination.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qiyabL",
+        "text_LhBgDY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/image5.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_6eHa6t": {
       "type": "image-with-text",
       "blocks": {
@@ -768,6 +968,9 @@
     "main",
     "featured_collection_UUywA6",
     "product_recommendations_pNX3q4",
+    "video_reels_Wkg9w6",
+    "image_with_text_xaU3tD",
+    "image_with_text_g6dtNn",
     "image_with_text_6eHa6t",
     "176767554562fee611",
     "ec5a6457-3cb6-4605-94df-ac6400f950f1",
