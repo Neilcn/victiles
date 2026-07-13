@@ -379,14 +379,13 @@
         "gsc_countdown_timer_countdown_PiYbKK": {
           "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
           "settings": {
-            "widget_id": "GSC-INLINE-BAR-mKGgxVJcnOPT"
+            "widget_id": "GSC-EMBED-eTpyoIKEVJud"
           }
         }
       },
       "block_order": [
         "gsc_countdown_timer_countdown_PiYbKK"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true
       }
