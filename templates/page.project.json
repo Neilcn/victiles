@@ -112,57 +112,6 @@
         "style": "Luxury Living"
       }
     },
-    "project_gallery_8Q8hxN": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_3q3PWW": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/project123.jpg",
-            "product_1": "mal-whi12g-mallorca-white-120x120-gloss",
-            "hotspot_x_1": 57,
-            "hotspot_y_1": 34,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_9dacc9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/391.jpg",
-            "product_1": "mal-whi12g-mallorca-white-120x120-gloss",
-            "hotspot_x_1": 68,
-            "hotspot_y_1": 44,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_3q3PWW",
-        "image_9dacc9"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Soft White Gloss",
-        "heading_size": "h2",
-        "text": "<p>Glossy white square tiles add light, texture and a fresh finish to this kitchen splashback. Their soft handmade look keeps the space simple, bright and beautifully timeless.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Kitchen",
-        "colour": "White",
-        "style": "Modern Minimal"
-      }
-    },
     "project_gallery_cciiMR": {
       "type": "project-gallery",
       "blocks": {
@@ -409,6 +358,56 @@
         "room": "Kitchen",
         "colour": "Green",
         "style": "Luxury Living"
+      }
+    },
+    "project_gallery_xa7gg3": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_MVqARJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/project123.jpg",
+            "product_1": "mal-whi12g-mallorca-white-120x120-gloss",
+            "hotspot_x_1": 57,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_cHrpXH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/391.jpg",
+            "product_1": "mal-whi12g-mallorca-white-120x120-gloss",
+            "hotspot_x_1": 68,
+            "hotspot_y_1": 44,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_MVqARJ",
+        "image_cHrpXH"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Soft White Gloss",
+        "heading_size": "h2",
+        "text": "<p>Glossy white square tiles add light, texture and a fresh finish to this kitchen splashback. Their soft handmade look keeps the space simple, bright and beautifully timeless.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Kitchen",
+        "colour": "White",
+        "style": "Modern Minimal"
       }
     },
     "project_gallery_caCRKm": {
@@ -1814,10 +1813,10 @@
     "main",
     "project_gallery_filter_4Wqmny",
     "project_gallery_JwLjy9",
-    "project_gallery_8Q8hxN",
     "project_gallery_cciiMR",
     "project_gallery_7wmbUA",
     "project_gallery_xcnweb",
+    "project_gallery_xa7gg3",
     "project_gallery_caCRKm",
     "project_gallery_Pa7wHn",
     "project_gallery_LVazkd",
