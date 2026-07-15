@@ -1535,6 +1535,24 @@
             "hotspot_x_3": 70,
             "hotspot_y_3": 70
           }
+        },
+        "image_iQtfrm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/200.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 51,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
         }
       },
       "block_order": [
@@ -1619,7 +1637,8 @@
         "image_jcwajq",
         "image_9JaGQw",
         "image_ybbM4r",
-        "image_ggVeKh"
+        "image_ggVeKh",
+        "image_iQtfrm"
       ],
       "custom_css": [
         ".filter-group {justify-content: center;}"
