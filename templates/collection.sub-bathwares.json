@@ -21,6 +21,7 @@
     },
     "image_banner_rjFcNU": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "heading": "",
@@ -68,6 +69,7 @@
         "heading_EGfDn4",
         "text_3NXNXm"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_width": "regular",
