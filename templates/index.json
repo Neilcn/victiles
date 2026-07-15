@@ -118,6 +118,7 @@
       "custom_css": [
         ".hero__button--primary {background: #ca151d;}",
         ".hero__title svg {display: none;}",
+        ".hero__button--primary {padding: 10px 24px;}",
         "@media (max-width: 790px) {}"
       ],
       "settings": {
