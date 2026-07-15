@@ -101,7 +101,7 @@
             "color-overlay-opacity": 30,
             "desktop_image": "shopify://shop_images/b55bf2ca9b06c0fd64cc6e3f5a9d3efe.jpg",
             "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
+            "desktop_text_horizontal_position": "right",
             "mobile_image": "shopify://shop_images/ebc4dcd96d6789d5b8f783517081ef4d.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
