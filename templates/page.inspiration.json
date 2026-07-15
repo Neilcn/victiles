@@ -1104,6 +1104,24 @@
             "hotspot_y_3": 70
           }
         },
+        "image_9haKEa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG876.jpg",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Coastal Living,Warm Natural",
+            "product_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 52,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_jaXHcz": {
           "type": "image",
           "settings": {
@@ -1632,6 +1650,7 @@
         "image_YyztJL",
         "image_pDnQ3H",
         "image_4f3r4B",
+        "image_9haKEa",
         "image_jaXHcz",
         "image_R6V3E7",
         "image_U6wwVg",
