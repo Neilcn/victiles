@@ -1338,6 +1338,24 @@
             "hotspot_y_3": 70
           }
         },
+        "image_FPVfRP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06.jpg",
+            "room": "Bathroom",
+            "colour": "White,Grey",
+            "style": "Luxury Living,Modern Minimal",
+            "product_1": "dec-forcar-deco-formes-carrara-298x256mm",
+            "hotspot_x_1": 42,
+            "hotspot_y_1": 28,
+            "product_2": "xin0016-alba-white-satin-600x1200mm-m820612h",
+            "hotspot_x_2": 72,
+            "hotspot_y_2": 62,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_bQtNJf": {
           "type": "image",
           "settings": {
@@ -1573,6 +1591,7 @@
         "image_cNDYUg",
         "image_qPAyRa",
         "image_nXMnR9",
+        "image_FPVfRP",
         "image_bQtNJf",
         "image_YJLazj",
         "image_YCyFPw",
