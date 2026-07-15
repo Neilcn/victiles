@@ -63,6 +63,24 @@
         "image_cFK7Rx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/EQU0075_Canvas_50x150mm.jpg",
+            "room": "Bathroom",
+            "colour": "Beige,White",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "equ0075-coco-canvas-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 22,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Wda6Pa": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/EQU0073_White_Gloss_50x150mm.jpg",
             "room": "Bathroom",
             "colour": "White",
@@ -1611,6 +1629,7 @@
       },
       "block_order": [
         "image_cFK7Rx",
+        "image_Wda6Pa",
         "image_fDVjFa",
         "image_tUkRYU",
         "image_RLKNWG",
