@@ -63,6 +63,24 @@
         "image_cFK7Rx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Blue_Grass_Matt_50x150mm.jpg",
+            "room": "Kitchen",
+            "colour": "Blue",
+            "style": "Coastal Living,Modern Minimal",
+            "product_1": "equ0082-coco-blue-grass-matt-50x150mm-made-in-spain",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 59,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_w3rBPc": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/Amber_Grey_Gloss_50x150mm.jpg",
             "room": "Kitchen",
             "colour": "Grey",
@@ -1665,6 +1683,7 @@
       },
       "block_order": [
         "image_cFK7Rx",
+        "image_w3rBPc",
         "image_nrBhM9",
         "image_iqFYXU",
         "image_Wda6Pa",
