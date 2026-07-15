@@ -63,6 +63,24 @@
         "image_cFK7Rx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/COCO_ORCHARD_PINK_GLOSS_50X150MM.jpg",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "equ0077-coco-orchard-pink-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 36,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_iqFYXU": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/EQU0075_Canvas_50x150mm.jpg",
             "room": "Bathroom",
             "colour": "Beige,White",
@@ -1629,6 +1647,7 @@
       },
       "block_order": [
         "image_cFK7Rx",
+        "image_iqFYXU",
         "image_Wda6Pa",
         "image_fDVjFa",
         "image_tUkRYU",
