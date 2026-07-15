@@ -1553,6 +1553,24 @@
             "hotspot_x_3": 70,
             "hotspot_y_3": 70
           }
+        },
+        "image_XzRUCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/07.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
+            "hotspot_x_1": 53,
+            "hotspot_y_1": 36,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
         }
       },
       "block_order": [
@@ -1638,7 +1656,8 @@
         "image_9JaGQw",
         "image_ybbM4r",
         "image_ggVeKh",
-        "image_iQtfrm"
+        "image_iQtfrm",
+        "image_XzRUCy"
       ],
       "custom_css": [
         ".filter-group {justify-content: center;}"
