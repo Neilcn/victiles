@@ -118,7 +118,7 @@
       "custom_css": [
         ".hero__overlay__content.hero__overlay__content--center.hero__overlay__content--mobile--center.rte {width: 530px !important;}",
         "a.hero__button.hero__button--primary.hero__button--secondary {border-radius: 0px !important;}",
-        "@media (max-width: 790px) {.hero__overlay__content {color: #ffffff !important; } h2.hero__title {font-size: 30px; } .hero__text.hero__richtext {width: 80%; }}"
+        "@media (max-width: 790px) {.hero__overlay__content {color: #ffffff !important; }.hero__text.hero__richtext {width: 80%; }}"
       ],
       "settings": {
         "heading": "",
