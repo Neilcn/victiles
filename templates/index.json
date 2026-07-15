@@ -119,7 +119,8 @@
         ".hero__button--primary {background: #ca151d;}",
         ".hero__title svg {display: none;}",
         ".hero__button--primary {padding: 10px 24px;}",
-        "@media (max-width: 790px) {}"
+        ".hero__richtext {font-family: var(--font-headline);}",
+        "@media (max-width: 790px) {.hero__richtext {font-family: var(--font-headline); }.hero__button--primary {padding: 10px 24px;}}"
       ],
       "settings": {
         "heading": "",
