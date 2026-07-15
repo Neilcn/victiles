@@ -1043,6 +1043,7 @@
         "desktop_image": "shopify://shop_images/victiles_store.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/victiles_store_mobile.jpg",
         "mobile_text_horizontal_position": "center",
         "margin-top": 20,
         "margin-bottom": 20
