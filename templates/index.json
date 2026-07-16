@@ -98,7 +98,7 @@
             "second_button_link": "",
             "color-body-text": "#ffffff",
             "color-overlay": "#000000",
-            "color-overlay-opacity": 30,
+            "color-overlay-opacity": 10,
             "desktop_image": "shopify://shop_images/7b9457ef0b9061bc49d0eed0e395cd1e.png",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "right",
