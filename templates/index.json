@@ -120,7 +120,7 @@
         ".hero__title svg {display: none;}",
         ".hero__button--primary {padding: 10px 24px;}",
         ".hero__richtext {font-family: var(--font-headline);}",
-        ".hero__overlay__content--right {align-items: inherit;}",
+        ".hero__overlay__content--right {align-items: baseline;}",
         "@media (max-width: 790px) {.hero__richtext {font-size: 14px; } .hero__button--primary {font-size: 14px; }}"
       ],
       "settings": {
@@ -1125,7 +1125,7 @@
         "text_6EBK3b"
       ],
       "custom_css": [
-        "@media (min-width: 1200px) {.hero__wrapper .hero__overlay {padding-left: 0;}}"
+        "@media (min-width: 1200px) {.hero__wrapper .hero__overlay {padding-left: 0; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
