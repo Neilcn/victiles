@@ -1023,7 +1023,8 @@
         "text_ehhyjc"
       ],
       "custom_css": [
-        "h1 {font-size: 1.6em;}"
+        "h1 {font-size: 1.6em;}",
+        "@media (min-width: 1200px) {.hero__wrapper .hero__overlay {padding-left: 0; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -1122,6 +1123,9 @@
       "block_order": [
         "heading_JypLzQ",
         "text_6EBK3b"
+      ],
+      "custom_css": [
+        "@media (min-width: 1200px) {.hero__wrapper .hero__overlay {padding-left: 0;}}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
