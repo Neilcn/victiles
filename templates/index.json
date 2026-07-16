@@ -120,8 +120,8 @@
         ".hero__title svg {display: none;}",
         ".hero__button--primary {padding: 10px 24px;}",
         ".hero__richtext {font-family: var(--font-headline);}",
-        ".hero__overlay__content--right {align-items: baseline; margin-right:0;}",
-        "@media (max-width: 790px) {.hero__richtext {font-size: 14px; } .hero__button--primary {font-size: 14px; }}"
+        ".hero__overlay__content--right {align-items: baseline; margin-right: 0;}",
+        "@media (max-width: 790px) {.hero__richtext {font-size: 14px; } .hero__button--primary {font-size: 14px; } .hero__overlay__content--mobile--center {text-align: left; width: 55%; }}"
       ],
       "settings": {
         "heading": "",
