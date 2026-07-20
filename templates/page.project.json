@@ -276,6 +276,88 @@
         "style": "Warm Natural"
       }
     },
+    "project_gallery_m3m8cr": {
+      "type": "project-gallery",
+      "blocks": {
+        "image_xjFN4B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bc187b31c6fd8f322d2b27a57c2f1eef.jpg",
+            "product_1": "euromarmo-carrara-venatino-honed-glazed-stone-look-tile-600x600mm-1",
+            "hotspot_x_1": 85,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jDeWGX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/b30c62d9cbfced919824e060ebdf539d.png",
+            "product_1": "euromarmo-carrara-venatino-honed-glazed-stone-look-tile-300x300mm",
+            "hotspot_x_1": 63,
+            "hotspot_y_1": 80,
+            "product_2": "euromarmo-taj-mahal-honed-stone-look-tile-300x300mm",
+            "hotspot_x_2": 35,
+            "hotspot_y_2": 80,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_eMJG9t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a3ec43252170a0ad7ebd14579ffeae69.png",
+            "product_1": "",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_dRLhM7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/87cadb478533940ae32a09f77b3e0264.jpg",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_xjFN4B",
+        "image_jDeWGX",
+        "image_eMJG9t",
+        "image_dRLhM7"
+      ],
+      "name": "Project Gallery",
+      "settings": {
+        "heading": "Classic Pattern",
+        "heading_size": "h2",
+        "text": "<p>Soft checkerboard tiles add a timeless touch to this bathroom. A gentle mix of warm and light tones creates a floor that feels elegant, balanced and full of character.</p>",
+        "button_text": "",
+        "button_link": "#",
+        "room": "Bathroom",
+        "colour": "Beige,White",
+        "style": "Classic"
+      }
+    },
     "project_gallery_xcnweb": {
       "type": "project-gallery",
       "blocks": {
@@ -1815,6 +1897,7 @@
     "project_gallery_JwLjy9",
     "project_gallery_cciiMR",
     "project_gallery_7wmbUA",
+    "project_gallery_m3m8cr",
     "project_gallery_xcnweb",
     "project_gallery_xa7gg3",
     "project_gallery_caCRKm",
