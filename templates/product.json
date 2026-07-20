@@ -636,9 +636,10 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/image6.jpg",
+        "desktop_image": "shopify://shop_images/victiles_store.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/victile_store_mobile_new.jpg",
         "mobile_text_horizontal_position": "center",
         "margin-top": 20,
         "margin-bottom": 20
@@ -684,9 +685,10 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/image5.jpg",
+        "desktop_image": "shopify://shop_images/hp_p3.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
+        "mobile_image": "shopify://shop_images/hp_p3_mobile.jpg",
         "mobile_text_horizontal_position": "center",
         "margin-top": 20,
         "margin-bottom": 20
