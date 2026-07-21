@@ -348,6 +348,11 @@
         "type": "shopify://apps/bss-b2b-solution/blocks/config-header/451233f2-9631-4c49-8b6f-057e4ebcde7f",
         "disabled": false,
         "settings": {}
+      },
+      "9513407616245537438": {
+        "type": "shopify://apps/sami-wholesale/blocks/app-embed-block/799b9db0-2c2b-4b20-8675-98acd123fbb2",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
