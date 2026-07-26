@@ -380,7 +380,8 @@
             <img
               src="{{ block.settings.image | image_url: width: 600 }}"
               alt="{{ block.settings.image.alt | escape }}"
-              loading="lazy"
+              loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+              fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}"
               width="{{ block.settings.image.width }}"
               height="{{ block.settings.image.height }}"
               class="masonry-image"
