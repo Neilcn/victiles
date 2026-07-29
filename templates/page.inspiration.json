@@ -78,6 +78,24 @@
             "hotspot_y_3": 70
           }
         },
+        "image_myXLrH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_50d10df7-de60-484d-ab37-9c6bb02766bc.jpg",
+            "room": "Bathroom",
+            "colour": "Grey,White",
+            "style": "Modern Minimal",
+            "product_1": "hf-gelato-light-matt-finish-600x600mm",
+            "hotspot_x_1": 57,
+            "hotspot_y_1": 76,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
         "image_M6QMC4": {
           "type": "image",
           "settings": {
@@ -1737,6 +1755,7 @@
       },
       "block_order": [
         "image_rx69RM",
+        "image_myXLrH",
         "image_M6QMC4",
         "image_w3rBPc",
         "image_nrBhM9",
