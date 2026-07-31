@@ -14,7 +14,6 @@
       "blocks": {
         "slide_mViwTU": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
@@ -27,7 +26,7 @@
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
-            "button_link": "shopify://pages/eofy-sale",
+            "button_link": "shopify://collections/tiles",
             "second_button_select": "primary",
             "second_button_label": "",
             "button_disable_on_mobile_second": false,
@@ -35,10 +34,10 @@
             "color-body-text": "rgba(0,0,0,0)",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_image": "shopify://shop_images/VICTiles_EOFY_HP_Desktop.jpg",
+            "desktop_image": "shopify://shop_images/9b258faf6cd1b29b33228c7ce2ab83f1.jpg",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/VICTiles_EOFY_HP_Mobile.jpg",
+            "mobile_image": "shopify://shop_images/1c2edfc0ddb910cea449896f52c32d1f.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "out-background-color": "rgba(0,0,0,0)",
