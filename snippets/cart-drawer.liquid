@@ -54,7 +54,7 @@
               {%- if cart != empty -%}
                 <ul class="wt-cart__list">
                   {%- for item in cart.items -%}
-                    {% render 'cart-item', item: item %}
+                    {% render 'cart-item', item: item, wpddrawer: true %}
                   {%- endfor -%}
                 </ul>
               {%- else -%}
