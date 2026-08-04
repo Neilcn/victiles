@@ -63,13 +63,19 @@
           <span class="visually-hidden">
             {{ 'products.product.price.regular_price' | t }}
           </span>
-          <s class="cart-item__old-price product-option cart-item__price">
+          <s class="data-wpd-hide cart-item__old-price product-option cart-item__price">
             {{- item.original_price | money -}}
           </s>
           <span class="visually-hidden">
             {{ 'products.product.price.sale_price' | t }}
           </span>
-          <strong class="cart-item__final-price product-option cart-item__price">
+          <strong 
+            {% if wpddrawer == true %}
+              data-wpd-cart-drawer-product-handle="{{ item.product.handle }}" data-wpd-cart-drawer-variant-id="{{ item.variant.id }}" data-wpd-cart-drawer-variant-price="{{ item.variant.price }}" data-wpd-cart-drawer-variant-compare-at-price="{{ item.variant.compare_at_price }}" data-wpd-cart-drawer-product-collection-ids="{% assign wpdProductCollectionIds = item.product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-cart-drawer-product-id="{{ item.product.id }}" data-wpd-cart-drawer-item="{{ item.key }}" data-wpd-cart-drawer-quantity="{{ item.quantity }}"
+            {% else %}
+              data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}"
+            {% endif %}
+            class="cart-item__final-price product-option cart-item__price">
             {{ item.final_price | money }}
           </strong>
         </div>
@@ -78,7 +84,7 @@
           <span class="visually-hidden">
             {{ 'products.product.price.regular_price' | t }}
           </span>
-          <s class="cart-item__old-price price price--end">
+          <s class="data-wpd-hide cart-item__old-price price price--end">
             {{ item.variant.compare_at_price | money }}
           </s>
           <span class="visually-hidden">
@@ -90,7 +96,13 @@
         </div>
       {%- elsif cart_page -%}
         <div class="product-option">
-          <span class="cart-item__price">{{ item.original_price | money }}</span>
+          <span 
+            {% if wpddrawer == true %}
+              data-wpd-cart-drawer-product-handle="{{ item.product.handle }}" data-wpd-cart-drawer-variant-id="{{ item.variant.id }}" data-wpd-cart-drawer-variant-price="{{ item.variant.price }}" data-wpd-cart-drawer-variant-compare-at-price="{{ item.variant.compare_at_price }}" data-wpd-cart-drawer-product-collection-ids="{% assign wpdProductCollectionIds = item.product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-cart-drawer-product-id="{{ item.product.id }}" data-wpd-cart-drawer-item="{{ item.key }}" data-wpd-cart-drawer-quantity="{{ item.quantity }}"
+            {% else %}
+              data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}"
+            {% endif %}
+            class="cart-item__price">{{ item.original_price | money }}</span>
         </div>
       {%- endif -%}
       <cart-remove-button
@@ -253,13 +265,19 @@
             <span class="visually-hidden">
               {{ 'products.product.price.regular_price' | t }}
             </span>
-            <s class="cart-item__old-price price price--end">
+            <s class="data-wpd-hide cart-item__old-price price price--end">
               {{ item.original_line_price | money }}
             </s>
             <span class="visually-hidden">
               {{ 'products.product.price.sale_price' | t }}
             </span>
-            <span class="price price--end">
+            <span 
+              {% if wpddrawer == true %}
+                data-wpd-cart-drawer-product-handle="{{ item.product.handle }}" data-wpd-cart-drawer-variant-id="{{ item.variant.id }}" data-wpd-cart-drawer-variant-price="{{ item.variant.price }}" data-wpd-cart-drawer-variant-compare-at-price="{{ item.variant.compare_at_price }}" data-wpd-cart-drawer-product-collection-ids="{% assign wpdProductCollectionIds = item.product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-cart-drawer-product-id="{{ item.product.id }}" data-wpd-cart-drawer-line-price data-wpd-cart-drawer-item="{{ item.key }}" data-wpd-cart-drawer-quantity="{{ item.quantity }}"
+              {% else %}
+                data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}" data-wpd-cart-line-price
+              {% endif %}
+              class="price price--end">
               {{ item.final_line_price | money }}
             </span>
           </div>
@@ -268,7 +286,7 @@
             <span class="visually-hidden">
               {{ 'products.product.price.regular_price' | t }}
             </span>
-            <s class="cart-item__old-price price price--end">
+            <s class="data-wpd-hide cart-item__old-price price price--end">
               {{ item.variant.compare_at_price | times: item.quantity | money }}
             </s>
             <span class="visually-hidden">
@@ -279,7 +297,13 @@
             </span>
           </div>
         {%- else -%}
-          <span class="price price--end">
+          <span 
+            {% if wpddrawer == true %}
+              data-wpd-cart-drawer-product-handle="{{ item.product.handle }}" data-wpd-cart-drawer-variant-id="{{ item.variant.id }}" data-wpd-cart-drawer-variant-price="{{ item.variant.price }}" data-wpd-cart-drawer-variant-compare-at-price="{{ item.variant.compare_at_price }}" data-wpd-cart-drawer-product-collection-ids="{% assign wpdProductCollectionIds = item.product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-cart-drawer-product-id="{{ item.product.id }}" data-wpd-cart-drawer-line-price data-wpd-cart-drawer-item="{{ item.key }}" data-wpd-cart-drawer-quantity="{{ item.quantity }}"
+            {% else %}
+              data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}" data-wpd-cart-line-price
+            {% endif %}
+            class="price price--end">
             {{ item.original_line_price | money }}
           </span>
         {%- endif -%}
