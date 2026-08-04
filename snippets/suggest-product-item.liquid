@@ -21,7 +21,7 @@
   {%- assign clean_unit = unit_label | remove: '/' -%}
   {%- assign price_raw = product.price | money_without_currency | replace: ',', '' | times: 1.0 -%}
 
-  <div class="wt-cart__item__price predictive_price_per_m2">
+  <div data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="wt-cart__item__price predictive_price_per_m2">
     {%- if coefficient > 0 -%}
       {%- assign price_per_m2 = price_raw | divided_by: coefficient | round: 2 -%}
       ${{ price_per_m2 }} /{{ clean_unit }}
