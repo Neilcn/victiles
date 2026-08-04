@@ -246,6 +246,7 @@
           data-index="{{ item.index | plus: 1 }}"
         >
           <a
+            onClick="setTimeout(function(){if(document.URL.includes('/cart')) {window.location.reload();}},2000);"
             class="wt-cart__item__remove wt-cart__item__remove--amount"
             href="#"
             aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
