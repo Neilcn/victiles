@@ -354,7 +354,7 @@
       },
       "8127967367361207402": {
         "type": "shopify://apps/option-calculator/blocks/global_product_option/8f01aabe-62b9-4cde-aee9-dfb98853943a",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     }
