@@ -855,16 +855,16 @@
                                 
                                     <br>
                                     {%- if compare_price_raw > price_raw -%}
-                                      <span class="product-price--old-single-product">${{ compare_price_per_m2 }}{% if clean_unit != blank %}/{{ clean_unit }}{% endif %}</span>
+                                      <span class="data-wpd-hide product-price--old-single-product">${{ compare_price_per_m2 }}{% if clean_unit != blank %}/{{ clean_unit }}{% endif %}</span>
                                     {%- endif -%}
                                 
-                                    <span class="product-price-per-m2">${{ price_per_m2 }}{% if clean_unit != blank %}/{{ clean_unit }}{% endif %}</span>
+                                    <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="product-price-per-m2">${{ price_per_m2 }}{% if clean_unit != blank %}/{{ clean_unit }}{% endif %}</span>
                                     <span class="equal-sign"> = </span>
                                   {%- endif -%}
                                 
                                   <!-- Price per box -->
                                   <!-- <span class="product-price">{{ product.price | money }}</span> -->
-                                  <span class="product-price">{{ product.selected_or_first_available_variant.price | money }}</span>
+                                  <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="product-price">{{ product.selected_or_first_available_variant.price | money }}</span>
                                   <span class="product-unit">
                                     {%- if coefficient <= 0 and clean_unit == blank -%}
                                       
