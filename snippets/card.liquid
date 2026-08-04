@@ -349,12 +349,12 @@
 {%- else -%}
   <div class="product-caprice-per-box">
     {%- if compare_price_raw > price_raw -%}
-      <span class="product-price--old">{{ card_product.compare_at_price | money }}</span>
-      <span class="product-price--sale">{{ card_product.price | money }}</span>
+      <span class="data-wpd-hide product-price--old">{{ card_product.compare_at_price | money }}</span>
+      <span data-wpd-product-handle="{{ card_product.handle }}" data-wpd-variant-id="{{ card_product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ card_product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ card_product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ card_product.id }}" class="product-price--sale">{{ card_product.price | money }}</span>
 
-      <span class="product-discount">-{{ discount }}%</span>
+      <span class="data-wpd-hide product-discount">-{{ discount }}%</span>
     {%- else -%}
-      <span class="product-price">{{ card_product.price | money }}</span>
+      <span data-wpd-product-handle="{{ card_product.handle }}" data-wpd-variant-id="{{ card_product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ card_product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ card_product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ card_product.id }} class="product-price">{{ card_product.price | money }}</span>
     {%- endif -%}
     <span class="product-unit">
       {%- if clean_unit != blank and clean_unit != 'm2' and clean_unit != 'm²' -%}
