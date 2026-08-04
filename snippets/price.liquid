@@ -50,7 +50,7 @@
               {{- 'products.product.price.regular_price' | t -}}
             </span>
             <span>
-              <s class="price-item price-item--regular variant-item__old-price">
+              <s class="data-wpd-hide price-item price-item--regular variant-item__old-price">
                 {% if settings.currency_code_enabled %}
                   {{ compare_at_price | money_with_currency }}
                 {% else %}
@@ -75,7 +75,7 @@
           {%- assign price_per_m2 = 0 -%}
         {%- endif -%}
         
-        <span class="price-item price-item--regular">
+        <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="price-item price-item--regular">
           {{ 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max }}
         
           {%- if unit_label != blank -%}
@@ -88,18 +88,18 @@
 
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span class="price-item price-item--regular wt-product__price__final wt-product__price__final">
+        <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="price-item price-item--regular wt-product__price__final wt-product__price__final">
           {{ money_price }}
         </span>
       {%- endif -%}
     </div>
     <div class="price__sale {% if compare_at_price > price and main_product != true %}visible{% endif %} {%if compare_at_price > price and main_product %}visible-main-product{%endif%}">
       <div class="price__sale__details-wrapper">
-        <span class="price-item price-item--sale price-item--last wt-product__price__final">
+        <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="price-item price-item--sale price-item--last wt-product__price__final">
           {{ money_price }}
         </span>
         {% if compare_at_price > price %}
-          <span class="price-item--percent">
+          <span class="data-wpd-hide price-item--percent">
             -{{ compare_at_price | minus: price | times: 100 | divided_by: compare_at_price }}%
           </span>
         {% endif %}
@@ -110,7 +110,7 @@
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         </div>
         <span>
-          <s class="price-item price-item--regular {% if main_product != true %}price-item--lower{% endif %} wt-product__price__compare {% if compare_at_price <= price %}hidden{% endif %}">
+          <s class="data-wpd-hide price-item price-item--regular {% if main_product != true %}price-item--lower{% endif %} wt-product__price__compare {% if compare_at_price <= price %}hidden{% endif %}">
             {% if settings.currency_code_enabled %}
               {{ compare_at_price | money_with_currency }}
             {% else %}
@@ -136,7 +136,7 @@
     </small>
   </div>
   {%- if show_badges -%}
-    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+    <span class="data-wpd-hide badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
       {{ 'products.product.on_sale' | t }}
     </span>
 
