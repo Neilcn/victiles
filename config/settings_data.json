@@ -344,15 +344,18 @@
         "disabled": false,
         "settings": {}
       },
-      "13969055170449783870": {
-        "type": "shopify://apps/bss-b2b-solution/blocks/config-header/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+      "11989592277864780042": {
+        "type": "shopify://apps/wsh-wholesale-pricing/blocks/app-embed/94cbfa01-7191-4bb2-bcd8-b519b9b3bd06",
         "disabled": false,
-        "settings": {}
-      },
-      "9513407616245537438": {
-        "type": "shopify://apps/sami-wholesale/blocks/app-embed-block/799b9db0-2c2b-4b20-8675-98acd123fbb2",
-        "disabled": false,
-        "settings": {}
+        "settings": {
+          "showCrossOutPrice": true,
+          "showCurrencyCodes": false,
+          "showVDTableWithPrice": false,
+          "vdBadgeLabel": "Volume Discounts",
+          "priceColor": "#000000",
+          "crossOutPriceColor": "#E9330C",
+          "appProxy": "/apps/wpdapp"
+        }
       }
     }
   },
