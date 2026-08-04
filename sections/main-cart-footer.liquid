@@ -87,9 +87,14 @@
                       <span class="text">{{ 'sections.cart.subtotal' | t }}</span>
                     </div>
                     <div class="wt-cart__subtotal__value">
-                      {{ cart.total_price | money_with_currency }}
+                      <span class="wcp-original-cart-total">{{ cart.total_price | money }}</span>
+                      <span class="wcp-cart-total"></span>
                     </div>
                   </div>
+                  <div class="additional-notes">
+                    <span class="wcp-minimums-note"></span>
+                    <span class="wcp-extra-note "></span>
+                  </div>{% render 'wcp_multi_currency_msg' %}
                   {%- if cart.cart_level_discount_applications.size > 0 -%}
                     <div>
                       <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
