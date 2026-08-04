@@ -324,7 +324,7 @@
 
   <div class="product-caprice-per-m2">
     {%- if compare_price_raw > price_raw -%}
-       <span class="product-price--sale">${{ price_per_m2 }}</span>
+       <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="product-price--sale">${{ price_per_m2 }}</span>
        <span class="product-unit">
         {%- if clean_unit != blank -%}
           /{{ clean_unit }}
@@ -332,11 +332,11 @@
           /box
         {%- endif -%}
       </span>
-      <span class="product-price--old">${{ compare_price_per_m2 }}</span>
+      <span class="data-wpd-hide product-price--old">${{ compare_price_per_m2 }}</span>
       {%- assign discount = compare_price_per_m2 | minus: price_per_m2 | times: 100.0 | divided_by: compare_price_per_m2 | round -%}
       <span class="product-discount">(-{{ discount }}%)</span>
     {%- else -%}
-      <span class="product-price">${{ price_per_m2 }}</span>
+      <span data-wpd-product-handle="{{ product.handle }}" data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}" data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}" data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}" data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-product-id="{{ product.id }}" class="product-price">${{ price_per_m2 }}</span>
       <span class="product-unit">
         {%- if clean_unit != blank -%}
           /{{ clean_unit }}
