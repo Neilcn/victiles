@@ -30,1892 +30,1334 @@
         "heading_size": "h2"
       }
     },
-    "project_gallery_JwLjy9": {
-      "type": "project-gallery",
+    "project_gallery_blocks": {
+      "type": "project-gallery-blocks",
       "blocks": {
-        "image_4igEEk": {
-          "type": "image",
+        "project_gallery_JwLjy9": {
+          "type": "project_gallery",
           "settings": {
-            "image": "shopify://shop_images/06_5c4b0fa2-2789-47ad-ad22-6dcfb3ccc7ea.jpg",
-            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
-            "hotspot_x_1": 57,
-            "hotspot_y_1": 20,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "heading": "Golden Serenity",
+            "heading_size": "h2",
+            "text": "<p>A warm, elegant bathroom with a soft hotel-style feel. Our GDER Gold Matt tiles bring gentle marble movement across the walls and floors, while brushed gold fittings, warm lighting and curved basins add just the right touch of luxury. Bright, refined and effortlessly timeless.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/06_5c4b0fa2-2789-47ad-ad22-6dcfb3ccc7ea.jpg",
+            "product_1_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1_1": 57,
+            "hotspot_y_1_1": 20,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/01_c4e0a8cd-feab-49d3-b285-7cd6319db05b.jpg",
+            "product_1_2": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1_2": 34,
+            "hotspot_y_1_2": 86,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/03_c59d56a0-838f-45b3-a779-0e251a162a19.jpg",
+            "product_1_3": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1_3": 19,
+            "hotspot_y_1_3": 38,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/02_1f1028af-f93d-4f0c-ac88-a571be1e6f2e.jpg",
+            "product_1_4": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1_4": 49,
+            "hotspot_y_1_4": 50,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
           }
         },
-        "image_ndqUVL": {
-          "type": "image",
+        "project_gallery_cciiMR": {
+          "type": "project_gallery",
           "settings": {
-            "image": "shopify://shop_images/01_c4e0a8cd-feab-49d3-b285-7cd6319db05b.jpg",
-            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
-            "hotspot_x_1": 34,
-            "hotspot_y_1": 86,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "heading": "Marble Glow",
+            "heading_size": "h2",
+            "text": "<p>Soft marble-look finishes set the tone for this bright, elegant bathroom. Brushed gold details and a geometric feature wall add just enough texture, while the twin vanity and glass shower keep everything feeling refined and effortless.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/01_0b47411e-a594-4ea9-9354-6d99b6cda2ef.jpg",
+            "product_1_1": "xin0016-alba-white-satin-600x1200mm-m820612h",
+            "hotspot_x_1_1": 30,
+            "hotspot_y_1_1": 20,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/08.jpg",
+            "product_1_2": "xin0016-alba-white-satin-600x1200mm-m820612h",
+            "hotspot_x_1_2": 52,
+            "hotspot_y_1_2": 80,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/06.jpg",
+            "product_1_3": "dec-forcar-deco-formes-carrara-298x256mm",
+            "hotspot_x_1_3": 30,
+            "hotspot_y_1_3": 26,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/03_6dbe29cd-005f-46ec-b0af-c976df1a63ac.jpg",
+            "product_1_4": "dec-forcar-deco-formes-carrara-298x256mm",
+            "hotspot_x_1_4": 24,
+            "hotspot_y_1_4": 50,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
           }
         },
-        "image_ey7erB": {
-          "type": "image",
+        "project_gallery_7wmbUA": {
+          "type": "project_gallery",
           "settings": {
-            "image": "shopify://shop_images/03_c59d56a0-838f-45b3-a779-0e251a162a19.jpg",
-            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
-            "hotspot_x_1": 19,
-            "hotspot_y_1": 38,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "heading": "Botanical Calm",
+            "heading_size": "h2",
+            "text": "<p>Soft, grounded and a little retreat-like, this bathroom is all about gentle texture. The botanical stone-look feature wall brings movement, while the timber vanity, freestanding bath and black fittings add warmth and contrast.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Warm Natural",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/WechatIMG1354.jpg",
+            "product_1_1": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_1_1": 30,
+            "hotspot_y_1_1": 30,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/02_5ea626c7-6680-4d32-9eef-1be7bbd44a7a.jpg",
+            "product_1_2": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1_2": 43,
+            "hotspot_y_1_2": 26,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/WechatIMG1347.jpg",
+            "product_1_3": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_1_3": 73,
+            "hotspot_y_1_3": 15,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/06_f418cdd0-10fd-4a1b-a450-8c58c47a2854.jpg",
+            "product_1_4": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1_4": 30,
+            "hotspot_y_1_4": 30,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
           }
         },
-        "image_xUHNHk": {
-          "type": "image",
+        "project_gallery_m3m8cr": {
+          "type": "project_gallery",
           "settings": {
-            "image": "shopify://shop_images/02_1f1028af-f93d-4f0c-ac88-a571be1e6f2e.jpg",
-            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
-            "hotspot_x_1": 49,
-            "hotspot_y_1": 50,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "heading": "Classic Pattern",
+            "heading_size": "h2",
+            "text": "<p>Soft checkerboard tiles add a timeless touch to this bathroom. A gentle mix of warm and light tones creates a floor that feels elegant, balanced and full of character.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Beige,White",
+            "style": "Classic",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/bc187b31c6fd8f322d2b27a57c2f1eef.jpg",
+            "product_1_1": "euromarmo-carrara-venatino-honed-glazed-stone-look-tile-600x600mm-1",
+            "hotspot_x_1_1": 85,
+            "hotspot_y_1_1": 30,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/b30c62d9cbfced919824e060ebdf539d.png",
+            "product_1_2": "euromarmo-carrara-venatino-honed-glazed-stone-look-tile-300x300mm",
+            "hotspot_x_1_2": 63,
+            "hotspot_y_1_2": 80,
+            "product_2_2": "euromarmo-taj-mahal-honed-stone-look-tile-300x300mm",
+            "hotspot_x_2_2": 35,
+            "hotspot_y_2_2": 80,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/a3ec43252170a0ad7ebd14579ffeae69.png",
+            "product_1_3": "",
+            "hotspot_x_1_3": 73,
+            "hotspot_y_1_3": 15,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/87cadb478533940ae32a09f77b3e0264.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 30,
+            "hotspot_y_1_4": 30,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_xcnweb": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Kitchen Glow",
+            "heading_size": "h2",
+            "text": "<p>Warm pendant lighting brings this kitchen to life. Soft green gloss tiles catch the glow beautifully, adding texture and colour against the white cabinetry, stone benchtops and timber flooring.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Kitchen",
+            "colour": "Green",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/04.jpg",
+            "product_1_1": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1_1": 30,
+            "hotspot_y_1_1": 40,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/02_364ff41b-6632-4c44-80bb-6f6734ab2ccf.jpg",
+            "product_1_2": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1_2": 75,
+            "hotspot_y_1_2": 45,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": true,
+            "image_3": "shopify://shop_images/WechatIMG1347.jpg",
+            "product_1_3": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_1_3": 73,
+            "hotspot_y_1_3": 15,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": true,
+            "image_4": "shopify://shop_images/06_f418cdd0-10fd-4a1b-a450-8c58c47a2854.jpg",
+            "product_1_4": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1_4": 30,
+            "hotspot_y_1_4": 30,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_xa7gg3": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Soft White Gloss",
+            "heading_size": "h2",
+            "text": "<p>Glossy white square tiles add light, texture and a fresh finish to this kitchen splashback. Their soft handmade look keeps the space simple, bright and beautifully timeless.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/project123.jpg",
+            "product_1_1": "mal-whi12g-mallorca-white-120x120-gloss",
+            "hotspot_x_1_1": 57,
+            "hotspot_y_1_1": 34,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/391.jpg",
+            "product_1_2": "mal-whi12g-mallorca-white-120x120-gloss",
+            "hotspot_x_1_2": 68,
+            "hotspot_y_1_2": 44,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70
+          }
+        },
+        "project_gallery_caCRKm": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Sage Detail",
+            "heading_size": "h2",
+            "text": "<p>Pale green gloss tiles give this bathroom its fresh, calming feel. The textured feature wall bounces the light beautifully, while the timber vanity keeps the space warm, simple and easy to live with.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/01_736e34f4-dcec-4380-a0f7-0bc09a309ffc.jpg",
+            "product_1_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1_1": 48,
+            "hotspot_y_1_1": 30,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/05_92baa525-1c00-47de-b235-583c0359618b.jpg",
+            "product_1_2": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1_2": 76,
+            "hotspot_y_1_2": 26,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/02_423380d2-36fc-4825-aba7-68421b4a5fb3.jpg",
+            "product_1_3": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1_3": 63,
+            "hotspot_y_1_3": 38,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/03_b54a9f20-d5cb-454b-9c2c-d7034f2a7cb2.jpg",
+            "product_1_4": "sti-ls6000sh-lusso-bianco-soft-honed-600x600",
+            "hotspot_x_1_4": 78,
+            "hotspot_y_1_4": 30,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_Pa7wHn": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Grey Quiet",
+            "heading_size": "h2",
+            "text": "<p>Simple, clean and quietly modern. Soft grey stone-look tiles run through the shower and floor, paired with white cabinetry and black fittings for a bathroom that feels fresh, practical and calm.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/09.jpg",
+            "product_1_1": "violet-10-10mm-frameless-sliding-screen-front-return-v10-s-v10-s-r-gun-metal",
+            "hotspot_x_1_1": 48,
+            "hotspot_y_1_1": 30,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/01_fbeb5a21-b215-48b8-a083-c62cd2055aa8.jpg",
+            "product_1_2": "vt-q832660h-jadestone-ivory-600x600mm-honed",
+            "hotspot_x_1_2": 25,
+            "hotspot_y_1_2": 26,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/08_d773a7c1-a340-452e-9264-f978e6f3f711.jpg",
+            "product_1_3": "led-rsh-6090a8-led-eric-collection-600-900-115mm-natural-timber-shaving-cabinet",
+            "hotspot_x_1_3": 33,
+            "hotspot_y_1_3": 26,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/04_f7c187a7-8780-4082-9a3f-5be83f29ce4b.jpg",
+            "product_1_4": "vt-q832660h-jadestone-ivory-600x600mm-honed",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 79,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_LVazkd": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Marble Moment",
+            "heading_size": "h2",
+            "text": "<p>Bold marble-look veining gives this bathroom an instant lift. Soft grey floor tiles and a warm timber vanity balance the feature wall beautifully, creating a space that feels polished without being too formal.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/03_1af5f13c-7a64-49be-bd12-9a122a557d94.jpg",
+            "product_1_1": "megaslim\u2122-thin-slabs-statuario-reale-3200x1600x6mm-made-in-italy",
+            "hotspot_x_1_1": 48,
+            "hotspot_y_1_1": 30,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/04_6f1b701e-508d-4f7a-88bd-e98cf4073bfe.jpg",
+            "product_1_2": "btl1700-lyon-freestanding-bathtub-1700x780x680mm",
+            "hotspot_x_1_2": 53,
+            "hotspot_y_1_2": 75,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/01_25e575f6-23d7-4e92-b037-ba688434c01e.jpg",
+            "product_1_3": "hf-origin-white-matt-finish-600x1200mm",
+            "hotspot_x_1_3": 46,
+            "hotspot_y_1_3": 73,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/02_27f92415-1d29-4c0b-a043-005537ffff4a.jpg",
+            "product_1_4": "osh-12075a1-amber-collection-1200x750x120mm-prime-oak-shaving-cabinet",
+            "hotspot_x_1_4": 59,
+            "hotspot_y_1_4": 21,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_4YfTBN": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Golden Marble",
+            "heading_size": "h2",
+            "text": "<p>Brushed gold fittings, soft marble-look surfaces and a delicate mosaic detail make this bathroom feel bright and refined. The curved mirror and warm veining add a gentle elegance that ties it all together.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/3_17f33302-411b-4e0c-8a40-8ddb7e905f78.jpg",
+            "product_1_1": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
+            "hotspot_x_1_1": 48,
+            "hotspot_y_1_1": 49,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/2Untitled-1.jpg",
+            "product_1_2": "art401-artemis-calacatta-gold-feather-honed-50x103",
+            "hotspot_x_1_2": 66,
+            "hotspot_y_1_2": 34,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/1_c31bacc6-4a8c-4e50-9ca8-a03eec04038f.jpg",
+            "product_1_3": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
+            "hotspot_x_1_3": 50,
+            "hotspot_y_1_3": 42,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/4_1e1d1878-ab2e-4563-92eb-77c18d9114a9.jpg",
+            "product_1_4": "porstobia6060m-portland-stone-bianco-60x60",
+            "hotspot_x_1_4": 37,
+            "hotspot_y_1_4": 37,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_AqtheF": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Open Flow",
+            "heading_size": "h2",
+            "text": "<p>Soft grey floor tiles carry through the entry, kitchen, dining and living areas for a seamless open-plan feel. Clean white walls and timber accents keep the home feeling modern, bright and beautifully connected.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Living Room",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/1_b73ad657-015d-4292-9d54-aa292bbc199d.jpg",
+            "product_1_1": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1_1": 73,
+            "hotspot_y_1_1": 80,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/3_54906d21-cb14-4c5c-be8d-055ae261e6e0.jpg",
+            "product_1_2": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1_2": 70,
+            "hotspot_y_1_2": 80,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/2_2e3e7e7d-991b-4ce7-97a2-cadfc87727f4.jpg",
+            "product_1_3": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1_3": 35,
+            "hotspot_y_1_3": 85,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/4_78b509a0-1b5d-4aad-9853-4488210ff52f.jpg",
+            "product_1_4": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1_4": 25,
+            "hotspot_y_1_4": 75,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_w9CVLE": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Natural Warmth",
+            "heading_size": "h2",
+            "text": "<p>Sandstone-look tiles bring a soft spa-like warmth to this bathroom. Timber cabinetry and black fittings ground the palette, creating a space that feels natural, calm and quietly refined.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/200.jpg",
+            "product_1_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1_1": 18,
+            "hotspot_y_1_1": 80,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/100.jpg",
+            "product_1_2": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1_2": 70,
+            "hotspot_y_1_2": 20,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/300.jpg",
+            "product_1_3": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1_3": 69,
+            "hotspot_y_1_3": 75,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": true,
+            "image_4": "shopify://shop_images/4_78b509a0-1b5d-4aad-9853-4488210ff52f.jpg",
+            "product_1_4": "vt-orbat-grey-600x600mm-matt-p4",
+            "hotspot_x_1_4": 25,
+            "hotspot_y_1_4": 75,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_AWpa9p": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Travertine Calm",
+            "heading_size": "h2",
+            "text": "<p>Travertine-look tiles wrap this bathroom in soft sandy texture. Timber vanities, rounded mirrors and brushed gold details bring warmth to the room, creating a calm look that feels beautifully timeless.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/04_c2d9fe8c-aea2-4491-a734-402aacdb9656.jpg",
+            "product_1_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
+            "hotspot_x_1_1": 18,
+            "hotspot_y_1_1": 28,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/03_1a1e1cb0-8c36-4e18-8737-043fc4ed2f0e.jpg",
+            "product_1_2": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
+            "hotspot_x_1_2": 70,
+            "hotspot_y_1_2": 50,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/05_24c964e2-483a-4a19-b902-0d96125b17fb.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 69,
+            "hotspot_y_1_3": 75,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/07.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 25,
+            "hotspot_y_1_4": 75,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_93QCtE": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Marble Luxe",
+            "heading_size": "h2",
+            "text": "<p>Marble-look surfaces, gold fittings and fluted glass give this bathroom a fresh sense of luxury. The bold veining carries through the room, while soft curves keep the space feeling light and balanced.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_10_47_30_AM.png",
+            "product_1_1": "caloro60120m-calacutta-oro-matt-600x1200mm",
+            "hotspot_x_1_1": 28,
+            "hotspot_y_1_1": 22,
+            "product_2_1": "",
+            "hotspot_x_2_1": 50,
+            "hotspot_y_2_1": 50,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/MW-ins_7984e474-9a7a-45bd-b479-bfe622f7952a.jpg",
+            "product_1_2": "cairo-freestanding-bathtub-1700mm-1",
+            "hotspot_x_1_2": 50,
+            "hotspot_y_1_2": 61,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/1_defb36af-dc8f-4085-810c-0d337832f28b.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 69,
+            "hotspot_y_1_3": 75,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/000.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 25,
+            "hotspot_y_1_4": 75,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_BrqYBc": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Terrazzo Joy",
+            "heading_size": "h2",
+            "text": "<p>Playful terrazzo brings colour and charm to this bathroom. Gold fittings, warm lighting and a curved mirror soften the statement wall, creating a space that feels bright, fun and full of personality.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/1_d4435cd8-9970-4fd0-8689-c642425cbfb0.jpg",
+            "product_1_1": "led-mash-6161-tasman-led-mirror-610-900mm-no-frame",
+            "hotspot_x_1_1": 58,
+            "hotspot_y_1_1": 35,
+            "product_2_1": "wh76-1200wgm-luna-collection-vanity-1200mm-matt-grey-single-bowl-double-bowls",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/2_26532fbf-a151-4db7-9fb7-4588b95245b6.jpg",
+            "product_1_2": "cairo-freestanding-bathtub-1700mm-1",
+            "hotspot_x_1_2": 50,
+            "hotspot_y_1_2": 77,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/4_6ef6b313-cc38-4477-838e-6b45229ed335.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 28,
+            "hotspot_y_1_3": 22,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/3_5c613ca2-d51e-4f62-96f6-4ddffc4a9f62.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 25,
+            "hotspot_y_1_4": 75,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_TAPgfc": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Deep Green Moment",
+            "heading_size": "h2",
+            "text": "<p>Deep green gloss tiles create the hero moment in this bathroom. Framed by marble-look surfaces and classic details, the feature wall adds depth, texture and a bold sense of character.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/3221.png",
+            "product_1_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1_1": 85,
+            "hotspot_y_1_1": 35,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/2321.png",
+            "product_1_2": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1_2": 46,
+            "hotspot_y_1_2": 55,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/453.png",
+            "product_1_3": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/745.png",
+            "product_1_4": "victiles-carrara-marble-600x600mm-polished-porcelian-tile",
+            "hotspot_x_1_4": 80,
+            "hotspot_y_1_4": 41,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_JePYYw": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Blue Mood",
+            "heading_size": "h2",
+            "text": "<p>Rich blue gloss tiles bring depth and mood to this bathroom. Warm timber, brass details and crisp white cabinetry balance the colour beautifully, making the space feel bold but still relaxed.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Luxury Living",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/01_3c1e9d2f-fdf4-4a3e-bc6a-d4a7f28b33f5.jpg",
+            "product_1_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
+            "hotspot_x_1_1": 60,
+            "hotspot_y_1_1": 35,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/03_b7acfc3c-acda-4883-b6b4-72ada92318d9.jpg",
+            "product_1_2": "",
+            "hotspot_x_1_2": 46,
+            "hotspot_y_1_2": 55,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/02_91ccd5c8-6e85-465b-9d3c-c8ad500aef75.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/WechatIMG876.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_DpbTer": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Silver Serenity",
+            "heading_size": "h2",
+            "text": "<p>Soft silver-grey tones give this bathroom a calm, moody finish. Subtle lighting and a delicate feature detail add movement, while the stone-look tiles keep the space modern and understated.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/01_48023b46-49f5-4de3-81d9-cb840d94c3b6.jpg",
+            "product_1_1": "plasil3060m-plazzo-silver-matt-300x600mm",
+            "hotspot_x_1_1": 74,
+            "hotspot_y_1_1": 30,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/02_096c548d-6a4a-46fd-9505-dcca6e9b08ba.jpg",
+            "product_1_2": "",
+            "hotspot_x_1_2": 46,
+            "hotspot_y_1_2": 55,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/03_a9de496c-d5c7-423d-af30-6bb01d9df757.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": true,
+            "image_4": "shopify://shop_images/WechatIMG876.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_wJeYKc": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Moonlit Grey",
+            "heading_size": "h2",
+            "text": "<p>Grey texture, warm timber cabinetry and black tapware make this compact bathroom feel considered and calm. The round mirror and gentle wall lighting add just enough glow.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_1.png",
+            "product_1_1": "victiles-wins-600x600mm-matt-porcelian-tile-moon",
+            "hotspot_x_1_1": 60,
+            "hotspot_y_1_1": 40,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_2.png",
+            "product_1_2": "victiles-wins-600x600mm-matt-porcelian-tile-moon",
+            "hotspot_x_1_2": 23,
+            "hotspot_y_1_2": 24,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_3.png",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": true,
+            "image_4": "shopify://shop_images/WechatIMG876.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_jqaHRe": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Wheat Glow",
+            "heading_size": "h2",
+            "text": "<p>Warm wheat-toned gloss tiles bring a handmade feel to this bathroom. Brushed gold fittings, soft ivory walls and patterned floor tiles add charm, texture and a cosy sense of warmth.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/4B6F8457-A198-4180-A958-67135C1FB324.jpg",
+            "product_1_1": "equ0028-la-riviera-wheat-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1_1": 71,
+            "hotspot_y_1_1": 28,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/3EC081DA-8A9D-4B03-AE6D-703B2299D724.jpg",
+            "product_1_2": "",
+            "hotspot_x_1_2": 23,
+            "hotspot_y_1_2": 24,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/6DCF31B3-EA10-4A3B-90DD-85C1178E14B1.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/A8EF74A7-43A1-4386-B016-77E0477E7981.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_aqMBmY": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Soft White Calm",
+            "heading_size": "h2",
+            "text": "<p>Soft white and grey tones keep this bathroom bright, clean and easy to live with. Stone-look tiles, a long vanity and black fittings make it practical, while curved mirrors add a gentle softness.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/lisa-BATH01_9583bf55-45e0-46c9-84d5-39220d5ab540.jpg",
+            "product_1_1": "hf-origin-white-matt-finish-300x600mm",
+            "hotspot_x_1_1": 50,
+            "hotspot_y_1_1": 88,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/lisa-bath03.jpg",
+            "product_1_2": "hf-origin-white-matt-finish-300x600mm",
+            "hotspot_x_1_2": 66,
+            "hotspot_y_1_2": 24,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/lisa-bath02.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": true,
+            "image_4": "shopify://shop_images/A8EF74A7-43A1-4386-B016-77E0477E7981.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_PN4cLC": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Green Bar Glow",
+            "heading_size": "h2",
+            "text": "<p>Glossy green tiles turn this commercial bar into a real feature. The slim linear format catches the warm lighting across the counter, creating depth, rhythm and a polished hospitality feel.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Commercial",
+            "colour": "Green",
+            "style": "Industrial",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/WechatIMG1025.jpg",
+            "product_1_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1_1": 77,
+            "hotspot_y_1_1": 55,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/Screen_Shot_2026-06-26_at_1.02.06_PM.jpg",
+            "product_1_2": "",
+            "hotspot_x_1_2": 66,
+            "hotspot_y_1_2": 24,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/WechatIMG1026.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/Screen_Shot_2026-06-26_at_1.02.43_PM.jpg",
+            "product_1_4": "",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
+          }
+        },
+        "project_gallery_bwTcnN": {
+          "type": "project_gallery",
+          "settings": {
+            "heading": "Travertine Light",
+            "heading_size": "h2",
+            "text": "<p>Soft beige travertine-look texture runs through this calm bathroom. The pale vanity and glass shower keep the room feeling bright, while the natural stone finish adds warmth and timelessness.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "disabled_1": false,
+            "image_1": "shopify://shop_images/05_a7c057ea-d617-4807-868c-22c22c5f8fdf.jpg",
+            "product_1_1": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
+            "hotspot_x_1_1": 44,
+            "hotspot_y_1_1": 84,
+            "product_2_1": "",
+            "hotspot_x_2_1": 57,
+            "hotspot_y_2_1": 78,
+            "product_3_1": "",
+            "hotspot_x_3_1": 70,
+            "hotspot_y_3_1": 70,
+            "disabled_2": false,
+            "image_2": "shopify://shop_images/04_33d3be8c-b246-4a47-8db1-14e132ceef75.jpg",
+            "product_1_2": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
+            "hotspot_x_1_2": 23,
+            "hotspot_y_1_2": 24,
+            "product_2_2": "",
+            "hotspot_x_2_2": 50,
+            "hotspot_y_2_2": 50,
+            "product_3_2": "",
+            "hotspot_x_3_2": 70,
+            "hotspot_y_3_2": 70,
+            "disabled_3": false,
+            "image_3": "shopify://shop_images/03_835c9f22-4e7c-4f35-97bd-b7e00d2ebca4.jpg",
+            "product_1_3": "",
+            "hotspot_x_1_3": 54,
+            "hotspot_y_1_3": 41,
+            "product_2_3": "",
+            "hotspot_x_2_3": 50,
+            "hotspot_y_2_3": 50,
+            "product_3_3": "",
+            "hotspot_x_3_3": 70,
+            "hotspot_y_3_3": 70,
+            "disabled_4": false,
+            "image_4": "shopify://shop_images/01_a3c4c93a-a3d3-4517-9914-44f394754c6e.jpg",
+            "product_1_4": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
+            "hotspot_x_1_4": 50,
+            "hotspot_y_1_4": 61,
+            "product_2_4": "",
+            "hotspot_x_2_4": 50,
+            "hotspot_y_2_4": 50,
+            "product_3_4": "",
+            "hotspot_x_3_4": 70,
+            "hotspot_y_3_4": 70
           }
         }
       },
       "block_order": [
-        "image_4igEEk",
-        "image_ndqUVL",
-        "image_ey7erB",
-        "image_xUHNHk"
+        "project_gallery_JwLjy9",
+        "project_gallery_cciiMR",
+        "project_gallery_7wmbUA",
+        "project_gallery_m3m8cr",
+        "project_gallery_xcnweb",
+        "project_gallery_xa7gg3",
+        "project_gallery_caCRKm",
+        "project_gallery_Pa7wHn",
+        "project_gallery_LVazkd",
+        "project_gallery_4YfTBN",
+        "project_gallery_AqtheF",
+        "project_gallery_w9CVLE",
+        "project_gallery_AWpa9p",
+        "project_gallery_93QCtE",
+        "project_gallery_BrqYBc",
+        "project_gallery_TAPgfc",
+        "project_gallery_JePYYw",
+        "project_gallery_DpbTer",
+        "project_gallery_wJeYKc",
+        "project_gallery_jqaHRe",
+        "project_gallery_aqMBmY",
+        "project_gallery_PN4cLC",
+        "project_gallery_bwTcnN"
       ],
-      "name": "Project Gallery",
+      "name": "Project Galleries",
       "settings": {
-        "heading": "Golden Serenity",
-        "heading_size": "h2",
-        "text": "<p>A warm, elegant bathroom with a soft hotel-style feel. Our GDER Gold Matt tiles bring gentle marble movement across the walls and floors, while brushed gold fittings, warm lighting and curved basins add just the right touch of luxury. Bright, refined and effortlessly timeless.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "White",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_cciiMR": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_KUGRBk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_0b47411e-a594-4ea9-9354-6d99b6cda2ef.jpg",
-            "product_1": "xin0016-alba-white-satin-600x1200mm-m820612h",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 20,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_jc7UXq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/08.jpg",
-            "product_1": "xin0016-alba-white-satin-600x1200mm-m820612h",
-            "hotspot_x_1": 52,
-            "hotspot_y_1": 80,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_DcNVNj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/06.jpg",
-            "product_1": "dec-forcar-deco-formes-carrara-298x256mm",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 26,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_3ka73t": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_6dbe29cd-005f-46ec-b0af-c976df1a63ac.jpg",
-            "product_1": "dec-forcar-deco-formes-carrara-298x256mm",
-            "hotspot_x_1": 24,
-            "hotspot_y_1": 50,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_KUGRBk",
-        "image_jc7UXq",
-        "image_DcNVNj",
-        "image_3ka73t"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Marble Glow",
-        "heading_size": "h2",
-        "text": "<p>Soft marble-look finishes set the tone for this bright, elegant bathroom. Brushed gold details and a geometric feature wall add just enough texture, while the twin vanity and glass shower keep everything feeling refined and effortless.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "White",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_7wmbUA": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_x4xWAP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG1354.jpg",
-            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_gwr8fL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/02_5ea626c7-6680-4d32-9eef-1be7bbd44a7a.jpg",
-            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
-            "hotspot_x_1": 43,
-            "hotspot_y_1": 26,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_3rjPhp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG1347.jpg",
-            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
-            "hotspot_x_1": 73,
-            "hotspot_y_1": 15,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_nYPNdd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/06_f418cdd0-10fd-4a1b-a450-8c58c47a2854.jpg",
-            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_x4xWAP",
-        "image_gwr8fL",
-        "image_3rjPhp",
-        "image_nYPNdd"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Botanical Calm",
-        "heading_size": "h2",
-        "text": "<p>Soft, grounded and a little retreat-like, this bathroom is all about gentle texture. The botanical stone-look feature wall brings movement, while the timber vanity, freestanding bath and black fittings add warmth and contrast.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Warm Natural"
-      }
-    },
-    "project_gallery_m3m8cr": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_xjFN4B": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bc187b31c6fd8f322d2b27a57c2f1eef.jpg",
-            "product_1": "euromarmo-carrara-venatino-honed-glazed-stone-look-tile-600x600mm-1",
-            "hotspot_x_1": 85,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_jDeWGX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/b30c62d9cbfced919824e060ebdf539d.png",
-            "product_1": "euromarmo-carrara-venatino-honed-glazed-stone-look-tile-300x300mm",
-            "hotspot_x_1": 63,
-            "hotspot_y_1": 80,
-            "product_2": "euromarmo-taj-mahal-honed-stone-look-tile-300x300mm",
-            "hotspot_x_2": 35,
-            "hotspot_y_2": 80,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_eMJG9t": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/a3ec43252170a0ad7ebd14579ffeae69.png",
-            "product_1": "",
-            "hotspot_x_1": 73,
-            "hotspot_y_1": 15,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_dRLhM7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/87cadb478533940ae32a09f77b3e0264.jpg",
-            "product_1": "",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_xjFN4B",
-        "image_jDeWGX",
-        "image_eMJG9t",
-        "image_dRLhM7"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Classic Pattern",
-        "heading_size": "h2",
-        "text": "<p>Soft checkerboard tiles add a timeless touch to this bathroom. A gentle mix of warm and light tones creates a floor that feels elegant, balanced and full of character.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Beige,White",
-        "style": "Classic"
-      }
-    },
-    "project_gallery_xcnweb": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_J68mcw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/04.jpg",
-            "product_1": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 40,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_grdkTM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/02_364ff41b-6632-4c44-80bb-6f6734ab2ccf.jpg",
-            "product_1": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain",
-            "hotspot_x_1": 75,
-            "hotspot_y_1": 45,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_MViCjy": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG1347.jpg",
-            "product_1": "tus0023-universal-mirabell-feature-610x1222mm",
-            "hotspot_x_1": 73,
-            "hotspot_y_1": 15,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_Per7bT": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/06_f418cdd0-10fd-4a1b-a450-8c58c47a2854.jpg",
-            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
-            "hotspot_x_1": 30,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_J68mcw",
-        "image_grdkTM",
-        "image_MViCjy",
-        "image_Per7bT"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Kitchen Glow",
-        "heading_size": "h2",
-        "text": "<p>Warm pendant lighting brings this kitchen to life. Soft green gloss tiles catch the glow beautifully, adding texture and colour against the white cabinetry, stone benchtops and timber flooring.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Kitchen",
-        "colour": "Green",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_xa7gg3": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_MVqARJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/project123.jpg",
-            "product_1": "mal-whi12g-mallorca-white-120x120-gloss",
-            "hotspot_x_1": 57,
-            "hotspot_y_1": 34,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_cHrpXH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/391.jpg",
-            "product_1": "mal-whi12g-mallorca-white-120x120-gloss",
-            "hotspot_x_1": 68,
-            "hotspot_y_1": 44,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_MVqARJ",
-        "image_cHrpXH"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Soft White Gloss",
-        "heading_size": "h2",
-        "text": "<p>Glossy white square tiles add light, texture and a fresh finish to this kitchen splashback. Their soft handmade look keeps the space simple, bright and beautifully timeless.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Kitchen",
-        "colour": "White",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_caCRKm": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_8jki7w": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_736e34f4-dcec-4380-a0f7-0bc09a309ffc.jpg",
-            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
-            "hotspot_x_1": 48,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_9r8967": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/05_92baa525-1c00-47de-b235-583c0359618b.jpg",
-            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
-            "hotspot_x_1": 76,
-            "hotspot_y_1": 26,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_hXi3W3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/02_423380d2-36fc-4825-aba7-68421b4a5fb3.jpg",
-            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
-            "hotspot_x_1": 63,
-            "hotspot_y_1": 38,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_hfR7jY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_b54a9f20-d5cb-454b-9c2c-d7034f2a7cb2.jpg",
-            "product_1": "sti-ls6000sh-lusso-bianco-soft-honed-600x600",
-            "hotspot_x_1": 78,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_8jki7w",
-        "image_9r8967",
-        "image_hXi3W3",
-        "image_hfR7jY"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Sage Detail",
-        "heading_size": "h2",
-        "text": "<p>Pale green gloss tiles give this bathroom its fresh, calming feel. The textured feature wall bounces the light beautifully, while the timber vanity keeps the space warm, simple and easy to live with.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Green",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_Pa7wHn": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_pH9zkj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/09.jpg",
-            "product_1": "violet-10-10mm-frameless-sliding-screen-front-return-v10-s-v10-s-r-gun-metal",
-            "hotspot_x_1": 48,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_7UDB6z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_fbeb5a21-b215-48b8-a083-c62cd2055aa8.jpg",
-            "product_1": "vt-q832660h-jadestone-ivory-600x600mm-honed",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 26,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_hCEa9z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/08_d773a7c1-a340-452e-9264-f978e6f3f711.jpg",
-            "product_1": "led-rsh-6090a8-led-eric-collection-600-900-115mm-natural-timber-shaving-cabinet",
-            "hotspot_x_1": 33,
-            "hotspot_y_1": 26,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_UPkFaR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/04_f7c187a7-8780-4082-9a3f-5be83f29ce4b.jpg",
-            "product_1": "vt-q832660h-jadestone-ivory-600x600mm-honed",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 79,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_pH9zkj",
-        "image_7UDB6z",
-        "image_hCEa9z",
-        "image_UPkFaR"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Grey Quiet",
-        "heading_size": "h2",
-        "text": "<p>Simple, clean and quietly modern. Soft grey stone-look tiles run through the shower and floor, paired with white cabinetry and black fittings for a bathroom that feels fresh, practical and calm.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_LVazkd": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_Y4Tw6x": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_1af5f13c-7a64-49be-bd12-9a122a557d94.jpg",
-            "product_1": "megaslim™-thin-slabs-statuario-reale-3200x1600x6mm-made-in-italy",
-            "hotspot_x_1": 48,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_ben9Rb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/04_6f1b701e-508d-4f7a-88bd-e98cf4073bfe.jpg",
-            "product_1": "btl1700-lyon-freestanding-bathtub-1700x780x680mm",
-            "hotspot_x_1": 53,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_CkwiYM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_25e575f6-23d7-4e92-b037-ba688434c01e.jpg",
-            "product_1": "hf-origin-white-matt-finish-600x1200mm",
-            "hotspot_x_1": 46,
-            "hotspot_y_1": 73,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_8ttaiq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/02_27f92415-1d29-4c0b-a043-005537ffff4a.jpg",
-            "product_1": "osh-12075a1-amber-collection-1200x750x120mm-prime-oak-shaving-cabinet",
-            "hotspot_x_1": 59,
-            "hotspot_y_1": 21,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_Y4Tw6x",
-        "image_ben9Rb",
-        "image_CkwiYM",
-        "image_8ttaiq"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Marble Moment",
-        "heading_size": "h2",
-        "text": "<p>Bold marble-look veining gives this bathroom an instant lift. Soft grey floor tiles and a warm timber vanity balance the feature wall beautifully, creating a space that feels polished without being too formal.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_4YfTBN": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_Xhk6iT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3_17f33302-411b-4e0c-8a40-8ddb7e905f78.jpg",
-            "product_1": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
-            "hotspot_x_1": 48,
-            "hotspot_y_1": 49,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_Qk9Prn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2Untitled-1.jpg",
-            "product_1": "art401-artemis-calacatta-gold-feather-honed-50x103",
-            "hotspot_x_1": 66,
-            "hotspot_y_1": 34,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_tMcx79": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1_c31bacc6-4a8c-4e50-9ca8-a03eec04038f.jpg",
-            "product_1": "everstone-meteorite-matt-finish-600x600mm-made-in-italy-natural",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 42,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_MBXVbX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4_1e1d1878-ab2e-4563-92eb-77c18d9114a9.jpg",
-            "product_1": "porstobia6060m-portland-stone-bianco-60x60",
-            "hotspot_x_1": 37,
-            "hotspot_y_1": 37,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_Xhk6iT",
-        "image_Qk9Prn",
-        "image_tMcx79",
-        "image_MBXVbX"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Golden Marble",
-        "heading_size": "h2",
-        "text": "<p>Brushed gold fittings, soft marble-look surfaces and a delicate mosaic detail make this bathroom feel bright and refined. The curved mirror and warm veining add a gentle elegance that ties it all together.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "White",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_AqtheF": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_kbfAFx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1_b73ad657-015d-4292-9d54-aa292bbc199d.jpg",
-            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
-            "hotspot_x_1": 73,
-            "hotspot_y_1": 80,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_QxCyEj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3_54906d21-cb14-4c5c-be8d-055ae261e6e0.jpg",
-            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
-            "hotspot_x_1": 70,
-            "hotspot_y_1": 80,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_JXYMgV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2_2e3e7e7d-991b-4ce7-97a2-cadfc87727f4.jpg",
-            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
-            "hotspot_x_1": 35,
-            "hotspot_y_1": 85,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_dme7jR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4_78b509a0-1b5d-4aad-9853-4488210ff52f.jpg",
-            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_kbfAFx",
-        "image_QxCyEj",
-        "image_JXYMgV",
-        "image_dme7jR"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Open Flow",
-        "heading_size": "h2",
-        "text": "<p>Soft grey floor tiles carry through the entry, kitchen, dining and living areas for a seamless open-plan feel. Clean white walls and timber accents keep the home feeling modern, bright and beautifully connected.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Living Room",
-        "colour": "Grey",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_w9CVLE": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_qQM8y6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/200.jpg",
-            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
-            "hotspot_x_1": 18,
-            "hotspot_y_1": 80,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_jtChqG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/100.jpg",
-            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
-            "hotspot_x_1": 70,
-            "hotspot_y_1": 20,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_AcjJM4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/300.jpg",
-            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
-            "hotspot_x_1": 69,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_P3hkUg": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/4_78b509a0-1b5d-4aad-9853-4488210ff52f.jpg",
-            "product_1": "vt-orbat-grey-600x600mm-matt-p4",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_qQM8y6",
-        "image_jtChqG",
-        "image_AcjJM4",
-        "image_P3hkUg"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Natural Warmth",
-        "heading_size": "h2",
-        "text": "<p>Sandstone-look tiles bring a soft spa-like warmth to this bathroom. Timber cabinetry and black fittings ground the palette, creating a space that feels natural, calm and quietly refined.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Living Room",
-        "colour": "Beige",
-        "style": "Warm Natural"
-      }
-    },
-    "project_gallery_AWpa9p": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_cHTMxc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/04_c2d9fe8c-aea2-4491-a734-402aacdb9656.jpg",
-            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
-            "hotspot_x_1": 18,
-            "hotspot_y_1": 28,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_bbXMzE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_1a1e1cb0-8c36-4e18-8737-043fc4ed2f0e.jpg",
-            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
-            "hotspot_x_1": 70,
-            "hotspot_y_1": 50,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_YQ7XtC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/05_24c964e2-483a-4a19-b902-0d96125b17fb.jpg",
-            "product_1": "",
-            "hotspot_x_1": 69,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_TQG3YY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/07.jpg",
-            "product_1": "",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_cHTMxc",
-        "image_bbXMzE",
-        "image_YQ7XtC",
-        "image_TQG3YY"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Travertine Calm",
-        "heading_size": "h2",
-        "text": "<p>Travertine-look tiles wrap this bathroom in soft sandy texture. Timber vanities, rounded mirrors and brushed gold details bring warmth to the room, creating a calm look that feels beautifully timeless.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Beige",
-        "style": "Warm Natural"
-      }
-    },
-    "project_gallery_93QCtE": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_ynW6EQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_10_47_30_AM.png",
-            "product_1": "caloro60120m-calacutta-oro-matt-600x1200mm",
-            "hotspot_x_1": 28,
-            "hotspot_y_1": 22,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_t7Q8BW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MW-ins_7984e474-9a7a-45bd-b479-bfe622f7952a.jpg",
-            "product_1": "cairo-freestanding-bathtub-1700mm-1",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_xGRQpi": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1_defb36af-dc8f-4085-810c-0d337832f28b.jpg",
-            "product_1": "",
-            "hotspot_x_1": 69,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_HTRDeF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/000.jpg",
-            "product_1": "",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_ynW6EQ",
-        "image_t7Q8BW",
-        "image_xGRQpi",
-        "image_HTRDeF"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Marble Luxe",
-        "heading_size": "h2",
-        "text": "<p>Marble-look surfaces, gold fittings and fluted glass give this bathroom a fresh sense of luxury. The bold veining carries through the room, while soft curves keep the space feeling light and balanced.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "White",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_BrqYBc": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_CtMnFA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/1_d4435cd8-9970-4fd0-8689-c642425cbfb0.jpg",
-            "product_1": "led-mash-6161-tasman-led-mirror-610-900mm-no-frame",
-            "hotspot_x_1": 58,
-            "hotspot_y_1": 35,
-            "product_2": "wh76-1200wgm-luna-collection-vanity-1200mm-matt-grey-single-bowl-double-bowls",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_33pUXP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2_26532fbf-a151-4db7-9fb7-4588b95245b6.jpg",
-            "product_1": "cairo-freestanding-bathtub-1700mm-1",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 77,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_byR6kG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4_6ef6b313-cc38-4477-838e-6b45229ed335.jpg",
-            "product_1": "",
-            "hotspot_x_1": 28,
-            "hotspot_y_1": 22,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_RX4dMw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3_5c613ca2-d51e-4f62-96f6-4ddffc4a9f62.jpg",
-            "product_1": "",
-            "hotspot_x_1": 25,
-            "hotspot_y_1": 75,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_CtMnFA",
-        "image_33pUXP",
-        "image_byR6kG",
-        "image_RX4dMw"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Terrazzo Joy",
-        "heading_size": "h2",
-        "text": "<p>Playful terrazzo brings colour and charm to this bathroom. Gold fittings, warm lighting and a curved mirror soften the statement wall, creating a space that feels bright, fun and full of personality.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Beige",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_TAPgfc": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_cNnaEQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3221.png",
-            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
-            "hotspot_x_1": 85,
-            "hotspot_y_1": 35,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_xkGyWx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2321.png",
-            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
-            "hotspot_x_1": 46,
-            "hotspot_y_1": 55,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_rMwciL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/453.png",
-            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_MggrhQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/745.png",
-            "product_1": "victiles-carrara-marble-600x600mm-polished-porcelian-tile",
-            "hotspot_x_1": 80,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_cNnaEQ",
-        "image_xkGyWx",
-        "image_rMwciL",
-        "image_MggrhQ"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Deep Green Moment",
-        "heading_size": "h2",
-        "text": "<p>Deep green gloss tiles create the hero moment in this bathroom. Framed by marble-look surfaces and classic details, the feature wall adds depth, texture and a bold sense of character.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Green",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_JePYYw": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_yFxxNL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_3c1e9d2f-fdf4-4a3e-bc6a-d4a7f28b33f5.jpg",
-            "product_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
-            "hotspot_x_1": 60,
-            "hotspot_y_1": 35,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_FTYmci": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_b7acfc3c-acda-4883-b6b4-72ada92318d9.jpg",
-            "product_1": "",
-            "hotspot_x_1": 46,
-            "hotspot_y_1": 55,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_TiFMde": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/02_91ccd5c8-6e85-465b-9d3c-c8ad500aef75.jpg",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_jJyUma": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG876.jpg",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_yFxxNL",
-        "image_FTYmci",
-        "image_TiFMde",
-        "image_jJyUma"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Blue Mood",
-        "heading_size": "h2",
-        "text": "<p>Rich blue gloss tiles bring depth and mood to this bathroom. Warm timber, brass details and crisp white cabinetry balance the colour beautifully, making the space feel bold but still relaxed.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Blue",
-        "style": "Luxury Living"
-      }
-    },
-    "project_gallery_DpbTer": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_rVLQLW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_48023b46-49f5-4de3-81d9-cb840d94c3b6.jpg",
-            "product_1": "plasil3060m-plazzo-silver-matt-300x600mm",
-            "hotspot_x_1": 74,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_N3xAkx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/02_096c548d-6a4a-46fd-9505-dcca6e9b08ba.jpg",
-            "product_1": "",
-            "hotspot_x_1": 46,
-            "hotspot_y_1": 55,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_Jqcd9R": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_a9de496c-d5c7-423d-af30-6bb01d9df757.jpg",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_X6tXnF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG876.jpg",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_rVLQLW",
-        "image_N3xAkx",
-        "image_Jqcd9R",
-        "image_X6tXnF"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Silver Serenity",
-        "heading_size": "h2",
-        "text": "<p>Soft silver-grey tones give this bathroom a calm, moody finish. Subtle lighting and a delicate feature detail add movement, while the stone-look tiles keep the space modern and understated.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_wJeYKc": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_mCmgNa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_1.png",
-            "product_1": "victiles-wins-600x600mm-matt-porcelian-tile-moon",
-            "hotspot_x_1": 60,
-            "hotspot_y_1": 40,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_bYnHPp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_2.png",
-            "product_1": "victiles-wins-600x600mm-matt-porcelian-tile-moon",
-            "hotspot_x_1": 23,
-            "hotspot_y_1": 24,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_4NEUVG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_26_2026_12_05_44_PM_3.png",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_mdnnh7": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG876.jpg",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_mCmgNa",
-        "image_bYnHPp",
-        "image_4NEUVG",
-        "image_mdnnh7"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Moonlit Grey",
-        "heading_size": "h2",
-        "text": "<p>Grey texture, warm timber cabinetry and black tapware make this compact bathroom feel considered and calm. The round mirror and gentle wall lighting add just enough glow.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_jqaHRe": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_NeFPVd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/4B6F8457-A198-4180-A958-67135C1FB324.jpg",
-            "product_1": "equ0028-la-riviera-wheat-gloss-subway-65x200mm-made-in-spain",
-            "hotspot_x_1": 71,
-            "hotspot_y_1": 28,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_CfJJec": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3EC081DA-8A9D-4B03-AE6D-703B2299D724.jpg",
-            "product_1": "",
-            "hotspot_x_1": 23,
-            "hotspot_y_1": 24,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_eew86q": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6DCF31B3-EA10-4A3B-90DD-85C1178E14B1.jpg",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_AWPiQG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/A8EF74A7-43A1-4386-B016-77E0477E7981.jpg",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_NeFPVd",
-        "image_CfJJec",
-        "image_eew86q",
-        "image_AWPiQG"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Wheat Glow",
-        "heading_size": "h2",
-        "text": "<p>Warm wheat-toned gloss tiles bring a handmade feel to this bathroom. Brushed gold fittings, soft ivory walls and patterned floor tiles add charm, texture and a cosy sense of warmth.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Beige",
-        "style": "Warm Natural"
-      }
-    },
-    "project_gallery_aqMBmY": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_43dXi7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lisa-BATH01_9583bf55-45e0-46c9-84d5-39220d5ab540.jpg",
-            "product_1": "hf-origin-white-matt-finish-300x600mm",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 88,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_n68HbE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lisa-bath03.jpg",
-            "product_1": "hf-origin-white-matt-finish-300x600mm",
-            "hotspot_x_1": 66,
-            "hotspot_y_1": 24,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_XzDV4e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lisa-bath02.jpg",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_GWcMQQ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/A8EF74A7-43A1-4386-B016-77E0477E7981.jpg",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_43dXi7",
-        "image_n68HbE",
-        "image_XzDV4e",
-        "image_GWcMQQ"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Soft White Calm",
-        "heading_size": "h2",
-        "text": "<p>Soft white and grey tones keep this bathroom bright, clean and easy to live with. Stone-look tiles, a long vanity and black fittings make it practical, while curved mirrors add a gentle softness.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Grey",
-        "style": "Modern Minimal"
-      }
-    },
-    "project_gallery_PN4cLC": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_FrAncY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG1025.jpg",
-            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
-            "hotspot_x_1": 77,
-            "hotspot_y_1": 55,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_n4eDT7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2026-06-26_at_1.02.06_PM.jpg",
-            "product_1": "",
-            "hotspot_x_1": 66,
-            "hotspot_y_1": 24,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_4wTHtr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WechatIMG1026.jpg",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_Y6Jn3z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2026-06-26_at_1.02.43_PM.jpg",
-            "product_1": "",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_FrAncY",
-        "image_n4eDT7",
-        "image_4wTHtr",
-        "image_Y6Jn3z"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Green Bar Glow",
-        "heading_size": "h2",
-        "text": "<p>Glossy green tiles turn this commercial bar into a real feature. The slim linear format catches the warm lighting across the counter, creating depth, rhythm and a polished hospitality feel.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Commercial",
-        "colour": "Green",
-        "style": "Industrial"
-      }
-    },
-    "project_gallery_bwTcnN": {
-      "type": "project-gallery",
-      "blocks": {
-        "image_GH3awe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/05_a7c057ea-d617-4807-868c-22c22c5f8fdf.jpg",
-            "product_1": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
-            "hotspot_x_1": 44,
-            "hotspot_y_1": 84,
-            "product_2": "",
-            "hotspot_x_2": 57,
-            "hotspot_y_2": 78,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_PD7JMU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/04_33d3be8c-b246-4a47-8db1-14e132ceef75.jpg",
-            "product_1": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
-            "hotspot_x_1": 23,
-            "hotspot_y_1": 24,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_VQUkWQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/03_835c9f22-4e7c-4f35-97bd-b7e00d2ebca4.jpg",
-            "product_1": "",
-            "hotspot_x_1": 54,
-            "hotspot_y_1": 41,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_NTxWUC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/01_a3c4c93a-a3d3-4517-9914-44f394754c6e.jpg",
-            "product_1": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
-            "hotspot_x_1": 50,
-            "hotspot_y_1": 61,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        }
-      },
-      "block_order": [
-        "image_GH3awe",
-        "image_PD7JMU",
-        "image_VQUkWQ",
-        "image_NTxWUC"
-      ],
-      "name": "Project Gallery",
-      "settings": {
-        "heading": "Travertine Light",
-        "heading_size": "h2",
-        "text": "<p>Soft beige travertine-look texture runs through this calm bathroom. The pale vanity and glass shower keep the room feeling bright, while the natural stone finish adds warmth and timelessness.</p>",
-        "button_text": "",
-        "button_link": "#",
-        "room": "Bathroom",
-        "colour": "Beige",
-        "style": "Warm Natural"
+        "margin-top": 0,
+        "margin-bottom": 0
       }
     }
   },
   "order": [
     "main",
     "project_gallery_filter_4Wqmny",
-    "project_gallery_JwLjy9",
-    "project_gallery_cciiMR",
-    "project_gallery_7wmbUA",
-    "project_gallery_m3m8cr",
-    "project_gallery_xcnweb",
-    "project_gallery_xa7gg3",
-    "project_gallery_caCRKm",
-    "project_gallery_Pa7wHn",
-    "project_gallery_LVazkd",
-    "project_gallery_4YfTBN",
-    "project_gallery_AqtheF",
-    "project_gallery_w9CVLE",
-    "project_gallery_AWpa9p",
-    "project_gallery_93QCtE",
-    "project_gallery_BrqYBc",
-    "project_gallery_TAPgfc",
-    "project_gallery_JePYYw",
-    "project_gallery_DpbTer",
-    "project_gallery_wJeYKc",
-    "project_gallery_jqaHRe",
-    "project_gallery_aqMBmY",
-    "project_gallery_PN4cLC",
-    "project_gallery_bwTcnN"
+    "project_gallery_blocks"
   ]
 }
