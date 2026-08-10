@@ -23,13 +23,6 @@
         "margin-bottom": 0
       }
     },
-    "project_gallery_filter_4Wqmny": {
-      "type": "project-gallery-filter",
-      "settings": {
-        "heading": "Filter Projects",
-        "heading_size": "h2"
-      }
-    },
     "project_gallery_blocks": {
       "type": "project-gallery-blocks",
       "blocks": {
@@ -1351,13 +1344,14 @@
       "name": "Project Galleries",
       "settings": {
         "margin-top": 0,
-        "margin-bottom": 0
+        "margin-bottom": 0,
+        "heading": "Filter Projects",
+        "heading_size": "h2"
       }
     }
   },
   "order": [
     "main",
-    "project_gallery_filter_4Wqmny",
     "project_gallery_blocks"
   ]
 }
