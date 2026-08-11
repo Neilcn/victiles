@@ -473,7 +473,7 @@
             "style": "Luxury Living",
             "disabled_1": false,
             "image_1": "shopify://shop_images/03_1af5f13c-7a64-49be-bd12-9a122a557d94.jpg",
-            "product_1_1": "megaslim\u2122-thin-slabs-statuario-reale-3200x1600x6mm-made-in-italy",
+            "product_1_1": "megaslim™-thin-slabs-statuario-reale-3200x1600x6mm-made-in-italy",
             "hotspot_x_1_1": 48,
             "hotspot_y_1_1": 30,
             "product_2_1": "",
@@ -1343,8 +1343,6 @@
       ],
       "name": "Project Galleries",
       "settings": {
-        "margin-top": 0,
-        "margin-bottom": 0,
         "heading": "Filter Projects",
         "heading_size": "h2"
       }
