@@ -60,16 +60,42 @@
      {% endif %}
 {% if wcp_wholesale_customer == true %}
 
-  <button
+  <a
    href="/cart"
     type="button"
-    class="btn-checkout wt-cart__cta"
+    class="btn-checkout wt-cart__cta wcpBtn"
      id="CartDrawer-Checkout"
     tabindex="-1"
   >
     {{ 'sections.cart.checkout' | t }}
-  </button>
-  
+  </a>
+  <style>
+    .wcpBtn {
+      background: var(--color-button-secondary-background);
+      color: var(--color-button-secondary-text);
+      border-color: var(--color-button-secondary-border);
+      padding-left: calc(var(--gap, 8px) * 3);
+      padding-right: calc(var(--gap, 8px) * 3);
+      padding-top: calc(var(--gap, 8px) * 2);
+      padding-bottom: calc(var(--gap, 8px) * 2);
+      font-size: var(--font-button-size);
+      font-family: var(--font-button);
+      font-style: var(--font-button-style);
+      font-weight: var(--font-button-weight);
+      text-transform: var(--font-button-transform, none);
+      letter-spacing: var(--font-button-letter-spacing, normal);
+      text-align: center;
+      text-decoration: none;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid;
+      border-radius: var(--border-radius-button);
+      -webkit-appearance: none;
+      cursor: pointer;
+      transition: background .3s ease-in, color .3s ease-in;
+    }
+  </style>
 {% else %}
   <button
     aria-label="{{ 'sections.cart.checkout' | t }}"
