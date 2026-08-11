@@ -21,6 +21,55 @@
     </div>
   {%- endif -%}
 
+  {% assign wcp_wholesale_customer = false %}
+        {% if shop.metafields.wcp_active_discounts.wcp_active_discounts contains '__wpd_all__' or shop.metafields.wcp_active_discounts.wcp_active_discounts contains '__wpd_guest__' %}
+        {% assign wcp_wholesale_customer = true %}
+        {% endif %}
+{% if shop.metafields.wcp_status.wcp_status == 'disabled'  %}
+{% assign wcp_wholesale_customer = false %}
+  {% endif %}
+        {% if customer or wcp_wholesale_customer %}
+        {% assign active_discounts = shop.metafields.wcp_active_discounts.wcp_active_discounts %}
+        {% assign active_discounts_array = active_discounts | split: ',' %}
+        {% assign customer_tags = blank %}
+        {% for tag in customer.tags %}
+          {% assign tempTag = tag | downcase %}
+          {% assign customer_tags = customer_tags | prepend: tempTag %}
+          {% unless forloop.last %}
+            {% assign customer_tags = customer_tags | prepend: ',' %}
+          {% endunless %}
+        {% endfor %}
+        {% assign customer_tags = customer_tags | split: ',' %}
+        {% assign active_discounts = active_discounts | downcase %}
+        {% if shop.metafields.wcp_status.wcp_status != 'disabled' and customer %}
+            {% for discount_key in active_discounts_array %}
+                {% assign key_split = discount_key | split: '-' %}
+                {% assign key_split_length = key_split | size %}
+                {% if key_split_length > 2 %}
+                    {% assign removeable_key = key_split.last | prepend: '-' %}
+                    {% assign wcp_customer_tag = discount_key | remove_last: removeable_key %}
+                {% else %}
+                    {% assign wcp_customer_tag = key_split[0] %}
+                {% endif %}
+                {% assign wcp_customer_tag = wcp_customer_tag | downcase %}
+                {% if customer_tags contains wcp_customer_tag %}
+                    {% assign wcp_wholesale_customer = true %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+     {% endif %}
+{% if wcp_wholesale_customer == true %}
+
+  <a
+   href="/cart"
+    type="button"
+    class="btn-checkout wt-cart__cta"
+    tabindex="-1"
+  >
+    {{ 'sections.cart.checkout' | t }}
+  </a>
+  
+{% else %}
   <button
     aria-label="{{ 'sections.cart.checkout' | t }}"
     type="submit"
@@ -35,6 +84,7 @@
   >
     {{ 'sections.cart.checkout' | t }}
   </button>
+{% endif %}
 
   {% if settings.show_view_cart %}
     <div class="wt-featured-collection__button-container wt-button__container">
