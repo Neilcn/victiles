@@ -90,7 +90,12 @@
           <span class="visually-hidden">
             {{ 'products.product.price.sale_price' | t }}
           </span>
-          <span class="price price--end price--end-sale">
+          <span class="price price--end price--end-sale"
+          {% if wpddrawer == true %}
+              data-wpd-cart-drawer-product-handle="{{ item.product.handle }}" data-wpd-cart-drawer-variant-id="{{ item.variant.id }}" data-wpd-cart-drawer-variant-price="{{ item.variant.price }}" data-wpd-cart-drawer-variant-compare-at-price="{{ item.variant.compare_at_price }}" data-wpd-cart-drawer-product-collection-ids="{% assign wpdProductCollectionIds = item.product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-cart-drawer-product-id="{{ item.product.id }}" data-wpd-cart-drawer-item="{{ item.key }}" data-wpd-cart-drawer-quantity="{{ item.quantity }}"
+            {% else %}
+              data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}"
+            {% endif %}>
             {{ item.variant.price | money }}
           </span>
         </div>
@@ -294,7 +299,12 @@
             <span class="visually-hidden">
               {{ 'products.product.price.sale_price' | t }}
             </span>
-            <span class="price price--end price--end-sale">
+            <span class="price price--end price--end-sale" 
+             {% if wpddrawer == true %}
+                data-wpd-cart-drawer-product-handle="{{ item.product.handle }}" data-wpd-cart-drawer-variant-id="{{ item.variant.id }}" data-wpd-cart-drawer-variant-price="{{ item.variant.price }}" data-wpd-cart-drawer-variant-compare-at-price="{{ item.variant.compare_at_price }}" data-wpd-cart-drawer-product-collection-ids="{% assign wpdProductCollectionIds = item.product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}" data-wpd-cart-drawer-product-id="{{ item.product.id }}" data-wpd-cart-drawer-line-price data-wpd-cart-drawer-item="{{ item.key }}" data-wpd-cart-drawer-quantity="{{ item.quantity }}"
+              {% else %}
+                data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}" data-wpd-cart-line-price
+              {% endif %}>
               {{ item.variant.price | times: item.quantity | money }}
             </span>
           </div>
