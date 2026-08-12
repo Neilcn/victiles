@@ -830,6 +830,18 @@
                                 {%- assign coefficient = product.metafields.custom.coefficient | times: 1.0 -%}
                                 {%- assign price_raw = product.price | money_without_currency | replace: ',', '' | times: 1.0 -%}
                                 {%- assign compare_price_raw = product.compare_at_price | money_without_currency | replace: ',', '' | times: 1.0 -%}
+                                {%- assign price_per_m2 = price_raw | divided_by: coefficient | round: 2 -%}
+                                {%- assign compare_price_per_m2 = compare_price_raw | divided_by: coefficient | round: 2 -%}
+                                {% if customer %}
+                                  {% for tag in customer.tags %}
+                                    {% if tag contains 'B2B' %}
+                                      {% assign has_b2b = true %}
+                                      {% break %}
+                                    {% endif %}
+                                  {% endfor %}
+                                {% endif %}
+                                
+                                {% unless has_b2b %}
                                 
                                 <span class="price-item price-item--regular">
                                 
@@ -850,8 +862,7 @@
                                       }
                                     </style>
                                 
-                                    {%- assign price_per_m2 = price_raw | divided_by: coefficient | round: 2 -%}
-                                    {%- assign compare_price_per_m2 = compare_price_raw | divided_by: coefficient | round: 2 -%}
+
                                 
                                     <br>
                                     {%- if compare_price_raw > price_raw -%}
@@ -875,9 +886,17 @@
                                     {%- endif -%}
                                   </span>
 
+                                 
+
                                 
                                 </span>
                                 <!-- price update Fazly -->
+                                {% else %}
+                                <div><span class="product-price--old">RETAIL = {{ product.selected_or_first_available_variant.price | money }}/BOX = ${{ price_per_m2 }}/M2</span></div>
+                                <div><strong> TRADE = {{ product.selected_or_first_available_variant.price | times: 0.9 | money }}/BOX = ${{ price_per_m2 | times:0.9 }}/M2</strong></div>
+                               
+
+                                {% endunless %}
 
 
 
