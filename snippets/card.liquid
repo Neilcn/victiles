@@ -319,7 +319,18 @@
         {% endif %}
       </p>
         
+{% if customer %}
+  {% for tag in customer.tags %}
+    {% if tag contains 'B2B' %}
+      {% assign has_b2b = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
+{% if has_b2b %}
+{%- assign clean_unit = '' -%}
+{% endif %}
 {%- if coefficient > 0 -%}
 
   <div class="product-caprice-per-m2">
