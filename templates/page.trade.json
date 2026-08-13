@@ -119,13 +119,81 @@
         "text-container-color": "transparent",
         "color-overlay-opacity": 100,
         "margin-top": 0,
-        "margin-bottom": 0
+        "margin-bottom": 20
+      }
+    },
+    "multicolumn_cJVTUN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Y4xK6d": {
+          "type": "column",
+          "settings": {
+            "heading": "Exclusive Trade Pricing",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Access special pricing across selected tiles and products.</p><p></p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Test",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_W9VHzi": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_cdGWVg": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "column_Y4xK6d",
+        "column_W9VHzi",
+        "column_cdGWVg"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "heading": "Why Join VICTiles Trade?",
+        "section_class": "",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     }
   },
   "order": [
     "main",
     "1786582851f4333bfe",
-    "image_banner_ciVQTV"
+    "image_banner_ciVQTV",
+    "multicolumn_cJVTUN"
   ]
 }
