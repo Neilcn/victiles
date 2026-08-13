@@ -841,8 +841,9 @@
                                   {% endfor %}
                                 {% endif %}
                                 
-                                {% unless has_b2b %}
-                                
+                                {% if has_b2b %}
+                                <div><span class="product-price--old">RETAIL = {{ product.selected_or_first_available_variant.price | money }}/BOX = ${{ price_per_m2 }}/M2</span></div>
+                                {% endif %}
                                 <span class="price-item price-item--regular">
                                 
                                   <!-- Price per square meter (calculated from price per box) -->
@@ -891,12 +892,9 @@
                                 
                                 </span>
                                 <!-- price update Fazly -->
-                                {% else %}
-                                <div><span class="product-price--old">RETAIL = {{ product.selected_or_first_available_variant.price | money }}/BOX = ${{ price_per_m2 }}/M2</span></div>
-                                <div><strong> TRADE = {{ product.selected_or_first_available_variant.price | times: 0.9 | money }}/BOX = ${{ price_per_m2 | times:0.9 }}/M2</strong></div>
-                               
 
-                                {% endunless %}
+                                
+
 
 
 
