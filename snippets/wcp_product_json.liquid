@@ -23,12 +23,11 @@
 {% assign customer_tags = customer_tags | split:',' %}
     
 {%- assign active_discounts = active_discounts | downcase -%}
-{%- assign active_discounts_tag_array = blank -%}
 
 {%- if shop.metafields.wcp_status.wcp_status != 'disabled' and customer -%}
   {%- assign p_discount_value = 0 -%}
   {%- for discount_key in active_discounts_array -%}
-        {% assign excluded_itmes = shop.metafields.wcp_excludeItems[discount_key] %}
+    {% assign excluded_itmes = shop.metafields.wcp_excludeItems[discount_key] %}
     {% assign skip_discount = false %}
     {% if excluded_itmes contains 'product' and excluded_itmes contains wcp_product_json.id %}
       {% continue %}
@@ -41,7 +40,7 @@
       {% endfor %}
     {% endif %}
     {% if skip_discount %}
-      {% continue %}
+     {% continue %}
     {% endif %}
     {%- assign key_split = discount_key | split: '-' %}
     {%- assign key_split_length = key_split | size %}
@@ -54,7 +53,6 @@
       {%- assign p_value = key_split[1] | plus: 0 -%}
     {%- endif -%}
     {%- assign p_key = p_key | downcase -%}  
-    {%- assign active_discounts_tag_array = active_discounts_tag_array | prepend:',' | prepend:p_key -%}   
     {%- if customer_tags contains p_key -%}
       {%- assign discount_type = shop.metafields.wcp_discountgroup[discount_key] -%}
       {%- if discount_type contains 'entire' -%}
@@ -81,7 +79,6 @@
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-  {% assign active_discounts_tag_array = active_discounts_tag_array | split:',' %}
   {%- assign p_discount_tag = p_discount_tag | downcase -%}
   {%- if customer_tags contains p_discount_tag -%}
     {%- assign wcp_customer_tag = p_discount_tag -%}
@@ -93,39 +90,11 @@
 
 {%- capture wcp_variants_json -%}[
 {%- assign wcp_price_min = wcp_product_json.price_max -%}
-{%- for variant in wcp_product_json.variants -%}
 {%- assign temp_set_price = 99999999999999999999999999999 -%}
+{%- for variant in wcp_product_json.variants -%}
       {%- if raw_set_prices -%}
       {%- assign set_prices_array = raw_set_prices | split: "," -%}
-      {%- for sp in set_prices_array -%}
-        {%- assign sp_arr = sp | split: '--' -%}
-      
-        {% assign sp_arr_length = sp_arr | size %}
-        {% if sp_arr_length > 2 %}
-          {% assign sp_tag_removable_key = sp_arr.last | prepend: '--' %}
-          {% assign sp_tag = sp | remove_last: sp_tag_removable_key %}
-        {% else %}
-        {% assign sp_tag = sp_arr | first %}      
-        {% endif %}
-
-        {%- assign sp_tag = sp_tag | downcase -%}
-        {%- assign sp_var_arr = sp_arr | last | split: '^' -%}
-        {%- if active_discounts_tag_array contains sp_tag -%}
-          {%- if customer_tags contains sp_tag -%}  
-            {%- for value in sp_var_arr -%}
-              {%- assign val_split = value | split: '-' -%}
-              {%- assign variant_id = val_split | first | times: 1 -%}
-              {%- if variant_id == variant.id -%}
-                {%- assign meta_set_price = val_split | last |times: 1 -%}
-                {%- if meta_set_price < temp_set_price  -%}
-                  {%- assign temp_set_price = meta_set_price -%}
-                  {%- assign v_discount_tag = sp_tag -%}
-                {%- endif -%}
-              {%- endif -%}
-            {%- endfor -%}
-          {%- endif -%}
-        {%- endif -%}
-      {%- endfor -%}
+     
     {%- endif -%}
     {%- if v_discount_tag and temp_set_price != 99999999999999999999999999999 -%}
       {%- assign v_price = temp_set_price -%}
@@ -147,53 +116,23 @@
       {%- assign wcp_price_min_wo_compare = v_price -%}
   {%- endif -%}
 {%- assign wcp_v_compare_at_price = variant.compare_at_price -%}
+
 {%- if shop.metafields.wcp_net.DiscountPriceRule  == '1' -%}
         {%- assign wcp_v_compare_at_price = variant.price -%}
 {%- endif -%}
+
 {%- if wcp_v_compare_at_price == blank or wcp_v_compare_at_price == 0  -%}
   {%- assign wcp_v_compare_at_price = variant.price -%}
 {%- endif -%}
 {%- assign wcp_v_price = wcp_v_compare_at_price | times: wcp_discount_value -%}
+{%- if wcp_discount_value == 1 -%}
+      {%- assign wcp_v_compare_at_price = variant.compare_at_price -%}     
+      {%- assign wcp_v_price = variant.price -%}
+{%- endif -%}
 {%- if wcp_v_price > variant.price  -%}
   {%- assign wcp_v_price = variant.price -%}
 {%- endif -%}
-{%- if v_discount_tag -%}
-      {%- for sp in set_prices_array -%}
-        {%- assign sp_arr = sp | split: '--' -%}
-        
-        {% assign sp_arr_length = sp_arr | size %}
-        {% if sp_arr_length > 2 %}
-          {% assign sp_tag_removable_key = sp_arr.last | prepend: '--' %}
-          {% assign sp_tag = sp | remove_last: sp_tag_removable_key %}
-        {% else %}
-        {% assign sp_tag = sp_arr | first %}      
-        {% endif %}
-
-        {%- assign sp_tag = sp_tag | downcase -%}
-        {%- if v_discount_tag == sp_tag -%}
-          {%- assign sp_var_arr = sp_arr | last | split: '^' -%}
-          {%- for value in sp_var_arr -%}
-            {%- assign val_split = value | split: '-' -%}
-            {%- assign variant_id = val_split | first | times: 1 -%}
-            {%- if variant_id == variant.id -%}
-              {%- assign meta_set_price = val_split | last |times: 1 -%}
-              {%- assign set_v_price = meta_set_price -%}
-              {%- if set_v_price -%}
-                {%- assign wcp_v_price = set_v_price -%}
-              {%- endif -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-    {%- if wcp_discount_value == 1 and set_v_price == null -%}
-      {%- assign wcp_v_compare_at_price = variant.compare_at_price -%}     
-      {%- assign wcp_v_price = variant.price -%}
-    {%- endif -%}
-    {% if wcp_v_price > variant.price  %}
-      {% assign wcp_v_price = variant.price %}
-    {% endif %}
-  ,{"id":{{- variant.id | json -}},"title":{{- variant.title | json -}},"option1":{{- variant.option1 | json -}},"option2":{{- variant.option2 | json -}},"option3":{{- variant.option3 | json -}},"sku":{{- variant.sku | json -}},"requires_shipping":{{- variant.requires_shipping | json -}},"taxable":{{- variant.taxable | json -}},"featured_image":{%- if variant.featured_image.src == blank -%}{{- variant.featured_image | json -}}{%- else -%}{"src": {{- variant.featured_image.src | json -}}, "id": {{- variant.featured_image.id | json -}} }{%- endif -%},"available":{{- variant.available | json -}},"options":{{- variant.options | json -}},"price":{{- wcp_v_price |floor | json -}},"weight":{{- variant.weight | json -}},"compare_at_price":{{- wcp_v_compare_at_price | json -}},"inventory_quantity":{{- variant.inventory_quantity | json -}},"inventory_management":{{- variant.inventory_management | json -}},"inventory_policy":{{- variant.inventory_policy | json -}},"barcode":{{- variant.barcode | json -}}}
+  ,{"id":{{- variant.id | json -}},"title":{{- variant.title | json -}},"option1":{{- variant.option1 | json -}},"option2":{{- variant.option2 | json -}},"option3":{{- variant.option3 | json -}},"sku":{{- variant.sku | json -}},"requires_shipping":{{- variant.requires_shipping | json -}},"taxable":{{- variant.taxable | json -}},"featured_image":{%- if variant.featured_image.src == blank -%}{{- variant.featured_image | json -}}{%- else -%}{"src": {{- variant.featured_image.src | json -}}, "id": {{- variant.featured_image.id | json -}} }{%- endif -%},"available":{{- variant.available | json -}},"options":{{- variant.options | json -}},"price":{{- wcp_v_price | floor | json -}},"weight":{{- variant.weight | json -}},"compare_at_price":{{- wcp_v_compare_at_price | json -}},"inventory_quantity":{{- variant.inventory_quantity | json -}},"inventory_management":{{- variant.inventory_management | json -}},"inventory_policy":{{- variant.inventory_policy | json -}},"barcode":{{- variant.barcode | json -}}}
 {%- endfor -%}
 ]{%- endcapture wcp_variants_json -%}
 {%- assign wcp_variants_json = wcp_variants_json | remove_first: "," -%}
