@@ -53,6 +53,73 @@
         "include_margins": true
       }
     },
+    "image_with_text_zzqNEk": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_k66Fa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_3ye9yP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Built for Professionals. Priced for Trade.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_TagnGe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join VICTiles Trade for exclusive pricing, selected products and dedicated project support.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_p3LmzQ": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Apply for a Trade Account",
+            "button_link": "/pages/victiles-trade-application",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_k66Fa4",
+        "heading_3ye9yP",
+        "text_TagnGe",
+        "button_p3LmzQ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": true,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/7IV06143.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
     "image_banner_ciVQTV": {
       "type": "image-banner",
       "blocks": {
@@ -119,7 +186,7 @@
         "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 0,
-        "margin-bottom": 20
+        "margin-bottom": 0
       }
     },
     "custom_liquid_XwwyFg": {
@@ -133,6 +200,7 @@
   "order": [
     "main",
     "1786582851f4333bfe",
+    "image_with_text_zzqNEk",
     "image_banner_ciVQTV",
     "custom_liquid_XwwyFg"
   ]
