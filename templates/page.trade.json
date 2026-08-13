@@ -1,0 +1,137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "compact-size-enabled": true,
+        "size_heading": 140,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-bg-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 40,
+        "margin-bottom": 0
+      }
+    },
+    "1786582851f4333bfe": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_FC9AYe": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": true,
+          "settings": {
+            "form_id": "1110286",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 50,
+            "padding_bottom": 50,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_FC9AYe"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_zzqNEk": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_k66Fa4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_3ye9yP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Built for Professionals. Priced for Trade.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_TagnGe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join VICTiles Trade for exclusive pricing, selected products and dedicated project support.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_p3LmzQ": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Apply for a Trade Account",
+            "button_link": "/pages/victiles-trade-application",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_k66Fa4",
+        "heading_3ye9yP",
+        "text_TagnGe",
+        "button_p3LmzQ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "text_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": true,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/7IV06143.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
+    "custom_liquid_XwwyFg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<section id=\"trade-benefits-{{ section.id }}\" class=\"trade-benefits\">\n  <div class=\"trade-benefits__inner\">\n\n    <div class=\"trade-benefits__heading\">\n      <h2>Why Join VICTiles Trade?</h2>\n    </div>\n\n    <div class=\"trade-benefits__grid\">\n\n      <div class=\"trade-benefits__card\">\n        <div class=\"trade-benefits__number\">01</div>\n        <h3>Exclusive Trade Pricing</h3>\n        <p>Access special pricing across selected tiles and products.</p>\n      </div>\n\n      <div class=\"trade-benefits__card\">\n        <div class=\"trade-benefits__number\">02</div>\n        <h3>Dedicated Trade Support</h3>\n        <p>Get help with product selection, stock availability and orders.</p>\n      </div>\n\n      <div class=\"trade-benefits__card\">\n        <div class=\"trade-benefits__number\">03</div>\n        <h3>Wide Product Range</h3>\n        <p>Shop tiles, bathroomware, flooring and renovation essentials in one place.</p>\n      </div>\n\n      <div class=\"trade-benefits__card\">\n        <div class=\"trade-benefits__number\">04</div>\n        <h3>Project Support</h3>\n        <p>From single-room renovations to larger projects, our team is here to help.</p>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n  #trade-benefits-{{ section.id }} {\n    padding: 72px 24px;\n    background: #ffffff;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__inner {\n    max-width: 1320px;\n    margin: 0 auto;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__heading {\n    margin-bottom: 36px;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__heading h2 {\n    margin: 0;\n    font-size: 34px;\n    line-height: 1.2;\n    font-weight: 700;\n    color: #1f1f1f;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__grid {\n    display: grid;\n    grid-template-columns: repeat(4, minmax(0, 1fr));\n    gap: 20px;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__card {\n    padding: 32px 28px;\n    border: 1px solid #e5e5e5;\n    background: #ffffff;\n    min-height: 220px;\n    transition: transform 0.2s ease, box-shadow 0.2s ease;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__card:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__number {\n    margin-bottom: 28px;\n    font-size: 14px;\n    font-weight: 600;\n    letter-spacing: 0.08em;\n    color: #777777;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__card h3 {\n    margin: 0 0 14px;\n    font-size: 21px;\n    line-height: 1.3;\n    font-weight: 650;\n    color: #1f1f1f;\n  }\n\n  #trade-benefits-{{ section.id }} .trade-benefits__card p {\n    margin: 0;\n    font-size: 16px;\n    line-height: 1.6;\n    color: #5c5c5c;\n  }\n\n  @media screen and (max-width: 990px) {\n    #trade-benefits-{{ section.id }} .trade-benefits__grid {\n      grid-template-columns: repeat(2, minmax(0, 1fr));\n    }\n  }\n\n  @media screen and (max-width: 600px) {\n    #trade-benefits-{{ section.id }} {\n      padding: 48px 20px;\n    }\n\n    #trade-benefits-{{ section.id }} .trade-benefits__heading h2 {\n      font-size: 28px;\n    }\n\n    #trade-benefits-{{ section.id }} .trade-benefits__grid {\n      grid-template-columns: 1fr;\n      gap: 14px;\n    }\n\n    #trade-benefits-{{ section.id }} .trade-benefits__card {\n      padding: 26px 22px;\n      min-height: auto;\n    }\n  }\n</style>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1786582851f4333bfe",
+    "image_with_text_zzqNEk",
+    "custom_liquid_XwwyFg"
+  ]
+}
