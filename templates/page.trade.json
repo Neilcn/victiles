@@ -112,11 +112,11 @@
         "desktop_text_horizontal_position": "center",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
-        "color-heading": "transparent",
-        "section-color-overlay": "transparent",
+        "color-heading": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "#FFFFFF",
-        "text-container-color": "transparent",
+        "color-body-text": "#ffffff",
+        "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 0,
         "margin-bottom": 20
@@ -173,6 +173,9 @@
         "column_W9VHzi",
         "column_cdGWVg"
       ],
+      "custom_css": [
+        ".icon.icon-arrow {display: none;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "heading": "Why Join VICTiles Trade?",
@@ -183,8 +186,8 @@
         "column_alignment": "left",
         "size_heading": 100,
         "size_heading_mobile": 100,
-        "color-body-text": "transparent",
-        "background_color": "transparent",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
       }
