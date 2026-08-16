@@ -194,3 +194,6 @@ table-flow .tfv1-table .tfv1-tr .tfv1-td.tfv1-label{
 #podium-bubble {
   z-index: 5!important;
 }
+
+.Vtl-WishlistButton__IconWrapper svg {overflow: visible;}
+.Vtl-WishlistButton__IconWrapper svg path {filter: drop-shadow(3px 5px 50px rgb(0 0 0 / 0.4));}
