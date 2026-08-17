@@ -114,11 +114,11 @@
         "mobile_image": "shopify://shop_images/blacktrade.jpg",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
-        "color-heading": "#FFFFFF",
-        "section-color-overlay": "transparent",
+        "color-heading": "#ffffff",
+        "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "#FFFFFF",
-        "text-container-color": "transparent",
+        "color-body-text": "#ffffff",
+        "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 0,
         "margin-bottom": 20
@@ -169,10 +169,10 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "transparent",
-        "background_color": "#E7E7E7",
-        "margin-top": 20,
-        "margin-bottom": 20
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#e7e7e7",
+        "margin-top": 32,
+        "margin-bottom": 32
       }
     }
   },
