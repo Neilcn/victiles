@@ -140,6 +140,40 @@
         "margin-bottom": 20
       }
     },
+    "rich_text_pkfgDa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xUP7ee": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Your Sample Cost Back",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_t6WF4Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spend $300+ on tiles and receive 100% of your sample cost back as credit, up to $25. Sample cost only; delivery excluded. Terms apply.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xUP7ee",
+        "text_t6WF4Y"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_8bMjVh": {
       "type": "image-with-text",
       "blocks": {
@@ -154,7 +188,7 @@
         "heading_eyRGh4": {
           "type": "heading",
           "settings": {
-            "heading": "Get Your Sample Cost Back",
+            "heading": "Sample Pricing & Delivery",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -163,7 +197,7 @@
         "text_jgck4D": {
           "type": "text",
           "settings": {
-            "text": "<p>Spend $300+ on tiles and receive 100% of your sample cost back as credit, up to $25. Sample cost only; delivery excluded. Terms apply.</p>",
+            "text": "<p>$5 per sample</p><p>$6 Australia-wide delivery</p><p>Most sample orders arrive within 3–7 business days after dispatch.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -223,7 +257,7 @@
         "heading_G7qNUw": {
           "type": "heading",
           "settings": {
-            "heading": "Sample Pricing & Delivery",
+            "heading": "Sample Sizes",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -232,7 +266,7 @@
         "text_aExxaP": {
           "type": "text",
           "settings": {
-            "text": "<p>$5 per sample</p><p>$6 Australia-wide delivery</p><p>Most sample orders arrive within 3–7 business days after dispatch .</p>",
+            "text": "<p>Tiles</p><p>150 × 300mm / 300 × 300mm</p><p>(We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p><br/></p><p>Subway & Pattern Tiles</p><p>Original full tile size</p><p>Mosaic Tiles</p><p>100 × 300mm</p><p><br/></p><p>Timber Flooring</p><p>200 × 200mm</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -351,6 +385,7 @@
     "main",
     "image_banner_wJji7w",
     "rich_text_WKiQFt",
+    "rich_text_pkfgDa",
     "image_with_text_8bMjVh",
     "image_with_text_iMNx8V",
     "image_with_text_HTDdWG"
