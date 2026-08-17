@@ -288,7 +288,6 @@
         "button_DedUHD"
       ],
       "custom_css": [
-        "h2 {font-size: 32px;}",
         "p {display: block !important; margin: 0 0 22px 0 !important;}",
         "p:last-child {margin-bottom: 0 !important;}"
       ],
