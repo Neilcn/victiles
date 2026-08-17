@@ -266,7 +266,7 @@
         "text_aExxaP": {
           "type": "text",
           "settings": {
-            "text": "<p>Tiles</p><p>150 × 300mm / 300 × 300mm</p><p>(We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p></p><p>Subway & Pattern Tiles</p><p>Original full tile size</p><p>Mosaic Tiles</p><p>100 × 300mm</p><p></p><p>Timber Flooring</p><p>200 × 200mm</p>",
+            "text": "<p>Tiles<br/>150 × 300mm / 300 × 300mm<br/>(We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p>Subway & Pattern Tiles<br/>Original full tile size</p><p>Mosaic Tiles<br/>100 × 300mm</p><p></p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -287,6 +287,7 @@
         "text_aExxaP",
         "button_DedUHD"
       ],
+      "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
