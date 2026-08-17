@@ -289,8 +289,8 @@
       ],
       "custom_css": [
         "h2 {font-size: 32px;}",
-        "p {margin-bottom: 22px;}",
-        "p:last-child {margin-bottom: 0;}"
+        "p {display: block !important; margin: 0 0 22px 0 !important;}",
+        "p:last-child {margin-bottom: 0 !important;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
