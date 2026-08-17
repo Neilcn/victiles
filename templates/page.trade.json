@@ -67,7 +67,7 @@
         "heading_yTr6KW": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "VICTiles Trade Program",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -76,7 +76,7 @@
         "text_EifAN6": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text": "<p>Exclusive trade pricing and dedicated support for trade professionals.</p>",
             "disable_on_mobile": false
           }
         },
@@ -84,9 +84,9 @@
           "type": "button",
           "settings": {
             "button_select": "secondary",
-            "button_label": "Button label",
+            "button_label": "Apply for a Trade Account",
             "disable_on_mobile": false,
-            "button_link": "/",
+            "button_link": "shopify://pages/victiles-trade-application",
             "second_button_select": "primary",
             "second_button_label": "Button label",
             "second_disable_on_mobile": false,
