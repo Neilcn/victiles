@@ -84,6 +84,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "wishlist_by_square_wishlist_button_tz9pqc": {
+          "type": "shopify://apps/wishlist-by-square/blocks/wishlist-button/88ec2beb-ce43-48ed-b791-0a6554082c2b",
+          "settings": {}
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -381,6 +385,7 @@
         }
       },
       "block_order": [
+        "wishlist_by_square_wishlist_button_tz9pqc",
         "title",
         "sku_BWaMGM",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
