@@ -197,7 +197,7 @@
         "text_jgck4D": {
           "type": "text",
           "settings": {
-            "text": "<p>$5 per sample</p><p>$6 Australia-wide delivery</p><p>Most sample orders arrive within 3–7 business days after dispatch.</p>",
+            "text": "<p>$5 per sample<br/>$6 Australia-wide delivery<br/>Most sample orders arrive within 3–7 business days after dispatch.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -218,6 +218,10 @@
         "heading_eyRGh4",
         "text_jgck4D",
         "button_LBQzgn"
+      ],
+      "custom_css": [
+        "p {display: block !important; margin: 0 0 22px 0 !important;}",
+        "p:last-child {margin-bottom: 0 !important;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
