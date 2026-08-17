@@ -229,10 +229,15 @@ document.addEventListener('DOMContentLoaded', function () {
       conversionText.innerHTML = `Equals to <span id="conversion-value">${totalSqm.toFixed(2)}</span> m²`;
     } else {
       // m² Mode
-      convertedBoxes = Math.ceil(rawInput / coefficient);
+      {% comment %} convertedBoxes = Math.ceil(rawInput / coefficient);
       if (wastageToggle.checked) {
         convertedBoxes = Math.ceil(convertedBoxes * 1.1);
-      }
+      } {% endcomment %}
+      
+      //In m² mode, applies 10% to rawInput, then use this cuts added area to round box(instead round box first and then apply 10% on rounded box)
+      cutAddedArea = Math.ceil(rawInput * 1.1);
+      convertedBoxes = Math.ceil(cutAddedArea / coefficient);
+
       totalSqm = convertedBoxes * coefficient;
       finalTotal = convertedBoxes * pricePerSqm;
       pricePerBox = finalTotal / convertedBoxes;
