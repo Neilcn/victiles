@@ -154,7 +154,7 @@
         "heading_eyRGh4": {
           "type": "heading",
           "settings": {
-            "heading": "Sample Sizes",
+            "heading": "Get Your Sample Cost Back",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -163,7 +163,7 @@
         "text_jgck4D": {
           "type": "text",
           "settings": {
-            "text": "<p>Tiles 150 × 300mm / 300 × 300mm (We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p></p><p>Subway & Pattern Tiles Original full tile size<br/>Mosaic Tiles 100 × 300mm</p><p></p><p>Timber Flooring 200 × 200mm</p>",
+            "text": "<p>Spend $300+ on tiles and receive 100% of your sample cost back as credit, up to $25. Sample cost only; delivery excluded. Terms apply.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -232,7 +232,7 @@
         "text_aExxaP": {
           "type": "text",
           "settings": {
-            "text": "<p>$2 per sample $6 Australia-wide delivery<br/>Samples delivered straight to your door from Melbourne.</p><p><br/>Most sample orders arrive within 3–7 business days after dispatch via Australia Post.</p>",
+            "text": "<p>$5 per sample</p><p>$6 Australia-wide delivery</p><p>Most sample orders arrive within 3–7 business days after dispatch .</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -300,7 +300,7 @@
         "text_feVpWG": {
           "type": "text",
           "settings": {
-            "text": "<p>Our team is here to help you choose the perfect samples for your project.<br/><br/>Contact us at sales@victiles.com.au or visit our stores for expert advice.</p>",
+            "text": "<p>Not sure which tile is right for your space?</p><p></p><p>Send us your approximate square metres and delivery postcode, and our team can help with everything from tile selection and AI room visualisation to quantities, wastage, delivery, adhesives, grout and lead times — all included in your complete project quote.</p><p></p><p>Contact us at sales@victiles.com.au or visit one of our showrooms for expert advice.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
