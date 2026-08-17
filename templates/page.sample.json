@@ -287,7 +287,11 @@
         "text_aExxaP",
         "button_DedUHD"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h2 {font-size: 32px;}",
+        "p {margin-bottom: 22px;}",
+        "p:last-child {margin-bottom: 0;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
