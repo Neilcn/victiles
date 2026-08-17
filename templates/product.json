@@ -84,10 +84,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "wishlist_by_square_wishlist_button_tz9pqc": {
-          "type": "shopify://apps/wishlist-by-square/blocks/wishlist-button/88ec2beb-ce43-48ed-b791-0a6554082c2b",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -193,6 +189,10 @@
             "text_color": "rgba(0,0,0,0)",
             "background_color": "rgba(0,0,0,0)"
           }
+        },
+        "wishlist_by_square_wishlist_button_tz9pqc": {
+          "type": "shopify://apps/wishlist-by-square/blocks/wishlist-button/88ec2beb-ce43-48ed-b791-0a6554082c2b",
+          "settings": {}
         },
         "custom_liquid_JpFy7H": {
           "type": "custom_liquid",
@@ -385,7 +385,6 @@
         }
       },
       "block_order": [
-        "wishlist_by_square_wishlist_button_tz9pqc",
         "title",
         "sku_BWaMGM",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
@@ -400,6 +399,7 @@
         "inventory_JWQnXt",
         "custom_liquid_dafMPN",
         "buy_buttons",
+        "wishlist_by_square_wishlist_button_tz9pqc",
         "custom_liquid_JpFy7H",
         "complementary_VKKgGD",
         "separator_HcYGiH",
