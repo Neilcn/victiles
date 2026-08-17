@@ -83,7 +83,7 @@
         "button_pGXKFx": {
           "type": "button",
           "settings": {
-            "button_select": "primary",
+            "button_select": "secondary",
             "button_label": "Button label",
             "disable_on_mobile": false,
             "button_link": "/",
@@ -107,10 +107,10 @@
         "slide_height": "fixed_height",
         "desktop_fixed_height": 320,
         "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/7IV06143.jpg",
+        "desktop_image": "shopify://shop_images/tradebanner.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/7IV06143.jpg",
+        "mobile_image": "shopify://shop_images/tradebanner.jpg",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
         "color-heading": "#FFFFFF",
