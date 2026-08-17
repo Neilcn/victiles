@@ -273,6 +273,7 @@
         },
         "button_DedUHD": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_select": "primary",
             "button_label": "TAKE ME TO THE TILES",
