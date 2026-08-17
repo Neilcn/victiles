@@ -384,7 +384,7 @@
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_image": "shopify://shop_images/Sample3.png",
-        "mobile_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "left",
         "margin-top": 20,
         "margin-bottom": 52
       }
