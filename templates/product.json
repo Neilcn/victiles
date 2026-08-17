@@ -190,10 +190,6 @@
             "background_color": "rgba(0,0,0,0)"
           }
         },
-        "wishlist_by_square_wishlist_button_bJFzTA": {
-          "type": "shopify://apps/wishlist-by-square/blocks/wishlist-button/88ec2beb-ce43-48ed-b791-0a6554082c2b",
-          "settings": {}
-        },
         "custom_liquid_JpFy7H": {
           "type": "custom_liquid",
           "settings": {
@@ -399,7 +395,6 @@
         "inventory_JWQnXt",
         "custom_liquid_dafMPN",
         "buy_buttons",
-        "wishlist_by_square_wishlist_button_bJFzTA",
         "custom_liquid_JpFy7H",
         "complementary_VKKgGD",
         "separator_HcYGiH",
