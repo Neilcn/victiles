@@ -157,7 +157,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% assign template_name = 'empty' | handleize %}
   {% endif %}
 
-  <body class="template-{{ template_name }} nav-drawer-big mobile-nav">
+  {% assign is_b2b_customer = false %}
+  {% if customer %}
+    {% for tag in customer.tags %}
+      {% assign normalized_tag = tag | downcase %}
+      {% if normalized_tag == 'b2b' %}
+        {% assign is_b2b_customer = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  <body class="template-{{ template_name }} nav-drawer-big mobile-nav{% if is_b2b_customer %} customer-b2b{% endif %}">
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KK5LZ75"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -233,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (wastageToggle.checked) {
         convertedBoxes = Math.ceil(convertedBoxes * 1.1);
       } {% endcomment %}
-      
+
       //In m² mode, applies 10% to rawInput, then use this cuts added area to round box(instead round box first and then apply 10% on rounded box)
       cutAddedArea = Math.ceil(rawInput * 1.1);
       convertedBoxes = Math.ceil(cutAddedArea / coefficient);

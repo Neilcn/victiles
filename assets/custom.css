@@ -197,3 +197,20 @@ table-flow .tfv1-table .tfv1-tr .tfv1-td.tfv1-label{
 
 .Vtl-WishlistButton__IconWrapper svg {overflow: visible;}
 .Vtl-WishlistButton__IconWrapper svg path {filter: drop-shadow(3px 5px 50px rgb(0 0 0 / 0.4));}
+
+body.customer-b2b li.gm-item[data-gmmi="0"],
+body.customer-b2b li.gm-item[data-gmmi="1"] {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  body.customer-b2b li.gm-item[data-gmmi="0"] {
+    display: list-item !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body.customer-b2b li.gm-item[data-gmmi="1"] {
+    display: list-item !important;
+  }
+}
