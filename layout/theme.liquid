@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function () {
       } {% endcomment %}
 
       //In m² mode, applies 10% to rawInput, then use this cuts added area to round box(instead round box first and then apply 10% on rounded box)
-      cutAddedArea = Math.ceil(rawInput * 1.1);
+      cutAddedArea = rawInput * 1.1;
       convertedBoxes = Math.ceil(cutAddedArea / coefficient);
 
       totalSqm = convertedBoxes * coefficient;
