@@ -111,7 +111,7 @@
         "text_6pFapn": {
           "type": "text",
           "settings": {
-            "text": "<p>Choosing the right tile or flooring online can be difficult. Colours, textures and finishes often look different in person compared to photos. With samples, you can see the true colour, feel the texture, and compare options in your own lighting and space — helping you make the right decision with confidence. Whether you're renovating, building, or simply exploring ideas, tile samples make the selection process easier and more reliable.</p>",
+            "text": "<p>See and feel your tiles before you buy. Order samples to check the true colour, texture and finish in your own space, so you can choose with confidence.</p>",
             "disable_on_mobile": false
           }
         },
@@ -140,6 +140,40 @@
         "margin-bottom": 20
       }
     },
+    "rich_text_pkfgDa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xUP7ee": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Your Sample Cost Back",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_t6WF4Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spend $300+ on tiles and receive 100% of your sample cost back as credit, up to $25. Sample cost only; delivery excluded. Terms apply.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xUP7ee",
+        "text_t6WF4Y"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_8bMjVh": {
       "type": "image-with-text",
       "blocks": {
@@ -154,7 +188,7 @@
         "heading_eyRGh4": {
           "type": "heading",
           "settings": {
-            "heading": "Sample Sizes",
+            "heading": "Sample Pricing & Delivery",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -163,7 +197,7 @@
         "text_jgck4D": {
           "type": "text",
           "settings": {
-            "text": "<p>Tiles 150 × 300mm / 300 × 300mm (We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p></p><p>Subway & Pattern Tiles Original full tile size<br/>Mosaic Tiles 100 × 300mm</p><p></p><p>Timber Flooring 200 × 200mm</p>",
+            "text": "<p>$5 per sample<br/>$6 Australia-wide delivery<br/>Most sample orders arrive within 3–7 business days after dispatch.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -185,6 +219,10 @@
         "text_jgck4D",
         "button_LBQzgn"
       ],
+      "custom_css": [
+        "p {display: block !important; margin: 0 0 22px 0 !important;}",
+        "p:last-child {margin-bottom: 0 !important;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
@@ -204,7 +242,7 @@
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_image": "shopify://shop_images/sample2.png",
-        "mobile_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "left",
         "margin-top": 20,
         "margin-bottom": 20
       }
@@ -223,7 +261,7 @@
         "heading_G7qNUw": {
           "type": "heading",
           "settings": {
-            "heading": "Sample Pricing & Delivery",
+            "heading": "Sample Sizes",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -232,13 +270,14 @@
         "text_aExxaP": {
           "type": "text",
           "settings": {
-            "text": "<p>$2 per sample $6 Australia-wide delivery<br/>Samples delivered straight to your door from Melbourne.</p><p><br/>Most sample orders arrive within 3–7 business days after dispatch via Australia Post.</p>",
+            "text": "<p>Tiles<br/>150 × 300mm / 300 × 300mm<br/>(We’ll provide the largest suitable size possible to clearly show colour and pattern.)</p><p>Subway & Pattern Tiles<br/>Original full tile size</p><p>Mosaic Tiles<br/>100 × 300mm</p><p>Timber Flooring<br/>200 × 200mm</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
         },
         "button_DedUHD": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_select": "primary",
             "button_label": "TAKE ME TO THE TILES",
@@ -252,6 +291,10 @@
         "heading_G7qNUw",
         "text_aExxaP",
         "button_DedUHD"
+      ],
+      "custom_css": [
+        "p {display: block !important; margin: 0 0 22px 0 !important;}",
+        "p:last-child {margin-bottom: 0 !important;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -272,7 +315,7 @@
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_image": "shopify://shop_images/sample1.png",
-        "mobile_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "left",
         "margin-top": 20,
         "margin-bottom": 20
       }
@@ -300,7 +343,7 @@
         "text_feVpWG": {
           "type": "text",
           "settings": {
-            "text": "<p>Our team is here to help you choose the perfect samples for your project.<br/><br/>Contact us at sales@victiles.com.au or visit our stores for expert advice.</p>",
+            "text": "<p>Not sure which tile is right for your space?</p><p>Send us your approximate square metres and delivery postcode, and our team can help with everything from tile selection and AI room visualisation to quantities, wastage, delivery, adhesives, grout and lead times — all included in your complete project quote.</p><p>Contact us at sales@victiles.com.au or visit one of our showrooms for expert advice.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
@@ -322,6 +365,10 @@
         "text_feVpWG",
         "button_Azz7Bi"
       ],
+      "custom_css": [
+        "p {display: block !important; margin: 0 0 22px 0 !important;}",
+        "p:last-child {margin-bottom: 0 !important;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "title": "",
@@ -341,7 +388,7 @@
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_image": "shopify://shop_images/Sample3.png",
-        "mobile_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "left",
         "margin-top": 20,
         "margin-bottom": 52
       }
@@ -351,6 +398,7 @@
     "main",
     "image_banner_wJji7w",
     "rich_text_WKiQFt",
+    "rich_text_pkfgDa",
     "image_with_text_8bMjVh",
     "image_with_text_iMNx8V",
     "image_with_text_HTDdWG"
