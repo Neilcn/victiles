@@ -1681,10 +1681,11 @@ document.querySelector('#custom-add-to-cart')?.addEventListener('click', functio
   }
 
   const requestedArea = Number.isFinite(requestedQuantity) && requestedQuantity > 0 ? requestedQuantity : 1;
-  const adjustedArea = wastageToggle?.checked ? requestedArea * 1.1 : requestedArea;
+  // quantityInput.value is already inflated by 10% when wastage is checked (see wastage-toggle
+  // listener in theme.liquid), so it must NOT be multiplied by 1.1 again here or wastage compounds.
   const quantity = unitToggle?.checked
-    ? Math.max(1, Math.ceil(adjustedArea))
-    : Math.max(1, coefficient > 0 ? Math.ceil(adjustedArea / coefficient) : Math.ceil(adjustedArea));
+    ? Math.max(1, Math.ceil(requestedArea))
+    : Math.max(1, coefficient > 0 ? Math.ceil(requestedArea / coefficient) : Math.ceil(requestedArea));
 
   fetch('/cart/add.js', {
     method: 'POST',
