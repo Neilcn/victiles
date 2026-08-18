@@ -214,3 +214,7 @@ body li.gm-item[data-gmmi="1"] {
     display: list-item !important;
   }
 }
+
+.Vtl-WishlistButton__AddToWishlist {
+  padding:12px 24px!important;
+}
