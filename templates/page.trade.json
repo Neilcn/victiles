@@ -199,7 +199,7 @@
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
         "mobile_image": "shopify://shop_images/trade-image.jpg",
-        "mobile_text_horizontal_position": "left",
+        "mobile_text_horizontal_position": "center",
         "margin-top": 20,
         "margin-bottom": 20
       }
