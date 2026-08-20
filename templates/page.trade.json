@@ -174,6 +174,79 @@
         "margin-top": 32,
         "margin-bottom": 32
       }
+    },
+    "image_with_text_npFgtj": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Edrwfn": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_YAw3P6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who Are We Serving?",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_GEQqdb": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Builders/Developers</li><li>Contractors/Installers</li><li>Retailers/Distributors</li><li>Interior Designers/Architects</li><li>Other trade professionals</li></ul>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_7HwFeN": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Edrwfn",
+        "heading_YAw3P6",
+        "text_GEQqdb",
+        "button_7HwFeN"
+      ],
+      "custom_css": [
+        "p {display: block !important; margin: 0 0 22px 0 !important;}",
+        "p:last-child {margin-bottom: 0 !important;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": false,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 400,
+        "mobile_fixed_height": 360,
+        "section-color-body-text": "transparent",
+        "section-color-overlay": "transparent",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "transparent",
+        "color-overlay": "transparent",
+        "color-overlay-opacity": 100,
+        "desktop_image": "shopify://shop_images/trade-image.jpg",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/trade-image.jpg",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -181,6 +254,7 @@
     "1786582851f4333bfe",
     "image_banner_GjbzAH",
     "custom_liquid_XwwyFg",
-    "rich_text_VMpd3M"
+    "rich_text_VMpd3M",
+    "image_with_text_npFgtj"
   ]
 }
