@@ -131,50 +131,6 @@
         "custom_liquid": "<div class=\"victiles-trade-section\">\n  <h2>Why Join VICTiles Trade?</h2>\n\n  <div class=\"victiles-trade-benefits\">\n\n    <div class=\"trade-benefit-item\">\n      <h3>1. Exclusive Trade Pricing</h3>\n      <p>Access special trade pricing across selected VICTiles products and save more on every project.</p>\n    </div>\n\n    <div class=\"trade-benefit-item\">\n      <h3>2. Personalised Trade Support</h3>\n      <p>Get dedicated support from our team to help with product selection, quotes and ongoing orders.</p>\n    </div>\n\n    <div class=\"trade-benefit-item\">\n      <h3>3. Flexible Ordering</h3>\n      <p>Order what you need for projects of any size, with a straightforward and flexible purchasing process.</p>\n    </div>\n\n    <div class=\"trade-benefit-item\">\n      <h3>4. Australia-Wide Delivery</h3>\n      <p>Keep your projects moving with convenient delivery options available across Australia.</p>\n    </div>\n\n  </div>\n</div>\n\n<style>\n.victiles-trade-section {\n  max-width: 1400px;\n  margin: 0 auto;\n  padding: 50px 35px 55px;\n}\n\n.victiles-trade-section > h2 {\n  text-align: center;\n  font-size: 28px;\n  font-weight: 700;\n  margin: 0 0 42px;\n  line-height: 1.3;\n}\n\n.victiles-trade-benefits {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  gap: 45px;\n  text-align: center;\n}\n\n.trade-benefit-item h3 {\n  margin: 0 0 16px;\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 1.4;\n}\n\n.trade-benefit-item p {\n  margin: 0 auto;\n  max-width: 280px;\n  font-size: 16px;\n  line-height: 1.65;\n}\n\n@media screen and (max-width: 990px) {\n  .victiles-trade-benefits {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 40px 35px;\n  }\n}\n\n@media screen and (max-width: 600px) {\n  .victiles-trade-section {\n    padding: 40px 20px;\n  }\n\n  .victiles-trade-section > h2 {\n    font-size: 24px;\n    margin-bottom: 30px;\n  }\n\n  .victiles-trade-benefits {\n    grid-template-columns: 1fr;\n    gap: 30px;\n  }\n\n  .trade-benefit-item h3 {\n    font-size: 18px;\n    margin-bottom: 10px;\n  }\n\n  .trade-benefit-item p {\n    font-size: 14px;\n  }\n}\n</style>"
       }
     },
-    "rich_text_VMpd3M": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3f6HaQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Join VICTiles Trade.\nQuick approval, simple setup.",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_NCAEbM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Apply in just a few minutes and get access to exclusive trade pricing and dedicated support once approved.</p>",
-            "disable_on_mobile": false
-          }
-        },
-        "button_rjhHwj": {
-          "type": "button",
-          "settings": {
-            "button_select": "primary",
-            "button_label": "APPLY NOW",
-            "button_link": "shopify://pages/victiles-trade-application",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_3f6HaQ",
-        "text_NCAEbM",
-        "button_rjhHwj"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "#e7e7e7",
-        "margin-top": 32,
-        "margin-bottom": 32
-      }
-    },
     "image_with_text_npFgtj": {
       "type": "image-with-text",
       "blocks": {
@@ -247,6 +203,50 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "rich_text_VMpd3M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3f6HaQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join VICTiles Trade.\nQuick approval, simple setup.",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_NCAEbM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply in just a few minutes and get access to exclusive trade pricing and dedicated support once approved.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_rjhHwj": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "APPLY NOW",
+            "button_link": "shopify://pages/victiles-trade-application",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3f6HaQ",
+        "text_NCAEbM",
+        "button_rjhHwj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#e7e7e7",
+        "margin-top": 32,
+        "margin-bottom": 32
+      }
     }
   },
   "order": [
@@ -254,7 +254,7 @@
     "1786582851f4333bfe",
     "image_banner_GjbzAH",
     "custom_liquid_XwwyFg",
-    "rich_text_VMpd3M",
-    "image_with_text_npFgtj"
+    "image_with_text_npFgtj",
+    "rich_text_VMpd3M"
   ]
 }
