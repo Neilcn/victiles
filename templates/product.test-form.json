@@ -958,6 +958,45 @@
         "margin-top": 60,
         "margin-bottom": 60
       }
+    },
+    "contact_form_W79deD": {
+      "type": "contact-form",
+      "blocks": {
+        "heading_7nrfAj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact form",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_Lx4nMB": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_Eq64Jf": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7nrfAj",
+        "paragraph_Lx4nMB",
+        "email_form_Eq64Jf"
+      ],
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
@@ -975,6 +1014,7 @@
     "ec5a6457-3cb6-4605-94df-ac6400f950f1",
     "benefits_video_wybLKE",
     "features_banner_wiKkaQ",
-    "newsletter_pEcrBa"
+    "newsletter_pEcrBa",
+    "contact_form_W79deD"
   ]
 }
