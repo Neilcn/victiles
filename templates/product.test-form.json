@@ -373,7 +373,6 @@
         },
         "share_buttons_Ct9CXx": {
           "type": "share_buttons",
-          "disabled": true,
           "settings": {
             "heading": "Share",
             "social_facebook_link": true,
