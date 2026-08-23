@@ -1945,7 +1945,8 @@ document.addEventListener("DOMContentLoaded", disableSampleQuantityFields);
                                         </div>
                                     </div>
                                     <div class="wt-product__modal--content-info rte">
-                                        {% section 'contact-form-sample' %}
+                                        {% render 'contact-form-product-info', product: product %}
+                                        {% render 'contact-form-fields', unique_id: block.id, button_select: 'primary' %}
                                     </div>
                                 </div>
                             </modal-dialog>

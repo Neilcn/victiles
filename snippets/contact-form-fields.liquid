@@ -1,0 +1,225 @@
+{% comment %}
+  Renders the contact form fields used by sections/contact-form-sample.liquid.
+  Extracted into a snippet so the form can also be rendered from other
+  sections/blocks (e.g. the "contact_form_popup" block in main-product.liquid)
+  without statically rendering another section, which Liquid doesn't allow.
+
+  Accepts:
+  - unique_id: string used to make field ids unique on the page (required)
+  - button_select: 'primary' | 'secondary' | 'link' (defaults to 'primary')
+{% endcomment %}
+{% liquid
+  assign form_unique_id = unique_id | default: section.id
+  assign form_button_select = button_select | default: 'primary'
+%}
+<style>
+  .form__field--tile-usage {
+    border: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+
+  .form__field--tile-usage .form__field__label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .form__field__checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 16px;
+    font-weight: normal;
+  }
+</style>
+
+<div class="form__container {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}">
+  <div class="contact-form">
+    {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+      {%- if form.posted_successfully? -%}
+        <div class="form__message">
+          <div class="form__success-field" tabindex="-1" autofocus>
+            <p>{{ 'templates.contact.form.post_success' | t }}</p>
+          </div>
+        </div>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <div class="form__error-field">
+            {{ form.errors.translated_fields.email | capitalize }}
+            {{ form.errors.messages.email }}
+          </div>
+        </div>
+      {%- endif -%}
+      <div class="form__fieldset">
+        <label
+          class="form__field form__field--name"
+          for="ContactFormName-{{ form_unique_id }}"
+        >
+          <input
+            type="text"
+            name="contact[name]"
+            id="ContactFormName-{{ form_unique_id }}"
+            class="form__field__input"
+            placeholder=" "
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+          >
+          <span class="form__field__label">{{ 'templates.contact.form.name' | t }}</span>
+        </label>
+
+        <label
+          class="form__field form__field--phone"
+          for="ContactFormPhone-{{ form_unique_id }}"
+        >
+          <input
+            type="text"
+            name="contact[phone]"
+            id="ContactFormPhone-{{ form_unique_id }}"
+            class="form__field__input"
+            placeholder=" "
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+          >
+          <span class="form__field__label">{{ 'templates.contact.form.phone' | t }}</span>
+        </label>
+      </div>
+
+      <label
+        class="form__field form__field--email"
+        for="ContactFormEmail-{{ form_unique_id }}"
+      >
+        <input
+          type="text"
+          name="contact[email]"
+          id="ContactFormEmail-{{ form_unique_id }}"
+          class="form__field__input"
+          placeholder=" "
+          value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+        >
+        <span class="form__field__label">{{ 'templates.contact.form.email' | t }}" * </span>
+      </label>
+
+      <label
+        class="form__field form__field--square-metres"
+        for="ContactFormSquareMetres-{{ form_unique_id }}"
+      >
+        <input
+          type="text"
+          name="contact[Approximate square metres needed]"
+          id="ContactFormSquareMetres-{{ form_unique_id }}"
+          class="form__field__input"
+          placeholder=" "
+          value="{% if form['Approximate square metres needed'] %}{{ form['Approximate square metres needed'] }}{% endif %}"
+        >
+        <span class="form__field__label">Approximate square metres needed *</span>
+      </label>
+
+      <label
+        class="form__field form__field--best-describes"
+        for="ContactFormBestDescribes-{{ form_unique_id }}"
+      >
+        <select
+          name="contact[Which best describes you?]"
+          id="ContactFormBestDescribes-{{ form_unique_id }}"
+          class="form__field__input"
+        >
+          <option value="Homeowner">Homeowner</option>
+          <option value="Designer / Architect">Designer / Architect</option>
+          <option value="Builder / Trade Contractor">Builder / Trade Contractor</option>
+          <option value="Developer">Developer</option>
+          <option value="Retailer / Wholesaler (Business)">Retailer / Wholesaler (Business)</option>
+        </select>
+        <span class="form__field__label">Which best describes you?</span>
+      </label>
+
+      <label
+        class="form__field form__field--project-type"
+        for="ContactFormProjectType-{{ form_unique_id }}"
+      >
+        <select
+          name="contact[What type of project is this for?]"
+          id="ContactFormProjectType-{{ form_unique_id }}"
+          class="form__field__input"
+        >
+          <option value="New Build">New Build</option>
+          <option value="Renovation">Renovation</option>
+          <option value="Commercial">Commercial</option>
+          <option value="Other">Other</option>
+        </select>
+        <span class="form__field__label">What type of project is this for?</span>
+      </label>
+
+      <label
+        class="form__field form__field--timeline"
+        for="ContactFormTimeline-{{ form_unique_id }}"
+      >
+        <select
+          name="contact[When are you hoping to have the tiles ready?]"
+          id="ContactFormTimeline-{{ form_unique_id }}"
+          class="form__field__input"
+        >
+          <option value="As Soon As Possible">As Soon As Possible</option>
+          <option value="Within 1 Month">Within 1 Month</option>
+          <option value="Within 1-3 Months">Within 1-3 Months</option>
+          <option value="Within 3-6 Months">Within 3-6 Months</option>
+          <option value="Over 6 Months">Over 6 Months</option>
+        </select>
+        <span class="form__field__label">When are you hoping to have the tiles ready?</span>
+      </label>
+
+      <fieldset class="form__field form__field--tile-usage">
+        <legend class="form__field__label">Where will the tiles be used?</legend>
+        <label class="form__field__checkbox-label">
+          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Bathroom">
+          Bathroom
+        </label>
+        <label class="form__field__checkbox-label">
+          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Kitchen">
+          Kitchen
+        </label>
+        <label class="form__field__checkbox-label">
+          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Laundry">
+          Laundry
+        </label>
+        <label class="form__field__checkbox-label">
+          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Livingroom">
+          Livingroom
+        </label>
+        <label class="form__field__checkbox-label">
+          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Outdoor">
+          Outdoor
+        </label>
+        <label class="form__field__checkbox-label">
+          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Other">
+          Other
+        </label>
+      </fieldset>
+
+      <input
+        type="hidden"
+        name="contact[Product]"
+        value="{{ product.title }}"
+      >
+
+      <label
+        class="form__field"
+        for="ContactFormComment-{{ form_unique_id }}"
+      >
+        <textarea
+          class="form__field__textarea"
+          name="contact[comment]"
+          id="ContactFormComment-{{ form_unique_id }}"
+          placeholder=" "
+          rows="6"
+          value="{% if form[comment] %}{{ form[comment] }}{% elsif customer %}{{ customer.comment }}{% endif %}"
+        >{{- form.body -}}</textarea>
+        <span class="form__field__label">{{- 'templates.contact.form.comment' | t -}}</span>
+      </label>
+      <button
+        aria-label="{{ 'aria-label.contact-form' | t }}"
+        class="hero__button--primary {% if form_button_select != 'primary' %} hero__button--secondary {% endif %}{% if form_button_select == 'link' %} hero__button--link {% endif %} block__button"
+      >
+        <span> {{ button_label }}</span>
+        <span class="wt-newsletter__send__text">{{ 'aria-label.contact-form' | t }}</span>
+      </button>
+    {% endform %}
+  </div>
+</div>
