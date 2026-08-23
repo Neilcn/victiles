@@ -388,24 +388,6 @@
             "page": "",
             "icon": "none"
           }
-        },
-        "collapsible_tab_7zPdte": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_7.value }}",
-            "content": "{{ collection.metafields.custom.answer_7 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "collapsible_tab_JMdH9P": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ collection.metafields.custom.question_8.value }}",
-            "content": "{{ collection.metafields.custom.answer_8 | metafield_tag }}",
-            "page": "",
-            "icon": "none"
-          }
         }
       },
       "block_order": [
@@ -414,11 +396,8 @@
         "collapsible_tab_4AfVph",
         "collapsible_tab_8UJHAa",
         "collapsible_tab_CtixRw",
-        "collapsible_tab_xVwT4j",
-        "collapsible_tab_7zPdte",
-        "collapsible_tab_JMdH9P"
+        "collapsible_tab_xVwT4j"
       ],
-      "disabled": true,
       "custom_css": [
         ".headline__subheading {font-size: 1.5em; color: #222321; font-weight: 500; margin: 1em;}",
         ".wt-collapse__trigger__title,.metafield-rich_text_field {font-size: 16px; font-weight: 100;}"
