@@ -374,8 +374,8 @@
         "contact_form_popup_Bai78c": {
           "type": "contact_form_popup",
           "settings": {
-            "size_icon": "check_mark",
-            "size_link": "Contact us for sample"
+            "size_icon": "none",
+            "size_link": "Contact Us for Sample"
           }
         }
       },
