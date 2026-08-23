@@ -1517,28 +1517,108 @@
       {% endif %}
     {% endfor %}
 
-    {% if in_wall_tiles %}
-    <button
-      type="button"
-      id="add-sample"
-      class="button"
-      style="background:#000; color:#fff; padding:12px 24px; width:100%;"
-    >
-      Get A Sample
-    </button>
+{% if in_wall_tiles %}
+{% assign sample_request_vendors = settings.sample_request_vendors | split: ',' %}
+{% assign vendor_can_request_sample = false %}
+  {% for v in sample_request_vendors %}
+    {% assign v_stripped = v | strip %}
+    {% if v_stripped == product.vendor %}
+      {% assign vendor_can_request_sample = true %}
+    {% endif %}
+  {% endfor %}
+  {% if vendor_can_request_sample %}
+        {%- for block in section.blocks -%}
+    {%- case block.type -%}
+                        {%- when 'contact_form_popup' %}
+                        {% if block.settings.size_link != empty %}
+                            <div class="wt-product__content wt-product__information-popup">
+                                {% if block.settings.size_icon != 'none' %}
+                                    <div class="wt-product__icon">
+                                        {% render 'icon-accordion', icon: block.settings.size_icon %}
+                                    </div>
+                                {% endif %}
+                                <div class="wt-product__page">
+                                    <modal-opener
+                                            class="wt-product__opener no-js-hidden quick-add-hidden"
+                                            data-modal="#ContactFormPopupModal-{{ block.id }}"
+                                            {{ block.shopify_attributes }}
+                                    >
+                                        <button
+                                                aria-label="{{ block.settings.size_link }}"
+                                                id="ContactFormPopup-{{ block.id }}"
+                                                class="button"
+                                                style="background:#000; color:#fff; padding:16px 24px; width:100%;"
+                                                type="button"
+                                                aria-haspopup="dialog"
+                                        >
+                                            {{ block.settings.size_link }}
+                                        </button>
+                                    </modal-opener>
+                                </div>
+                            </div>
+
+                            <modal-dialog
+                                    id="ContactFormPopupModal-{{ block.id }}"
+                                    class="wt-product__modal"
+                                    {{ block.shopify_attributes }}
+                            >
+                                <div
+                                        role="dialog"
+                                        aria-label="{{ block.settings.size_link }}"
+                                        aria-modal="true"
+                                        class="wt-product__modal--content"
+                                        tabindex="-1"
+                                >
+                                    <div class="wt-product__modal-top">
+                                        <div
+                                                id="ModalClose-{{ block.id }}"
+                                                role="button"
+                                                class="wt-product__modal--toggle"
+                                                aria-label="{{ 'accessibility.close' | t }}"
+                                        >
+                                            {% render 'icons',
+                                                    id: 'close',
+                                                    icon_id: 'wt-announcement__close',
+                                                    icon_class: 'wt-announcement__close'
+                                            %}
+                                        </div>
+                                    </div>
+                                    <div class="wt-product__modal--content-info rte">
+                                        {% render 'contact-form-product-info', product: product %}
+                                        {% render 'contact-form-fields', unique_id: block.id, button_select: 'primary' %}
+                                    </div>
+                                </div>
+                            </modal-dialog>
+                        {% endif %}
+                        {%- endcase -%}
+                        {% endfor %}
     </div>
+  {% else %}
+    <button
+          type="button"
+          id="add-sample"
+          class="button"
+          style="background:#000; color:#fff; padding:12px 24px; width:100%;"
+        >
+          Get A Sample
+        </button>
+        </div>
 
-<div class="my-custom-area">
-  <p><b>Notes:</b> Please note that samples are not full-size tiles. Colour, shade, texture and pattern between production runs will vary from batch to batch.</p>
-</div>
+      <div class="my-custom-area">
+        <p><b>Notes:</b> Please note that samples are not full-size tiles. Colour, shade, texture and pattern between production runs will vary from batch to batch.</p>
+      </div>
 
-<!-- Mini-cart popup (fallback if no drawer cart exists) -->
-<div id="mini-cart" style="display:none; position:fixed; right:20px; top:100px; background:#fff; border:1px solid #ddd; padding:20px; width:320px; z-index:9999; box-shadow:0 4px 12px rgba(0,0,0,0.15); border-radius:8px;">
-  <h4 style="margin-bottom:10px;">Your Cart</h4>
-  <div id="mini-cart-items"></div>
-  <a href="/cart" style="display:block; margin-top:10px; text-align:center; background:#000; color:#fff; padding:10px; border-radius:5px;">Go to Cart</a>
-</div>
+      <!-- Mini-cart popup (fallback if no drawer cart exists) -->
+      <div id="mini-cart" style="display:none; position:fixed; right:20px; top:100px; background:#fff; border:1px solid #ddd; padding:20px; width:320px; z-index:9999; box-shadow:0 4px 12px rgba(0,0,0,0.15); border-radius:8px;">
+        <h4 style="margin-bottom:10px;">Your Cart</h4>
+        <div id="mini-cart-items"></div>
+        <a href="/cart" style="display:block; margin-top:10px; text-align:center; background:#000; color:#fff; padding:10px; border-radius:5px;">Go to Cart</a>
+      </div>
+  {% endif %}
+
 {% endif %}
+
+
 
 <script>
 // ===== ADD SAMPLE PRODUCT WITH LIMITS =====
@@ -1830,7 +1910,7 @@ document.addEventListener("DOMContentLoaded", disableSampleQuantityFields);
                                 </div>
                             </div>
 
-                        {%- when 'information_popup' %}
+                                                    {%- when 'information_popup' %}
                         {% if block.settings.size_link != empty %}
                             <div class="wt-product__content wt-product__information-popup">
                                 {% if block.settings.size_icon != 'none' %}
@@ -1891,66 +1971,8 @@ document.addEventListener("DOMContentLoaded", disableSampleQuantityFields);
                             </modal-dialog>
                         {% endif %}
 
-                        {%- when 'contact_form_popup' %}
-                        {% if block.settings.size_link != empty %}
-                            <div class="wt-product__content wt-product__information-popup">
-                                {% if block.settings.size_icon != 'none' %}
-                                    <div class="wt-product__icon">
-                                        {% render 'icon-accordion', icon: block.settings.size_icon %}
-                                    </div>
-                                {% endif %}
-                                <div class="wt-product__page">
-                                    <modal-opener
-                                            class="wt-product__opener no-js-hidden quick-add-hidden"
-                                            data-modal="#ContactFormPopupModal-{{ block.id }}"
-                                            {{ block.shopify_attributes }}
-                                    >
-                                        <button
-                                                aria-label="{{ block.settings.size_link }}"
-                                                id="ContactFormPopup-{{ block.id }}"
-                                                class="wt-product__button wt-product__link"
-                                                type="button"
-                                                aria-haspopup="dialog"
-                                        >
-                                            {{ block.settings.size_link }}
-                                        </button>
-                                    </modal-opener>
-                                </div>
-                            </div>
 
-                            <modal-dialog
-                                    id="ContactFormPopupModal-{{ block.id }}"
-                                    class="wt-product__modal"
-                                    {{ block.shopify_attributes }}
-                            >
-                                <div
-                                        role="dialog"
-                                        aria-label="{{ block.settings.size_link }}"
-                                        aria-modal="true"
-                                        class="wt-product__modal--content"
-                                        tabindex="-1"
-                                >
-                                    <div class="wt-product__modal-top">
-                                        <div
-                                                id="ModalClose-{{ block.id }}"
-                                                role="button"
-                                                class="wt-product__modal--toggle"
-                                                aria-label="{{ 'accessibility.close' | t }}"
-                                        >
-                                            {% render 'icons',
-                                                    id: 'close',
-                                                    icon_id: 'wt-announcement__close',
-                                                    icon_class: 'wt-announcement__close'
-                                            %}
-                                        </div>
-                                    </div>
-                                    <div class="wt-product__modal--content-info rte">
-                                        {% render 'contact-form-product-info', product: product %}
-                                        {% render 'contact-form-fields', unique_id: block.id, button_select: 'primary' %}
-                                    </div>
-                                </div>
-                            </modal-dialog>
-                        {% endif %}
+
 
                         {%- when 'buy_buttons' -%}
                             <div

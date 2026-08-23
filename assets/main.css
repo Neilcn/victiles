@@ -6680,6 +6680,7 @@ input.disabled + .f-swatch__list__link .f-swatch__list__link__content {
 }
 .wt-product__page {
   font-size: calc(var(--font-base-size) * 1.4rem);
+  width:100%;
 }
 .wt-product__page--text {
   text-align: center;
@@ -6708,6 +6709,7 @@ input.disabled + .f-swatch__list__link .f-swatch__list__link__content {
 }
 .wt-product__opener {
   display: inline-block;
+  width:100%;
 }
 .wt-product__button {
   font-size: 1.6rem;
@@ -6928,6 +6930,8 @@ input.disabled + .f-swatch__list__link .f-swatch__list__link__content {
 }
 .wt-product__information-popup {
   margin-top: 0;
+  padding-bottom: 0;
+  width: 100%;
 }
 .wt-product__information-popup .wt-product__button.wt-product__link {
   height: auto;

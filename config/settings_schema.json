@@ -1132,5 +1132,17 @@
         "label": "t:settings_schema.animations.settings.disabled_animation_on_mobile.label"
       }
     ]
+  },
+  {
+    "name": "Sample Request",
+    "settings": [
+      {
+        "type": "text",
+        "id": "sample_request_vendors",
+        "label": "Sample Request Vendors",
+        "default": "GNS,ESO,Everstone,Roman Tile,DI",
+        "info": "Vendor names that offer sample requests. Separate multiple vendors with commas."
+      }
+    ]
   }
 ]

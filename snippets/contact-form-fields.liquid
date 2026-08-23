@@ -56,6 +56,7 @@
           {%- endfor -%}
         </div>
       {%- endif -%}
+      {%- unless form.posted_successfully? -%}
       <div class="form__fieldset">
         <label
           class="form__field form__field--name"
@@ -67,6 +68,7 @@
             id="ContactFormName-{{ form_unique_id }}"
             class="form__field__input"
             placeholder=" "
+            required
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
           >
           <span class="form__field__label">{{ 'templates.contact.form.name' | t }}</span>
@@ -98,9 +100,10 @@
           id="ContactFormEmail-{{ form_unique_id }}"
           class="form__field__input"
           placeholder=" "
+          required
           value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
         >
-        <span class="form__field__label">{{ 'templates.contact.form.email' | t }}" * </span>
+        <span class="form__field__label">{{ 'templates.contact.form.email' | t }} * </span>
       </label>
 
       <label
@@ -113,6 +116,7 @@
           id="ContactFormSquareMetres-{{ form_unique_id }}"
           class="form__field__input"
           placeholder=" "
+          required
           value="{% if form['Approximate square metres needed'] %}{{ form['Approximate square metres needed'] }}{% endif %}"
         >
         <span class="form__field__label">Approximate square metres needed *</span>
@@ -144,7 +148,9 @@
           name="contact[What type of project is this for?]"
           id="ContactFormProjectType-{{ form_unique_id }}"
           class="form__field__input"
+          required
         >
+          <option value="" disabled selected></option>
           <option value="New Build">New Build</option>
           <option value="Renovation">Renovation</option>
           <option value="Commercial">Commercial</option>
@@ -161,7 +167,9 @@
           name="contact[When are you hoping to have the tiles ready?]"
           id="ContactFormTimeline-{{ form_unique_id }}"
           class="form__field__input"
+          required
         >
+          <option value="" disabled selected></option>
           <option value="As Soon As Possible">As Soon As Possible</option>
           <option value="Within 1 Month">Within 1 Month</option>
           <option value="Within 1-3 Months">Within 1-3 Months</option>
@@ -171,32 +179,34 @@
         <span class="form__field__label">When are you hoping to have the tiles ready?</span>
       </label>
 
-      <fieldset class="form__field form__field--tile-usage">
-        <legend class="form__field__label">Where will the tiles be used?</legend>
+      <fieldset class="form__field form__field--tile-usage" data-tile-usage-fieldset="{{ form_unique_id }}">
+        <legend class="form__field__label" style="position: relative; height: 24px;">Where will the tiles be used? *</legend>
         <label class="form__field__checkbox-label">
-          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Bathroom">
+          <input type="checkbox" data-tile-usage-checkbox value="Bathroom">
           Bathroom
         </label>
         <label class="form__field__checkbox-label">
-          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Kitchen">
+          <input type="checkbox" data-tile-usage-checkbox value="Kitchen">
           Kitchen
         </label>
         <label class="form__field__checkbox-label">
-          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Laundry">
+          <input type="checkbox" data-tile-usage-checkbox value="Laundry">
           Laundry
         </label>
         <label class="form__field__checkbox-label">
-          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Livingroom">
+          <input type="checkbox" data-tile-usage-checkbox value="Livingroom">
           Livingroom
         </label>
         <label class="form__field__checkbox-label">
-          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Outdoor">
+          <input type="checkbox" data-tile-usage-checkbox value="Outdoor">
           Outdoor
         </label>
         <label class="form__field__checkbox-label">
-          <input type="checkbox" name="contact[Where will the tiles be used?][]" value="Other">
+          <input type="checkbox" data-tile-usage-checkbox value="Other">
           Other
         </label>
+        <input type="hidden" name="contact[Where will the tiles be used?]" data-tile-usage-hidden-input value="">
+        <div class="form__error-field" data-tile-usage-error style="display:none;">Please select at least one option.</div>
       </fieldset>
 
       <input
@@ -214,10 +224,15 @@
           name="contact[comment]"
           id="ContactFormComment-{{ form_unique_id }}"
           placeholder=" "
+          required
           rows="6"
           value="{% if form[comment] %}{{ form[comment] }}{% elsif customer %}{{ customer.comment }}{% endif %}"
         >{{- form.body -}}</textarea>
-        <span class="form__field__label">{{- 'templates.contact.form.comment' | t -}}</span>
+        <span class="form__field__label" style="transform: translate(.25rem, -40%) scale(.8);
+    height: 1em;
+    padding: 0 calc(var(--gap, 8px) * 1);
+    background: var(--color-input-background);
+    color: var(--color-input-placeholder);">{{- 'templates.contact.form.comment' | t -}}</span>
       </label>
       <button
         aria-label="{{ 'aria-label.contact-form' | t }}"
@@ -226,6 +241,41 @@
         <span> {{ button_label }}</span>
         <span class="wt-newsletter__send__text">{{ 'aria-label.contact-form' | t }}</span>
       </button>
+      {%- endunless -%}
+      <script>
+        (function () {
+          var tileUsageScript = document.currentScript;
+          document.addEventListener('DOMContentLoaded', function () {
+            var contactForm = tileUsageScript.closest('form');
+            if (!contactForm) return;
+            var fieldset = contactForm.querySelector(
+              '[data-tile-usage-fieldset="{{ form_unique_id }}"]'
+            );
+            if (!fieldset) return;
+            var hiddenInput = fieldset.querySelector('[data-tile-usage-hidden-input]');
+            var checkboxes = fieldset.querySelectorAll('[data-tile-usage-checkbox]');
+            var tileUsageError = fieldset.querySelector('[data-tile-usage-error]');
+
+            contactForm.addEventListener('submit', function (event) {
+              var checkedValues = Array.prototype.filter
+                .call(checkboxes, function (checkbox) {
+                  return checkbox.checked;
+                })
+                .map(function (checkbox) {
+                  return checkbox.value;
+                });
+              if (checkedValues.length === 0) {
+                event.preventDefault();
+                if (tileUsageError) tileUsageError.style.display = '';
+                fieldset.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                return;
+              }
+              if (tileUsageError) tileUsageError.style.display = 'none';
+              hiddenInput.value = checkedValues.join(', ');
+            });
+          });
+        })();
+      </script>
       {%- if form.posted_successfully? or form.errors -%}
         {% comment %}
           If this form lives inside a <modal-dialog> (e.g. the contact_form_popup
