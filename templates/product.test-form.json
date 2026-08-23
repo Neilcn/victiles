@@ -371,23 +371,11 @@
             "margin-bottom": 8
           }
         },
-        "share_buttons_Ct9CXx": {
-          "type": "share_buttons",
+        "contact_form_popup_Bai78c": {
+          "type": "contact_form_popup",
           "settings": {
-            "heading": "Share",
-            "social_facebook_link": true,
-            "social_twitter_link": true,
-            "social_pinterest_link": true,
-            "social_whatsapp_link": true,
-            "mail_link": true
-          }
-        },
-        "information_popup_aj8bdq": {
-          "type": "information_popup",
-          "settings": {
-            "size_icon": "chat_bubble",
-            "size_link": "contact form",
-            "size_content": "contact-us-for-sample"
+            "size_icon": "check_mark",
+            "size_link": "Contact us for sample"
           }
         }
       },
@@ -426,8 +414,7 @@
         "separator_iFpRqG",
         "collapsible_tab_dawn_UApMah",
         "separator_Wnmnyf",
-        "share_buttons_Ct9CXx",
-        "information_popup_aj8bdq"
+        "contact_form_popup_Bai78c"
       ],
       "custom_css": [
         ".button-layout {display: flex; gap: 10px; flex-direction: row;}",
