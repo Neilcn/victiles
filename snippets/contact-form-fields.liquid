@@ -44,10 +44,16 @@
         </div>
       {%- elsif form.errors -%}
         <div class="form__message">
-          <div class="form__error-field">
-            {{ form.errors.translated_fields.email | capitalize }}
-            {{ form.errors.messages.email }}
-          </div>
+          {%- for error in form.errors -%}
+            <div class="form__error-field">
+              {%- if error == 'form' -%}
+                {{ form.errors.messages[error] }}
+              {%- else -%}
+                {{ form.errors.translated_fields[error] | capitalize }}
+                {{ form.errors.messages[error] }}
+              {%- endif -%}
+            </div>
+          {%- endfor -%}
         </div>
       {%- endif -%}
       <div class="form__fieldset">
@@ -220,6 +226,25 @@
         <span> {{ button_label }}</span>
         <span class="wt-newsletter__send__text">{{ 'aria-label.contact-form' | t }}</span>
       </button>
+      {%- if form.posted_successfully? or form.errors -%}
+        {% comment %}
+          If this form lives inside a <modal-dialog> (e.g. the contact_form_popup
+          block on the product page), the modal is closed by default, so the
+          success/error message above would render invisibly. Auto-open the
+          modal once the page reloads with the submission result.
+        {% endcomment %}
+        <script>
+          (function () {
+            var contactFormScript = document.currentScript;
+            document.addEventListener('DOMContentLoaded', function () {
+              var modal = contactFormScript.closest('modal-dialog');
+              if (modal && typeof modal.show === 'function') {
+                modal.show();
+              }
+            });
+          })();
+        </script>
+      {%- endif -%}
     {% endform %}
   </div>
 </div>
