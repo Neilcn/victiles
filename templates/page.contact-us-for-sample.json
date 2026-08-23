@@ -23,37 +23,48 @@
         "margin-bottom": 0
       }
     },
-    "1786582851f4333bfe": {
-      "type": "apps",
+    "contact_form_sample_XVARMj": {
+      "type": "contact-form-sample",
       "blocks": {
-        "forms_inline_FC9AYe": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "heading_d3kcwP": {
+          "type": "heading",
           "settings": {
-            "form_id": "1110286",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 50,
-            "padding_bottom": 50,
-            "padding_right": 0,
-            "padding_left": 0
+            "heading": "Contact form",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_eUtpLL": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_BzmaVP": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
           }
         }
       },
       "block_order": [
-        "forms_inline_FC9AYe"
+        "heading_d3kcwP",
+        "paragraph_eUtpLL",
+        "email_form_BzmaVP"
       ],
+      "name": "Contact form sample",
       "settings": {
-        "include_margins": true
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     }
   },
   "order": [
     "main",
-    "1786582851f4333bfe"
+    "contact_form_sample_XVARMj"
   ]
 }
