@@ -71,7 +71,7 @@
             required
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
           >
-          <span class="form__field__label">{{ 'templates.contact.form.name' | t }}</span>
+          <span class="form__field__label">{{ 'templates.contact.form.name' | t }} *</span>
         </label>
 
         <label
@@ -84,9 +84,10 @@
             id="ContactFormPhone-{{ form_unique_id }}"
             class="form__field__input"
             placeholder=" "
+            required
             value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
           >
-          <span class="form__field__label">{{ 'templates.contact.form.phone' | t }}</span>
+          <span class="form__field__label">{{ 'templates.contact.form.phone' | t }} *</span>
         </label>
       </div>
 
@@ -130,14 +131,16 @@
           name="contact[Which best describes you?]"
           id="ContactFormBestDescribes-{{ form_unique_id }}"
           class="form__field__input"
+          required
         >
+          <option value="" disabled selected></option>
           <option value="Homeowner">Homeowner</option>
           <option value="Designer / Architect">Designer / Architect</option>
           <option value="Builder / Trade Contractor">Builder / Trade Contractor</option>
           <option value="Developer">Developer</option>
           <option value="Retailer / Wholesaler (Business)">Retailer / Wholesaler (Business)</option>
         </select>
-        <span class="form__field__label">Which best describes you?</span>
+        <span class="form__field__label">Which best describes you? *</span>
       </label>
 
       <label
@@ -156,7 +159,7 @@
           <option value="Commercial">Commercial</option>
           <option value="Other">Other</option>
         </select>
-        <span class="form__field__label">What type of project is this for?</span>
+        <span class="form__field__label">What type of project is this for? *</span>
       </label>
 
       <label
@@ -176,7 +179,7 @@
           <option value="Within 3-6 Months">Within 3-6 Months</option>
           <option value="Over 6 Months">Over 6 Months</option>
         </select>
-        <span class="form__field__label">When are you hoping to have the tiles ready?</span>
+        <span class="form__field__label">When are you hoping to have the tiles ready? *</span>
       </label>
 
       <fieldset class="form__field form__field--tile-usage" data-tile-usage-fieldset="{{ form_unique_id }}">
@@ -224,7 +227,6 @@
           name="contact[comment]"
           id="ContactFormComment-{{ form_unique_id }}"
           placeholder=" "
-          required
           rows="6"
           value="{% if form[comment] %}{{ form[comment] }}{% elsif customer %}{{ customer.comment }}{% endif %}"
         >{{- form.body -}}</textarea>
@@ -232,7 +234,7 @@
     height: 1em;
     padding: 0 calc(var(--gap, 8px) * 1);
     background: var(--color-input-background);
-    color: var(--color-input-placeholder);">{{- 'templates.contact.form.comment' | t -}}</span>
+    color: var(--color-input-placeholder);">{{- 'templates.contact.form.comment' | t -}} (Optional)</span>
       </label>
       <button
         aria-label="{{ 'aria-label.contact-form' | t }}"
