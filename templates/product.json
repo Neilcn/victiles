@@ -382,6 +382,13 @@
             "social_whatsapp_link": true,
             "mail_link": true
           }
+        },
+        "contact_form_popup_jE3XnQ": {
+          "type": "contact_form_popup",
+          "settings": {
+            "size_icon": "none",
+            "size_link": "Contact Us for Sample"
+          }
         }
       },
       "block_order": [
@@ -419,7 +426,8 @@
         "separator_iFpRqG",
         "collapsible_tab_dawn_UApMah",
         "separator_Wnmnyf",
-        "share_buttons_Ct9CXx"
+        "share_buttons_Ct9CXx",
+        "contact_form_popup_jE3XnQ"
       ],
       "custom_css": [
         ".button-layout {display: flex; gap: 10px; flex-direction: row;}",
