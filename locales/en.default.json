@@ -65,7 +65,8 @@
     },
     "cart": {
       "view": "View my cart ({{ count }})",
-      "item_added": "Item added to your cart"
+      "item_added": "Item added to your cart",
+      "sample_message": "Spend $300+ on tiles and get your sample cost back up to $25"
     },
     "share": {
       "close": "Close share",
