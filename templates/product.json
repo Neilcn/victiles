@@ -112,6 +112,12 @@
             "custom_liquid": "{% assign b2b_customer = false %}\n{% if customer %}\n                                  {% for tag in customer.tags %}\n                                    {% if tag contains 'B2B' %}\n                                      {% assign b2b_customer = true %}\n                                      {% break %}\n                                    {% endif %}\n                                  {% endfor %}\n                                {% endif %}\n\n{%- unless b2b_customer -%}\n{%- assign is_in_target_collections = false -%}\n{%- for c in product.collections -%}\n  {%- if c.handle contains 'tiles' -%}\n    {%- assign is_in_target_collections = true -%}\n    {%- break -%}\n  {%- endif -%}\n{%- endfor -%}\n\n{%- assign is_regular_price = true -%}\n\n{%- if is_in_target_collections -%}\n  <div class=\"tiles-sale-banner w3-panel w3-red\" style=\"display:flex; align-items:center; gap:6px; flex-wrap:wrap;\">\n    <span style=\"text-align:left;\"><strong style=\"font-weight:900;\">10% OFF</strong> Tile Orders Over $1,000</span> \n    <strong style=\"margin-right:auto; text-align:left;\"></strong>\n    <span style=\"text-align:right;\">Use code: <strong>VICTILES10</strong> </span>                              \n  </div>\n{%- endif -%}\n{%- endunless -%}"
           }
         },
+        "gsc_countdown_timer_countdown_aPbGbJ": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-EMBED-eTpyoIKEVJud"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -396,6 +402,7 @@
         "sku_BWaMGM",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
         "custom_liquid_VGD46y",
+        "gsc_countdown_timer_countdown_aPbGbJ",
         "price",
         "separator_RrKQ4A",
         "easify_options_easify_product_options_ieANrX",
