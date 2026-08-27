@@ -105,7 +105,7 @@
     "custom-badge-3-input": "Save",
     "animations": false,
     "disabled_animations_on_mobile": true,
-    "sample_request_vendors": "GNS,ESO,Everstone,Roman Tile,THEO DI",
+    "sample_request_vendors": "GNS,EST,Everstone,EV,Roman,THEO DI",
     "logo": "shopify://shop_images/Path_849.svg",
     "large_screen_logo_width": 140,
     "mobile_screen_logo_width": 110,
