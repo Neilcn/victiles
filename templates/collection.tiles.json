@@ -87,7 +87,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<br>\n<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:25px;font-weight:500;\">SPRING SALE</p>\n<p style=\"font-size:20px; font-weight:500;\">SAVE $100 on $1,000+</p>\n<p style=\"font-size:20px; font-weight:500;\">SAVE $250 on $2,000+</p>\n<p style=\"font-size:20px; font-weight:500;\">SAVE $750 on $5,000+</p>\n</p>\n<br>\n<p style=\"font-size:20px; font-weight:500;\">Tiles + Bathware + Timber Flooring</p>\n<br>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">Automatically Applied at Checkout</p>\n<p>*Excludes Clearance Tiles</p>\n<p>Valid until 30 September</p>\n</div>"
+        "custom_liquid": "<br>\n<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:25px;font-weight:500;\">SPRING SALE</p>\n<p style=\"font-size:20px; font-weight:500;\">SAVE $100 on $1,000+</p>\n<p style=\"font-size:20px; font-weight:500;\">SAVE $250 on $2,000+</p>\n<p style=\"font-size:20px; font-weight:500;\">SAVE $750 on $5,000+</p>\n</p>\n<br>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">Automatically Applied at Checkout</p>\n<p>*Excludes Clearance Tiles</p>\n<p>Valid until 30 September</p>\n</div>"
       }
     },
     "banner": {
