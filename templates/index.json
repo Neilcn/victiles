@@ -34,7 +34,7 @@
             "color-body-text": "rgba(0,0,0,0)",
             "color-overlay": "rgba(0,0,0,0)",
             "color-overlay-opacity": 0,
-            "desktop_image": "shopify://shop_images/springsale_mobile.jpg",
+            "desktop_image": "shopify://shop_images/springsaledesk.jpg",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
             "mobile_image": "shopify://shop_images/springsale_desktop.jpg",
