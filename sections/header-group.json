@@ -14,18 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_DKVb4L": {
-          "type": "announcement",
-          "settings": {
-            "text": "$5 Each Sample",
-            "link": "shopify://pages/get-a-sample"
-          }
-        },
         "announcement_n4BRqY": {
           "type": "announcement",
           "settings": {
             "text": "Australia-Wide Shipping | Visit Our Showrooms",
             "link": ""
+          }
+        },
+        "announcement_DKVb4L": {
+          "type": "announcement",
+          "settings": {
+            "text": "$5 Each Sample",
+            "link": "shopify://pages/get-a-sample"
           }
         },
         "announcement_dzfXyR": {
@@ -37,8 +37,8 @@
         }
       },
       "block_order": [
-        "announcement_DKVb4L",
         "announcement_n4BRqY",
+        "announcement_DKVb4L",
         "announcement_dzfXyR"
       ],
       "settings": {
