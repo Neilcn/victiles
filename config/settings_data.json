@@ -103,6 +103,8 @@
     "custom-badge-2-input": "New",
     "custom-badge-3-background": "#ca151d",
     "custom-badge-3-input": "Save",
+    "custom-badge-4-background": "#222222",
+    "custom-badge-4-input": "Clearance",
     "animations": false,
     "disabled_animations_on_mobile": true,
     "sample_request_vendors": "GNS,EST,Everstone,EV,Roman,THEO DI",
