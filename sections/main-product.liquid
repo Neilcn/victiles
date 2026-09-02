@@ -1517,7 +1517,7 @@
       {% endif %}
     {% endfor %}
 
-{% if in_wall_tiles %}
+{% if in_wall_tiles or product.vendor == 'CPM' %}
 {% assign sample_request_vendors = settings.sample_request_vendors | split: ',' %}
 {% assign vendor_can_request_sample = false %}
   {% for v in sample_request_vendors %}
