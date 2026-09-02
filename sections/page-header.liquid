@@ -213,9 +213,11 @@
             </button>
           </div>
           <div class="wt-header__search__results">
-            <div class="predictive-search-status">
+            <div class="predictive-search-status"></div>
+            <template data-search-top-template>
               {% render 'search-top' %}
-            </div>
+            </template>
+            <div data-search-top-container></div>
 
             {% render 'loader' %}
 

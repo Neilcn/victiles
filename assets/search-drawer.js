@@ -26,6 +26,9 @@ class DrawerSearchSection extends HTMLElement {
     );
     this.mainTrigger = this.querySelector(".wt-header__search-trigger");
     this.emptyAnnouncement = this.querySelector(".search-empty");
+    this.searchTopTemplate = this.querySelector("[data-search-top-template]");
+    this.searchTopContainer = this.querySelector("[data-search-top-container]");
+    this.isSearchTopLoaded = false;
 
     this.isVisibleClearButton = false;
 
@@ -84,8 +87,23 @@ class DrawerSearchSection extends HTMLElement {
       setTabindex(this.toggleTabindexElements, "0");
       setTabindex([this.mainTrigger], "-1");
       this.input.focus();
+      this.loadSearchTopCards();
       this.isOpen = true;
     }
+  }
+
+  loadSearchTopCards() {
+    if (
+      this.isSearchTopLoaded ||
+      !this.searchTopTemplate ||
+      !this.searchTopContainer
+    )
+      return;
+
+    this.searchTopContainer.appendChild(
+      this.searchTopTemplate.content.cloneNode(true),
+    );
+    this.isSearchTopLoaded = true;
   }
 
   toggleDrawerClasses() {
@@ -246,6 +264,7 @@ class DrawerSearchSection extends HTMLElement {
 
   renderSearchResults(resultsMarkup) {
     this.predictiveSearchResults.innerHTML = resultsMarkup;
+    if (this.searchTopContainer) this.searchTopContainer.style.display = "none";
 
     this.setAttribute("results", true);
 
@@ -264,6 +283,7 @@ class DrawerSearchSection extends HTMLElement {
     this.input.value = "";
     this.removeAttribute("results");
     this.setAttribute("empty", true);
+    if (this.searchTopContainer) this.searchTopContainer.style.removeProperty("display");
   }
 }
 

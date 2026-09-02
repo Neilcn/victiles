@@ -218,3 +218,5 @@ body li.gm-item[data-gmmi="1"] {
 .Vtl-WishlistButton__AddToWishlist {
   padding:12px 24px!important;
 }
+
+.search-result-top__item .card__badges {display: none;}

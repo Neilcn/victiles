@@ -7192,7 +7192,7 @@ input.disabled + .f-swatch__list__link .f-swatch__list__link__content {
 }
 @media (min-width: 1400px) {
   .wt-product__add-to-cart_form form {
-    max-width: 70%;
+    max-width: 100%;
   }
 }
 @media (min-width: 1400px) {
