@@ -245,6 +245,9 @@
       "block_order": [
         "text_t4icix"
       ],
+      "custom_css": [
+        "p {margin-top: 10px; margin-bottom: 10px;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_width": "regular",
