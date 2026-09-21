@@ -60,6 +60,13 @@
   }
 }
 
+.bottom_gradient .hero--out::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 42%, rgba(0, 0, 0, .72));
+}
+
 {% endstyle %}
 
 <div
@@ -107,7 +114,7 @@
               data-cascade
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
-            class="wt-multicol__item {% if section.settings.column_alignment == 'center' %} center{% endif %}"
+            class="wt-multicol__item {% if section.settings.column_alignment == 'center' %} center{% endif %}{% if section.settings.bottom-gradient %} bottom_gradient{% endif %}"
             {{ block.shopify_attributes }}
           >
             {% assign placeholder = 'product-apparel-' | append: forloop.index %}
@@ -206,6 +213,12 @@
       "id": "swipe_on_mobile",
       "default": false,
       "label": "t:sections.multicolumn.settings.swipe_on_mobile.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "bottom-gradient",
+      "default": false,
+      "label": "Enable bottom gradient"
     },
     {
       "type": "checkbox",

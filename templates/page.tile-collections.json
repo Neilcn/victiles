@@ -23,37 +23,279 @@
         "margin-bottom": 0
       }
     },
-    "1786582851f4333bfe": {
-      "type": "apps",
+    "rich_text_DjqNwD": {
+      "type": "rich-text",
       "blocks": {
-        "forms_inline_FC9AYe": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "heading_c4MnTk": {
+          "type": "heading",
           "settings": {
-            "form_id": "1110286",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 50,
-            "padding_bottom": 50,
-            "padding_right": 0,
-            "padding_left": 0
+            "heading": "EXCLUSIVE TO VICTILES",
+            "disable_on_mobile": false,
+            "size_heading": 50,
+            "size_heading_mobile": 80
+          }
+        },
+        "heading_VMnQ4N": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Signature Tile collections",
+            "disable_on_mobile": false,
+            "size_heading": 150,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_tJ9g3F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From soft stone movement to tactile travertine character, each collection brings together<br/>coordinated colours, practical finishes and an easy whole-home look.</p>",
+            "disable_on_mobile": false
           }
         }
       },
       "block_order": [
-        "forms_inline_FC9AYe"
+        "heading_c4MnTk",
+        "heading_VMnQ4N",
+        "text_tJ9g3F"
       ],
+      "custom_css": [
+        ".hero__title.hero {margin-bottom: 12px; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500;}",
+        ".hero__title.hero:nth-child(2) {text-transform: none; margin: 0 0 18px; font-size: 56px; line-height: 1.05; letter-spacing: -0.035em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "include_margins": true
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "multicolumn_kEJqba": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dWVV7Y": {
+          "type": "column",
+          "settings": {
+            "heading": "Orbat",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "#orbat",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
+            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+          }
+        },
+        "column_VGtXV7": {
+          "type": "column",
+          "settings": {
+            "heading": "Orbat",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
+            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+          }
+        },
+        "column_AQ9pFq": {
+          "type": "column",
+          "settings": {
+            "heading": "Orbat",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
+            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+          }
+        },
+        "column_AA4y98": {
+          "type": "column",
+          "settings": {
+            "heading": "Orbat",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
+            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "column_dWVV7Y",
+        "column_VGtXV7",
+        "column_AQ9pFq",
+        "column_AA4y98"
+      ],
+      "custom_css": [
+        ".hero__title svg {display: none;}",
+        ".hero__overlay {position: absolute; align-items: flex-end; padding: 20px;}",
+        ".hero__title,.hero__text {color: #fff;}",
+        "@media (max-width: 899px) {.wt-multicol__list {display: grid; grid-template-columns: auto auto; }}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "heading": "",
+        "section_class": "",
+        "swipe_on_mobile": false,
+        "bottom-gradient": true,
+        "full-width-enabled": false,
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 100
+      }
+    },
+    "image_with_text_collections_QVzFLY": {
+      "type": "image-with-text-collections",
+      "blocks": {
+        "caption_Kgkrpf": {
+          "type": "caption",
+          "settings": {
+            "caption": "01 ORBAT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_YBwQ8Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural flow, </br>inside and out.",
+            "heading_size": "h1"
+          }
+        },
+        "text_egiM76": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Orbat captures the layered beauty of travertine in four calm, architectural colours. Its P4 matt surface works across bathrooms, living areas and outdoor spaces, while coordinating mosaics make feature details feel completely resolved.</p>",
+            "text_style": "body"
+          }
+        },
+        "colours_REVULD": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_CekWKA": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_ATAfCb": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_AkhnjD": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-1.jpg",
+            "demo_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "caption_Kgkrpf",
+        "heading_YBwQ8Y",
+        "text_egiM76",
+        "colours_REVULD",
+        "colours_CekWKA",
+        "colours_ATAfCb",
+        "colours_AkhnjD"
+      ],
+      "custom_css": [
+        "@media (max-width: 899px) {.image-with-text__text-item {padding: 48px 24px 54px; }}"
+      ],
+      "name": "Image text coll",
+      "settings": {
+        "section_id": "orbat",
+        "image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "size": "600×600mm",
+        "p_rating": "P4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_VAKyFE": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Shop the Orbat Collection",
+        "disable_on_mobile": false,
+        "collection": "",
+        "product_list": [
+          "orbat-white-matt-tile-p4-600x600mm",
+          "orbat-cream-matt-tile-p4-600x600mm",
+          "orbat-light-grey-matt-tile-p4-600x600mm",
+          "orbat-charcoal-matt-tile-p4-600x600mm"
+        ],
+        "products_to_show": 4,
+        "enable_stack_products": true,
+        "show_view_all": true,
+        "button_select": "primary",
+        "show_see_all": false,
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "make_products_full_width": false,
+        "number_of_column_mobile": 2.1,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_product_rating": true,
+        "enable_quick_add_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     }
   },
   "order": [
     "main",
-    "1786582851f4333bfe"
+    "rich_text_DjqNwD",
+    "multicolumn_kEJqba",
+    "image_with_text_collections_QVzFLY",
+    "featured_collection_VAKyFE"
   ]
 }
