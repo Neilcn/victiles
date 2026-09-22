@@ -1,0 +1,623 @@
+{% style %}
+.project-gallery-1x3-section,
+.project-gallery-1x3-section *,
+.project-gallery-1x3-section *::before,
+.project-gallery-1x3-section *::after {
+  box-sizing: border-box;
+}
+
+.project-gallery-1x3-section {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 989px) {
+  .project-gallery-1x3-section {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #shopify-section-{{ section.id }} {
+    overflow: visible;
+  }
+}
+
+.project-gallery-1x3-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  min-width: 0;
+}
+
+.project-gallery-1x3-item {
+  position: relative;
+  min-width: 0;
+}
+
+.project-gallery-1x3-item-content {
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: visible;
+}
+
+.project-gallery-1x3-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 989px) {
+  .project-gallery-1x3-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 0 1rem 0.75rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .project-gallery-1x3-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .project-gallery-1x3-item {
+    flex: 0 0 min(82vw, 360px);
+    scroll-snap-align: start;
+  }
+}
+
+.hotspot-container {
+  position: absolute;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+.hotspot-dot {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0;
+  animation: project-gallery-1x3-pulse 2s infinite;
+}
+
+.hotspot-dot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+@keyframes project-gallery-1x3-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.hotspot-card {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  max-width: 90vw;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.hotspot-dot:hover + .hotspot-card,
+.hotspot-card:hover {
+  opacity: 1;
+  visibility: visible;
+  bottom: 125%;
+  pointer-events: auto;
+}
+
+.hotspot-card::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.hotspot-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hotspot-product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.hotspot-product-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hotspot-product-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.hotspot-product-price {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.project-gallery-1x3-zoom-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-gallery-1x3-item:hover .project-gallery-1x3-zoom-btn {
+  opacity: 1;
+}
+
+.project-gallery-1x3-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.project-gallery-1x3-lightbox.active {
+  display: flex;
+}
+
+.project-gallery-1x3-lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: inline-block;
+}
+
+.project-gallery-1x3-lightbox-content img.project-gallery-1x3-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+.project-gallery-1x3-lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 10000;
+  line-height: 1;
+}
+
+.project-gallery-1x3-lightbox-content .hotspot-card {
+  z-index: 30;
+}
+{% endstyle %}
+
+{% assign rooms = section.settings.room | split: ',' %}
+{% assign colours = section.settings.colour | split: ',' %}
+{% assign styles = section.settings.style | split: ',' %}
+
+<div
+  id="project-gallery-1x3-{{ section.id }}"
+  class="project-gallery-1x3-section wt-product__wrapper"
+  data-project-gallery-filter-target="true"
+  data-room="{% for r in rooms %}{{ r | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+  data-colour="{% for c in colours %}{{ c | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+  data-style="{% for s in styles %}{{ s | strip | escape }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+>
+  <div class="project-gallery-1x3-grid">
+    {% for block in section.blocks %}
+      {% if block.settings.image != blank %}
+        <div class="project-gallery-1x3-item" {{ block.shopify_attributes }}>
+          <div class="project-gallery-1x3-item-content">
+            <img
+              src="{{ block.settings.image | image_url: width: 600 }}"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.image.width }}"
+              height="{{ block.settings.image.height }}"
+              class="project-gallery-1x3-image"
+            >
+
+            <button class="project-gallery-1x3-zoom-btn" type="button" aria-label="Expand image">+</button>
+
+            {% for i in (1..5) %}
+              {% assign product_setting = 'product_' | append: i %}
+              {% assign x_setting = 'hotspot_x_' | append: i %}
+              {% assign y_setting = 'hotspot_y_' | append: i %}
+              {% assign product = block.settings[product_setting] %}
+
+              {% if product != blank %}
+                <div class="hotspot-container" style="left: {{ block.settings[x_setting] }}%; top: {{ block.settings[y_setting] }}%;">
+                  <button class="hotspot-dot" aria-label="View product: {{ product.title }}"></button>
+                  <div class="hotspot-card">
+                    <a href="{{ product.url }}" class="hotspot-card-link">
+                      {% if product.featured_image %}
+                        <img
+                          src="{{ product.featured_image | image_url: width: 150 }}"
+                          height="{{ product.featured_image.height }}"
+                          width="{{ product.featured_image.width }}"
+                          loading="lazy"
+                          alt="{{ product.title | escape }}"
+                          class="hotspot-product-image"
+                        >
+                      {% endif %}
+                      <div class="hotspot-product-info">
+                        <span class="hotspot-product-title">{{ product.title }}</span>
+                        <span class="hotspot-product-price">{{ product.price | money }}</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div id="project-gallery-1x3-lightbox-{{ section.id }}" class="project-gallery-1x3-lightbox">
+    <button class="project-gallery-1x3-lightbox-close" type="button" aria-label="Close">&times;</button>
+    <div class="project-gallery-1x3-lightbox-content"></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Gallery 1x3",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 32
+    },
+    {
+      "type": "text",
+      "id": "room",
+      "label": "Room",
+      "info": "Filterable category (e.g. Kitchen)"
+    },
+    {
+      "type": "text",
+      "id": "colour",
+      "label": "Colour",
+      "info": "Filterable category (e.g. Blue)"
+    },
+    {
+      "type": "text",
+      "id": "style",
+      "label": "Style",
+      "info": "Filterable category (e.g. Modern)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Gallery Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "header",
+          "content": "Hotspot 1"
+        },
+        {
+          "type": "product",
+          "id": "product_1",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x_1",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal Position",
+          "default": 30
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y_1",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical Position",
+          "default": 30
+        },
+        {
+          "type": "header",
+          "content": "Hotspot 2"
+        },
+        {
+          "type": "product",
+          "id": "product_2",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x_2",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal Position",
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y_2",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical Position",
+          "default": 50
+        },
+        {
+          "type": "header",
+          "content": "Hotspot 3"
+        },
+        {
+          "type": "product",
+          "id": "product_3",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x_3",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal Position",
+          "default": 70
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y_3",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical Position",
+          "default": 70
+        },
+        {
+          "type": "header",
+          "content": "Hotspot 4"
+        },
+        {
+          "type": "product",
+          "id": "product_4",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x_4",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal Position",
+          "default": 25
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y_4",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical Position",
+          "default": 75
+        },
+        {
+          "type": "header",
+          "content": "Hotspot 5"
+        },
+        {
+          "type": "product",
+          "id": "product_5",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "hotspot_x_5",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal Position",
+          "default": 75
+        },
+        {
+          "type": "range",
+          "id": "hotspot_y_5",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical Position",
+          "default": 25
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Gallery 1x3",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const sectionRoot = document.getElementById('project-gallery-1x3-{{ section.id }}');
+
+    if (!sectionRoot) {
+      return;
+    }
+
+    const lightbox = sectionRoot.querySelector('#project-gallery-1x3-lightbox-{{ section.id }}');
+    const lightboxContent = lightbox ? lightbox.querySelector('.project-gallery-1x3-lightbox-content') : null;
+    const closeBtn = lightbox ? lightbox.querySelector('.project-gallery-1x3-lightbox-close') : null;
+
+    if (!lightbox || !lightboxContent || !closeBtn) {
+      return;
+    }
+
+    sectionRoot.querySelectorAll('.project-gallery-1x3-zoom-btn').forEach(function (btn) {
+      btn.addEventListener('click', function (event) {
+        event.stopPropagation();
+
+        const itemContent = btn.closest('.project-gallery-1x3-item-content');
+        if (!itemContent) {
+          return;
+        }
+
+        const clone = itemContent.cloneNode(true);
+        const zoomBtn = clone.querySelector('.project-gallery-1x3-zoom-btn');
+
+        if (zoomBtn) {
+          zoomBtn.remove();
+        }
+
+        lightboxContent.innerHTML = '';
+        lightboxContent.appendChild(clone);
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+      lightboxContent.innerHTML = '';
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+
+    lightbox.addEventListener('click', function (event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && lightbox.classList.contains('active')) {
+        closeLightbox();
+      }
+    });
+  });
+</script>

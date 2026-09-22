@@ -248,6 +248,7 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
+        "text_item_background": "#f4f2ee",
         "size": "600×600mm",
         "p_rating": "P4",
         "padding_top": 0,
@@ -289,6 +290,87 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "project_gallery_1x3_8aERTq": {
+      "type": "project-gallery-1x3",
+      "blocks": {
+        "image_3E7xph": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OSH-9060MB-TOP-scaled.jpg",
+            "product_1": "10mm-frameless-fixed-bath-screen-v10-b-f-black",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "185647-metalic-silver-301x301mm-spain-made",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "186738-cleopatra-290x290mm-spain-made",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70,
+            "product_4": "10mm-frameless-fixed-bath-screen-v10-b-f-brushed-nickel",
+            "hotspot_x_4": 25,
+            "hotspot_y_4": 75,
+            "product_5": "185647-metalic-silver-301x301mm-spain-made",
+            "hotspot_x_5": 75,
+            "hotspot_y_5": 25
+          }
+        },
+        "image_MRNeJy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OSH-12075A6-scaled_27502349-1b7b-48e5-b08c-7ee6ca96faee.jpg",
+            "product_1": "187121-lens-298x298mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "187114-kanna-299x299mm-spain-made",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 30,
+            "product_3": "187124-blues-303x340mm-spain-made",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70,
+            "product_4": "186726-heliopolis-300x305mm-spain-made",
+            "hotspot_x_4": 25,
+            "hotspot_y_4": 75,
+            "product_5": "186738-cleopatra-290x290mm-spain-made",
+            "hotspot_x_5": 75,
+            "hotspot_y_5": 25
+          }
+        },
+        "image_R9bNVJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OSH-9060MB-OPEN-scaled_3e1fc0c2-c249-416a-ac81-8bc6deeaf0c4.jpg",
+            "product_1": "187124-blues-303x340mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "187274-joy-298x308mm-spain-made",
+            "hotspot_x_2": 30,
+            "hotspot_y_2": 50,
+            "product_3": "185647-metalic-silver-301x301mm-spain-made",
+            "hotspot_x_3": 30,
+            "hotspot_y_3": 70,
+            "product_4": "186738-cleopatra-290x290mm-spain-made",
+            "hotspot_x_4": 25,
+            "hotspot_y_4": 75,
+            "product_5": "186738-cleopatra-290x290mm-spain-made",
+            "hotspot_x_5": 75,
+            "hotspot_y_5": 25
+          }
+        }
+      },
+      "block_order": [
+        "image_3E7xph",
+        "image_MRNeJy",
+        "image_R9bNVJ"
+      ],
+      "name": "Project Gallery 1x3",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 60,
+        "room": "",
+        "colour": "",
+        "style": ""
+      }
     }
   },
   "order": [
@@ -296,6 +378,7 @@
     "rich_text_DjqNwD",
     "multicolumn_kEJqba",
     "image_with_text_collections_QVzFLY",
-    "featured_collection_VAKyFE"
+    "featured_collection_VAKyFE",
+    "project_gallery_1x3_8aERTq"
   ]
 }
