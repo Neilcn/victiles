@@ -57,7 +57,7 @@
 </style>
 
 <div class="wt-mosaic hero__wrapper" data-section-id="{{ section.id }}">
-  {% render 'headline', title: section.settings.heading | newline_to_br %}
+  {% render 'headline', title: section.settings.heading %}
   <div
     data-section-id="{{ section.id }}"
     class="
@@ -461,3 +461,13 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'headline', title: section.settings.heading | newline_to_br %}"
+  to: "{% render 'headline', title: section.settings.heading %}"
+  position: 1920..1976
+{% endcomment %}
