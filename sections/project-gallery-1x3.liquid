@@ -304,9 +304,15 @@
 
               {% if product != blank %}
                 <div class="hotspot-container" style="left: {{ block.settings[x_setting] }}%; top: {{ block.settings[y_setting] }}%;">
-                  <button class="hotspot-dot" aria-label="View product: {{ product.title }}"></button>
+                  <a
+                    href="{{ product.url }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hotspot-dot"
+                    aria-label="View product: {{ product.title }}"
+                  ></a>
                   <div class="hotspot-card">
-                    <a href="{{ product.url }}" class="hotspot-card-link">
+                    <a href="{{ product.url }}" target="_blank" rel="noopener noreferrer" class="hotspot-card-link">
                       {% if product.featured_image %}
                         <img
                           src="{{ product.featured_image | image_url: width: 150 }}"
