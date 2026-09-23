@@ -257,16 +257,19 @@
     },
     "featured_collection_VAKyFE": {
       "type": "featured-collection",
+      "custom_css": [
+        ".wt-slider__wrapper--stack[data-swiper-container] .wt-slider__slide {width: 100%;}"
+      ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Shop the Orbat Collection",
         "disable_on_mobile": false,
         "collection": "",
         "product_list": [
-          "orbat-white-matt-tile-p4-600x600mm",
           "orbat-cream-matt-tile-p4-600x600mm",
           "orbat-light-grey-matt-tile-p4-600x600mm",
-          "orbat-charcoal-matt-tile-p4-600x600mm"
+          "orbat-charcoal-matt-tile-p4-600x600mm",
+          "orbat-white-matt-tile-p4-600x600mm"
         ],
         "products_to_show": 4,
         "enable_stack_products": true,

@@ -434,12 +434,19 @@
   margin-top: 3rem;
 }
 
-.image-with-text__heading {
+.image-with-text-collection .image-with-text__heading {
   margin: 0 0 16px;
   font-size: 58px;
   line-height: 1.02;
   font-weight: 500;
   letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 749px) {
+  .image-with-text-collection .image-with-text__heading {
+    font-size: 34px;
+    margin-bottom: 0;
+  }
 }
 
 .image-with-text__text--caption {
