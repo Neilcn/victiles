@@ -151,7 +151,6 @@
       "block_order": [
         "gsc_countdown_timer_countdown_PiYbKK"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -257,6 +256,7 @@
         "heading": "",
         "section_class": "homepage-icons",
         "swipe_on_mobile": false,
+        "bottom-gradient": false,
         "full-width-enabled": false,
         "image_ratio": "square",
         "column_alignment": "left",
