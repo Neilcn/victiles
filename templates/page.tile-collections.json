@@ -93,49 +93,49 @@
         "column_VGtXV7": {
           "type": "column",
           "settings": {
-            "heading": "Orbat",
+            "heading": "Vela",
             "heading_disable_on_mobile": false,
-            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text": "<p>Designed in Italy · 5 colours · P3</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
-            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+            "desktop_image": "shopify://shop_images/Vela-Cream-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg",
+            "mobile_image": "shopify://shop_images/Vela-Cream-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
           }
         },
         "column_AQ9pFq": {
           "type": "column",
           "settings": {
-            "heading": "Orbat",
+            "heading": "Tempo",
             "heading_disable_on_mobile": false,
-            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text": "<p>Designed in Italy · 3 colours · P3</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
-            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+            "desktop_image": "shopify://shop_images/Tempo-White-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg",
+            "mobile_image": "shopify://shop_images/Tempo-White-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
           }
         },
         "column_AA4y98": {
           "type": "column",
           "settings": {
-            "heading": "Orbat",
+            "heading": "Wins",
             "heading_disable_on_mobile": false,
-            "text": "<p>Travertine inspired · 4 colours · P4</p>",
+            "text": "<p>16 unique faces · 4 colours · P4</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg",
-            "mobile_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-3.jpg"
+            "desktop_image": "shopify://shop_images/wins_1_-12_1.png",
+            "mobile_image": "shopify://shop_images/wins_1_-12_1.png"
           }
         }
       },
