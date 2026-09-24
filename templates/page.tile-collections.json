@@ -516,7 +516,7 @@
         "caption_V8REaM": {
           "type": "caption",
           "settings": {
-            "caption": "01 ORBAT",
+            "caption": "03TEMPO",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -524,43 +524,36 @@
         "heading_U8yw3V": {
           "type": "heading",
           "settings": {
-            "heading": "Natural flow, </br>inside and out.",
+            "heading": "Soft movement for calm interiors.",
             "heading_size": "h1"
           }
         },
         "text_rM7tTK": {
           "type": "text",
           "settings": {
-            "text": "<p>Orbat captures the layered beauty of travertine in four calm, architectural colours. Its P4 matt surface works across bathrooms, living areas and outdoor spaces, while coordinating mosaics make feature details feel completely resolved.</p>",
+            "text": "<p>Tempo combines cloud-like stone patterns with delicate veining and warm undertones. Designed in Italy and offered in three easy neutrals, it creates a relaxed flow across bathroom walls, floors and open-plan living spaces.</p>",
             "text_style": "body"
           }
         },
         "colours_QQWTtE": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-1.png",
-            "demo_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/Tempo-White-Matt-P3-Stone-Look-Tile-600x600mm.jpg",
+            "demo_image": "shopify://shop_images/Tempo-White-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
           }
         },
         "colours_VJtFfm": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-1.png",
-            "demo_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/Tempo-Light-Grey-660R822-Tile-Faces.png",
+            "demo_image": "shopify://shop_images/Tempo-Light-Grey-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
           }
         },
         "colours_xDjVHF": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-1.png",
-            "demo_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-2.jpg"
-          }
-        },
-        "colours_PaeeAz": {
-          "type": "colours",
-          "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-1.jpg",
-            "demo_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/Tempo-Grey-Matt-P3-Stone-Look-Tile-600x600mm.png",
+            "demo_image": "shopify://shop_images/Tempo-Grey-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
           }
         }
       },
@@ -570,16 +563,14 @@
         "text_rM7tTK",
         "colours_QQWTtE",
         "colours_VJtFfm",
-        "colours_xDjVHF",
-        "colours_PaeeAz"
+        "colours_xDjVHF"
       ],
       "custom_css": [
         "@media (max-width: 899px) {.image-with-text__text-item {padding: 48px 24px 54px; }}"
       ],
       "name": "Image text coll",
       "settings": {
-        "section_id": "orbat",
-        "image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg",
+        "section_id": "tempo",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -592,7 +583,7 @@
         "color_scheme": "",
         "text_item_background": "#f4f2ee",
         "size": "600×600mm",
-        "p_rating": "P4",
+        "p_rating": "P3",
         "padding_top": 0,
         "padding_bottom": 0
       }
