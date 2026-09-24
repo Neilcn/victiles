@@ -588,6 +588,44 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_gitbGT": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".wt-slider__wrapper--stack[data-swiper-container] .wt-slider__slide {width: 100%;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Shop the Vela Collection",
+        "disable_on_mobile": false,
+        "collection": "",
+        "product_list": [
+          "tempo-white-matt-p3-stone-look-tile-600x600mm",
+          "tempo-light-grey-matt-p3-stone-look-tile-600x600mm",
+          "tempo-grey-matt-p3-stone-look-tile-600x600mm"
+        ],
+        "products_to_show": 5,
+        "enable_stack_products": true,
+        "show_view_all": true,
+        "button_select": "primary",
+        "show_see_all": false,
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "make_products_full_width": false,
+        "number_of_column_mobile": 2.1,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_product_rating": true,
+        "enable_quick_add_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
     "image_with_text_collections_yfYUMj": {
       "type": "image-with-text-collections",
       "blocks": {
@@ -686,6 +724,7 @@
     "image_with_text_collections_EKVCwb",
     "featured_collection_QpTFM6",
     "image_with_text_collections_dwT94R",
+    "featured_collection_gitbGT",
     "image_with_text_collections_yfYUMj"
   ]
 }
