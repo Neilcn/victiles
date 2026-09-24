@@ -374,6 +374,275 @@
         "colour": "",
         "style": ""
       }
+    },
+    "image_with_text_collections_EKVCwb": {
+      "type": "image-with-text-collections",
+      "blocks": {
+        "caption_VidNJa": {
+          "type": "caption",
+          "settings": {
+            "caption": "02VELA",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_xLexKK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stone character, softly refined.",
+            "heading_size": "h1"
+          }
+        },
+        "text_HBMGnB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed in Italy, Vela pairs flowing white veining with subtle surface relief. Five balanced colours move from bright white and warm cream through to mocha and charcoal for a quietly expressive finish.</p>",
+            "text_style": "body"
+          }
+        },
+        "colours_iCwKRR": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Vela-White-Matt-P3-Stone-Look-Tile-600x600mm.jpg",
+            "demo_image": "shopify://shop_images/Vela-White-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
+          }
+        },
+        "colours_EaWwjM": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Vela-Cream-Matt-P3-Stone-Look-Tile-600x600mm.jpg",
+            "demo_image": "shopify://shop_images/Vela-Cream-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
+          }
+        },
+        "colours_yNfVbp": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Vela-Light-Grey-Matt-P3-Stone-Look-Tile-600x600mm.jpg",
+            "demo_image": "shopify://shop_images/Vela-Light-Grey-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
+          }
+        },
+        "colours_GTqWmX": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Vela-Mocha-Matt-P3-Stone-Look-Tile-600x600mm.jpg",
+            "demo_image": "shopify://shop_images/Vela-Mocha-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
+          }
+        },
+        "colours_AnJGQ8": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Vela-Charcoal-Matt-P3-Stone-Look-Tile-600x600mm.jpg",
+            "demo_image": "shopify://shop_images/Vela-Charcoal-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "caption_VidNJa",
+        "heading_xLexKK",
+        "text_HBMGnB",
+        "colours_iCwKRR",
+        "colours_EaWwjM",
+        "colours_yNfVbp",
+        "colours_GTqWmX",
+        "colours_AnJGQ8"
+      ],
+      "custom_css": [
+        "@media (max-width: 899px) {.image-with-text__text-item {padding: 48px 24px 54px; }}"
+      ],
+      "name": "Image text coll",
+      "settings": {
+        "section_id": "vela",
+        "image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "text_item_background": "#f4f2ee",
+        "size": "600×600mm",
+        "p_rating": "P4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_collections_dwT94R": {
+      "type": "image-with-text-collections",
+      "blocks": {
+        "caption_V8REaM": {
+          "type": "caption",
+          "settings": {
+            "caption": "01 ORBAT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_U8yw3V": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural flow, </br>inside and out.",
+            "heading_size": "h1"
+          }
+        },
+        "text_rM7tTK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Orbat captures the layered beauty of travertine in four calm, architectural colours. Its P4 matt surface works across bathrooms, living areas and outdoor spaces, while coordinating mosaics make feature details feel completely resolved.</p>",
+            "text_style": "body"
+          }
+        },
+        "colours_QQWTtE": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_VJtFfm": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_xDjVHF": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_PaeeAz": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-1.jpg",
+            "demo_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "caption_V8REaM",
+        "heading_U8yw3V",
+        "text_rM7tTK",
+        "colours_QQWTtE",
+        "colours_VJtFfm",
+        "colours_xDjVHF",
+        "colours_PaeeAz"
+      ],
+      "custom_css": [
+        "@media (max-width: 899px) {.image-with-text__text-item {padding: 48px 24px 54px; }}"
+      ],
+      "name": "Image text coll",
+      "settings": {
+        "section_id": "orbat",
+        "image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "text_item_background": "#f4f2ee",
+        "size": "600×600mm",
+        "p_rating": "P4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_collections_yfYUMj": {
+      "type": "image-with-text-collections",
+      "blocks": {
+        "caption_ba9zWt": {
+          "type": "caption",
+          "settings": {
+            "caption": "01 ORBAT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_GnLrzm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural flow, </br>inside and out.",
+            "heading_size": "h1"
+          }
+        },
+        "text_erWN3q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Orbat captures the layered beauty of travertine in four calm, architectural colours. Its P4 matt surface works across bathrooms, living areas and outdoor spaces, while coordinating mosaics make feature details feel completely resolved.</p>",
+            "text_style": "body"
+          }
+        },
+        "colours_GtGQXH": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_UWkniN": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_NG3wTH": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-1.png",
+            "demo_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        },
+        "colours_C6zxTr": {
+          "type": "colours",
+          "settings": {
+            "swatch_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-1.jpg",
+            "demo_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "caption_ba9zWt",
+        "heading_GnLrzm",
+        "text_erWN3q",
+        "colours_GtGQXH",
+        "colours_UWkniN",
+        "colours_NG3wTH",
+        "colours_C6zxTr"
+      ],
+      "custom_css": [
+        "@media (max-width: 899px) {.image-with-text__text-item {padding: 48px 24px 54px; }}"
+      ],
+      "name": "Image text coll",
+      "settings": {
+        "section_id": "orbat",
+        "image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "text_item_background": "#f4f2ee",
+        "size": "600×600mm",
+        "p_rating": "P4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -382,6 +651,9 @@
     "multicolumn_kEJqba",
     "image_with_text_collections_QVzFLY",
     "featured_collection_VAKyFE",
-    "project_gallery_1x3_8aERTq"
+    "project_gallery_1x3_8aERTq",
+    "image_with_text_collections_EKVCwb",
+    "image_with_text_collections_dwT94R",
+    "image_with_text_collections_yfYUMj"
   ]
 }
