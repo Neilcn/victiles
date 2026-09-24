@@ -640,43 +640,43 @@
         "heading_GnLrzm": {
           "type": "heading",
           "settings": {
-            "heading": "Natural flow, </br>inside and out.",
+            "heading": "Natural variation, made practical.",
             "heading_size": "h1"
           }
         },
         "text_erWN3q": {
           "type": "text",
           "settings": {
-            "text": "<p>Orbat captures the layered beauty of travertine in four calm, architectural colours. Its P4 matt surface works across bathrooms, living areas and outdoor spaces, while coordinating mosaics make feature details feel completely resolved.</p>",
+            "text": "<p>With 16 unique faces, Wins creates a convincing stone look across larger installations. Its four versatile colours and P4 finish give bathrooms, kitchens and living areas the visual depth of natural material with easy porcelain care.</p>",
             "text_style": "body"
           }
         },
         "colours_GtGQXH": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-1.png",
-            "demo_image": "shopify://shop_images/Orbat-White-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/Wins_Cream_Matt_P4_Stone_Look_Tile_600X600mm4.jpg",
+            "demo_image": "shopify://shop_images/Wins_Cream_Matt_P4_Stone_Look_Tile_600X600mm3.png"
           }
         },
         "colours_UWkniN": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-1.png",
-            "demo_image": "shopify://shop_images/Orbat-Cream-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/wins3_3.jpg",
+            "demo_image": "shopify://shop_images/Wins_Moon_Matt_P4_Stone_Look_Tile_600X600mm_1.png"
           }
         },
         "colours_NG3wTH": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-1.png",
-            "demo_image": "shopify://shop_images/Orbat-Light-Grey-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/wins7_7.jpg",
+            "demo_image": "shopify://shop_images/Wins_Grigio_Matt_P4_Stone_Look_Tile_600X600mm_1.png"
           }
         },
         "colours_C6zxTr": {
           "type": "colours",
           "settings": {
-            "swatch_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-1.jpg",
-            "demo_image": "shopify://shop_images/Orbat-Charcoal-Matt-Tile-P4-600x600mm-2.jpg"
+            "swatch_image": "shopify://shop_images/wins11_11.jpg",
+            "demo_image": "shopify://shop_images/Wins_Coal_Matt_P4_Stone_Look_Tile_600X600mm2.png"
           }
         }
       },
