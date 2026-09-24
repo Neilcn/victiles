@@ -116,7 +116,7 @@
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
-            "button_link": "",
+            "button_link": "#tempo",
             "button_link_in_new_window": false,
             "desktop_image": "shopify://shop_images/Tempo-White-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg",
             "mobile_image": "shopify://shop_images/Tempo-White-Matt-P3-Stone-Look-Tile-600x600mm-Lifestyle.jpg"
@@ -132,7 +132,7 @@
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
-            "button_link": "",
+            "button_link": "#wins",
             "button_link_in_new_window": false,
             "desktop_image": "shopify://shop_images/wins_1_-12_1.png",
             "mobile_image": "shopify://shop_images/wins_1_-12_1.png"
