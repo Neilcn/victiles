@@ -182,14 +182,14 @@
         "heading_YBwQ8Y": {
           "type": "heading",
           "settings": {
-            "heading": "Natural flow, </br>inside and out.",
+            "heading": "Travertine beauty, made effortless.",
             "heading_size": "h1"
           }
         },
         "text_egiM76": {
           "type": "text",
           "settings": {
-            "text": "<p>Orbat captures the layered beauty of travertine in four calm, architectural colours. Its P4 matt surface works across bathrooms, living areas and outdoor spaces, while coordinating mosaics make feature details feel completely resolved.</p>",
+            "text": "<p>Bring the relaxed beauty of travertine home with Orbat. Soft, layered stone movement and four considered colours create a refined foundation, while its durable porcelain body and P4 matt finish make it a practical choice for bathrooms, living areas and outdoor spaces. Complete the look with matching mosaics for a seamless finish from room to room.</p>",
             "text_style": "body"
           }
         },
@@ -534,18 +534,6 @@
         "margin-bottom": 40
       }
     },
-    "separator_nj8VFx": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "heading": "",
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#505050",
-        "margin-top": 40,
-        "margin-bottom": 40
-      }
-    },
     "image_with_text_collections_dwT94R": {
       "type": "image-with-text-collections",
       "blocks": {
@@ -660,6 +648,18 @@
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
+      }
+    },
+    "separator_nj8VFx": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "heading": "",
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#505050",
+        "margin-top": 40,
+        "margin-bottom": 40
       }
     },
     "image_with_text_collections_yfYUMj": {
