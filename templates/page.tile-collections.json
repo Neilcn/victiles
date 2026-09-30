@@ -168,18 +168,6 @@
         "margin-bottom": 100
       }
     },
-    "separator_DjaUB6": {
-      "type": "separator",
-      "name": "t:sections.separator.presets.name",
-      "settings": {
-        "heading": "",
-        "show-separator-line": true,
-        "full-width-line": false,
-        "color-background": "#505050",
-        "margin-top": 20,
-        "margin-bottom": 20
-      }
-    },
     "image_with_text_collections_QVzFLY": {
       "type": "image-with-text-collections",
       "blocks": {
@@ -387,6 +375,18 @@
         "margin-bottom": 20
       }
     },
+    "separator_DjaUB6": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "heading": "",
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#505050",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
     "image_with_text_collections_EKVCwb": {
       "type": "image-with-text-collections",
       "blocks": {
@@ -520,6 +520,30 @@
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20
+      }
+    },
+    "separator_yQgUpG": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "heading": "",
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#505050",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "separator_J7rmqi": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "heading": "",
+        "show-separator-line": true,
+        "full-width-line": false,
+        "color-background": "#505050",
+        "margin-top": 40,
+        "margin-bottom": 40
       }
     },
     "image_with_text_collections_dwT94R": {
@@ -769,12 +793,14 @@
     "main",
     "rich_text_DjqNwD",
     "multicolumn_kEJqba",
-    "separator_DjaUB6",
     "image_with_text_collections_QVzFLY",
     "project_gallery_1x3_8aERTq",
     "featured_collection_VAKyFE",
+    "separator_DjaUB6",
     "image_with_text_collections_EKVCwb",
     "featured_collection_QpTFM6",
+    "separator_yQgUpG",
+    "separator_J7rmqi",
     "image_with_text_collections_dwT94R",
     "featured_collection_gitbGT",
     "image_with_text_collections_yfYUMj",
