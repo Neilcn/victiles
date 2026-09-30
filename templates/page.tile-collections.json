@@ -522,7 +522,7 @@
         "margin-bottom": 20
       }
     },
-    "separator_yQgUpG": {
+    "separator_J7rmqi": {
       "type": "separator",
       "name": "t:sections.separator.presets.name",
       "settings": {
@@ -534,7 +534,7 @@
         "margin-bottom": 40
       }
     },
-    "separator_J7rmqi": {
+    "separator_nj8VFx": {
       "type": "separator",
       "name": "t:sections.separator.presets.name",
       "settings": {
@@ -799,10 +799,10 @@
     "separator_DjaUB6",
     "image_with_text_collections_EKVCwb",
     "featured_collection_QpTFM6",
-    "separator_yQgUpG",
     "separator_J7rmqi",
     "image_with_text_collections_dwT94R",
     "featured_collection_gitbGT",
+    "separator_nj8VFx",
     "image_with_text_collections_yfYUMj",
     "featured_collection_yNmMUG"
   ]
