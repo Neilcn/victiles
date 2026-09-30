@@ -250,7 +250,7 @@
         "color_scheme": "",
         "text_item_background": "#f4f2ee",
         "size": "600×600mm",
-        "p_rating": "P4",
+        "p_rating": "In & Out",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -477,7 +477,7 @@
         "color_scheme": "",
         "text_item_background": "#f4f2ee",
         "size": "600×600mm",
-        "p_rating": "P3",
+        "p_rating": "Inside",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -607,7 +607,7 @@
         "color_scheme": "",
         "text_item_background": "#f4f2ee",
         "size": "600×600mm",
-        "p_rating": "P3",
+        "p_rating": "Inside",
         "padding_top": 0,
         "padding_bottom": 0
       }
