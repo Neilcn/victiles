@@ -267,11 +267,11 @@
         "image_d9tkzh"
       ],
       "custom_css": [
-        "h2 {color: #000;}"
+        "h2 {color: #000; font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -0.7px;}"
       ],
       "name": "Masonry Filter Gallery",
       "settings": {
-        "heading": "Gallery",
+        "heading": "Featured Projects",
         "heading_size": "h0"
       }
     }
