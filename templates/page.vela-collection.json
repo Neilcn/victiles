@@ -141,39 +141,41 @@
             "desktop_image": "shopify://shop_images/Screenshot_2026-10-13_at_19.16.17.png"
           }
         },
-        "column_tARRqG": {
+        "column_HYLxPc": {
           "type": "column",
           "settings": {
-            "heading": "Column",
+            "heading": "MATT FINISH · P3",
             "heading_disable_on_mobile": false,
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>FINISH & SLIP RATING</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Screenshot_2026-10-13_at_19.17.00.png"
           }
         },
-        "column_rmNQEn": {
+        "column_w4hfHD": {
           "type": "column",
           "settings": {
-            "heading": "Column",
+            "heading": "PORCELAIN",
             "heading_disable_on_mobile": false,
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>WALLS & FLOORS</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "button_link_in_new_window": false
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Screenshot_2026-10-13_at_19.19.23.png"
           }
         }
       },
       "block_order": [
         "column_C3x9Nt",
-        "column_tARRqG",
-        "column_rmNQEn"
+        "column_HYLxPc",
+        "column_w4hfHD"
       ],
       "custom_css": [
         ".hero--out {flex-direction: row; gap: 10px;}",
