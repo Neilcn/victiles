@@ -266,10 +266,13 @@
         "image_Gh9cDz",
         "image_d9tkzh"
       ],
+      "custom_css": [
+        "h2 {color: #000;}"
+      ],
       "name": "Masonry Filter Gallery",
       "settings": {
         "heading": "Gallery",
-        "heading_size": "h1"
+        "heading_size": "h0"
       }
     }
   },
