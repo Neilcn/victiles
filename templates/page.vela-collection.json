@@ -209,13 +209,392 @@
     "masonry_filter_gallery_aQQjyP": {
       "type": "masonry-filter-gallery",
       "blocks": {
-        "image_kPLYia": {
+        "image_rx69RM": {
           "type": "image",
           "settings": {
-            "room": "",
-            "colour": "",
-            "style": "",
-            "product_1": "",
+            "image": "shopify://shop_images/Blue_Night_Matt_50x150mm.jpg",
+            "room": "Kitchen",
+            "colour": "Blue",
+            "style": "Luxury Living,Modern Minimal",
+            "product_1": "equ0083-coco-blue-night-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 37,
+            "hotspot_y_1": 51,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_myXLrH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_50d10df7-de60-484d-ab37-9c6bb02766bc.jpg",
+            "room": "Bathroom",
+            "colour": "Grey,White",
+            "style": "Modern Minimal",
+            "product_1": "hf-gelato-light-matt-finish-600x600mm",
+            "hotspot_x_1": 57,
+            "hotspot_y_1": 76,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_M6QMC4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blue_Grass_Matt_50x150mm.jpg",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Coastal Living,Modern Minimal",
+            "product_1": "equ0082-coco-blue-grass-matt-50x150mm-made-in-spain",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 59,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_w3rBPc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Amber_Grey_Gloss_50x150mm.jpg",
+            "room": "Kitchen",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "product_1": "equ0079-coco-amber-grey-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 28,
+            "hotspot_y_1": 43,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_nrBhM9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COCO_ORCHARD_PINK_GLOSS_50X150MM.jpg",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "equ0077-coco-orchard-pink-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 36,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_iqFYXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EQU0075_Canvas_50x150mm.jpg",
+            "room": "Bathroom",
+            "colour": "Beige,White",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "equ0075-coco-canvas-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 53,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Wda6Pa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EQU0073_White_Gloss_50x150mm.jpg",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Modern Minimal,Warm Natural",
+            "product_1": "equ0073-coco-white-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 22,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_fDVjFa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-pine-green-100x100mm-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-pine-green-100x100mm-spanish-wall-tiles",
+            "hotspot_x_1": 45,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_tUkRYU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_c59d56a0-838f-45b3-a779-0e251a162a19.jpg",
+            "room": "Bathroom",
+            "colour": "White,Beige",
+            "style": "Luxury Living,Warm Natural",
+            "product_1": "vt-66gdergoldmatt-gder-gold-matt-600x600mm",
+            "hotspot_x_1": 18,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_RLKNWG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_78b509a0-1b5d-4aad-9853-4488210ff52f.jpg",
+            "room": "Kitchen,Living Room",
+            "colour": "White,Grey,Beige",
+            "style": "Modern Minimal,Warm Natural",
+            "product_1": "orbat-light-grey-matt-tile-p4-600x600mm",
+            "hotspot_x_1": 18,
+            "hotspot_y_1": 81,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_cFK7Rx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Black_Hat_Gloss_50x150mm.webp",
+            "room": "Kitchen",
+            "colour": "Black",
+            "style": "Industrial,Modern Minimal",
+            "product_1": "equ0087-coco-black-hat-gloss-50x150mm-made-in-spain",
+            "hotspot_x_1": 37,
+            "hotspot_y_1": 48,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_pKJ7N3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COCO_VERDE_MATT_50X150MM.webp",
+            "room": "Living Room",
+            "colour": "Green",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "equ0086-coco-verde-matt-50x150mm-made-in-spain",
+            "hotspot_x_1": 75,
+            "hotspot_y_1": 67,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_rWj4wh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-matcha-subway-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-matcha-75x150mm-spanish-wall-tiles",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 33,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_fawccz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-matcha-100x100mm-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-matcha-100x100mm-spanish-wall-tiles",
+            "hotspot_x_1": 18,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_pC7HD3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-dusty-pink-subway-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-dusty-pink-75x150mm-spanish-wall-tiles",
+            "hotspot_x_1": 65,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_JNzX3J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-black-subway-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Black",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "altea-black-75x150mm-spanish-wall-tiles",
+            "hotspot_x_1": 40,
+            "hotspot_y_1": 65,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_zTaWHB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea-black-100x100mm-spanish-gloss-feature-tile-2.jpg",
+            "room": "Bathroom",
+            "colour": "Black",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "altea-black-100x100mm-spanish-wall-tiles",
+            "hotspot_x_1": 68,
+            "hotspot_y_1": 70,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_qcHVjt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Altea_DUSTY_PINK.png",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Rustic & Farmhouse",
+            "product_1": "altea-dusty-pink-100x100mm-spanish-wall-tiles",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Ren76e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3bb58a_c4ba0f673eb743daaed0ffbe30c44eab_mv2_jpg.jpg",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Modern Minimal",
+            "product_1": "alhambra-azul-250x250mm-spanish-decor-tiles-copy",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ixdpJV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3bb58a_449cb4f535804e3a859cb11258d92777_mv2.jpg",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Modern Minimal",
+            "product_1": "alhambra-negro-250x250mm-spanish-decor-tiles",
+            "hotspot_x_1": 28,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_UiAJUr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-7.png",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-zellige-clay-100x100mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_WEkUwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-6.png",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-cloud-50x150mm",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
             "product_2": "",
@@ -226,13 +605,32 @@
             "hotspot_y_3": 70
           }
         },
-        "image_Gh9cDz": {
+        "image_pGdcNL": {
           "type": "image",
           "settings": {
-            "room": "",
-            "colour": "",
-            "style": "",
-            "product_1": "",
+            "image": "shopify://shop_images/Byron-5.png",
+            "room": "commercial",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-zellige-bottle-100x100mm",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jrQgt3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-4.png",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-cloud-50x150mm",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
             "product_2": "",
@@ -243,15 +641,1258 @@
             "hotspot_y_3": 70
           }
         },
-        "image_d9tkzh": {
+        "image_Jt98D8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Byron-3.png",
+            "room": "Bathroom",
+            "colour": "Beige,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-chalk-50x150mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_YdFFBL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-2.png",
+            "room": "Bathroom",
+            "colour": "White,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-zellige-chalk-100x100mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_AfkTfN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Byron-1.png",
+            "room": "Kitchen",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-bejmat-sand-50x150mm",
+            "hotspot_x_1": 47,
+            "hotspot_y_1": 15,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_8rqkY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3bb58a_4ab64d2684b7428d96a8066ce00edc27_mv2.jpg",
+            "room": "Bathroom,Kitchen",
+            "colour": "Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "byron-zellige-mist-100x100mm",
+            "hotspot_x_1": 15,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_84RBfG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GRANADELLA_CIELO_64X223_96dd0c8d-dc5c-419b-a1f1-f1cf24c05c6c.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189200-granadella-cielo-64x223",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 20,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Jfaa9N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Global_Naturale.png",
             "room": "",
             "colour": "",
             "style": "",
-            "product_1": "",
+            "product_1": "03537a-piemme-600x600mm-evoluta-global-nat-ret-made-in-italy",
+            "hotspot_x_1": 62,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_DkGFKe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GRANADELLA_SAL_64X223_715e3265-38d9-4346-9ac6-d33e7e856d32.png",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "189203-granadella-sal-64x223",
+            "hotspot_x_1": 75,
+            "hotspot_y_1": 57,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4ikgc9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GREENLAND_PEACH_ANTI_SLIP_147X147_GREENLAND_CLAY_ANTI_SLIP_147X147_884936e6-82a2-473c-a6b2-818b41da52a4.png",
+            "room": "Living Room,Kitchen,commercial",
+            "colour": "White,Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189074-greenland-clay-anti-slip-147x147",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 35,
+            "product_2": "189075-greenland-peach-anti-slip-147x147",
+            "hotspot_x_2": 59,
+            "hotspot_y_2": 54,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_VCm9g6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JORDANA.png",
+            "room": "Living Room,commercial",
+            "colour": "White,Beige",
+            "style": "Warm Natural,Rustic & Farmhouse",
+            "product_1": "188476-dune-valencia-jordana-200x200",
+            "hotspot_x_1": 61,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_8bWRaR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARDEN_GREY.png",
+            "room": "commercial",
+            "colour": "Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "187663-marden-grey-matt-200x200mm-spain-made",
             "hotspot_x_1": 30,
             "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4kziMh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARDEN_NATURAL.png",
+            "room": "Living Room,Proch",
+            "colour": "White,Beige",
+            "style": "Rustic & Farmhouse,Warm Natural",
+            "product_1": "187670-marden-natural-matt-200x200mm-spain-made",
+            "hotspot_x_1": 49,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_anPFdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MILANO_BOSCO_69X240_0c28e133-6b60-4fc1-b10e-7f7c4b0ecab1.png",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189174-milano-bosco-69x240",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_UeVJXU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ORNAMENTAL.png",
+            "room": "Bathroom",
+            "colour": "",
+            "style": "",
+            "product_1": "187820-ornamental-black-white-matt-200x200mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_awrCBK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Blue_Glossy_Cloudy_Naturale.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Modern Minimal",
+            "product_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_hqzEw4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Powder.png",
+            "room": "Living Room",
+            "colour": "Pink",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-05237-piemme-300x600mm-homey-stripes-powder-mat-made-in-italy",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4JmYNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_White_Glossy.png",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Rustic & Farmhouse,Coastal Living",
+            "product_1": "est-05234-piemme-300x600mm-homey-stripes-white-glossy-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 38,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_N7yB8D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TRAZOS_FLAMINGO_147X147_6b3c777a-fb0d-4e98-a306-f9ed3ef77e5b.png",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Warm Natural,Rustic & Farmhouse",
+            "product_1": "188076-berlin-trazos-flamingo-matt-147x147mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_JzyyrU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fango_Solid_Handmade_Fango.png",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Modern Minimal,Rustic & Farmhouse",
+            "product_1": "05993-handmade-vibes-fango-nat-ret-600x1200mm-made-in-italy",
+            "hotspot_x_1": 73,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_fyDXKN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EVOLUTA_Advanced.png",
+            "room": "Living Room",
+            "colour": "Black",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "03535a-piemme-600x600mm-evoluta-advanced-nat-ret-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 70,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_m3H7KN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EVOLUTA.png",
+            "room": "Living Room",
+            "colour": "Grey,Black",
+            "style": "Rustic & Farmhouse",
+            "product_1": "03538-piemme-600x600mm-evoluta-cosmopolitan-nat-ret-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 70,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Chxdcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DOTS_FLAMINGO_282X285_77ac6292-de9a-4725-bc82-6630da09d24d.png",
+            "room": "Bathroom",
+            "colour": "Pink",
+            "style": "Rustic & Farmhouse",
+            "product_1": "182003-dots-flamingo-282x285mm-spain-made",
+            "hotspot_x_1": 75,
+            "hotspot_y_1": 50,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_cXDqFt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CRACKLE_DECOR_LAGUNA.png",
+            "room": "Bathroom",
+            "colour": "Blue,White",
+            "style": "Modern Minimal,Rustic & Farmhouse",
+            "product_1": "187829-crackle-decor-laguna-gloss-65x330mm-spain-made",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ztTzrb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cluster_Multicolor_Naturale.png",
+            "room": "Living Room,commercial",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "product_1": "03613-piemme-600x1200mm-evoluta-cluster-dark-made-in-italy",
+            "hotspot_x_1": 40,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_7ENAfg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CIRCULAR_SKY.png",
+            "room": "Bathroom",
+            "colour": "Blue,White,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "187822-circular-sky-matt-200x200mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 85,
+            "product_2": "188254-tabarca-blanco-75x230",
+            "hotspot_x_2": 27,
+            "hotspot_y_2": 45,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_XVRbYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chalk_Naturale_Rettificato_Bloom_Blue_Naturale_Rettificato.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Rustic & Farmhouse",
+            "product_1": "est-05275-piemme-600x1200mm-homey-bloom-blue-nat-ret-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 13,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_w3Jcar": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Calce_Solid_Handmade_Calce.png",
+            "room": "Bathroom",
+            "colour": "White,Beige",
+            "style": "Modern Minimal,Rustic & Farmhouse",
+            "product_1": "06152-calce-solid-antislip-ret-600x600mm-made-in-italy",
+            "hotspot_x_1": 15,
+            "hotspot_y_1": 20,
+            "product_2": "05990-handmade-vibes-calce-nat-ret-600x1200mm-made-in-italy",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 33,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Yt3k7D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bloom_White_Naturale_Chalk_Cotto_Naturali.png",
+            "room": "Bathroom",
+            "colour": "Beige,Red",
+            "style": "Rustic & Farmhouse",
+            "product_1": "est-05276-piemme-600x1200mm-homey-bloom-white-nat-ret-made-in-italy",
+            "hotspot_x_1": 60,
+            "hotspot_y_1": 40,
+            "product_2": "est-06069-piemme-600x1200mm-homey-paper-clay-cipria-made-in-italy",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 90,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_iKVQcT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Belgium_Black.png",
+            "room": "Bathroom",
+            "colour": "Black",
+            "style": "Modern Minimal",
+            "product_1": "est-05503-piemme-600x600mm-limestone-belgium-black-nat-ret-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_V39af7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_OLIVE_69X240_72032f86-ba08-4c97-a7a4-b7df2033f737.png",
+            "room": "Kitchen",
+            "colour": "Green,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189184-atlantique-olive-69x240",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 25,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_d7ErTm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_COTTO_69X240_37b673ab-5f28-4fab-a910-577e3d4e2ab4.png",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse,Warm Natural",
+            "product_1": "189185-atlantique-cotto-69x240",
+            "hotspot_x_1": 40,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_tC9mk9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_CHARBON_69X240_94d4e13c-4852-4b94-b87f-0c22fae4ca2c.png",
+            "room": "Bathroom",
+            "colour": "Black",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189186-atlantique-charbon-69x240",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_mqHy7T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_BLEU_69X240_a05d5aa4-a501-4042-9d19-9352da73a11f.png",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "189183-atlantique-bleu-69x240",
+            "hotspot_x_1": 35,
+            "hotspot_y_1": 25,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_AwhPha": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.39.54.png",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-06070-piemme-600x1200mm-homey-paper-clay-sabbia-made-in-italy",
+            "hotspot_x_1": 25,
+            "hotspot_y_1": 35,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4tNiU6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.39.19.png",
+            "room": "Bedroom",
+            "colour": "Grey",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-06072-piemme-600x1200mm-homey-paper-clay-avio-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_TAP39c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.39.07.png",
+            "room": "Bathroom",
+            "colour": "Blue,Green",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-06071-piemme-600x1200mm-homey-paper-clay-verde-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_X3q4NQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.38.57.png",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-06074-piemme-600x1200mm-homey-paper-clay-neve-made-in-italy",
+            "hotspot_x_1": 43,
+            "hotspot_y_1": 35,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_q67Pdz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.38.39.png",
+            "room": "Bathroom",
+            "colour": "Blue,Grey",
+            "style": "Modern Minimal,Rustic & Farmhouse",
+            "product_1": "est-06072-piemme-600x1200mm-homey-paper-clay-avio-made-in-italy",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 35,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Q9eRYt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-27_8.38.25.png",
+            "room": "Living Room",
+            "colour": "Red",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-06069-piemme-600x1200mm-homey-paper-clay-cipria-made-in-italy",
+            "hotspot_x_1": 35,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_p4yCcd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Clay_-_Sand_Naturale_Rettificato.png",
+            "room": "Kitchen",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "05991-handmade-vibes-malta-nat-ret-600x1200mm-made-in-italy",
+            "hotspot_x_1": 92,
+            "hotspot_y_1": 38,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_a8jFAH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Mustard_Glossy.png",
+            "room": "Bathroom",
+            "colour": "Yellow",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-05235-piemme-300x600mm-homey-stripes-mustard-glossy-made-in-italy",
+            "hotspot_x_1": 67,
+            "hotspot_y_1": 33,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_YyztJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripes_Green_Glossy.png",
+            "room": "Bathroom",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse,Modern Minimal",
+            "product_1": "est-05233-piemme-300x600mm-homey-stripes-green-glossy-made-in-italy",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_pDnQ3H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Flower_Cotto_Naturale_Rettificato.png",
+            "room": "Living Room",
+            "colour": "Red",
+            "style": "Rustic & Farmhouse,Warm Natural",
+            "product_1": "est-05241-piemme-600x1200mm-homey-flower-cotto-nat-ret-made-in-italy",
+            "hotspot_x_1": 55,
+            "hotspot_y_1": 46,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4f3r4B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1406.jpg",
+            "room": "commercial",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 52,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_9haKEa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG876.jpg",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Coastal Living,Warm Natural",
+            "product_1": "est-05232-piemme-300x600mm-homey-stripes-blue-glossy-made-in-italy",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 52,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jaXHcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ATLANTIQUE_AMANDE_69X240_2f920ceb-b498-4c57-ba76-5633364053a8.png",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "product_1": "189181-atlantique-amande-69x240",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 18,
+            "product_2": "189074-greenland-clay-anti-slip-147x147",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 92,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_R6V3E7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGNES_NATURAL_200X200_ad9c0a22-7a0d-4ec4-86e0-4df6a6496a06.png",
+            "room": "Living Room",
+            "colour": "Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "187686-agnes-natural-matt-200x200mm-spain-made",
+            "hotspot_x_1": 33,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_U6wwVg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGNES_GREY_200X200_a6b101af-869d-4bf1-9c29-a5ac806272e0.png",
+            "room": "Living Room",
+            "colour": "Grey",
+            "style": "Industrial",
+            "product_1": "187664-agnes-grey-matt-200x200mm-spain-made",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 49,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_qXwMkK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_SELVA_14.7.png",
+            "room": "commercial",
+            "colour": "Green,Beige",
+            "style": "Rustic & Farmhouse",
+            "product_1": "188575-dune-agadir-selva-147x147",
+            "hotspot_x_1": 68,
+            "hotspot_y_1": 30,
+            "product_2": "188580-dune-agadir-cotto-oscuro-mate-147x147",
+            "hotspot_x_2": 23,
+            "hotspot_y_2": 85,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_xmiUUw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_SELVA.png",
+            "room": "commercial",
+            "colour": "Green",
+            "style": "Rustic & Farmhouse",
+            "product_1": "188570-dune-agadir-selva-70x280",
+            "hotspot_x_1": 49,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_LJfeek": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_MUSGO7_x_28.png",
+            "room": "Bathroom",
+            "colour": "Green,Grey",
+            "style": "Rustic & Farmhouse",
+            "product_1": "188573-dune-agadir-cotto-oscuro-mate-70x280",
+            "hotspot_x_1": 21,
+            "hotspot_y_1": 52,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_dtVCNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_LAGO.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Modern Minimal",
+            "product_1": "188548-dune-agadir-lago-70x280",
+            "hotspot_x_1": 29,
+            "hotspot_y_1": 27,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_dhVCRz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_AGUA7_x_28.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Coastal Living,Rustic & Farmhouse",
+            "product_1": "188549-dune-agadir-agua-70x280",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 41,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_y4d9Uj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AGADIR_AGUA.png",
+            "room": "Bathroom",
+            "colour": "Blue",
+            "style": "Coastal Living,Rustic & Farmhouse",
+            "product_1": "188576-dune-agadir-agua-147x147",
+            "hotspot_x_1": 56,
+            "hotspot_y_1": 55,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_4hbXY9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ins-187831.jpg",
+            "room": "Kitchen",
+            "colour": "White",
+            "style": "Modern Minimal",
+            "product_1": "187831-crackle-nieve-gloss-65x330mm-spain-made",
+            "hotspot_x_1": 47,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_6wfDbe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2026-02-11_11.36.36.png",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Warm Natural",
+            "product_1": "sti-stla6002-lapis-noce-matt-600x600",
+            "hotspot_x_1": 27,
+            "hotspot_y_1": 37,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_cNDYUg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WechatIMG1398.jpg",
+            "room": "Bathroom",
+            "colour": "Beige,White",
+            "style": "Rustic & Farmhouse,Warm Natural",
+            "product_1": "equ0028-la-riviera-wheat-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1": 67,
+            "hotspot_y_1": 47,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_qPAyRa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Industrial,Modern Minimal",
+            "product_1": "plasil6060l-plazzo-silver-lappato-600x600mm",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 86,
+            "product_2": "tus0023-universal-mirabell-feature-610x1222mm",
+            "hotspot_x_2": 62,
+            "hotspot_y_2": 17,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_nXMnR9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MW-ins.jpg",
+            "room": "Bathroom",
+            "colour": "White",
+            "style": "Luxury Living",
+            "product_1": "caloro60120m-calacutta-oro-matt-600x1200mm",
+            "hotspot_x_1": 42,
+            "hotspot_y_1": 28,
+            "product_2": "cairo-freestanding-bathtub-1700mm-1",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 60,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_FPVfRP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06.jpg",
+            "room": "Bathroom",
+            "colour": "White,Grey",
+            "style": "Luxury Living,Modern Minimal",
+            "product_1": "dec-forcar-deco-formes-carrara-298x256mm",
+            "hotspot_x_1": 42,
+            "hotspot_y_1": 28,
+            "product_2": "xin0016-alba-white-satin-600x1200mm-m820612h",
+            "hotspot_x_2": 72,
+            "hotspot_y_2": 62,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_bQtNJf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lisa-BATH01.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "product_1": "hf-origin-white-matt-finish-600x600mm",
+            "hotspot_x_1": 44,
+            "hotspot_y_1": 34,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_YJLazj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/artstone.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural",
+            "product_1": "cpm-oyatv6s6650-artstone-bianco-sh-600x600",
+            "hotspot_x_1": 49,
+            "hotspot_y_1": 77,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_YCyFPw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coco_ins.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "product_1": "men0005-arctic-tundra-grey-polish-750x1500mm-s75806",
+            "hotspot_x_1": 62,
+            "hotspot_y_1": 30,
+            "product_2": "hf-everest-grey-stonetouch-tech-finish-600x1200mm",
+            "hotspot_x_2": 16,
+            "hotspot_y_2": 42,
+            "product_3": "evie-ebt1660mw-free-standing-bathtub-matte-white-non-overflow-1660-780-690mm",
+            "hotspot_x_3": 48,
+            "hotspot_y_3": 77
+          }
+        },
+        "image_BzpEyQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ins-cau.jpg",
+            "room": "Bathroom",
+            "colour": "Green,White",
+            "style": "Rustic & Farmhouse",
+            "product_1": "dss0215-japanese-traces-jade-mix-mosaic-12x92x8mm-on-284x298mm",
+            "hotspot_x_1": 87,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_TUMqM7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shirley-ins.jpg",
+            "room": "Bathroom",
+            "colour": "Grey",
+            "style": "Modern Minimal",
+            "product_1": "plasil3030m-plazzo-silver-matt-300x300mm",
+            "hotspot_x_1": 75,
+            "hotspot_y_1": 30,
+            "product_2": "tus0025-universal-bloom-feature-610x1222mm",
+            "hotspot_x_2": 15,
+            "hotspot_y_2": 78,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_jcwajq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/berwick.jpg",
+            "room": "Bathroom",
+            "colour": "Grey,White",
+            "style": "Modern Minimal",
+            "product_1": "prd-gra60m-paradigm-graphite-600x600mm-p3-matt",
+            "hotspot_x_1": 50,
+            "hotspot_y_1": 81,
+            "product_2": "kiswh-24aw2-ou012-kingsford-satin-white-200x400",
+            "hotspot_x_2": 16,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_9JaGQw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001_3ec63573-f0a9-402f-8856-bf2ef7a5cd99.jpg",
+            "room": "Bathroom",
+            "colour": "White,Beige",
+            "style": "Coastal Living,Warm Natural",
+            "product_1": "hf-terrazzo-cream-matt-finish-600x600mm",
+            "hotspot_x_1": 79,
+            "hotspot_y_1": 48,
+            "product_2": "sk76-1200wgm-quinn-collection-vanity-1200mm-matt-grey-single-bowl-double-bowls",
+            "hotspot_x_2": 48,
+            "hotspot_y_2": 74,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ybbM4r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ins.jpg",
+            "room": "Kitchen",
+            "colour": "Green,Grey",
+            "style": "Warm Natural,Rustic & Farmhouse",
+            "product_1": "equ0031-la-riviera-vert-gloss-subway-65x200mm-made-in-spain",
+            "hotspot_x_1": 78,
+            "hotspot_y_1": 48,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_ggVeKh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ins-18862.jpg",
+            "room": "Kitchen",
+            "colour": "Blue,White",
+            "style": "Modern Minimal",
+            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
+            "hotspot_x_1": 53,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_iQtfrm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/200.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
+            "hotspot_x_1": 20,
+            "hotspot_y_1": 51,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_XzRUCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/07.jpg",
+            "room": "Bathroom",
+            "colour": "Beige",
+            "style": "Warm Natural,Modern Minimal",
+            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
+            "hotspot_x_1": 53,
+            "hotspot_y_1": 36,
             "product_2": "",
             "hotspot_x_2": 50,
             "hotspot_y_2": 50,
@@ -262,9 +1903,100 @@
         }
       },
       "block_order": [
-        "image_kPLYia",
-        "image_Gh9cDz",
-        "image_d9tkzh"
+        "image_rx69RM",
+        "image_myXLrH",
+        "image_M6QMC4",
+        "image_w3rBPc",
+        "image_nrBhM9",
+        "image_iqFYXU",
+        "image_Wda6Pa",
+        "image_fDVjFa",
+        "image_tUkRYU",
+        "image_RLKNWG",
+        "image_cFK7Rx",
+        "image_pKJ7N3",
+        "image_rWj4wh",
+        "image_fawccz",
+        "image_pC7HD3",
+        "image_JNzX3J",
+        "image_zTaWHB",
+        "image_qcHVjt",
+        "image_Ren76e",
+        "image_ixdpJV",
+        "image_UiAJUr",
+        "image_WEkUwA",
+        "image_pGdcNL",
+        "image_jrQgt3",
+        "image_Jt98D8",
+        "image_YdFFBL",
+        "image_AfkTfN",
+        "image_8rqkY8",
+        "image_84RBfG",
+        "image_Jfaa9N",
+        "image_DkGFKe",
+        "image_4ikgc9",
+        "image_VCm9g6",
+        "image_8bWRaR",
+        "image_4kziMh",
+        "image_anPFdA",
+        "image_UeVJXU",
+        "image_awrCBK",
+        "image_hqzEw4",
+        "image_4JmYNf",
+        "image_N7yB8D",
+        "image_JzyyrU",
+        "image_fyDXKN",
+        "image_m3H7KN",
+        "image_Chxdcq",
+        "image_cXDqFt",
+        "image_ztTzrb",
+        "image_7ENAfg",
+        "image_XVRbYc",
+        "image_w3Jcar",
+        "image_Yt3k7D",
+        "image_iKVQcT",
+        "image_V39af7",
+        "image_d7ErTm",
+        "image_tC9mk9",
+        "image_mqHy7T",
+        "image_AwhPha",
+        "image_4tNiU6",
+        "image_TAP39c",
+        "image_X3q4NQ",
+        "image_q67Pdz",
+        "image_Q9eRYt",
+        "image_p4yCcd",
+        "image_a8jFAH",
+        "image_YyztJL",
+        "image_pDnQ3H",
+        "image_4f3r4B",
+        "image_9haKEa",
+        "image_jaXHcz",
+        "image_R6V3E7",
+        "image_U6wwVg",
+        "image_qXwMkK",
+        "image_xmiUUw",
+        "image_LJfeek",
+        "image_dtVCNf",
+        "image_dhVCRz",
+        "image_y4d9Uj",
+        "image_4hbXY9",
+        "image_6wfDbe",
+        "image_cNDYUg",
+        "image_qPAyRa",
+        "image_nXMnR9",
+        "image_FPVfRP",
+        "image_bQtNJf",
+        "image_YJLazj",
+        "image_YCyFPw",
+        "image_BzpEyQ",
+        "image_TUMqM7",
+        "image_jcwajq",
+        "image_9JaGQw",
+        "image_ybbM4r",
+        "image_ggVeKh",
+        "image_iQtfrm",
+        "image_XzRUCy"
       ],
       "custom_css": [
         "h2 {color: #000; font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -0.7px;}"
