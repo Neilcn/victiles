@@ -178,7 +178,8 @@
         "column_w4hfHD"
       ],
       "custom_css": [
-        ".hero--out {flex-direction: row; gap: 10px;}",
+        ".wt-multicol__list{}",
+        " .hero--out {flex-direction: row; gap: 10px;}",
         ".hero__pic-container {width: unset;}",
         ".hero__pic {width: 88px;}",
         "h2 {margin-bottom: 0;}",
