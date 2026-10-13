@@ -178,14 +178,13 @@
         "column_w4hfHD"
       ],
       "custom_css": [
-        ".wt-multicol__list{}",
-        " .hero--out {flex-direction: row; gap: 10px;}",
+        ".hero--out {flex-direction: row; gap: 10px;}",
         ".hero__pic-container {width: unset;}",
         ".hero__pic {width: 88px;}",
         "h2 {margin-bottom: 0;}",
         "h2 svg {display: none;}",
         ".wt-multicol .hero--out .hero__overlay--left {padding: 0;}",
-        ".wt-multicol__list {padding: 0 50px;}",
+        ".wt-multicol__list {border-top: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5;}",
         "@media (max-width: 899px) {.wt-multicol__list {display: grid; grid-template-columns: auto auto auto; } .wt-multicol__item:nth-child(5), .wt-multicol__item:nth-child(4) {display: none; } .wt-multicol__list {padding: 0; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
