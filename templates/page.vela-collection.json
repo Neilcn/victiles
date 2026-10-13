@@ -88,11 +88,46 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "rich_text_jhcRQ3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MTNDYT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stone-Inspired, Everyday Living",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_g9trVc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vela brings the quiet character of stone into spaces made for everyday living. A palette of White, Cream, Light Grey, Mocha and Charcoal moves from soft, light tones to deeper, more grounded shades, giving you room to create a look that feels distinctly your own. Delicate veining and subtle surface detail lend each colour a sense of depth, while the matt finish offers a gentle backdrop that lets the texture speak.</p><p></p><p>Designed in Italy, the porcelain collection offers a considered starting point for bathrooms, kitchens and living spaces. The 600 × 600mm format creates a balanced rhythm across walls and floors, whether you choose one colour throughout or explore contrasts within the palette. White and Cream invite a lighter mood, Light Grey feels understated, and Mocha and Charcoal bring richness to the scheme. From a fresh renovation to a new home, Vela sets the scene for interiors that feel calm, personal and welcoming.</p>",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MTNDYT",
+        "text_g9trVc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "left",
+        "color-body-text": "transparent",
+        "background_color": "transparent",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
     }
   },
   "order": [
     "main",
     "1786582851f4333bfe",
-    "featured_collection_NrkrrQ"
+    "featured_collection_NrkrrQ",
+    "rich_text_jhcRQ3"
   ]
 }
