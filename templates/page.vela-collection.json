@@ -205,6 +205,72 @@
         "margin-top": 20,
         "margin-bottom": 20
       }
+    },
+    "masonry_filter_gallery_aQQjyP": {
+      "type": "masonry-filter-gallery",
+      "blocks": {
+        "image_kPLYia": {
+          "type": "image",
+          "settings": {
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_Gh9cDz": {
+          "type": "image",
+          "settings": {
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        },
+        "image_d9tkzh": {
+          "type": "image",
+          "settings": {
+            "room": "",
+            "colour": "",
+            "style": "",
+            "product_1": "",
+            "hotspot_x_1": 30,
+            "hotspot_y_1": 30,
+            "product_2": "",
+            "hotspot_x_2": 50,
+            "hotspot_y_2": 50,
+            "product_3": "",
+            "hotspot_x_3": 70,
+            "hotspot_y_3": 70
+          }
+        }
+      },
+      "block_order": [
+        "image_kPLYia",
+        "image_Gh9cDz",
+        "image_d9tkzh"
+      ],
+      "name": "Masonry Filter Gallery",
+      "settings": {
+        "heading": "Gallery",
+        "heading_size": "h1"
+      }
     }
   },
   "order": [
@@ -212,6 +278,7 @@
     "1786582851f4333bfe",
     "featured_collection_NrkrrQ",
     "rich_text_jhcRQ3",
-    "multicolumn_XJpHAY"
+    "multicolumn_XJpHAY",
+    "masonry_filter_gallery_aQQjyP"
   ]
 }
