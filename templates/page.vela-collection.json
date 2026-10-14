@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".wt-page--compact {max-width: 100%;}",
+        ".wt-page--compact {max-width: var(--site-max-width-big);}",
         "h1 {width: 100%; text-align: left; font-size: 48px; font-weight: 500; line-height: 1.12; letter-spacing: -1.4px;}",
         "@media (max-width: 899px) {h1 {font-size: 34px; }}"
       ],
