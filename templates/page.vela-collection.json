@@ -56,7 +56,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "title": "The Vela Collection",
+        "title": "",
         "disable_on_mobile": false,
         "collection": "",
         "product_list": [
@@ -114,7 +114,7 @@
         "text_g9trVc"
       ],
       "custom_css": [
-        ".hero__wrapper .hero__overlay {padding:0;}"
+        ".hero__wrapper .hero__overlay {padding: 0;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
