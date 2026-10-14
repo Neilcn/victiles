@@ -70,7 +70,7 @@
           "vela-charcoal-matt-p3-stone-look-tile-600x600mm"
         ],
         "products_to_show": 5,
-        "enable_stack_products": false,
+        "enable_stack_products": true,
         "show_view_all": true,
         "button_select": "primary",
         "show_see_all": false,
