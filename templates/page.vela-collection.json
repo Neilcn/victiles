@@ -194,7 +194,7 @@
         ".wt-multicol__list {border-top: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; padding: 28px 0;}",
         ".wt-multicol__list > div + div {border-left: 1px solid #d5d5d5;}",
         ".wt-multicol__list > div {padding: 0 28px;}",
-        "@media (max-width: 899px) {.wt-multicol__list {padding: 0; gap: 0; } .wt-multicol__list > div + div {border-top: 1px solid #d5d5d5; border-left: 0; }.wt-multicol__list > div{padding:10px 0; }}"
+        "@media (max-width: 899px) {.wt-multicol__list {padding: 0; gap: 0; } .wt-multicol__list > div + div {border-top: 1px solid #d5d5d5; border-left: 0; } .wt-multicol__list .wt-multicol__item {padding: 10px 0; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
