@@ -188,7 +188,7 @@
         "column_w4hfHD"
       ],
       "custom_css": [
-        ".hero--out {flex-direction: row; gap: 10px;}",
+        ".hero--out {display: grid; grid-auto-flow: column; grid-template-columns: auto 1fr; gap: 10px;}",
         ".hero__pic {width: 88px;}",
         "h2 svg {display: none;}",
         ".wt-multicol__list {border-top: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; padding: 28px 0;}",
