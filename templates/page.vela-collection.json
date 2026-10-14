@@ -210,7 +210,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 0
       }
     },
     "masonry_filter_gallery_aQQjyP": {
@@ -231,7 +231,13 @@
             "hotspot_y_2": 70,
             "product_3": "t-4590am-oval-shape-backlit-led-mirror-450x900mm",
             "hotspot_x_3": 83,
-            "hotspot_y_3": 25
+            "hotspot_y_3": 25,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_YJLazj": {
@@ -249,7 +255,13 @@
             "hotspot_y_2": 72,
             "product_3": "kdk-kar6090f-mb-matte-black-aluminium-framed-mirrors-600-900mm",
             "hotspot_x_3": 75,
-            "hotspot_y_3": 31
+            "hotspot_y_3": 31,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_YCyFPw": {
@@ -267,7 +279,13 @@
             "hotspot_y_2": 42,
             "product_3": "mornington-900mm-natural-oak-wall-hung-fluted-vanity-m-wh900-oak",
             "hotspot_x_3": 48,
-            "hotspot_y_3": 77
+            "hotspot_y_3": 77,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_BzpEyQ": {
@@ -285,7 +303,13 @@
             "hotspot_y_2": 69,
             "product_3": "",
             "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "hotspot_y_3": 70,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_TUMqM7": {
@@ -303,7 +327,13 @@
             "hotspot_y_2": 20,
             "product_3": "bristol-1500mm-wall-hung-rosewood-vanity-double-bowl-cwh68-1500da6",
             "hotspot_x_3": 56,
-            "hotspot_y_3": 70
+            "hotspot_y_3": 70,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_jcwajq": {
@@ -321,7 +351,13 @@
             "hotspot_y_2": 73,
             "product_3": "",
             "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "hotspot_y_3": 70,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_9JaGQw": {
@@ -339,7 +375,13 @@
             "hotspot_y_2": 58,
             "product_3": "ebt1660mw-free-standing-bathtub-matte-white-non-overflow-1660-780-690mm",
             "hotspot_x_3": 85,
-            "hotspot_y_3": 65
+            "hotspot_y_3": 65,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         },
         "image_ybbM4r": {
@@ -357,7 +399,13 @@
             "hotspot_y_2": 68,
             "product_3": "",
             "hotspot_x_3": 70,
-            "hotspot_y_3": 70
+            "hotspot_y_3": 70,
+            "product_4": "",
+            "hotspot_x_4": 80,
+            "hotspot_y_4": 80,
+            "product_5": "",
+            "hotspot_x_5": 90,
+            "hotspot_y_5": 90
           }
         }
       },
@@ -373,7 +421,7 @@
       ],
       "custom_css": [
         "h2 {color: #000; font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -0.7px;}",
-        ".masonry-gallery-section {max-width: var(--site-max-width-big);}",
+        ".masonry-gallery-section {padding-top: 10rem; max-width: var(--site-max-width-big);}",
         ".masonry-filters-container {display: none;}",
         ".masonry-grid {overflow: visible;}"
       ],
