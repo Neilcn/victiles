@@ -359,60 +359,6 @@
             "hotspot_x_3": 70,
             "hotspot_y_3": 70
           }
-        },
-        "image_ggVeKh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ins-18862.jpg",
-            "room": "Kitchen",
-            "colour": "Blue,White",
-            "style": "Modern Minimal",
-            "product_1": "188859-dune-kit-kat-mosaic-water-glossy-115x231",
-            "hotspot_x_1": 53,
-            "hotspot_y_1": 30,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_iQtfrm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/200.jpg",
-            "room": "Bathroom",
-            "colour": "Beige",
-            "style": "Warm Natural,Modern Minimal",
-            "product_1": "xin0023-sandstone-white-matt-600x600x10mm-660r761",
-            "hotspot_x_1": 20,
-            "hotspot_y_1": 51,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
-        },
-        "image_XzRUCy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/07.jpg",
-            "room": "Bathroom",
-            "colour": "Beige",
-            "style": "Warm Natural,Modern Minimal",
-            "product_1": "t-tvcsm6060-entiva-travertine-vein-cut-sand-matt-p4-600-600-rec",
-            "hotspot_x_1": 53,
-            "hotspot_y_1": 36,
-            "product_2": "",
-            "hotspot_x_2": 50,
-            "hotspot_y_2": 50,
-            "product_3": "",
-            "hotspot_x_3": 70,
-            "hotspot_y_3": 70
-          }
         }
       },
       "block_order": [
@@ -423,10 +369,7 @@
         "image_TUMqM7",
         "image_jcwajq",
         "image_9JaGQw",
-        "image_ybbM4r",
-        "image_ggVeKh",
-        "image_iQtfrm",
-        "image_XzRUCy"
+        "image_ybbM4r"
       ],
       "custom_css": [
         "h2 {color: #000; font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -0.7px;}"
