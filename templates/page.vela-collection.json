@@ -11,6 +11,10 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".wt-page--compact {width: 100%;}",
+        "h1{width: 100%; text-align: left;}"
+      ],
       "settings": {
         "compact-size-enabled": true,
         "size_heading": 140,
