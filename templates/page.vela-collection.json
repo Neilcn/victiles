@@ -113,6 +113,9 @@
         "heading_MTNDYT",
         "text_g9trVc"
       ],
+      "custom_css": [
+        ".hero__wrapper .hero__overlay {padding:0;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "section_width": "regular",
