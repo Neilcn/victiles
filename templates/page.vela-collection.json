@@ -117,7 +117,8 @@
         "text_g9trVc"
       ],
       "custom_css": [
-        ".hero__wrapper .hero__overlay {padding: 0;}"
+        ".hero__wrapper .hero__overlay {padding: 0;}",
+        "h2{font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -.7px;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
