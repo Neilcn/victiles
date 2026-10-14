@@ -120,7 +120,8 @@
       "custom_css": [
         ".hero__wrapper .hero__overlay {padding: 0;}",
         "h2 {font-size: 32px; font-weight: 500; line-height: 1.2; letter-spacing: -0.7px;}",
-        "p {max-width: none; margin: 0 0 24px; font-size: 20px; line-height: 1.65; font-weight: 400; letter-spacing: 0;}"
+        "p {max-width: none; margin: 0 0 24px; font-size: 20px; line-height: 1.65; font-weight: 400;}",
+        "@media (max-width: 899px) {h2 {font-size: 26px; }p{font-size: 16px; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
