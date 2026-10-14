@@ -22,7 +22,7 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-bg-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "margin-top": 40,
+        "margin-top": 60,
         "margin-bottom": 0
       }
     },
