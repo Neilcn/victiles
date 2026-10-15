@@ -102,7 +102,7 @@
             "desktop_image": "shopify://shop_images/vela_cream_banner.png",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "right",
-            "mobile_image": "shopify://shop_images/Sunlit_cream_bathroom_panorama.png",
+            "mobile_image": "shopify://shop_images/vela_banner_mobile.png",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "out-background-color": "rgba(0,0,0,0)",
