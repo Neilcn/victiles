@@ -45,38 +45,6 @@
             "out-text-color": "rgba(0,0,0,0)"
           }
         },
-        "slide_TDxLQr": {
-          "type": "slide",
-          "settings": {
-            "subheading": "",
-            "subheading_disable_on_mobile": false,
-            "heading": "Victoria's Largest Tiles Selection",
-            "heading_disable_on_mobile": false,
-            "size_heading": 140,
-            "size_heading_mobile": 110,
-            "text": "<p>All in VICTiles</p>",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "Explore Our Tiles",
-            "button_disable_on_mobile": false,
-            "button_link": "shopify://collections/tiles",
-            "second_button_select": "primary",
-            "second_button_label": "",
-            "button_disable_on_mobile_second": false,
-            "second_button_link": "",
-            "color-body-text": "#ffffff",
-            "color-overlay": "#000000",
-            "color-overlay-opacity": 10,
-            "desktop_image": "shopify://shop_images/7b9457ef0b9061bc49d0eed0e395cd1e.png",
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "right",
-            "mobile_image": "shopify://shop_images/2287058aaa42ff5140918a4716bbfdf4.jpg",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center",
-            "out-background-color": "rgba(0,0,0,0)",
-            "out-text-color": "#000000"
-          }
-        },
         "slide_Bj3Mj4": {
           "type": "slide",
           "settings": {
@@ -103,6 +71,38 @@
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "right",
             "mobile_image": "shopify://shop_images/vela_banner_mobile.png",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center",
+            "out-background-color": "rgba(0,0,0,0)",
+            "out-text-color": "#000000"
+          }
+        },
+        "slide_TDxLQr": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false,
+            "heading": "Victoria's Largest Tiles Selection",
+            "heading_disable_on_mobile": false,
+            "size_heading": 140,
+            "size_heading_mobile": 110,
+            "text": "<p>All in VICTiles</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Explore Our Tiles",
+            "button_disable_on_mobile": false,
+            "button_link": "shopify://collections/tiles",
+            "second_button_select": "primary",
+            "second_button_label": "",
+            "button_disable_on_mobile_second": false,
+            "second_button_link": "",
+            "color-body-text": "#ffffff",
+            "color-overlay": "#000000",
+            "color-overlay-opacity": 10,
+            "desktop_image": "shopify://shop_images/7b9457ef0b9061bc49d0eed0e395cd1e.png",
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "right",
+            "mobile_image": "shopify://shop_images/2287058aaa42ff5140918a4716bbfdf4.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "out-background-color": "rgba(0,0,0,0)",
@@ -144,8 +144,8 @@
       },
       "block_order": [
         "slide_mViwTU",
-        "slide_TDxLQr",
         "slide_Bj3Mj4",
+        "slide_TDxLQr",
         "slide_gLcrH6"
       ],
       "custom_css": [
