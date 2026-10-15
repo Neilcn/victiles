@@ -220,9 +220,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Greige_tile_oak_vanity_fluted_tub.png",
-            "room": "Bathroom",
-            "colour": "Grey",
-            "style": "Modern Minimal",
+            "room": "",
+            "colour": "",
+            "style": "",
             "product_1": "vela-white-matt-p3-stone-look-tile-600x600mm",
             "hotspot_x_1": 29,
             "hotspot_y_1": 80,
