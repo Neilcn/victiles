@@ -82,11 +82,11 @@
           "settings": {
             "subheading": "",
             "subheading_disable_on_mobile": false,
-            "heading": "The Vela Collection, Inspired by Natural Stone",
+            "heading": "The Vela Collection",
             "heading_disable_on_mobile": false,
             "size_heading": 140,
             "size_heading_mobile": 110,
-            "text": "<p>Stone-Inspired. Exclusive to VICTiles.</p>",
+            "text": "<p>Exclusive to VICTiles.</p>",
             "text_disable_on_mobile": false,
             "button_select": "primary",
             "button_label": "Discover Vela",
