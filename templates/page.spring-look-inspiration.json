@@ -9,51 +9,261 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "spring_banner": {
+      "type": "victiles-spring-banner",
       "settings": {
-        "compact-size-enabled": true,
-        "size_heading": 140,
-        "size_heading_mobile": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-bg-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "margin-top": 40,
-        "margin-bottom": 0
+        "heading": "Spring Look Inspiration",
+        "image": "shopify://shop_images/victiles-spring-2026-banner.png",
+        "background": "#efefe3"
       }
     },
-    "1786582851f4333bfe": {
-      "type": "apps",
+    "fresh_greens": {
+      "type": "victiles-spring-look",
+      "settings": {
+        "title": "Fresh Greens",
+        "description": "<p>Fresh green tiles can change the feel of a room without taking over. Think soft sage, pale mint and deeper leafy shades, paired with warm whites and timber. In a kitchen, a green splashback adds colour to the part of the room you use every day. In a bathroom, the same palette feels relaxed and welcoming, especially when there is a little natural light. Gloss finishes catch that light differently throughout the day, bringing out small changes in tone and surface texture. Keep the surrounding colours simple to give the green space to stand out.</p>",
+        "products_title": "Tiles for this look",
+        "heading_size": 32,
+        "description_size": 20,
+        "padding_top": 66,
+        "padding_bottom": 34,
+        "background": "#ffffff"
+      },
       "blocks": {
-        "forms_inline_FC9AYe": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "tile_1": {
+          "type": "tile_scene",
           "settings": {
-            "form_id": "1110286",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 50,
-            "padding_bottom": 50,
-            "padding_right": 0,
-            "padding_left": 0
+            "product": "altea-matcha-100x100mm-spanish-wall-tiles",
+            "image": "shopify://shop_images/victiles-spring-2026-greens.jpg",
+            "caption": ""
+          }
+        },
+        "tile_2": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "otway-subway-tiles-light-green-60x240-gloss",
+            "image": "shopify://shop_images/victiles-spring-2026-green-otway-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_3": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "sartoria-alchemica-aqua-gloss-subway-tile-100x100mm",
+            "image": "shopify://shop_images/victiles-spring-2026-green-aqua-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_4": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "sartoria-alchemica-verdea-gloss-subway-tile-100x100mm",
+            "image": "shopify://shop_images/victiles-spring-2026-green-verdea-ai.jpg",
+            "caption": ""
           }
         }
       },
-      "block_order": [
-        "forms_inline_FC9AYe"
-      ],
+      "block_order": ["tile_1", "tile_2", "tile_3", "tile_4"]
+    },
+    "soft_pink": {
+      "type": "victiles-spring-look",
       "settings": {
-        "include_margins": true
-      }
+        "title": "Soft Pink",
+        "description": "<p>Pink does not have to feel sweet or make a big statement. Dusty rose, muted blush and warm coral can sit comfortably alongside cream, timber and natural stone tones. Used across a bathroom wall or a kitchen splashback, these shades bring warmth to an otherwise neutral room. Their character changes with the finish: a glossy surface catches reflections and shows variation, while quieter surrounding materials keep the overall palette balanced. For a softer result, look for pinks with an earthy undertone rather than a bright, sugary colour, and consider how they look in your own light.</p>",
+        "products_title": "Tiles for this look",
+        "heading_size": 32,
+        "description_size": 20,
+        "padding_top": 60,
+        "padding_bottom": 34,
+        "background": "#ffffff"
+      },
+      "blocks": {
+        "tile_1": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "altea-dusty-pink-100x100mm-spanish-wall-tiles",
+            "image": "shopify://shop_images/victiles-spring-2026-pink-room.jpg",
+            "caption": ""
+          }
+        },
+        "tile_2": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "sartoria-alchemica-corallo-gloss-subway-tile-100x100mm",
+            "image": "shopify://shop_images/victiles-spring-2026-pink-corallo-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_3": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "188760-dune-agadir-amaranto-70x280",
+            "image": "shopify://shop_images/victiles-spring-2026-pink-amaranto-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_4": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "art019-artemis-rosa-portogallo-penny-round-honed-23x23",
+            "image": "shopify://shop_images/victiles-spring-2026-pink-rosa-penny-ai.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": ["tile_1", "tile_2", "tile_3", "tile_4"]
+    },
+    "earth_form": {
+      "type": "victiles-spring-look",
+      "settings": {
+        "title": "Earth & Form",
+        "description": "<p>Earthy colour and playful pattern give these spaces their character. Warm clay, soft cream and muted green sit alongside arches, flowing shapes and natural stone detail. Each tile brings a different way to introduce pattern, whether across a laundry splashback, behind a kitchen bench or through a welcoming entrance. Keep the surrounding materials simple with timber, warm whites and quieter stone tones, giving the tile design room to stand out. Explore four different takes on this palette below, from peach and cream curves to green geometric shapes and warm herringbone mosaics.</p>",
+        "products_title": "Tiles for this look",
+        "heading_size": 32,
+        "description_size": 20,
+        "padding_top": 60,
+        "padding_bottom": 34,
+        "background": "#ffffff"
+      },
+      "blocks": {
+        "tile_1": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "manipan22-200x200-manufatti-ipanema-made-in-italy",
+            "image": "shopify://shop_images/victiles-spring-2026-earth-room.jpg",
+            "caption": ""
+          }
+        },
+        "tile_2": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "atlcod-150x150-atlas-cotto-decor",
+            "image": "shopify://shop_images/victiles-spring-2026-earth-atlas-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_3": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "art219-artemis-rosa-portogallo-herringbone-honed-35x150",
+            "image": "shopify://shop_images/victiles-spring-2026-earth-herringbone-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_4": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "mantra22-200x200-manufatti-tracce-made-in-italy",
+            "image": "shopify://shop_images/victiles-spring-2026-earth-tracce-ai.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": ["tile_1", "tile_2", "tile_3", "tile_4"]
+    },
+    "quiet_texture": {
+      "type": "victiles-spring-look",
+      "settings": {
+        "title": "Quiet Texture",
+        "description": "<p>A neutral room can still have plenty to look at. Soft ivory, cream and pale stone shades create a gentle base, while relief, fine pattern and subtle surface variation add interest at a closer glance. This look is less about a strong colour contrast and more about the way materials sit together. Daylight across a textured wall can reveal details that are barely visible from another angle, giving the room a different feel as the light changes. It is a useful direction for anyone who likes a restrained palette but wants more character than a completely plain surface.</p>",
+        "products_title": "Tiles for this look",
+        "heading_size": 32,
+        "description_size": 20,
+        "padding_top": 60,
+        "padding_bottom": 34,
+        "background": "#ffffff"
+      },
+      "blocks": {
+        "tile_1": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "ck0024-bella-stone-decor-bone-matt-595x1192mm",
+            "image": "shopify://shop_images/victiles-spring-2026-texture-room.jpg",
+            "caption": ""
+          }
+        },
+        "tile_2": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "ck0026-bella-stone-decor-cream-matt-595x1192mm",
+            "image": "shopify://shop_images/victiles-spring-2026-texture-cream-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_3": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "it-mfa-the-12060h-marfil-art-decor-tile-thera-1200x600-made-in-italy",
+            "image": "shopify://shop_images/victiles-spring-2026-texture-marfil-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_4": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "euromarmo-taj-mahal-honed-stone-look-tile-150x150mm",
+            "image": "shopify://shop_images/victiles-spring-2026-pink-taj-ai.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": ["tile_1", "tile_2", "tile_3", "tile_4"]
+    },
+    "sage_stone": {
+      "type": "victiles-spring-look",
+      "settings": {
+        "title": "Sage & Stone",
+        "description": "<p>Soft sage, pale green and natural stone bring a relaxed feel to everyday rooms. This palette explores the details that make a simple scheme interesting: cloudy square tiles, slender matt rectangles, tiny penny rounds and gently rounded feather mosaics. Each creates its own rhythm across a wall, without needing a strong colour contrast. Warm timber, cream surfaces and natural light are easy companions, keeping the spaces comfortable and welcoming. Browse four ways to use these greens below, from a kitchen splashback to a bathroom feature wall, with each room showing a different tile from the selection.</p>",
+        "products_title": "Tiles for this look",
+        "heading_size": 32,
+        "description_size": 20,
+        "padding_top": 60,
+        "padding_bottom": 76,
+        "background": "#ffffff"
+      },
+      "blocks": {
+        "tile_1": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "equ0122-verticale-green-field-gloss-100x100mm-31870",
+            "image": "shopify://shop_images/victiles-spring-2026-sage-verticale-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_2": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "t-chlgm545-entiva-chay-light-green-matt-50-450",
+            "image": "shopify://shop_images/victiles-spring-2026-sage-entiva-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_3": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "art032-pr23mg-h-artemis-ming-green-penny-round-honed-23x23mm",
+            "image": "shopify://shop_images/victiles-spring-2026-sage-penny-ai.jpg",
+            "caption": ""
+          }
+        },
+        "tile_4": {
+          "type": "tile_scene",
+          "settings": {
+            "product": "art432-artemis-ming-green-feather-honed-50x103",
+            "image": "shopify://shop_images/victiles-spring-2026-sage-feather-ai.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": ["tile_1", "tile_2", "tile_3", "tile_4"]
     }
   },
   "order": [
-    "main",
-    "1786582851f4333bfe"
+    "spring_banner",
+    "fresh_greens",
+    "soft_pink",
+    "earth_form",
+    "quiet_texture",
+    "sage_stone"
   ]
 }
