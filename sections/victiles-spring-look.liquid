@@ -1,0 +1,406 @@
+<victiles-spring-look class="vt-look" data-section-id="{{ section.id }}" style="--vt-top:{{ section.settings.padding_top }}px;--vt-bottom:{{ section.settings.padding_bottom }}px;--vt-title:{{ section.settings.heading_size }}px;--vt-description:{{ section.settings.description_size }}px;--vt-bg:{{ section.settings.background }}">
+  <div class="vt-look__wrap">
+    <header class="vt-look__heading">
+      {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title | escape }}</h2>
+      {% endif %}
+      {% if section.settings.description != blank %}
+        <div class="vt-look__description">{{ section.settings.description }}</div>
+      {% endif %}
+    </header>
+
+    <div class="vt-look__gallery" tabindex="0" role="region" aria-roledescription="carousel" aria-label="{{ section.settings.title | escape }}">
+      <div class="vt-look__track">
+        {% for block in section.blocks %}
+          {% assign tile = block.settings.product %}
+          {% assign caption = block.settings.caption | default: tile.title %}
+          <div class="vt-look__slide" data-block-id="{{ block.id }}" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} / {{ section.blocks.size }}" {{ block.shopify_attributes }}>
+            {% if block.settings.image != blank %}
+              {% assign scene_alt = block.settings.image.alt | default: caption %}
+              <button type="button" class="vt-look__image" data-full="{{ block.settings.image | image_url: width: 2648 }}" data-caption="{{ caption | escape }}" aria-label="{{ section.settings.enlarge_label | escape }} — {{ caption | escape }}">
+                {{ block.settings.image | image_url: width: 2000 | image_tag: widths: '500, 750, 1100, 1500, 2000', sizes: '(min-width: 1400px) 1280px, calc(100vw - 48px)', loading: 'lazy', alt: scene_alt }}
+                <span class="vt-look__zoom" aria-hidden="true">+</span>
+              </button>
+            {% else %}
+              <div class="vt-look__image vt-look__placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            <span class="vt-spring-sr" data-tile-name>{{ caption | escape }}</span>
+          </div>
+        {% endfor %}
+      </div>
+
+      {% if section.blocks.size > 1 %}
+        <button type="button" class="vt-look__arrow vt-look__prev" aria-label="{{ section.settings.previous_label | escape }}" disabled>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="m15 5-7 7 7 7"/>
+          </svg>
+        </button>
+        <button type="button" class="vt-look__arrow vt-look__next" aria-label="{{ section.settings.next_label | escape }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="m9 5 7 7-7 7"/>
+          </svg>
+        </button>
+      {% endif %}
+    </div>
+
+    <div class="vt-look__gallery-footer">
+      <span class="vt-look__caption" aria-live="polite">
+        {% assign first_block = section.blocks.first %}
+        {{ first_block.settings.caption | default: first_block.settings.product.title | escape }}
+      </span>
+      <div class="vt-look__dots">
+        {% for block in section.blocks %}
+          <button type="button" data-slide="{{ forloop.index0 }}" aria-label="{{ section.settings.image_label | escape }} {{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
+            <span></span>
+          </button>
+        {% endfor %}
+      </div>
+      <span class="vt-look__count" aria-live="polite">{% if section.blocks.size > 0 %}1{% else %}0{% endif %} / {{ section.blocks.size }}</span>
+    </div>
+
+    {% if section.settings.products_title != blank %}
+      <h3 class="vt-look__products-title">{{ section.settings.products_title | escape }}</h3>
+    {% endif %}
+
+    <div class="vt-look__products">
+      {% for block in section.blocks %}
+        {% assign tile = block.settings.product %}
+        {% if tile != blank %}
+          <div class="vt-look__product" data-tile="{{ tile.handle }}">
+            {% render 'card',
+              card_product: tile,
+              img: tile.featured_media,
+              img_hover: false,
+              title: tile.title,
+              subtitle: tile.vendor,
+              rating: true,
+              reviews: tile.metafields.reviews,
+              options: false,
+              url: tile.url,
+              uri: tile.handle,
+              text_alignment: 'left',
+              variants: tile.variants,
+              product_options: tile.options,
+              product: tile,
+              media_aspect_ratio: 'square',
+              enable_quick_add_button: false,
+              show_video: false,
+              collection_list: true
+            %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <dialog class="vt-look__dialog" aria-label="{{ section.settings.enlarge_label | escape }}">
+    <button type="button" class="vt-look__close" aria-label="{{ section.settings.close_label | escape }}">×</button>
+    <figure>
+      <img width="2000" height="1000" alt="">
+      <figcaption></figcaption>
+    </figure>
+  </dialog>
+</victiles-spring-look>
+
+{% stylesheet %}
+victiles-spring-look.vt-look{display:block;background:var(--vt-bg,#fff);color:var(--color-body-text,#222321);padding:var(--vt-top,60px) 0 var(--vt-bottom,60px);font-family:var(--font-base,'DM Sans',sans-serif)}
+.vt-look *{box-sizing:border-box}
+.vt-look .vt-spring-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.vt-look__wrap{max-width:1376px;padding:0 48px;margin:auto}
+.vt-look__heading{text-align:left;margin-bottom:29px}
+.vt-look__heading h2{font-family:inherit;font-size:var(--vt-title,32px);font-weight:500;line-height:1.2;letter-spacing:-.7px;margin:0 0 12px}
+.vt-look__description{font-size:var(--vt-description,20px);font-weight:400;line-height:1.65}
+.vt-look__description p{margin:0}
+.vt-look__description p+p{margin-top:18px}
+.vt-look__gallery{position:relative}
+.vt-look__track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.vt-look__track::-webkit-scrollbar{display:none}
+.vt-look__slide{position:relative;flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
+.vt-look__image{position:relative;width:100%;aspect-ratio:2.2/1;display:block;padding:0;border:0;overflow:hidden;background:#f4f3ef;cursor:zoom-in}
+.vt-look__image img,.vt-look__placeholder svg{width:100%;height:100%;display:block;object-fit:cover}
+.vt-look__zoom{position:absolute;right:16px;bottom:16px;width:32px;height:32px;border-radius:50%;background:#fffc;display:grid;place-items:center;color:#222;font-size:22px;line-height:1}
+.vt-look__arrow{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:#fffffff2;color:#222;display:grid;place-items:center;padding:10px;cursor:pointer;box-shadow:0 2px 10px #0001}
+.vt-look__arrow svg{width:24px;height:24px}
+.vt-look__prev{left:20px}
+.vt-look__next{right:20px}
+.vt-look__arrow:disabled{opacity:0;pointer-events:none}
+.vt-look__gallery-footer{display:grid;grid-template-columns:minmax(0,1fr) auto 40px;gap:20px;align-items:center;min-height:48px}
+.vt-look__caption{font-size:12px;color:#666;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vt-look__count{font-size:11px;justify-self:end;color:#777}
+.vt-look__dots{display:flex;gap:5px}
+.vt-look__dots button{border:0;background:none;display:grid;place-items:center;width:24px;height:28px;padding:0;cursor:pointer}
+.vt-look__dots span{width:6px;height:6px;border-radius:50%;background:#d3d3cf}
+.vt-look__dots [aria-pressed=true] span{background:#242424}
+.vt-look__products-title{font-family:inherit;font-size:17px;font-weight:500;line-height:1.5;margin:14px 0 19px}
+.vt-look__products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.vt-look__product{min-width:0}
+.vt-look__product .card__picture{width:100%;aspect-ratio:1;display:block}
+.vt-look__product .card__img{aspect-ratio:1;object-fit:cover}
+.vt-look__dialog{padding:0;border:0;width:min(1400px,96vw);max-width:96vw;max-height:94vh;background:#151612;color:#fff;overflow:auto}
+.vt-look__dialog::backdrop{background:#0a0c08d9;backdrop-filter:blur(6px)}
+.vt-look__dialog figure{margin:0}
+.vt-look__dialog img{display:block;width:100%;height:auto;max-height:84vh;object-fit:contain}
+.vt-look__dialog figcaption{font-size:13px;padding:17px 24px}
+.vt-look__close{position:sticky;float:right;top:16px;margin:16px 16px -54px 0;z-index:1;width:38px;height:38px;background:#fff;color:#151515;border:0;border-radius:50%;font-size:29px;line-height:1;cursor:pointer}
+.vt-look button:focus-visible,.vt-look a:focus-visible,.vt-look__gallery:focus-visible{outline:2px solid #ca151d;outline-offset:4px}
+.vt-look__placeholder{cursor:default}
+@media(max-width:899px){
+  .vt-look__heading h2{font-size:26px}
+  .vt-look__description{font-size:16px}
+}
+@media(max-width:760px){
+  victiles-spring-look.vt-look{padding-top:min(var(--vt-top),38px);padding-bottom:min(var(--vt-bottom),37px)}
+  .vt-look__wrap{padding-inline:22px}
+  .vt-look__heading{margin-bottom:22px}
+  .vt-look__image{aspect-ratio:4/3}
+  .vt-look__arrow{width:34px;height:34px;padding:7px}
+  .vt-look__arrow svg{width:20px;height:20px}
+  .vt-look__prev{left:10px}
+  .vt-look__next{right:10px}
+  .vt-look__zoom{width:29px;height:29px;bottom:10px;right:10px}
+  .vt-look__gallery-footer{grid-template-columns:minmax(0,1fr) auto 30px;gap:8px;min-height:42px}
+  .vt-look__caption{font-size:10px}
+  .vt-look__dots{gap:0}
+  .vt-look__dots button{width:20px}
+  .vt-look__products{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}
+  .vt-look__products-title{font-size:15px;margin:15px 0}
+  .vt-look__dialog figcaption{font-size:11px;padding:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  .vt-look__track{scroll-behavior:auto}
+}
+{% endstylesheet %}
+
+{% javascript %}
+if (!customElements.get('victiles-spring-look')) {
+  customElements.define('victiles-spring-look', class extends HTMLElement {
+    connectedCallback() {
+      if (this.bound) return;
+      this.bound = true;
+      this.abort = new AbortController();
+      const options = { signal: this.abort.signal };
+
+      this.track = this.querySelector('.vt-look__track');
+      this.slides = [...this.querySelectorAll('.vt-look__slide')];
+      this.dots = [...this.querySelectorAll('[data-slide]')];
+      this.prev = this.querySelector('.vt-look__prev');
+      this.next = this.querySelector('.vt-look__next');
+      this.current = 0;
+      this.dialog = this.querySelector('dialog');
+      if (!this.track) return;
+
+      const go = (i, instant = false) => {
+        i = Math.max(0, Math.min(i, this.slides.length - 1));
+        this.track.scrollTo({
+          left: i * this.track.clientWidth,
+          behavior: instant || matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'
+        });
+      };
+
+      const update = () => {
+        this.current = Math.max(0, Math.round(this.track.scrollLeft / this.track.clientWidth));
+        if (this.prev) this.prev.disabled = this.current === 0;
+        if (this.next) this.next.disabled = this.current === this.slides.length - 1;
+        this.dots.forEach((d, i) => d.setAttribute('aria-pressed', String(i === this.current)));
+        const caption = this.slides[this.current]?.querySelector('[data-tile-name]')?.textContent || '';
+        const label = this.querySelector('.vt-look__caption');
+        label.textContent = caption;
+        label.title = caption;
+        this.querySelector('.vt-look__count').textContent = `${this.slides.length ? this.current + 1 : 0} / ${this.slides.length}`;
+      };
+
+      this.prev?.addEventListener('click', () => go(this.current - 1), options);
+      this.next?.addEventListener('click', () => go(this.current + 1), options);
+      this.dots.forEach(d => d.addEventListener('click', () => go(Number(d.dataset.slide)), options));
+      this.track.addEventListener('scroll', update, { ...options, passive: true });
+
+      this.querySelector('.vt-look__gallery').addEventListener('keydown', e => {
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+          e.preventDefault();
+          go(this.current + (e.key === 'ArrowRight' ? 1 : -1));
+        }
+      }, options);
+
+      this.querySelectorAll('[data-full]').forEach(button => {
+        button.addEventListener('click', () => {
+          this.opener = button;
+          const image = this.dialog.querySelector('img');
+          image.src = button.dataset.full;
+          image.alt = button.querySelector('img').alt;
+          this.dialog.querySelector('figcaption').textContent = button.dataset.caption;
+          this.dialog.showModal();
+        }, options);
+      });
+
+      this.querySelector('.vt-look__close').addEventListener('click', () => this.dialog.close(), options);
+      this.dialog.addEventListener('close', () => this.opener?.focus(), options);
+      this.dialog.addEventListener('click', e => {
+        if (e.target !== this.dialog) return;
+        const r = this.dialog.getBoundingClientRect();
+        if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) {
+          this.dialog.close();
+        }
+      }, options);
+
+      this.resize = new ResizeObserver(() => go(this.current, true));
+      this.resize.observe(this.track);
+      this.addEventListener('shopify:block:select', e => {
+        const i = this.slides.findIndex(slide => slide.dataset.blockId === e.detail.blockId);
+        if (i >= 0) go(i, true);
+      }, options);
+
+      update();
+    }
+
+    disconnectedCallback() {
+      this.abort?.abort();
+      this.resize?.disconnect();
+      this.bound = false;
+    }
+  });
+}
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Spring style module",
+  "tag": "section",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Style title",
+      "default": "Fresh Greens"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Style description",
+      "default": "<p>Add your style description.</p>"
+    },
+    {
+      "type": "text",
+      "id": "products_title",
+      "label": "Product list heading",
+      "default": "Tiles for this look"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 24,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop title size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop description size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top spacing",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom spacing",
+      "default": 60
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "previous_label",
+      "label": "Previous image label",
+      "default": "Previous image"
+    },
+    {
+      "type": "text",
+      "id": "next_label",
+      "label": "Next image label",
+      "default": "Next image"
+    },
+    {
+      "type": "text",
+      "id": "image_label",
+      "label": "Image selector label",
+      "default": "Show image"
+    },
+    {
+      "type": "text",
+      "id": "enlarge_label",
+      "label": "Enlarge image label",
+      "default": "Enlarge room image"
+    },
+    {
+      "type": "text",
+      "id": "close_label",
+      "label": "Close image label",
+      "default": "Close image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tile_scene",
+      "name": "Tile + room image",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Tile product"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Room inspiration image"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "label": "Image caption (optional)",
+          "info": "Leave blank to use the selected product title."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Spring style module",
+      "blocks": [
+        { "type": "tile_scene" },
+        { "type": "tile_scene" },
+        { "type": "tile_scene" },
+        { "type": "tile_scene" }
+      ]
+    }
+  ],
+  "enabled_on": {
+    "templates": ["page"]
+  }
+}
+{% endschema %}
