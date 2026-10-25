@@ -40,7 +40,7 @@
           "type": "tile_scene",
           "settings": {
             "product": "sartoria-alchemica-aqua-gloss-subway-tile-100x100mm",
-            "image": "shopify://shop_images/victiles-spring-2026-green-aqua-ai.jpg",
+            "image": "shopify://shop_images/Sartoria_Alchemica_Aqua.png",
             "caption": ""
           }
         },
@@ -48,7 +48,7 @@
           "type": "tile_scene",
           "settings": {
             "product": "sartoria-alchemica-verdea-gloss-subway-tile-100x100mm",
-            "image": "shopify://shop_images/victiles-spring-2026-green-verdea-ai.jpg",
+            "image": "shopify://shop_images/Sage_tiles_with_orange_chair_and_plants.png",
             "caption": ""
           }
         }
