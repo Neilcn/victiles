@@ -13,7 +13,8 @@
       "type": "victiles-spring-banner",
       "settings": {
         "heading": "Spring Look Inspiration",
-        "image": "shopify://shop_images/victiles-spring-2026-banner.png",
+        "image": "shopify://shop_images/srping-banner-desktop.png",
+        "mobile_image": "shopify://shop_images/spring_banner_mobile.png",
         "background": "#efefe3"
       }
     },
