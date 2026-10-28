@@ -52,7 +52,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<br>\n<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:25px;font-weight:500;\">BLACK FRIDAY SALE</p>\n<p style=\"font-size:20px; font-weight:500;\">UP TO 50% OFF + EXTRA 10% OFF</p>\n</p>\n<br>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">USE CODE: VICTILES10</p>\n\n<p>Valid until 30 November</p>\n</div>"
+        "custom_liquid": "<br>\n<div style=\"text-align:center;\">\n  <p style=\"color:#d81c13;font-size:25px;font-weight:900;\">\n    BLACK FRIDAY SALE\n  </p>\n\n  <p style=\"font-size:20px;font-weight:900;\">\n    UP TO 50% OFF + EXTRA 10% OFF\n  </p>\n\n  <br>\n\n  <p style=\"font-weight:500;\">Shop Online Or Visit Showroom:</p>\n\n  <p style=\"padding-bottom:20px;\">\n    64-66 Amberley Cres, Dandenong South VIC<br>\n    2/120 Canterbury Rd, Kilsyth South VIC\n  </p>\n\n  <p style=\"font-weight:900;\">USE CODE: VICTILES10</p>\n\n  <p>Valid until 30 November</p>\n</div>"
       }
     },
     "multicolumn_6rF7ti": {
