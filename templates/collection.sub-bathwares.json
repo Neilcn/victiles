@@ -45,39 +45,12 @@
         "margin-bottom": 0
       }
     },
-    "rich_text_BL87ye": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EGfDn4": {
-          "type": "heading",
-          "settings": {
-            "heading": "EOFY SALE\nUp to 50% Off PLUS EXTRA 10% Off",
-            "disable_on_mobile": false,
-            "size_heading": 120,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_3NXNXm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All Tiles & Bathware & Timber Flooring<br/></p><p>Use Code: <strong>VTEOFY10</strong></p><p><strong>Extended until 14 July</strong><br/><br/><br/>Shop Online Or Visit Showroom:</p><p>64-66 Amberley Cres, Dandenong South VlC</p><p>2/120 Canterbury Rd, Kilsyth South VIC</p>",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_EGfDn4",
-        "text_3NXNXm"
-      ],
+    "custom_liquid_J7Hfmx": {
+      "type": "custom-liquid",
       "disabled": true,
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 12,
-        "margin-bottom": 0
+        "custom_liquid": "<br>\n<div style=\"text-align:center;\">\n<p style=\"color:#d81c13;font-size:25px;font-weight:500;\">BLACK FRIDAY SALE</p>\n<p style=\"font-size:20px; font-weight:500;\">UP TO 50% OFF + EXTRA 10% OFF</p>\n</p>\n<br>\n<p style=\"font-weight:500;\">Shop Online Or Visit Showroom: </p>\n<p style=\"padding-bottom:20px;\">64-66 Amberley Cres, Dandenong South VIC</br>\n2/120 Canterbury Rd, Kilsyth South VIC</p>\n<p style=\"font-weight:900;\">USE CODE: VICTILES10</p>\n\n<p>Valid until 30 November</p>\n</div>"
       }
     },
     "banner": {
@@ -419,7 +392,7 @@
   "order": [
     "breadcrumbs",
     "image_banner_rjFcNU",
-    "rich_text_BL87ye",
+    "custom_liquid_J7Hfmx",
     "banner",
     "title",
     "collection_list_kNirjw",
