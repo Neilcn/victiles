@@ -31,8 +31,8 @@
         "announcement_dzfXyR": {
           "type": "announcement",
           "settings": {
-            "text": "Contact Us",
-            "link": "shopify://pages/contact"
+            "text": "Get a Sample for $5",
+            "link": "shopify://pages/get-a-sample"
           }
         }
       },
