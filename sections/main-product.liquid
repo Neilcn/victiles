@@ -1511,7 +1511,9 @@
       {% if collection.title == 'Wall Tiles' %}
         {% unless product.tags contains 'Pavers' %}
           {% unless product.tags contains 'Porcelain Panels' %}
+            {% unless product.tags contains 'no sample' %}
             {% assign in_wall_tiles = true %}
+            {% endunless %}
           {% endunless %}
         {% endunless %}
       {% endif %}
