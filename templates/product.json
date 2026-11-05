@@ -159,6 +159,10 @@
             "products": []
           }
         },
+        "linkedoption_app_block_RyKCxk": {
+          "type": "shopify://apps/linkedoption/blocks/app-block/564f3d71-fe5e-48d7-a0de-284b76666f1e",
+          "settings": {}
+        },
         "variant_picker_FHDfXr": {
           "type": "variant_picker",
           "settings": {
@@ -410,6 +414,7 @@
         "easify_options_easify_product_options_ieANrX",
         "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
         "product_variations_VPy9FL",
+        "linkedoption_app_block_RyKCxk",
         "variant_picker_FHDfXr",
         "view_collection_VzJzye",
         "inventory_JWQnXt",
