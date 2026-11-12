@@ -85,6 +85,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_RjizQi": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -410,6 +416,7 @@
         }
       },
       "block_order": [
+        "custom_liquid_RjizQi",
         "title",
         "sku_BWaMGM",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
