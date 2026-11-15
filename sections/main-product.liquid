@@ -1519,7 +1519,7 @@
       {% endif %}
     {% endfor %}
 
-{% if in_wall_tiles or product.vendor == 'CPM' %}
+{% if in_wall_tiles or product.vendor == 'CPM' or product.tags contains 'button sample' or product.tags contains 'contact sample' %}
 {% assign sample_request_vendors = settings.sample_request_vendors | split: ',' %}
 {% assign vendor_can_request_sample = false %}
   {% for v in sample_request_vendors %}
@@ -1528,6 +1528,11 @@
       {% assign vendor_can_request_sample = true %}
     {% endif %}
   {% endfor %}
+  {% if product.tags contains 'contact sample' %}
+    {% assign vendor_can_request_sample = true %}
+  {% elsif product.tags contains 'button sample' %}
+    {% assign vendor_can_request_sample = false %}
+  {% endif %}
   {% if vendor_can_request_sample %}
         {%- for block in section.blocks -%}
     {%- case block.type -%}
