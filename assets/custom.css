@@ -219,4 +219,5 @@ body li.gm-item[data-gmmi="1"] {
   padding:12px 24px!important;
 }
 
-.search-result-top__item .card__badges {display: none;}
+.search-result-top__item .card__badges,
+.wt-product__info .product__tax.caption.rte {display: none;}

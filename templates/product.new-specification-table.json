@@ -109,6 +109,10 @@
             "size_text_mobile": 120
           }
         },
+        "sku_BWaMGM": {
+          "type": "sku",
+          "settings": {}
+        },
         "separator_RrKQ4A": {
           "type": "separator",
           "settings": {
@@ -269,6 +273,7 @@
         "title",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
         "price",
+        "sku_BWaMGM",
         "separator_RrKQ4A",
         "easify_options_easify_product_options_ieANrX",
         "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",

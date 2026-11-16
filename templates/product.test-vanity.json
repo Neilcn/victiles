@@ -92,11 +92,6 @@
             "size_text_mobile": 200
           }
         },
-        "sku_BWaMGM": {
-          "type": "sku",
-          "disabled": true,
-          "settings": {}
-        },
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c": {
           "type": "separator",
           "settings": {
@@ -119,6 +114,10 @@
             "size_text": 180,
             "size_text_mobile": 240
           }
+        },
+        "sku_BWaMGM": {
+          "type": "sku",
+          "settings": {}
         },
         "separator_RrKQ4A": {
           "type": "separator",
@@ -385,10 +384,10 @@
       },
       "block_order": [
         "title",
-        "sku_BWaMGM",
         "90ea3cd3-aa22-44f6-b6de-365eb7f85b9c",
         "custom_liquid_VGD46y",
         "price",
+        "sku_BWaMGM",
         "separator_RrKQ4A",
         "easify_options_easify_product_options_ieANrX",
         "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
