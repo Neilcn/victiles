@@ -458,6 +458,7 @@
       ],
       "custom_css": [
         ".button-layout {display: flex; gap: 10px; flex-direction: row;}",
+        ".product__tax {display: none;}",
         ".button-layout .button {margin-top: 0; border: 1px solid #000;}",
         ".button-layout #custom-add-to-cart {border: 1px solid #000;}",
         "@media (max-width: 790px) {.button-layout {flex-direction: column; } .button- .button h1.wt-product__name {font-size: 18px !important; } .wt-product__option .swiper-slide {max-width: 80% !important; }}",
