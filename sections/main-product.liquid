@@ -1880,6 +1880,9 @@ document.addEventListener("DOMContentLoaded", disableSampleQuantityFields);
       </button>
     {% endform %}
   </product-form>
+    {% if product.vendor == 'GNS' and product.tags contains 'contact sample' %}
+    {% render 'sample-request-contact-popup', product: product, blocks: section.blocks %}
+  {% endif %}
 {% endif %}
 
 <!-- fazly -->
