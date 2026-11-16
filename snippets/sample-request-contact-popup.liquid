@@ -1,7 +1,7 @@
 {% doc %}
   Renders the sample contact button and modal configured in the product section.
   @param {product} product - The current product.
-  @param {array} blocks - The parent product section's blocks.
+  @param blocks - The parent product section's blocks.
 {% enddoc %}
 {%- for block in blocks -%}
   {%- if block.type == 'contact_form_popup' and block.settings.size_link != empty -%}
@@ -53,7 +53,7 @@
                     {% render 'icons',
                             id: 'close',
                             icon_id: 'wt-announcement__close',
-                            icon_class: 'wt-product__modal--toggle'
+                            icon_class: 'wt-announcement__close'
                     %}
                 </div>
             </div>
