@@ -747,8 +747,9 @@
       ".product-form .quantity__input {width: 100px;}",
       "form#product_form_8134968443017 {margin-top: 20px;}",
       ".ContactBubble__Bubble--text-us-cta {border-radius: 0px !important;}",
-      " /* Prevent text selection when clicking/dragging slider nav */.wt-slider__nav-btn,.wt-slider__nav-btn *,.swiper-button-next,.swiper-button-prev {-webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;}",
-      " /* Optional: if the highlighted text is inside the slider region, disable selection there too */.wt-slider,.wt-slider * {-webkit-user-select: none; user-select: none;}"
+      " .wt-slider__nav-btn,.wt-slider__nav-btn *,.swiper-button-next,.swiper-button-prev {-webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;}",
+      ".wt-slider,.wt-slider * {-webkit-user-select: none; user-select: none;}",
+      ".wt-product__price:not(:has(.product-price-per-m2)) .product-price{font-size:30px!important;font-weight:600!important}"
     ]
   }
 }
