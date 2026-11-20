@@ -289,6 +289,13 @@
         "margin-bottom": 40
       }
     },
+    "custom_liquid_eEdfGC": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.collection_html.value != blank %}\n  {{ collection.metafields.custom.collection_html.value }}\n{% endif %}"
+      }
+    },
     "collapsible_menu_bxnUpY": {
       "type": "collapsible_menu",
       "blocks": {
@@ -377,6 +384,7 @@
     "collection_list_kNirjw",
     "product-grid",
     "features_banner_hADmFT",
+    "custom_liquid_eEdfGC",
     "collapsible_menu_bxnUpY",
     "custom_liquid_arQXQL"
   ]
