@@ -258,6 +258,13 @@
         "margin-bottom": 20
       }
     },
+    "custom_liquid_BtXhVU": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.custom.collection_html.value != blank %}\n  {{ collection.metafields.custom.collection_html.value }}\n{% endif %}"
+      }
+    },
     "collapsible_menu_NW9VpE": {
       "type": "collapsible_menu",
       "blocks": {
@@ -386,6 +393,7 @@
     "custom_liquid_DhFgND",
     "features_banner_hADmFT",
     "rich_text_WKnKrd",
+    "custom_liquid_BtXhVU",
     "collapsible_menu_NW9VpE",
     "custom_liquid_PwhXAh",
     "custom_liquid_knweny"
