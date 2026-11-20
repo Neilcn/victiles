@@ -6938,9 +6938,14 @@ input.disabled + .f-swatch__list__link .f-swatch__list__link__content {
   text-decoration: underline;
 }
 .wt-product__sku {
-  font-size: 1rem;
-  font-family: var(--font-price);
-  margin-bottom: calc(var(--gap, 8px) * 1.5);
+    font-size: 1.4rem;
+    font-family: var(--font-price);
+    margin-bottom: calc(var(--gap, 8px) * 1.5);
+    background: var(--color-text-light);
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
 }
 .wt-product__promo {
   padding: calc(var(--gap, 8px) * 1);
