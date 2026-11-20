@@ -974,8 +974,7 @@
                                     role="status"
                                     {{ block.shopify_attributes }}
                             >
-                                <span>{{ 'products.product.sku' | t }}: </span> 
-                                {{- product.selected_or_first_available_variant.sku -}}
+                                <span>{{ 'products.product.sku' | t }}:&nbsp;</span>{{- product.selected_or_first_available_variant.sku -}}
                             </p>
                         {%- when 'bulletpoints' -%}
                             {% assign metafield = block.settings.metafield | strip | split: '.' %}
